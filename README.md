@@ -15,9 +15,10 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 - [100 prompt Educazione](prompts/educazione.md)
 - [100 prompt Sicurezza](prompts/sicurezza.md)
 - [100 prompt Informazioni per Quartiere](prompts/informazioni-quartiere.md)
+- [100 prompt Programmazione, Risk, Code, AML, Sicurezza Aziendale e Terminal Mac](prompts/programmazione-risk-code-aml-sicurezza-terminal.md)
 - [Prompt Analisi Tesi Universitaria](prompts/tesi-universitaria.md)
 
-Totale: **700 prompt Marcelus + 1 prompt specialistico per tesi universitaria**.
+Totale: **800 prompt Marcelus + 1 prompt specialistico per tesi universitaria**.
 
 ## Metodo Marcelus
 
