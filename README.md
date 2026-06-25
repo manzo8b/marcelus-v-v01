@@ -20,9 +20,14 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 - [50 prompt Analisi Finanziarie, Banche e Decisioni Economiche](prompts/10-finanza-banche/prompts.md)
 - [50 prompt Food and Beverage Tradizionale, Turistico e Spiaggia](prompts/11-fnb-turistico-spiaggia/prompts.md)
 - [50 prompt Contabilita, Gestione Ristorativa, Bar e Proiezioni](prompts/12-contabilita-ristorazione/prompts.md)
+- [Marcelus Master Plus](masters/MARCELUS_MASTER_PLUS.md)
+- [50 prompt Bar in Periferia Romana con Gratta e Vinci](prompts/13-bar-periferia-romana/prompts.md)
+- [50 prompt Politica - Analisi Partiti](prompts/14-politica-analisi-partiti/prompts.md)
+- [50 prompt GitHub - Funzionalita e Praticita](prompts/15-github-funzionalita-praticita/prompts.md)
+- [Guida Monetizzazione](docs/MONETIZZAZIONE.md)
 - [Prompt Analisi Tesi Universitaria](prompts/tesi-universitaria.md)
 
-Totale: **1000 prompt Marcelus + 1 prompt specialistico per tesi universitaria**.
+Totale: **1150 prompt Marcelus + 1 prompt specialistico per tesi universitaria**.
 
 ## Metodo Marcelus
 
