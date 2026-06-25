@@ -9,6 +9,7 @@
 | Educazione | prompts/educazione.md | 100 |
 | Sicurezza | prompts/sicurezza.md | 100 |
 | Informazioni Quartiere | prompts/informazioni-quartiere.md | 100 |
+| Programmazione Risk Code Aml Sicurezza Terminal | prompts/programmazione-risk-code-aml-sicurezza-terminal.md | 100 |
 | Tesi Universitaria | prompts/tesi-universitaria.md | 1 |
 
-Totale: 701 prompt.
+Totale: 801 prompt.
