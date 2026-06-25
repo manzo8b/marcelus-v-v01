@@ -14,6 +14,9 @@
 | Finanza Banche | prompts/10-finanza-banche/prompts.md | 50 |
 | Fnb Turistico Spiaggia | prompts/11-fnb-turistico-spiaggia/prompts.md | 50 |
 | Contabilita Ristorazione | prompts/12-contabilita-ristorazione/prompts.md | 50 |
+| Bar Periferia Romana | prompts/13-bar-periferia-romana/prompts.md | 50 |
+| Politica Analisi Partiti | prompts/14-politica-analisi-partiti/prompts.md | 50 |
+| Github Funzionalita Praticita | prompts/15-github-funzionalita-praticita/prompts.md | 50 |
 | Tesi Universitaria | prompts/tesi-universitaria.md | 1 |
 
-Totale: 1001 prompt.
+Totale: 1151 prompt.
