@@ -1,0 +1,47 @@
+# Marcelus.v.v01
+
+Framework italiano di prompt engineering professionale creato da **Marcelo Javier Fernandez Caballero**.
+
+Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, siti web, formazione, album musicali con SUNO, educazione, sicurezza e informazioni di quartiere.
+
+## Cosa Contiene
+
+- [Prompt Master](MARCELUS_MASTER.md)
+- [Critica e ottimizzazione](docs/CRITICA_E_OTTIMIZZAZIONE.md)
+- [100 prompt Design](prompts/design.md)
+- [100 prompt Siti Web](prompts/siti-web.md)
+- [100 prompt Formazione](prompts/formazione.md)
+- [100 prompt Album Musicale con SUNO](prompts/album-musicale-suno.md)
+- [100 prompt Educazione](prompts/educazione.md)
+- [100 prompt Sicurezza](prompts/sicurezza.md)
+- [100 prompt Informazioni per Quartiere](prompts/informazioni-quartiere.md)
+- [Prompt Analisi Tesi Universitaria](prompts/tesi-universitaria.md)
+
+Totale: **700 prompt Marcelus + 1 prompt specialistico per tesi universitaria**.
+
+## Metodo Marcelus
+
+Ogni prompt segue una struttura professionale:
+
+1. Ruolo
+2. Significato del ruolo
+3. Contesto
+4. Obiettivo
+5. Vincoli
+6. Formato
+7. Tono
+8. Ragionamento verificabile
+9. Tree of Thought operativo quando utile
+10. Anti-allucinazione, privacy, anti-bias e self-check
+
+## Uso Rapido
+
+Apri una categoria in `prompts/`, copia il prompt desiderato e sostituisci i campi tra parentesi quadre con i tuoi dati reali.
+
+## Licenza
+
+CC BY 4.0 - Puoi usare, modificare e distribuire citando l'autore originale.
+
+## Indice Completo
+
+Vedi [docs/INDICE_PROMPT.md](docs/INDICE_PROMPT.md).
