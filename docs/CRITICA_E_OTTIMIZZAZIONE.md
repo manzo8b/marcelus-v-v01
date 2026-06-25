@@ -23,7 +23,7 @@
 - Ho creato cartelle e file Markdown leggibili da GitHub.
 - Ho convertito CoT in “ragionamento verificabile sintetico”.
 - Ho aggiunto metadati a ogni prompt: area, codice, livello, modalita', output.
-- Ho creato 801 prompt totali: 100 per ciascuna delle 8 aree richieste, piu' un prompt specialistico per analisi di tesi universitaria.
+- Ho creato 1001 prompt totali: 1000 prompt Marcelus distribuiti in aree operative, piu' un prompt specialistico per analisi di tesi universitaria.
 - Ho mantenuto uno stile operativo, italiano, adatto a uso professionale.
 
 ## Strategia GitHub Consigliata
