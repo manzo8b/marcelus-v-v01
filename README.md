@@ -24,10 +24,10 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 - [50 prompt Bar in Periferia Romana con Gratta e Vinci](prompts/13-bar-periferia-romana/prompts.md)
 - [50 prompt Politica - Analisi Partiti](prompts/14-politica-analisi-partiti/prompts.md)
 - [50 prompt GitHub - Funzionalita e Praticita](prompts/15-github-funzionalita-praticita/prompts.md)
-- [Guida Monetizzazione](docs/MONETIZZAZIONE.md)
+- [100 prompt FREE Azienda, HR, Studio Medico e Cardiologia](prompts/16-free-azienda-hr-medico-cardiologia/prompts-free.md)
 - [Prompt Analisi Tesi Universitaria](prompts/tesi-universitaria.md)
 
-Totale: **1150 prompt Marcelus + 1 prompt specialistico per tesi universitaria**.
+Totale pubblico: **1250 prompt Marcelus + 1 prompt specialistico per tesi universitaria**. Materiali premium separati in repository privato.
 
 ## Metodo Marcelus
 
