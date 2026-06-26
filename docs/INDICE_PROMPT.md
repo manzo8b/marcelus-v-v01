@@ -18,6 +18,7 @@
 | Politica Analisi Partiti | prompts/14-politica-analisi-partiti/prompts.md | 50 |
 | Github Funzionalita Praticita | prompts/15-github-funzionalita-praticita/prompts.md | 50 |
 | FREE Azienda HR Studio Medico Cardiologia | prompts/16-free-azienda-hr-medico-cardiologia/prompts-free.md | 100 |
+| Autostrada Emergenze Legale | prompts/17-autostrada-emergenze-legale/prompts.md | 50 |
 | Tesi Universitaria | prompts/tesi-universitaria.md | 1 |
 
-Totale pubblico: 1251 prompt. Premium privato: 100 prompt.
+Totale pubblico: 1301 prompt. Premium privato: 100 prompt.
