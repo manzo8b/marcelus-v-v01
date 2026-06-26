@@ -17,6 +17,7 @@
 | Bar Periferia Romana | prompts/13-bar-periferia-romana/prompts.md | 50 |
 | Politica Analisi Partiti | prompts/14-politica-analisi-partiti/prompts.md | 50 |
 | Github Funzionalita Praticita | prompts/15-github-funzionalita-praticita/prompts.md | 50 |
+| FREE Azienda HR Studio Medico Cardiologia | prompts/16-free-azienda-hr-medico-cardiologia/prompts-free.md | 100 |
 | Tesi Universitaria | prompts/tesi-universitaria.md | 1 |
 
-Totale: 1151 prompt.
+Totale pubblico: 1251 prompt. Premium privato: 100 prompt.
