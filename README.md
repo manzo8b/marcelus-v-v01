@@ -8,6 +8,7 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 
 - [Prompt Master](MARCELUS_MASTER.md)
 - [Critica e ottimizzazione](docs/CRITICA_E_OTTIMIZZAZIONE.md)
+- [Superbiblioteca Marcelus categorizzata](docs/SUPERBIBLIOTECA_MARCELUS.md)
 - [100 prompt Design](prompts/design.md)
 - [100 prompt Siti Web](prompts/siti-web.md)
 - [100 prompt Formazione](prompts/formazione.md)
@@ -26,9 +27,11 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 - [50 prompt GitHub - Funzionalita e Praticita](prompts/15-github-funzionalita-praticita/prompts.md)
 - [100 prompt FREE Azienda, HR, Studio Medico e Cardiologia](prompts/16-free-azienda-hr-medico-cardiologia/prompts-free.md)
 - [50 prompt Problemi in Autostrada, Emergenze e Aspetti Legali](prompts/17-autostrada-emergenze-legale/prompts.md)
+- [50 prompt Prevenzione Cittadini, Caldo, Blackout ed Emergenze Quotidiane](prompts/18-prevenzione-cittadini-emergenze/prompts.md)
+- [100 prompt Salute Cittadini, Pronto Soccorso e Medico di Famiglia](prompts/19-salute-cittadini-pronto-soccorso/prompts.md)
 - [Prompt Analisi Tesi Universitaria](prompts/tesi-universitaria.md)
 
-Totale pubblico: **1300 prompt Marcelus + 1 prompt specialistico per tesi universitaria**. Materiali premium separati in repository privato.
+Totale pubblico: **1450 prompt Marcelus + 1 prompt specialistico per tesi universitaria**. Materiali premium separati in repository privato.
 
 ## Metodo Marcelus
 
