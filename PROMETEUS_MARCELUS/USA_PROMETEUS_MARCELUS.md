@@ -4,6 +4,10 @@
 
 Versione iniziale: italiano, mercato italiano, uso pubblico gratuito nella fase base.
 
+## Apri il GPT pubblico
+
+[Usa Prometeus Marcelus su ChatGPT](https://chatgpt.com/g/g-6a4117d34d648191a77d9b01bbf2160f-prometeus-marcelus)
+
 ## Cos'e
 
 Prometeus Marcelus aiuta a trasformare una richiesta confusa in un prompt strutturato, prudente e pronto da usare con ChatGPT, Claude, Gemini, Codex, SUNO, Canva, Wix, Gamma, Notion e altri strumenti AI.
