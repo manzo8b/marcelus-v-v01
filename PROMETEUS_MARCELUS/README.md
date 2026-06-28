@@ -8,6 +8,11 @@ Prometeus Marcelus e un agente AI progettato per aiutare cittadini, professionis
 
 Non e un semplice generatore di prompt. E un sistema di metodo: ascolta, classifica, valuta il rischio, fa le domande necessarie, costruisce il prompt, lo verifica e consegna una versione pronta all'uso.
 
+## Usa subito
+
+- [Usa Prometeus Marcelus](USA_PROMETEUS_MARCELUS.md)
+- [Istruzioni Custom GPT](gpt_builder/ISTRUZIONI_CUSTOM_GPT.md)
+
 ## Cosa contiene
 
 - [Manifesto](docs/01_manifesto/manifesto-prometeus-marcelus.md)
