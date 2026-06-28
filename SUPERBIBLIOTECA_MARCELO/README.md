@@ -1,114 +1,48 @@
 # SUPERBIBLIOTECA_MARCELO
 
-Struttura ufficiale di classificazione Marcelus.
+Struttura ufficiale elevata di classificazione Marcelus.
 
-Regole: non spostare file esistenti; usare questa tassonomia per le prossime classificazioni.
+Questa cartella non sostituisce i prompt gia presenti nel repository: crea una tassonomia stabile per organizzare, classificare e far crescere Marcelus in modo professionale.
 
-## 01_DESIGN_IDENTITA_WEB
-- 01_Design_e_Identita_Visiva
-- 02_Loghi_Branding_e_Palette
-- 03_Siti_Web_Wix_e_Landing_Page
-- 04_Contenuti_Digitali_Social_e_Copy
-- 05_Hero_Image_Mockup_Gadget_e_Packaging
-- 06_File_Stampa_Cartellonistica_e_Formati
-- 07_Clienti_e_Progetti_Visuali
+## Come Usarla
 
-## 02_FORMAZIONE_EDUCAZIONE_RICERCA
-- 01_Formazione_Professionale
-- 02_Ristorazione_Sala_Bar_e_Hospitality
-- 03_Educazione_e_Metodi_Didattici
-- 04_Italiano_Professionale
-- 05_AI_per_Educazione
-- 06_Materiali_Docenti_Checklist_e_Lezioni
-- 07_Analisi_Tesi_Universitaria
+1. Parti da [00_GUIDA_USO_SUPERBIBLIOTECA.md](00_GUIDA_USO_SUPERBIBLIOTECA.md).
+2. Se non sai dove mettere un prompt, usa [00_ROUTING_PROMPT.md](00_ROUTING_PROMPT.md).
+3. Per mantenere ordine nei prossimi aggiornamenti, segui [00_STANDARD_CLASSIFICAZIONE.md](00_STANDARD_CLASSIFICAZIONE.md).
+4. Per capire la logica critica della nuova struttura, leggi [00_ANALISI_CRITICA_STRUTTURA.md](00_ANALISI_CRITICA_STRUTTURA.md).
 
-## 03_MUSICA_GENERATIVA_SUNO
-- 01_LUNE_X_Identita_Artista
-- 02_Album_Musicali
-- 03_Singoli_e_Tracklist
-- 04_Lyrics_Testi_e_Strutture
-- 05_Prompt_SUNO_e_Negative_Prompt
-- 06_Cover_Art_Poster_e_Visual
-- 07_Generi_Reference_e_QC_Musicale
-- 08_Distribuzione_Portfolio_e_Monetizzazione
+## Principi
 
-## 04_TECH_PROGRAMMAZIONE_AI
-- 01_Programmazione
-- 02_Code_Creation_Debug_e_App_Web
-- 03_Codex_Claude_ChatGPT_e_Workflow_AI
-- 04_GitHub_Pratico_Repository_e_README
-- 05_Portfolio_Tecnico_e_Monetizzazione
-- 06_Terminal_Mac_Comandi_Script_e_Backup
-- 07_Strumenti_Digitali_Wix_Canva_Gamma_Notion
+- Non spostare file esistenti senza una decisione esplicita.
+- Non duplicare prompt: meglio creare collegamenti, indici o riferimenti.
+- Usare sempre la macroarea dominante del prompt.
+- Se un prompt appartiene a due aree, scegliere una cartella primaria e citare la secondaria nei metadati.
+- Per salute, sicurezza, legge, finanza e compliance usare sempre fonti ufficiali, limiti e diciture di prudenza.
 
-## 05_RISK_COMPLIANCE_SICUREZZA_AZIENDALE
-- 01_Risk_Management
-- 02_Matrici_Rischio_Controlli_e_Procedure
-- 03_Antiriciclaggio_AML_KYC_e_Verifiche
-- 04_Sicurezza_Aziendale_Dati_Accessi_e_Privacy
-- 05_Risorse_Umane_Onboarding_Turni_e_Mansionari
-- 06_Studio_Medico_Front_Office_e_Privacy_Pazienti
-- 07_Incident_Report_e_Continuita_Operativa
+## Macroaree
 
-## 06_FINANZA_BANCHE_CONSUMI
-- 01_Analisi_Finanziarie
-- 02_Banche_Conti_Carte_Prestiti_e_Costi
-- 03_Gestione_Familiare_Budget_e_Risparmio
-- 04_Spesa_Familiare_Convenienza_e_Tecniche_Acquisto
-- 05_Consumi_Casa_Promozioni_e_Anti_Spreco
-- 06_Comparazioni_Rischi_e_Report
-- 07_Dashboard_Tabelle_Excel_Numbers_e_Grafici
+| Codice | Macroarea | Funzione |
+|---|---|---|
+| 01 | DESIGN_IDENTITA_WEB | Visual, brand, siti, contenuti digitali, stampa e clienti |
+| 02 | FORMAZIONE_EDUCAZIONE_RICERCA | Didattica, formazione, ricerca, tesi, materiali docenti |
+| 03 | MUSICA_GENERATIVA_SUNO | Identita artista, album, lyrics, prompt SUNO, cover e monetizzazione |
+| 04 | TECH_PROGRAMMAZIONE_AI | Programmazione, GitHub, AI workflow, Terminal Mac e strumenti digitali |
+| 05 | RISK_COMPLIANCE_SICUREZZA_AZIENDALE | Risk, AML, privacy, HR, procedure e continuita operativa |
+| 06 | FINANZA_BANCHE_CONSUMI | Finanza personale, banche, spesa, consumi e dashboard |
+| 07 | FOOD_BEVERAGE_RISTORAZIONE | Ristorazione, bar, spiaggia, food cost, margini e stagionalita |
+| 08 | SICUREZZA_CITTADINA_EMERGENZE | Quartiere, emergenze, prevenzione, autostrada, prove e checklist |
+| 09 | SALUTE_INFORMATIVA_CARDIOLOGIA | Salute informativa, cardiologia, PS, medico, follow-up e referti |
+| 10 | POLITICA_SOCIETA_ANALISI_NEUTRALE | Politica, societa, dati, bias, fact-checking e bozze pubblicabili |
+| 11 | BUSINESS_PERSONALE_MONETIZZAZIONE | Servizi, portfolio, prezzi, CV, clienti e monetizzazione |
+| 12 | FONTI_VERIFICHE_DOCUMENTI_UFFICIALI | Fonti, norme, autorita, verifiche, anti-allucinazione e modelli |
 
-## 07_FOOD_BEVERAGE_RISTORAZIONE
-- 01_FB_Tradizionale_Cucina_Sala_e_Bar
-- 02_FB_Turistico_Gruppi_Menu_e_Accoglienza
-- 03_FB_Spiaggia_Beach_Bar_e_Servizio_Ombrellone
-- 04_Aperitivo_Cocktail_Gelati_Caffetteria_e_Food_Truck
-- 05_Contabilita_Ristorativa_Food_Cost_Beverage_Cost
-- 06_Andamento_Bar_Vendite_Proiezioni_e_Margini
-- 07_Bar_Periferia_Romana_Gratta_e_Vinci_e_Stagionalita
+## Regola D'Oro
 
-## 08_SICUREZZA_CITTADINA_EMERGENZE
-- 01_Informazioni_di_Quartiere
-- 02_Servizi_Locali_Trasporti_Farmacie_e_Numeri_Utili
-- 03_Prevenzione_Cittadini_Caldo_Blackout_e_Fragilita
-- 04_Emergenze_Domestiche_e_Salute_Quotidiana
-- 05_Emergenze_Autostrada_Forature_Carro_Attrezzi_e_Gommista
-- 06_Assicurazione_Documentazione_Prove_e_Verifica_Legale
-- 07_Procedure_Checklist_e_Modelli_Pratici
+La cartella non descrive solo il tema: descrive l'uso pratico del prompt. Se il prompt serve a decidere, verificare o proteggersi, va classificato dove produce il maggiore valore operativo.
 
-## 09_SALUTE_INFORMATIVA_CARDIOLOGIA
-- 01_Cardiologia_Informativa
-- 02_Aritmie_Fibrillazione_Atriale_Flutter_e_Ablazione
-- 03_Farmaci_Referti_e_Domande_per_Cardiologo
-- 04_Comunicazione_Sanitaria_e_Sintesi_per_Medico
-- 05_Medico_di_Famiglia_Ricette_Certificati_e_Follow_Up
-- 06_Pronto_Soccorso_Triage_Attese_e_Documenti
-- 07_Salute_Quotidiana_Pressione_Frequenza_Cardiaca_Sonno
+## Stato
 
-## 10_POLITICA_SOCIETA_ANALISI_NEUTRALE
-- 01_Politica_Italiana
-- 02_Partiti_Coalizioni_Elezioni_Governo_e_Parlamento
-- 03_Analisi_Neutrale_Metodo_Fonti_Dati_e_Bias
-- 04_Fact_Checking_Scenari_e_Fonti_Ufficiali
-- 05_Sociologia_Politica_Populismo_Identita_e_Media
-- 06_Immigrazione_Polarizzazione_Demagogia_e_Societa
-- 07_Articoli_Saggi_Bozze_e_Versioni_Pubblicabili
-
-## 11_BUSINESS_PERSONALE_MONETIZZAZIONE
-- 01_Marc_Service
-- 02_Servizi_Prezzi_Privacy_Moduli_e_Procedure
-- 03_Portfolio_Design_Web_AI_Formazione_e_Ristorazione
-- 04_Monetizzazione_Micro_Servizi_Freelance_e_Pacchetti
-- 05_GitHub_Portfolio_Pubblico_e_Progetti_Dimostrativi
-- 06_CV_Lavoro_LinkedIn_Colloqui_e_Settori_Affini
-- 07_Gestione_Clienti_Brief_Preventivi_Consegne_e_Revisioni
-
-## 12_FONTI_VERIFICHE_DOCUMENTI_UFFICIALI
-- 01_Fonti_Ufficiali
-- 02_Governo_INPS_Agenzia_Entrate_Ministeri_e_Comune_Roma
-- 03_Banca_d_Italia_Garante_Privacy_e_Autorita
-- 04_Verifiche_Legali_Contratti_Lavoro_Privacy_e_Consumatori
-- 05_Assicurazioni_Autostrada_Sanita_Banche_e_AML
-- 06_Checklist_Anti_Allucinazione_Fatti_Date_Norme_e_Citazioni
-- 07_Modelli_Standard_Procedure_Report_Prompt_Checklist_e_Schede
+- Macroaree: 12
+- Sottocartelle: 85
+- Struttura: attiva
+- Versione tassonomia: 2.0 elevata
