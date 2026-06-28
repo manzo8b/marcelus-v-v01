@@ -40,6 +40,14 @@ Questa cartella non sostituisce i prompt gia presenti nel repository: crea una t
 
 La cartella non descrive solo il tema: descrive l'uso pratico del prompt. Se il prompt serve a decidere, verificare o proteggersi, va classificato dove produce il maggiore valore operativo.
 
+
+## Prompt Collegati alle Aree
+
+La struttura ora non e piu vuota: le sotto-aree rilevanti contengono file `PROMPT_COLLEGATI.md` con collegamenti ai prompt originali.
+
+- [Mappa Prompt per Aree](00_MAPPA_PROMPT_PER_AREE.md)
+- [Report Unione Prompt alle Aree](00_REPORT_UNIONE_PROMPT_AREE.md)
+
 ## Stato
 
 - Macroaree: 12
