@@ -39,6 +39,14 @@ Prometeus Marcelus tratta con prudenza salute, legge, finanza, privacy, sicurezz
 
 Capire -> Classificare -> Valutare il rischio -> Fare domande mirate -> Costruire il prompt -> Verificare -> Consegnare output pronto.
 
+
+## Test e feedback
+
+Per verificare se Prometeus Marcelus risponde davvero secondo il metodo impostato, usa:
+
+- [Test 10 Utenti](test_feedback/TEST_10_UTENTI_PROMETEUS.md)
+- [Scheda Feedback](test_feedback/SCHEDA_FEEDBACK_PROMETEUS.md)
+
 ## Stato progetto
 
 - Mercato iniziale: Italia
