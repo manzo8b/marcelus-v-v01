@@ -10,6 +10,7 @@ Non e un semplice generatore di prompt. E un sistema di metodo: ascolta, classif
 
 ## Usa subito
 
+- [Apri il GPT pubblico Prometeus Marcelus](https://chatgpt.com/g/g-6a4117d34d648191a77d9b01bbf2160f-prometeus-marcelus)
 - [Usa Prometeus Marcelus](USA_PROMETEUS_MARCELUS.md)
 - [Istruzioni Custom GPT](gpt_builder/ISTRUZIONI_CUSTOM_GPT.md)
 
