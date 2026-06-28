@@ -1,5 +1,9 @@
 # Scheda Feedback Prometeus Marcelus
 
+Link GPT pubblico: [https://chatgpt.com/g/g-6a4117d34d648191a77d9b01bbf2160f-prometeus-marcelus](https://chatgpt.com/g/g-6a4117d34d648191a77d9b01bbf2160f-prometeus-marcelus)
+
+Test ufficiale: [TEST_10_UTENTI_PROMETEUS.md](TEST_10_UTENTI_PROMETEUS.md)
+
 ## Tester
 
 Nome o codice tester:  
