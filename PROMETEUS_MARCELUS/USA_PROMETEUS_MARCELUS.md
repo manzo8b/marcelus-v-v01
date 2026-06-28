@@ -103,3 +103,10 @@ Per salute, legge, finanza, privacy, sicurezza, lavoro, minori ed emergenze lavo
 - [Template base](templates/prompt-template-base.md)
 - [Template avanzato](templates/prompt-template-avanzato.md)
 - [SUPERBIBLIOTECA_MARCELO](../SUPERBIBLIOTECA_MARCELO/README.md)
+
+## Test e feedback
+
+Per verificare se Prometeus Marcelus risponde davvero secondo il metodo impostato, usa:
+
+- [Test 10 Utenti](test_feedback/TEST_10_UTENTI_PROMETEUS.md)
+- [Scheda Feedback](test_feedback/SCHEDA_FEEDBACK_PROMETEUS.md)
