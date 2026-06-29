@@ -2,7 +2,16 @@
 
 Framework italiano di prompt engineering professionale creato da **Marcelo Javier Fernandez Caballero**.
 
-Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, siti web, formazione, album musicali con SUNO, educazione, sicurezza e informazioni di quartiere.
+Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, siti web, formazione, album musicali con SUNO, educazione, sicurezza, consumi, salute informativa, GitHub e informazioni di quartiere.
+
+**Prometeus Marcelus** e il Custom GPT collegato al progetto: un AI Prompt Architect italiano per creare prompt verificabili, sicuri e utili.
+
+## Inizia Qui
+
+- [Usa Prometeus Marcelus - Start Here](PROMETEUS_MARCELUS/START_HERE.md)
+- [Istruzioni Custom GPT V2](PROMETEUS_MARCELUS/gpt_builder/ISTRUZIONI_CUSTOM_GPT_V2.md)
+- [Report test reali V2](PROMETEUS_MARCELUS/training/REPORT_TEST_REALI_30_V2.md)
+- [Strategia GitHub](PROMETEUS_MARCELUS/github_governance/STRATEGIA_VISIBILITA_GITHUB.md)
 
 ## Cosa Contiene
 
@@ -31,7 +40,7 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 - [100 prompt Salute Cittadini, Pronto Soccorso e Medico di Famiglia](prompts/19-salute-cittadini-pronto-soccorso/prompts.md)
 - [Prompt Analisi Tesi Universitaria](prompts/tesi-universitaria.md)
 
-Totale pubblico: **1450 prompt Marcelus + 1 prompt specialistico per tesi universitaria**. Materiali premium separati in repository privato.
+Totale pubblico aggiornato: **2000 prompt Marcelus + prompt specialistici e materiali Prometeus Marcelus**. Materiali premium e di monetizzazione separati o privati.
 
 ## Metodo Marcelus
 
