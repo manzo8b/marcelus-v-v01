@@ -21,6 +21,11 @@
 | Autostrada Emergenze Legale | prompts/17-autostrada-emergenze-legale/prompts.md | 50 |
 | Prevenzione Cittadini Emergenze | prompts/18-prevenzione-cittadini-emergenze/prompts.md | 50 |
 | Salute Cittadini Pronto Soccorso | prompts/19-salute-cittadini-pronto-soccorso/prompts.md | 100 |
+| Spesa Ottimizzazione 32 Percento | prompts/20-spesa-ottimizzazione-32/prompts.md | 160 |
+| Consumi Famiglie 2 4 6 | prompts/21-consumi-famiglie-2-4-6/prompts.md | 120 |
+| Cashback Tecniche Acquisto | prompts/22-cashback-tecniche-acquisto/prompts.md | 80 |
+| Acronimi Vita Quotidiana | prompts/23-acronimi-vita-quotidiana/prompts.md | 100 |
+| Organizzazione Vita Persone | prompts/24-organizzazione-vita-persone/prompts.md | 89 |
 | Tesi Universitaria | prompts/tesi-universitaria.md | 1 |
 
-Totale pubblico: 1451 prompt. Premium privato: 100 prompt.
+Totale pubblico: 2000 prompt. Premium privato: 100 prompt.
