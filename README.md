@@ -1,12 +1,35 @@
 # Marcelus.v.v01
 
-Framework italiano di prompt engineering professionale creato da **Marcelo Javier Fernandez Caballero**.
+Framework italiano per trasformare richieste confuse in prompt, checklist e decisioni piu chiare.
 
-Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, siti web, formazione, album musicali con SUNO, educazione, sicurezza, consumi, salute informativa, GitHub e informazioni di quartiere.
+**Prometeus Marcelus** e un AI Prompt Architect italiano: prende una richiesta vaga e la trasforma in un prompt prudente, verificabile e pronto da usare.
 
-**Prometeus Marcelus** e il Custom GPT collegato al progetto: un AI Prompt Architect italiano per creare prompt verificabili, sicuri e utili.
+**Bibliotheca Promethea** e la biblioteca operativa collegata: prompt, casi, checklist, dataset e fonti organizzati per macroaree.
 
-**Bibliotheca Promethea** e il nome pubblico della grande biblioteca operativa del progetto. Nel repository la cartella tecnica resta `SUPERBIBLIOTECA_MARCELO` per mantenere stabili collegamenti e percorsi.
+**Promethea Economica** e il primo possibile figlio non-prompt: un metodo per gestire risorse scarse, spesa, budget, costi, margini e decisioni economiche quotidiane.
+
+## Esempio Immediato
+
+Richiesta debole:
+
+```text
+Fammi risparmiare sulla spesa.
+```
+
+Richiesta trasformata:
+
+```text
+Aiutami a creare un piano di spesa settimanale per una famiglia di [numero] persone con budget [importo], preferenze [dati], vincoli alimentari [dati], supermercati disponibili [nomi] e obiettivo anti-spreco. Voglio lista, priorita, alternative economiche, uso prudente di offerte/cashback e controlli per evitare acquisti inutili.
+```
+
+Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre rischi e arrivare a una prossima azione utile.
+
+## Badge progetto
+
+![status](https://img.shields.io/badge/status-v0.4.1-blue)
+![language](https://img.shields.io/badge/language-Italian-green)
+![focus](https://img.shields.io/badge/focus-prompt%20engineering%20%7C%20AI%20safety%20%7C%20education-orange)
+![license](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
 
 ## Inizia Qui
 
@@ -15,6 +38,7 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 - [Release v0.4.1 - Marketing GitHub](RELEASE_NOTES_v0.4.1.md)
 - [Porta un problema reale](CASI_REALI_PROMETEUS/README.md)
 - [Bibliotheca Promethea](SUPERBIBLIOTECA_MARCELO/README.md)
+- [Promethea Economica](PROMETHEA_ECONOMICA/README.md)
 - [Istruzioni Custom GPT V4](PROMETEUS_MARCELUS/gpt_builder/ISTRUZIONI_CUSTOM_GPT_V4.md)
 - [Report test reali V2](PROMETEUS_MARCELUS/training/REPORT_TEST_REALI_30_V2.md)
 - [Strategia GitHub](PROMETEUS_MARCELUS/github_governance/STRATEGIA_VISIBILITA_GITHUB.md)

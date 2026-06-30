@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.3 - README hook e Promethea Economica
+
+- Aggiornato README pubblico con hook iniziale, esempio prima/dopo e badge.
+- Aggiunta sezione Promethea Economica come primo possibile figlio non-prompt.
+- Aggiunti manifesto e missione di Promethea Economica.
+- Aggiornata strategia GitHub marketing con hook README e nuovi topic.
+
 ## 0.4.2 - Conversation Starters V4
 
 - Aggiunti 4 spunti di conversazione per il Builder del Custom GPT.

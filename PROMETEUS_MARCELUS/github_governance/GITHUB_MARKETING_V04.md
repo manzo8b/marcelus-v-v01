@@ -24,6 +24,17 @@ GitHub deve mostrare:
 - Bibliotheca Promethea;
 - roadmap e release.
 
+## Hook README
+
+Nei primi 10 secondi il README deve mostrare:
+
+- una frase chiara;
+- un esempio prima/dopo;
+- badge semplici;
+- link a Start Here, casi reali e V4;
+- il collegamento a Bibliotheca Promethea;
+- il primo figlio possibile: Promethea Economica.
+
 ## Pinned repository consigliato
 
 Se il profilo GitHub consente repository in evidenza, usare:
@@ -50,6 +61,10 @@ Da impostare nel repository:
 - food-and-beverage
 - risk-management
 - privacy
+- data-analysis
+- compliance
+- personal-finance
+- decision-intelligence
 
 ## About consigliato
 
@@ -81,4 +96,3 @@ Usare sempre una CTA concreta:
 - Non comunicare solo "2000 prompt".
 - Non pubblicare materiali premium o privati.
 - Non usare casi sensibili senza anonimizzazione.
-
