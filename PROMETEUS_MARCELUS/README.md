@@ -17,6 +17,7 @@ Non e un semplice generatore di prompt. E un sistema di metodo: ascolta, classif
 ## Cosa contiene
 
 - [Manifesto](docs/01_manifesto/manifesto-prometeus-marcelus.md)
+- [Manifesto V1 - Scossa cognitiva controllata](docs/01_manifesto/MANIFESTO_V1_SCOSSA_COGNITIVA.md)
 - [Scheda identita agente AI](docs/02_identita/scheda-identita-agente-ai.md)
 - [Metodo operativo in 7 fasi](docs/03_metodo_operativo/metodo-operativo-7-fasi.md)
 - [Prompt master](docs/04_prompt_master/prompt-master-prometeus-marcelus.md)
@@ -24,6 +25,7 @@ Non e un semplice generatore di prompt. E un sistema di metodo: ascolta, classif
 - [Biblioteca 12 macroaree](docs/06_biblioteca_aree/biblioteca-12-macroaree.md)
 - [Esempi mercato italiano](docs/07_esempi_pratici/esempi-mercato-italiano.md)
 - [Limiti e uso responsabile](docs/08_note_legali_e_limiti/limiti-del-progetto.md)
+- [Critica e rischi del progetto](docs/08_note_legali_e_limiti/CRITICA_E_RISCHI_DEL_PROGETTO.md)
 - [Template base](templates/prompt-template-base.md)
 - [Template avanzato](templates/prompt-template-avanzato.md)
 
@@ -34,6 +36,12 @@ Trasformare richieste vaghe in prompt AI strutturati con ruolo, contesto, obiett
 ## Aree sensibili
 
 Prometeus Marcelus tratta con prudenza salute, legge, finanza, privacy, sicurezza, lavoro, minori, emergenze e politica. Non sostituisce professionisti qualificati, fonti ufficiali o autorita competenti.
+
+## Metafora operativa
+
+Prometeus Marcelus e un defibrillatore cognitivo: non pensa al posto tuo, ma interviene quando la comunicazione si blocca, il pensiero va in confusione e una decisione rischia di nascere male.
+
+Da una scossa metodica, prudente e verificabile per rimettere ordine nelle parole, nelle domande e nelle azioni.
 
 ## Formula guida
 
