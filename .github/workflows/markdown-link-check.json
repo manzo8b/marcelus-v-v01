@@ -1,0 +1,19 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://chatgpt.com/"
+    },
+    {
+      "pattern": "^https://github.com/"
+    },
+    {
+      "pattern": "^https://img.shields.io/"
+    }
+  ],
+  "replacementPatterns": [],
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 2,
+  "aliveStatusCodes": [200, 206, 301, 302, 999]
+}
+

@@ -1,5 +1,13 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.5 - Security policy e quality workflow
+
+- Aggiunta `SECURITY.md`.
+- Aggiunto Dependabot per GitHub Actions.
+- Aggiunto workflow Markdown quality per controllo link.
+- Aggiunto workflow security policy check.
+- Collegata la policy sicurezza dal README.
+
 ## 0.4.4 - Governance Promethea
 
 - Aggiunto traguardo primordiale di governance Promethea.

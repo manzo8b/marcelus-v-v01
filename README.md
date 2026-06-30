@@ -141,6 +141,10 @@ Leggi [CONTRIBUTING.md](CONTRIBUTING.md) prima di proporre casi, prompt o correz
 
 Materiali sensibili, premium o privati non vanno pubblicati nel repository.
 
+## Sicurezza
+
+Per segnalare problemi di privacy, dati sensibili, contenuti rischiosi o materiali privati pubblicati per errore, leggi [SECURITY.md](SECURITY.md).
+
 ## Licenza
 
 CC BY 4.0 - Puoi usare, modificare e distribuire citando l'autore originale.
