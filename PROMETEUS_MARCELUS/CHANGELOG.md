@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.3.3 - Dataset messaggi superficiali
+
+- Aggiunto dataset educativo con 100 messaggi superficiali o spontanei alle LLM.
+- Collegato il dataset alla sezione Casi Reali Prometeus.
+- Aggiunto compito operativo per trasformare i messaggi in prompt Prometeus migliorati.
+- Chiarito che gli esempi sono simulati e non trascrizioni di chat reali.
+
 ## 0.3.2 - Bibliotheca Promethea
 
 - Adottato **Bibliotheca Promethea** come nome pubblico della biblioteca operativa.

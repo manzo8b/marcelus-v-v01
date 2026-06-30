@@ -30,3 +30,19 @@ Crea una FAQ per utenti non tecnici: cos'e Prometeus Marcelus, come si usa, cosa
 
 Per ogni macroarea della SUPERBIBLIOTECA, proponi 20 prompt mancanti e indica se sono FREE, PREMIUM o PRIVATI.
 
+## Compito 8 - Trasformare messaggi superficiali
+
+Usa il file `DATASET_100_MESSAGGI_SUPERFICIALI_LLM.md`.
+
+Scegli 10 messaggi e trasformali con questo formato:
+
+1. messaggio superficiale;
+2. macroarea Bibliotheca Promethea;
+3. rischio;
+4. cosa manca;
+5. domanda di chiarimento;
+6. prompt Prometeus migliorato;
+7. checklist;
+8. livello FREE / PREMIUM / PRIVATO.
+
+Non inventare casi reali. Non usare dati personali. Mantieni tono educativo, pratico e prudente.

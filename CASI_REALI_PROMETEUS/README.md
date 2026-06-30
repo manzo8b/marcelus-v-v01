@@ -29,6 +29,14 @@ Un caso reale, invece, e immediato:
 4. si vede il prima e dopo;
 5. il progetto migliora con feedback veri.
 
+## Dataset educativo
+
+Per allenare il metodo senza usare dati personali reali, il progetto include anche un dataset simulato:
+
+- [100 messaggi superficiali o spontanei alle LLM](../PROMETEUS_MARCELUS/training/DATASET_100_MESSAGGI_SUPERFICIALI_LLM.md)
+
+Questi esempi non sono chat reali: servono a mostrare come Prometeus Marcelus trasforma richieste vaghe in prompt piu chiari, prudenti e verificabili.
+
 ## Come partecipare
 
 Porta un problema reale, senza dati sensibili.
