@@ -8,6 +8,8 @@ Framework italiano per trasformare richieste confuse in prompt, checklist e deci
 
 **Promethea Economica** e il primo possibile figlio non-prompt: un metodo per gestire risorse scarse, spesa, budget, costi, margini e decisioni economiche quotidiane.
 
+I figli di Promethea sono realta separate ma interconnesse. L'interconnessione deve essere prudente, sicura e documentata. Vedi [Promethea Governance](PROMETHEA_GOVERNANCE.md).
+
 ## Esempio Immediato
 
 Richiesta debole:
@@ -39,6 +41,7 @@ Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre ris
 - [Porta un problema reale](CASI_REALI_PROMETEUS/README.md)
 - [Bibliotheca Promethea](SUPERBIBLIOTECA_MARCELO/README.md)
 - [Promethea Economica](PROMETHEA_ECONOMICA/README.md)
+- [Promethea Governance](PROMETHEA_GOVERNANCE.md)
 - [Istruzioni Custom GPT V4](PROMETEUS_MARCELUS/gpt_builder/ISTRUZIONI_CUSTOM_GPT_V4.md)
 - [Report test reali V2](PROMETEUS_MARCELUS/training/REPORT_TEST_REALI_30_V2.md)
 - [Strategia GitHub](PROMETEUS_MARCELUS/github_governance/STRATEGIA_VISIBILITA_GITHUB.md)

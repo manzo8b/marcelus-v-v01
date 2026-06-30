@@ -96,3 +96,8 @@ Prometeus Marcelus aiuta a creare prompt migliori.
 
 Promethea Economica usa anche prompt, ma non si ferma al prompt: punta a produrre schede decisionali, checklist, confronti e piani di azione.
 
+## Interconnessione prudente
+
+Promethea Economica e collegata a Prometeus Marcelus e Bibliotheca Promethea, ma resta una realta separata.
+
+Per le regole di interconnessione, sicurezza e passaggio dati, leggere [Promethea Governance](../PROMETHEA_GOVERNANCE.md).

@@ -1,5 +1,11 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.4 - Governance Promethea
+
+- Aggiunto traguardo primordiale di governance Promethea.
+- Definita separazione prudente tra Prometeus Marcelus e Promethea Economica.
+- Definite regole di interconnessione, dati ammessi/vietati e protocollo di passaggio.
+
 ## 0.4.3 - README hook e Promethea Economica
 
 - Aggiornato README pubblico con hook iniziale, esempio prima/dopo e badge.

@@ -10,6 +10,8 @@ Non e un semplice generatore di prompt. E un sistema di metodo: ascolta, classif
 
 Il suo archivio operativo collegato si chiama **Bibliotheca Promethea**. Nel repository la cartella tecnica resta `SUPERBIBLIOTECA_MARCELO`.
 
+Prometeus Marcelus e un figlio di Promethea. E separato da altri figli, come Promethea Economica, ma puo dialogare con loro tramite regole prudenti e sicure. Vedi [Promethea Governance](../PROMETHEA_GOVERNANCE.md).
+
 ## Usa subito
 
 - [Apri il GPT pubblico Prometeus Marcelus](https://chatgpt.com/g/g-6a4117d34d648191a77d9b01bbf2160f-prometeus-marcelus)
