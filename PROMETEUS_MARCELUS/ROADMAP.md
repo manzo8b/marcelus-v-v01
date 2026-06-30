@@ -25,7 +25,15 @@
 - Template per GitHub/Codex
 - Template per reclami e documenti ufficiali
 
-## Versione 0.4 - Automazione
+## Versione 0.4 - Qualita e metodo
+
+- Istruzioni Custom GPT V4
+- Sistema qualita a 100 punti
+- Playbook tester
+- Gate di pubblicazione per prompt e casi
+- Metriche leggere per non appesantire il progetto
+
+## Versione 0.5 - Automazione leggera
 
 - Classificatore richieste
 - Valutatore rischio

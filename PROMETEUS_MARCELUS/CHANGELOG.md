@@ -1,5 +1,14 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.0 - Livello superiore qualita e metodo
+
+- Aggiunte istruzioni Custom GPT V4.
+- Aggiunto sistema qualita Prometeus con rubrica 100 punti.
+- Aggiunto playbook tester per raccogliere casi reali senza appesantire il progetto.
+- Aggiunto documento Prometeus livello superiore v0.4.
+- Aggiornato Start Here per puntare alla V4.
+- Aggiornata roadmap: v0.4 diventa qualita e metodo, v0.5 automazione leggera.
+
 ## 0.3.4 - Pacchetto ChatGPT e dataset corporate
 
 - Aggiunte istruzioni Custom GPT V3.

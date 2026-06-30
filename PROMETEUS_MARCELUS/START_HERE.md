@@ -37,6 +37,8 @@ File principali:
 - [30 casi test](training/casi_test_30.md)
 - [30 risposte ideali](training/risposte_ideali_30.md)
 - [Rubrica di valutazione](training/rubrica_valutazione.md)
+- [Sistema qualita Prometeus](docs/10_qualita/SISTEMA_QUALITA_PROMETEUS.md)
+- [Playbook tester](docs/10_qualita/PLAYBOOK_TESTER_PROMETEUS.md)
 - [Errori da evitare](training/errori_da_evitare.md)
 - [Registro test](training/TEST_LOG_TEMPLATE.md)
 - [Compiti da dare a ChatGPT](training/CHATGPT_TASKS_FOR_MARCELO.md)
@@ -45,7 +47,7 @@ File principali:
 
 Le istruzioni operative aggiornate sono qui:
 
-- [Istruzioni Custom GPT V2](gpt_builder/ISTRUZIONI_CUSTOM_GPT_V2.md)
+- [Istruzioni Custom GPT V4](gpt_builder/ISTRUZIONI_CUSTOM_GPT_V4.md)
 
 Queste istruzioni vanno copiate nel Builder del Custom GPT quando si aggiorna l'agente dentro ChatGPT.
 
@@ -54,6 +56,7 @@ Queste istruzioni vanno copiate nel Builder del Custom GPT quando si aggiorna l'
 File principali:
 
 - [Roadmap fase 2](docs/09_roadmap_fase_2/ROADMAP_FASE_2.md)
+- [Prometeus livello superiore v0.4](docs/10_qualita/PROMETEUS_LIVELLO_SUPERIORE_V04.md)
 - [Issues reali da creare](github_governance/ISSUES_REALI_DA_CREARE.md)
 - [Projects, Discussions e Pull Request](github_governance/PROJECTS_DISCUSSIONS_PULL_REQUESTS.md)
 - [Top repository e organizzazioni](github_governance/TOP_REPOSITORIES_ORGANIZATIONS.md)

@@ -2,6 +2,8 @@
 
 Valutare ogni risposta da 1 a 5.
 
+Nota: questa rubrica resta utile per test rapidi. Per la valutazione completa usare anche il [Sistema qualita Prometeus](../docs/10_qualita/SISTEMA_QUALITA_PROMETEUS.md), basato su 100 punti.
+
 | Criterio | 1 | 3 | 5 |
 |---|---|---|---|
 | Classificazione | non capisce area | area generica | area corretta e utile |

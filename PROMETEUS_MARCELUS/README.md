@@ -29,6 +29,9 @@ Il suo archivio operativo collegato si chiama **Bibliotheca Promethea**. Nel rep
 - [Esempi mercato italiano](docs/07_esempi_pratici/esempi-mercato-italiano.md)
 - [Limiti e uso responsabile](docs/08_note_legali_e_limiti/limiti-del-progetto.md)
 - [Critica e rischi del progetto](docs/08_note_legali_e_limiti/CRITICA_E_RISCHI_DEL_PROGETTO.md)
+- [Prometeus livello superiore v0.4](docs/10_qualita/PROMETEUS_LIVELLO_SUPERIORE_V04.md)
+- [Sistema qualita Prometeus](docs/10_qualita/SISTEMA_QUALITA_PROMETEUS.md)
+- [Playbook tester Prometeus](docs/10_qualita/PLAYBOOK_TESTER_PROMETEUS.md)
 - [Template base](templates/prompt-template-base.md)
 - [Template avanzato](templates/prompt-template-avanzato.md)
 
@@ -57,11 +60,12 @@ Per verificare se Prometeus Marcelus risponde davvero secondo il metodo impostat
 
 - [Test 10 Utenti](test_feedback/TEST_10_UTENTI_PROMETEUS.md)
 - [Scheda Feedback](test_feedback/SCHEDA_FEEDBACK_PROMETEUS.md)
+- [Istruzioni Custom GPT V4](gpt_builder/ISTRUZIONI_CUSTOM_GPT_V4.md)
 - [Istruzioni Custom GPT V3](gpt_builder/ISTRUZIONI_CUSTOM_GPT_V3.md)
 
 ## Stato progetto
 
 - Mercato iniziale: Italia
 - Lingua iniziale: italiano
-- Versione: 0.1 fondazione
+- Versione: 0.4 qualita e metodo
 - Collegamento naturale: Bibliotheca Promethea (`SUPERBIBLIOTECA_MARCELO`)
