@@ -1,0 +1,33 @@
+title: "Caso reale da trasformare"
+labels: ["caso-reale", "prometeus"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Porta un problema reale, ma senza dati personali o informazioni riservate.
+  - type: textarea
+    id: richiesta
+    attributes:
+      label: Richiesta iniziale
+      description: Scrivi il problema come ti viene.
+    validations:
+      required: true
+  - type: textarea
+    id: contesto
+    attributes:
+      label: Contesto
+      description: Paese, settore, obiettivo, destinatario.
+    validations:
+      required: true
+  - type: dropdown
+    id: livello
+    attributes:
+      label: Livello
+      options:
+        - FREE
+        - PREMIUM
+        - PRIVATO
+        - BOZZA
+    validations:
+      required: true
+

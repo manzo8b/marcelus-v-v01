@@ -11,6 +11,8 @@ Usa Prometeus Marcelus con un problema concreto.
 Se non sai da dove partire, usa il percorso piu semplice:
 
 - [Porta un problema reale](../CASI_REALI_PROMETEUS/README.md)
+- [Release v0.4.0](../RELEASE_NOTES_v0.4.0.md)
+- [Contribuire](../CONTRIBUTING.md)
 
 Esempi:
 
@@ -57,6 +59,7 @@ File principali:
 
 - [Roadmap fase 2](docs/09_roadmap_fase_2/ROADMAP_FASE_2.md)
 - [Prometeus livello superiore v0.4](docs/10_qualita/PROMETEUS_LIVELLO_SUPERIORE_V04.md)
+- [Marketing GitHub v0.4](github_governance/GITHUB_MARKETING_V04.md)
 - [Issues reali da creare](github_governance/ISSUES_REALI_DA_CREARE.md)
 - [Projects, Discussions e Pull Request](github_governance/PROJECTS_DISCUSSIONS_PULL_REQUESTS.md)
 - [Top repository e organizzazioni](github_governance/TOP_REPOSITORIES_ORGANIZATIONS.md)

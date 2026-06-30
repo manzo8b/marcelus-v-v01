@@ -1,5 +1,14 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.1 - Marketing GitHub
+
+- Aggiunte release notes v0.4.0.
+- Aggiunto CONTRIBUTING.md.
+- Aggiunto issue template per casi reali Prometeus.
+- Aggiunto discussion template per raccogliere casi reali.
+- Aggiunto piano Marketing GitHub v0.4.
+- Aggiornati README e Start Here con percorso tester e V4.
+
 ## 0.4.0 - Livello superiore qualita e metodo
 
 - Aggiunte istruzioni Custom GPT V4.

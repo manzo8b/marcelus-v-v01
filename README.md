@@ -11,11 +11,27 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 ## Inizia Qui
 
 - [Usa Prometeus Marcelus - Start Here](PROMETEUS_MARCELUS/START_HERE.md)
+- [Release v0.4.0 - Qualita e metodo](RELEASE_NOTES_v0.4.0.md)
+- [Release v0.4.1 - Marketing GitHub](RELEASE_NOTES_v0.4.1.md)
 - [Porta un problema reale](CASI_REALI_PROMETEUS/README.md)
 - [Bibliotheca Promethea](SUPERBIBLIOTECA_MARCELO/README.md)
-- [Istruzioni Custom GPT V2](PROMETEUS_MARCELUS/gpt_builder/ISTRUZIONI_CUSTOM_GPT_V2.md)
+- [Istruzioni Custom GPT V4](PROMETEUS_MARCELUS/gpt_builder/ISTRUZIONI_CUSTOM_GPT_V4.md)
 - [Report test reali V2](PROMETEUS_MARCELUS/training/REPORT_TEST_REALI_30_V2.md)
 - [Strategia GitHub](PROMETEUS_MARCELUS/github_governance/STRATEGIA_VISIBILITA_GITHUB.md)
+
+## Per Tester e Collaboratori
+
+Il modo piu utile per contribuire e portare un problema reale, scritto in modo naturale e senza dati sensibili.
+
+Prometeus Marcelus lo trasforma in:
+
+- richiesta chiarita;
+- prompt migliorato;
+- checklist;
+- limiti e verifiche;
+- eventuale issue GitHub se emerge un miglioramento reale.
+
+Apri una issue usando il template **Caso reale Prometeus** o parti da [Casi Reali Prometeus](CASI_REALI_PROMETEUS/README.md).
 
 ## Cosa Contiene
 
@@ -91,6 +107,12 @@ Il modo piu semplice e portare un problema concreto:
 - un dubbio su privacy, AI Act, lavoro, formazione, Food and Beverage o vita quotidiana.
 
 Parti da [Casi Reali Prometeus](CASI_REALI_PROMETEUS/README.md).
+
+## Contribuire
+
+Leggi [CONTRIBUTING.md](CONTRIBUTING.md) prima di proporre casi, prompt o correzioni.
+
+Materiali sensibili, premium o privati non vanno pubblicati nel repository.
 
 ## Licenza
 
