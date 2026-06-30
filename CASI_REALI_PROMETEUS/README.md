@@ -75,6 +75,6 @@ Per ogni caso usiamo:
 
 - [Template caso reale](TEMPLATE_CASO_REALE.md)
 - [Primi 3 casi dimostrativi](PRIMI_3_CASI_DIMOSTRATIVI.md)
+- [Lotto 01 - problemi reali arrivati](LOTTO_01_PROBLEMI_REALI_ARRIVATI.md)
 - [Post LinkedIn - 10 problemi reali](LINKEDIN_POST_10_PROBLEMI_REALI.md)
 - [Template Discussion GitHub](DISCUSSION_TEMPLATE_10_PROBLEMI_REALI.md)
-
