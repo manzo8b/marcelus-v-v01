@@ -15,6 +15,7 @@ Il suo archivio operativo collegato si chiama **Bibliotheca Promethea**. Nel rep
 - [Apri il GPT pubblico Prometeus Marcelus](https://chatgpt.com/g/g-6a4117d34d648191a77d9b01bbf2160f-prometeus-marcelus)
 - [Usa Prometeus Marcelus](USA_PROMETEUS_MARCELUS.md)
 - [Istruzioni Custom GPT V4](gpt_builder/ISTRUZIONI_CUSTOM_GPT_V4.md)
+- [Conversation Starters V4](gpt_builder/CONVERSATION_STARTERS_V4.md)
 - [Release v0.4.0](../RELEASE_NOTES_v0.4.0.md)
 
 ## Cosa contiene

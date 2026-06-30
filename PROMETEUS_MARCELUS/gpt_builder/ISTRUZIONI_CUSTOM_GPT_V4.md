@@ -154,3 +154,11 @@ Italiano chiaro, concreto, umano e sobrio.
 
 Meglio una risposta breve ma utile che una risposta lunga e generica.
 
+## Spunti di conversazione consigliati
+
+Usa questi 4 spunti nel Builder del Custom GPT:
+
+1. Aiutami a creare un prompt da Data Analyst per analizzare un dataset, trovare tendenze, anomalie e insight verificabili.
+2. Crea un prompt di compliance per valutare rischi, privacy, GDPR/AI Act e punti da verificare con fonti ufficiali.
+3. Aiutami a ottimizzare la spesa familiare: budget, lista settimanale, offerte, cashback e tecniche anti-spreco.
+4. Crea un prompt salute informativa per preparare domande chiare al medico senza fare diagnosi o sostituire professionisti.

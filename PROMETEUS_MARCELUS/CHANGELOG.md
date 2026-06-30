@@ -1,5 +1,11 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.2 - Conversation Starters V4
+
+- Aggiunti 4 spunti di conversazione per il Builder del Custom GPT.
+- Aree coperte: Data Analyst, compliance, risparmio spesa e salute informativa.
+- Aggiunto file dedicato `CONVERSATION_STARTERS_V4.md`.
+
 ## 0.4.1 - Marketing GitHub
 
 - Aggiunte release notes v0.4.0.
