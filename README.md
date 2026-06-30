@@ -9,6 +9,7 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 ## Inizia Qui
 
 - [Usa Prometeus Marcelus - Start Here](PROMETEUS_MARCELUS/START_HERE.md)
+- [Porta un problema reale](CASI_REALI_PROMETEUS/README.md)
 - [Istruzioni Custom GPT V2](PROMETEUS_MARCELUS/gpt_builder/ISTRUZIONI_CUSTOM_GPT_V2.md)
 - [Report test reali V2](PROMETEUS_MARCELUS/training/REPORT_TEST_REALI_30_V2.md)
 - [Strategia GitHub](PROMETEUS_MARCELUS/github_governance/STRATEGIA_VISIBILITA_GITHUB.md)
@@ -73,6 +74,20 @@ Per la governance AI Act vedi:
 ## Uso Rapido
 
 Apri una categoria in `prompts/`, copia il prompt desiderato e sostituisci i campi tra parentesi quadre con i tuoi dati reali.
+
+## Casi Reali
+
+Per provare Prometeus Marcelus non serve leggere tutta la biblioteca.
+
+Il modo piu semplice e portare un problema concreto:
+
+- una situazione da chiarire;
+- un prompt che non funziona;
+- una decisione da preparare;
+- una guida da rendere utile;
+- un dubbio su privacy, AI Act, lavoro, formazione, Food and Beverage o vita quotidiana.
+
+Parti da [Casi Reali Prometeus](CASI_REALI_PROMETEUS/README.md).
 
 ## Licenza
 

@@ -8,6 +8,10 @@ Questa pagina serve come punto di ingresso operativo per utenti, tester e collab
 
 Usa Prometeus Marcelus con un problema concreto.
 
+Se non sai da dove partire, usa il percorso piu semplice:
+
+- [Porta un problema reale](../CASI_REALI_PROMETEUS/README.md)
+
 Esempi:
 
 - Devo trasformare un'idea confusa in un prompt operativo.
@@ -72,4 +76,3 @@ Obiettivo minimo della prima fase:
 I contenuti pubblici devono restare utili e sicuri.
 
 I materiali premium, di monetizzazione, con dati sensibili o con valore commerciale diretto devono restare privati o chiaramente separati.
-
