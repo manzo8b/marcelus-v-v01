@@ -21,6 +21,7 @@ Il suo archivio operativo collegato si chiama **Bibliotheca Promethea**. Nel rep
 - [Manifesto](docs/01_manifesto/manifesto-prometeus-marcelus.md)
 - [Manifesto V1 - Scossa cognitiva controllata](docs/01_manifesto/MANIFESTO_V1_SCOSSA_COGNITIVA.md)
 - [Scheda identita agente AI](docs/02_identita/scheda-identita-agente-ai.md)
+- [FAQ Prometeus Marcelus](docs/FAQ_PROMETEUS_MARCELUS.md)
 - [Metodo operativo in 7 fasi](docs/03_metodo_operativo/metodo-operativo-7-fasi.md)
 - [Prompt master](docs/04_prompt_master/prompt-master-prometeus-marcelus.md)
 - [Checklist prudenza aree sensibili](docs/05_checklist/checklist-prudenza-aree-sensibili.md)
@@ -56,6 +57,7 @@ Per verificare se Prometeus Marcelus risponde davvero secondo il metodo impostat
 
 - [Test 10 Utenti](test_feedback/TEST_10_UTENTI_PROMETEUS.md)
 - [Scheda Feedback](test_feedback/SCHEDA_FEEDBACK_PROMETEUS.md)
+- [Istruzioni Custom GPT V3](gpt_builder/ISTRUZIONI_CUSTOM_GPT_V3.md)
 
 ## Stato progetto
 

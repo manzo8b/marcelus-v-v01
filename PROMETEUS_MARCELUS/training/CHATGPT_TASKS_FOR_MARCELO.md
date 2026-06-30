@@ -46,3 +46,23 @@ Scegli 10 messaggi e trasformali con questo formato:
 8. livello FREE / PREMIUM / PRIVATO.
 
 Non inventare casi reali. Non usare dati personali. Mantieni tono educativo, pratico e prudente.
+
+## Compito 9 - Trasformare dataset business e corporate
+
+Usa questi file:
+
+- `DATASET_100_PROMPT_BUSINESS_TECH_SCRITTI_MALE.md`
+- `DATASET_85_PROMPT_CONTESTI_CORPORATE.md`
+
+Scegli 10 prompt per volta e trasformali con:
+
+1. prompt scritto male;
+2. macroarea Bibliotheca Promethea;
+3. rischio;
+4. cosa manca;
+5. domanda di chiarimento;
+6. prompt Prometeus migliorato;
+7. checklist;
+8. livello FREE / PREMIUM / PRIVATO.
+
+Non usare nomi o dati di aziende reali. Non inventare policy, metriche, performance o procedure interne.

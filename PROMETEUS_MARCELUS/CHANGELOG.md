@@ -1,5 +1,14 @@
 # Changelog - Prometeus Marcelus
 
+## 0.3.4 - Pacchetto ChatGPT e dataset corporate
+
+- Aggiunte istruzioni Custom GPT V3.
+- Aggiunta FAQ per utenti non tecnici.
+- Aggiunti 5 post LinkedIn base per presentare Prometeus Marcelus.
+- Aggiunto Lotto 03 con casi ChatGPT revisionati.
+- Aggiunti dataset per prompt business/tech scritti male e prompt corporate vaghi.
+- Aggiunto compito operativo per trasformare dataset business e corporate in prompt Prometeus.
+
 ## 0.3.3 - Dataset messaggi superficiali
 
 - Aggiunto dataset educativo con 100 messaggi superficiali o spontanei alle LLM.
