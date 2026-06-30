@@ -26,6 +26,15 @@
 | Cashback Tecniche Acquisto | prompts/22-cashback-tecniche-acquisto/prompts.md | 80 |
 | Acronimi Vita Quotidiana | prompts/23-acronimi-vita-quotidiana/prompts.md | 100 |
 | Organizzazione Vita Persone | prompts/24-organizzazione-vita-persone/prompts.md | 89 |
+| AI Act Europeo e Uso Sicuro AI | prompts/25-ai-act-europeo/prompts.md | 60 |
 | Tesi Universitaria | prompts/tesi-universitaria.md | 1 |
 
-Totale pubblico: 2000 prompt. Premium privato: 100 prompt.
+Totale pubblico: 2000 prompt + 60 prompt AI Act. Premium privato: 100 prompt.
+
+## Governance AI Act
+
+| Documento | Percorso |
+|---|---|
+| Adeguamento Prometeus Marcelus | docs/legal_ai_act/AI_ACT_ADEGUAMENTO_PROMETEUS_MARCELUS.md |
+| Registro rischi AI Act | docs/legal_ai_act/AI_ACT_REGISTRO_RISCHI_PROMETEUS.md |
+| Mappa AI Act SUPERBIBLIOTECA | docs/legal_ai_act/AI_ACT_SUPERBIBLIOTECA_MAPPA_PROMPT.md |

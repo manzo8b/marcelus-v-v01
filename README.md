@@ -38,9 +38,12 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 - [50 prompt Problemi in Autostrada, Emergenze e Aspetti Legali](prompts/17-autostrada-emergenze-legale/prompts.md)
 - [50 prompt Prevenzione Cittadini, Caldo, Blackout ed Emergenze Quotidiane](prompts/18-prevenzione-cittadini-emergenze/prompts.md)
 - [100 prompt Salute Cittadini, Pronto Soccorso e Medico di Famiglia](prompts/19-salute-cittadini-pronto-soccorso/prompts.md)
+- [60 prompt AI Act Europeo e uso sicuro dell'AI](prompts/25-ai-act-europeo/prompts.md)
+- [Adeguamento AI Act per Prometeus Marcelus](docs/legal_ai_act/AI_ACT_ADEGUAMENTO_PROMETEUS_MARCELUS.md)
+- [Registro rischi AI Act](docs/legal_ai_act/AI_ACT_REGISTRO_RISCHI_PROMETEUS.md)
 - [Prompt Analisi Tesi Universitaria](prompts/tesi-universitaria.md)
 
-Totale pubblico aggiornato: **2000 prompt Marcelus + prompt specialistici e materiali Prometeus Marcelus**. Materiali premium e di monetizzazione separati o privati.
+Totale pubblico aggiornato: **2000 prompt Marcelus + 60 prompt AI Act + prompt specialistici e materiali Prometeus Marcelus**. Materiali premium e di monetizzazione separati o privati.
 
 ## Metodo Marcelus
 
@@ -56,6 +59,16 @@ Ogni prompt segue una struttura professionale:
 8. Ragionamento verificabile
 9. Tree of Thought operativo quando utile
 10. Anti-allucinazione, privacy, anti-bias e self-check
+
+## Uso Sicuro e AI Act
+
+Prometeus Marcelus e un progetto educativo e operativo per creare prompt piu chiari, verificabili e responsabili. Non sostituisce consulenti legali, medici, finanziari, HR o altri professionisti. Non deve essere usato per prendere decisioni automatiche su persone, diritti, salute, credito, lavoro, istruzione, sicurezza pubblica o servizi essenziali. Ogni output deve essere verificato da una persona competente e, quando necessario, da fonti ufficiali aggiornate.
+
+Per la governance AI Act vedi:
+
+- [AI Act - Adeguamento Prometeus Marcelus](docs/legal_ai_act/AI_ACT_ADEGUAMENTO_PROMETEUS_MARCELUS.md)
+- [AI Act - Registro rischi](docs/legal_ai_act/AI_ACT_REGISTRO_RISCHI_PROMETEUS.md)
+- [AI Act - Mappa SUPERBIBLIOTECA](docs/legal_ai_act/AI_ACT_SUPERBIBLIOTECA_MAPPA_PROMPT.md)
 
 ## Uso Rapido
 
