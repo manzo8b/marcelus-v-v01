@@ -1,6 +1,12 @@
-# Superbiblioteca Marcelus
+# Bibliotheca Promethea
 
-Sistema categorizzato e sotto-categorizzato dei prompt Marcelus pubblici. La funzione della superbiblioteca e aiutare il cittadino, il professionista o l'impresa a trovare subito il prompt giusto, senza scorrere l'intero repository.
+Sistema categorizzato e sotto-categorizzato dei prompt Marcelus pubblici.
+
+**Bibliotheca Promethea** e il nome pubblico della biblioteca operativa collegata a Prometeus Marcelus.
+
+La cartella tecnica nel repository resta `SUPERBIBLIOTECA_MARCELO`.
+
+La funzione della biblioteca e aiutare il cittadino, il professionista o l'impresa a trovare subito il prompt giusto, senza scorrere l'intero repository.
 
 ## 1. Metodo, Master e Qualita
 

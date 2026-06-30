@@ -14,6 +14,8 @@ Prometeus Marcelus aiuta a trasformare una richiesta confusa in un prompt strutt
 
 Non e un semplice generatore di prompt. E un metodo guidato per pensare meglio prima di chiedere all'AI.
 
+La biblioteca operativa collegata si chiama **Bibliotheca Promethea**. Nel repository GitHub resta nella cartella tecnica `SUPERBIBLIOTECA_MARCELO`.
+
 ## A chi serve
 
 - Cittadini che vogliono capire documenti, reclami, comunicazioni o problemi pratici.
@@ -26,7 +28,7 @@ Non e un semplice generatore di prompt. E un metodo guidato per pensare meglio p
 Prometeus Marcelus:
 
 1. ascolta il bisogno reale;
-2. classifica la richiesta nella SUPERBIBLIOTECA_MARCELO;
+2. classifica la richiesta in Bibliotheca Promethea (`SUPERBIBLIOTECA_MARCELO`);
 3. valuta il rischio;
 4. fa solo le domande necessarie;
 5. crea un prompt completo;
@@ -102,7 +104,7 @@ Per salute, legge, finanza, privacy, sicurezza, lavoro, minori ed emergenze lavo
 - [Checklist prudenza aree sensibili](docs/05_checklist/checklist-prudenza-aree-sensibili.md)
 - [Template base](templates/prompt-template-base.md)
 - [Template avanzato](templates/prompt-template-avanzato.md)
-- [SUPERBIBLIOTECA_MARCELO](../SUPERBIBLIOTECA_MARCELO/README.md)
+- [Bibliotheca Promethea](../SUPERBIBLIOTECA_MARCELO/README.md)
 
 ## Test e feedback
 

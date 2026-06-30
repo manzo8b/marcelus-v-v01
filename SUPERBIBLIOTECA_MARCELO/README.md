@@ -1,15 +1,20 @@
-# SUPERBIBLIOTECA_MARCELO
+# Bibliotheca Promethea
+
+Nome tecnico cartella: `SUPERBIBLIOTECA_MARCELO`.
 
 Struttura ufficiale elevata di classificazione Marcelus.
 
-Questa cartella non sostituisce i prompt gia presenti nel repository: crea una tassonomia stabile per organizzare, classificare e far crescere Marcelus in modo professionale.
+Bibliotheca Promethea non sostituisce i prompt gia presenti nel repository: crea una tassonomia stabile per organizzare, classificare e far crescere Marcelus in modo professionale.
+
+Il nome pubblico e narrativo e **Bibliotheca Promethea**. Il nome tecnico `SUPERBIBLIOTECA_MARCELO` resta invariato per non rompere collegamenti, percorsi e riferimenti gia esistenti.
 
 ## Come Usarla
 
-1. Parti da [00_GUIDA_USO_SUPERBIBLIOTECA.md](00_GUIDA_USO_SUPERBIBLIOTECA.md).
-2. Se non sai dove mettere un prompt, usa [00_ROUTING_PROMPT.md](00_ROUTING_PROMPT.md).
-3. Per mantenere ordine nei prossimi aggiornamenti, segui [00_STANDARD_CLASSIFICAZIONE.md](00_STANDARD_CLASSIFICAZIONE.md).
-4. Per capire la logica critica della nuova struttura, leggi [00_ANALISI_CRITICA_STRUTTURA.md](00_ANALISI_CRITICA_STRUTTURA.md).
+1. Parti da [00_NOME_BIBLIOTHECA_PROMETHEA.md](00_NOME_BIBLIOTHECA_PROMETHEA.md).
+2. Leggi [00_GUIDA_USO_SUPERBIBLIOTECA.md](00_GUIDA_USO_SUPERBIBLIOTECA.md).
+3. Se non sai dove mettere un prompt, usa [00_ROUTING_PROMPT.md](00_ROUTING_PROMPT.md).
+4. Per mantenere ordine nei prossimi aggiornamenti, segui [00_STANDARD_CLASSIFICAZIONE.md](00_STANDARD_CLASSIFICAZIONE.md).
+5. Per capire la logica critica della nuova struttura, leggi [00_ANALISI_CRITICA_STRUTTURA.md](00_ANALISI_CRITICA_STRUTTURA.md).
 
 ## Principi
 

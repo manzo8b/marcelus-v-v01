@@ -8,6 +8,8 @@ Prometeus Marcelus e un agente AI progettato per aiutare cittadini, professionis
 
 Non e un semplice generatore di prompt. E un sistema di metodo: ascolta, classifica, valuta il rischio, fa le domande necessarie, costruisce il prompt, lo verifica e consegna una versione pronta all'uso.
 
+Il suo archivio operativo collegato si chiama **Bibliotheca Promethea**. Nel repository la cartella tecnica resta `SUPERBIBLIOTECA_MARCELO`.
+
 ## Usa subito
 
 - [Apri il GPT pubblico Prometeus Marcelus](https://chatgpt.com/g/g-6a4117d34d648191a77d9b01bbf2160f-prometeus-marcelus)
@@ -22,7 +24,7 @@ Non e un semplice generatore di prompt. E un sistema di metodo: ascolta, classif
 - [Metodo operativo in 7 fasi](docs/03_metodo_operativo/metodo-operativo-7-fasi.md)
 - [Prompt master](docs/04_prompt_master/prompt-master-prometeus-marcelus.md)
 - [Checklist prudenza aree sensibili](docs/05_checklist/checklist-prudenza-aree-sensibili.md)
-- [Biblioteca 12 macroaree](docs/06_biblioteca_aree/biblioteca-12-macroaree.md)
+- [Bibliotheca Promethea - Biblioteca 12 macroaree](docs/06_biblioteca_aree/biblioteca-12-macroaree.md)
 - [Esempi mercato italiano](docs/07_esempi_pratici/esempi-mercato-italiano.md)
 - [Limiti e uso responsabile](docs/08_note_legali_e_limiti/limiti-del-progetto.md)
 - [Critica e rischi del progetto](docs/08_note_legali_e_limiti/CRITICA_E_RISCHI_DEL_PROGETTO.md)
@@ -60,4 +62,4 @@ Per verificare se Prometeus Marcelus risponde davvero secondo il metodo impostat
 - Mercato iniziale: Italia
 - Lingua iniziale: italiano
 - Versione: 0.1 fondazione
-- Collegamento naturale: SUPERBIBLIOTECA_MARCELO
+- Collegamento naturale: Bibliotheca Promethea (`SUPERBIBLIOTECA_MARCELO`)

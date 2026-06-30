@@ -1,8 +1,10 @@
-# Guida Uso SUPERBIBLIOTECA_MARCELO
+# Guida Uso Bibliotheca Promethea
+
+Nome tecnico cartella: `SUPERBIBLIOTECA_MARCELO`.
 
 ## Obiettivo
 
-Questa guida serve a usare la struttura Marcelus come sistema professionale di classificazione dei prompt.
+Questa guida serve a usare **Bibliotheca Promethea**, la struttura Marcelus per classificare prompt, casi, checklist e fonti in modo professionale.
 
 ## Percorso Rapido
 

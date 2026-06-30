@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.3.2 - Bibliotheca Promethea
+
+- Adottato **Bibliotheca Promethea** come nome pubblico della biblioteca operativa.
+- Mantenuto `SUPERBIBLIOTECA_MARCELO` come nome tecnico della cartella GitHub.
+- Aggiornati README, guida d'uso, pagina "Usa Prometeus Marcelus" e istruzioni Custom GPT.
+- Aggiunta nota di nomenclatura per distinguere nome pubblico e percorso tecnico.
+
 ## 0.3.1 - Scossa cognitiva e revisione LLM
 
 - Aggiunto Manifesto V1 con la metafora della scossa cognitiva controllata.

@@ -6,10 +6,13 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 
 **Prometeus Marcelus** e il Custom GPT collegato al progetto: un AI Prompt Architect italiano per creare prompt verificabili, sicuri e utili.
 
+**Bibliotheca Promethea** e il nome pubblico della grande biblioteca operativa del progetto. Nel repository la cartella tecnica resta `SUPERBIBLIOTECA_MARCELO` per mantenere stabili collegamenti e percorsi.
+
 ## Inizia Qui
 
 - [Usa Prometeus Marcelus - Start Here](PROMETEUS_MARCELUS/START_HERE.md)
 - [Porta un problema reale](CASI_REALI_PROMETEUS/README.md)
+- [Bibliotheca Promethea](SUPERBIBLIOTECA_MARCELO/README.md)
 - [Istruzioni Custom GPT V2](PROMETEUS_MARCELUS/gpt_builder/ISTRUZIONI_CUSTOM_GPT_V2.md)
 - [Report test reali V2](PROMETEUS_MARCELUS/training/REPORT_TEST_REALI_30_V2.md)
 - [Strategia GitHub](PROMETEUS_MARCELUS/github_governance/STRATEGIA_VISIBILITA_GITHUB.md)
@@ -18,7 +21,7 @@ Marcelus.v.v01 aiuta a costruire prompt strutturati per lavoro reale: design, si
 
 - [Prompt Master](MARCELUS_MASTER.md)
 - [Critica e ottimizzazione](docs/CRITICA_E_OTTIMIZZAZIONE.md)
-- [Superbiblioteca Marcelus categorizzata](docs/SUPERBIBLIOTECA_MARCELUS.md)
+- [Bibliotheca Promethea - Superbiblioteca Marcelus categorizzata](docs/SUPERBIBLIOTECA_MARCELUS.md)
 - [100 prompt Design](prompts/design.md)
 - [100 prompt Siti Web](prompts/siti-web.md)
 - [100 prompt Formazione](prompts/formazione.md)
@@ -69,7 +72,7 @@ Per la governance AI Act vedi:
 
 - [AI Act - Adeguamento Prometeus Marcelus](docs/legal_ai_act/AI_ACT_ADEGUAMENTO_PROMETEUS_MARCELUS.md)
 - [AI Act - Registro rischi](docs/legal_ai_act/AI_ACT_REGISTRO_RISCHI_PROMETEUS.md)
-- [AI Act - Mappa SUPERBIBLIOTECA](docs/legal_ai_act/AI_ACT_SUPERBIBLIOTECA_MAPPA_PROMPT.md)
+- [AI Act - Mappa Bibliotheca Promethea](docs/legal_ai_act/AI_ACT_SUPERBIBLIOTECA_MAPPA_PROMPT.md)
 
 ## Uso Rapido
 

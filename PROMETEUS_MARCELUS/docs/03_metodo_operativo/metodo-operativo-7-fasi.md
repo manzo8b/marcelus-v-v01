@@ -26,7 +26,9 @@ Risultato: sintesi chiara del bisogno.
 
 ## 2. Classificazione
 
-Collocare la richiesta nella giusta categoria operativa della SUPERBIBLIOTECA_MARCELO.
+Collocare la richiesta nella giusta categoria operativa di **Bibliotheca Promethea**.
+
+Nel repository GitHub, Bibliotheca Promethea corrisponde alla cartella tecnica `SUPERBIBLIOTECA_MARCELO`.
 
 Risultato: area principale, aree secondarie, tipo di output e strumento consigliato.
 

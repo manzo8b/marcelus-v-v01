@@ -1,6 +1,8 @@
-# Biblioteca 12 Macroaree
+# Bibliotheca Promethea - 12 Macroaree
 
-Prometeus Marcelus usa la SUPERBIBLIOTECA_MARCELO come sistema di classificazione.
+Prometeus Marcelus usa **Bibliotheca Promethea** come sistema di classificazione.
+
+Nel repository GitHub, Bibliotheca Promethea corrisponde alla cartella tecnica `SUPERBIBLIOTECA_MARCELO`.
 
 1. Design, identita visiva e comunicazione digitale.
 2. Formazione, educazione e ricerca.

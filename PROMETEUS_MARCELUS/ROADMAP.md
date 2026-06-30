@@ -11,7 +11,7 @@
 
 ## Versione 0.2 - Biblioteca operativa
 
-- Collegamento pieno con SUPERBIBLIOTECA_MARCELO
+- Collegamento pieno con Bibliotheca Promethea (`SUPERBIBLIOTECA_MARCELO`)
 - Template per categorie principali
 - Prompt per cittadini, professionisti e piccole imprese
 - Standard FREE / PREMIUM / PRIVATO
