@@ -64,6 +64,8 @@ File principali:
 - [Issues reali da creare](github_governance/ISSUES_REALI_DA_CREARE.md)
 - [Projects, Discussions e Pull Request](github_governance/PROJECTS_DISCUSSIONS_PULL_REQUESTS.md)
 - [Top repository e organizzazioni](github_governance/TOP_REPOSITORIES_ORGANIZATIONS.md)
+- [Promemoria impostazioni GitHub](github_governance/PROMEMORIA_IMPOSTAZIONI_GITHUB.md)
+- [Routine settimanale GitHub](github_governance/ROUTINE_SETTIMANALE_GITHUB.md)
 
 ## 6. LinkedIn e tester
 

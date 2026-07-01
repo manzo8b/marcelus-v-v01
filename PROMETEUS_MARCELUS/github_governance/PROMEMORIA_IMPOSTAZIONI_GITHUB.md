@@ -166,3 +166,8 @@ Deve essere una casa ordinata:
 - Actions = controllo qualita;
 - Security = fiducia.
 
+## Routine collegata
+
+Per il controllo pratico settimanale leggere:
+
+- [Routine settimanale GitHub](ROUTINE_SETTIMANALE_GITHUB.md)

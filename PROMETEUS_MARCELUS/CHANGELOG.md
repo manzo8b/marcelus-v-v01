@@ -1,5 +1,11 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.11 - Routine settimanale GitHub
+
+- Verificato che Markdown quality sul commit `955a849` e in stato Success.
+- Aggiunta routine settimanale GitHub per gestire Actions, Issues, Discussions, Project, LinkedIn e promemoria finale.
+- Collegata la routine al promemoria impostazioni GitHub e a Start Here.
+
 ## 0.4.10 - Promemoria impostazioni GitHub
 
 - Aggiunto promemoria operativo sulle impostazioni GitHub del repository.
