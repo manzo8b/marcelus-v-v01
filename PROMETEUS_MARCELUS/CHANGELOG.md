@@ -1,5 +1,14 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.9 - Promethea Economica v0.1 base
+
+- Integrati i compiti LLM allegati per Promethea Economica.
+- Aggiunto metodo operativo v0.1.
+- Aggiunta scheda decisionale economica standard.
+- Aggiunti 30 casi test per Promethea Economica.
+- Aggiunta critica rischi e test anti-illusione.
+- Reso il workflow Markdown quality focalizzato sui link locali, ignorando i link esterni.
+
 ## 0.4.8 - Lotto 04 completo e fondazione Promethea Economica
 
 - Trasformati i casi prioritari 6-10 del Lotto 04 con metodo Prometeus V4.

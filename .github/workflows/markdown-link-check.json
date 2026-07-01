@@ -1,6 +1,9 @@
 {
   "ignorePatterns": [
     {
+      "pattern": "^https?://"
+    },
+    {
       "pattern": "^https://chatgpt.com/"
     },
     {
@@ -16,4 +19,3 @@
   "retryCount": 2,
   "aliveStatusCodes": [200, 206, 301, 302, 999]
 }
-

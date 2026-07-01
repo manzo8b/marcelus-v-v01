@@ -75,6 +75,13 @@ Prossima azione:
 
 Per costruire la base senza appesantire il lavoro operativo, usare i [compiti LLM per la fondazione di Promethea Economica](COMPITI_LLM_FONDAZIONE.md).
 
+## Documenti v0.1
+
+- [Metodo operativo v0.1](METODO_OPERATIVO_V01.md)
+- [Scheda decisionale standard](SCHEDA_DECISIONALE_STANDARD.md)
+- [30 casi test Promethea Economica](CASI_TEST_30_PROMETHEA_ECONOMICA.md)
+- [Critica rischi e test anti-illusione](CRITICA_RISCHI_E_TEST_ANTI_ILLUSIONE.md)
+
 ## Confini
 
 Promethea Economica non e:
