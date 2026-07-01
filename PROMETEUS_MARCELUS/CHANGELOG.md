@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.7 - Compiti LLM master e prime trasformazioni Lotto 04
+
+- Aggiunto file master con i compiti pronti da dare a ChatGPT, Claude, Grok o altri LLM.
+- Trasformati i primi 5 casi prioritari del Lotto 04 con metodo Prometeus V4.
+- Rafforzata la separazione tra sviluppo editoriale LLM e lavoro operativo GitHub.
+- Aggiornato indice dei casi reali con il nuovo file di trasformazioni.
+
 ## 0.4.6 - Lotto 04 casi grezzi multisettore
 
 - Aggiunto Lotto 04 con 30 casi grezzi realistici distribuiti su F&B, risk management, compliance, IT, politica/PA, condominio, salute, HR e finanza personale/PMI.

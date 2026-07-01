@@ -2,6 +2,10 @@
 
 Questi compiti possono essere dati a ChatGPT per sviluppare materiale senza consumare lavoro operativo GitHub.
 
+Versione master completa:
+
+- [Compiti ChatGPT master](COMPITI_CHATGPT_MASTER.md)
+
 ## Compito 1 - Raffinare casi test
 
 Analizza questi 30 casi test e proponi 10 casi aggiuntivi realistici per utenti italiani non tecnici.
