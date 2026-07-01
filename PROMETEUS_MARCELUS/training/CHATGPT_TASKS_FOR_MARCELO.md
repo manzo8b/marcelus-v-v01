@@ -66,3 +66,25 @@ Scegli 10 prompt per volta e trasformali con:
 8. livello FREE / PREMIUM / PRIVATO.
 
 Non usare nomi o dati di aziende reali. Non inventare policy, metriche, performance o procedure interne.
+
+## Compito 10 - Trasformare Lotto 04 casi grezzi multisettore
+
+Usa il file `CASI_REALI_PROMETEUS/LOTTO_04_30_CASI_GREZZI_MULTISETTORE.md`.
+
+Scegli 5 casi per volta, partendo dalla sezione "Priorita di trasformazione completa", e trasformali con il metodo V4:
+
+1. lettura del problema apparente e del problema reale probabile;
+2. macroarea Bibliotheca Promethea;
+3. livello di rischio;
+4. 5 domande mirate;
+5. prompt Prometeus migliorato;
+6. checklist prudenza;
+7. professionista o fonte ufficiale da coinvolgere quando necessario;
+8. output atteso.
+
+Regole:
+
+- non dare diagnosi mediche, pareri legali definitivi, consulenza finanziaria personalizzata o decisioni al posto dell'utente;
+- non inventare norme, scadenze, procedure aziendali o dati mancanti;
+- se il caso e urgente o critico, indicare prima la messa in sicurezza e poi la costruzione del prompt;
+- mantenere tono pratico, umano e prudente.

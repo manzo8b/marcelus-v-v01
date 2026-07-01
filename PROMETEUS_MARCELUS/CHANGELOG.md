@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.6 - Lotto 04 casi grezzi multisettore
+
+- Aggiunto Lotto 04 con 30 casi grezzi realistici distribuiti su F&B, risk management, compliance, IT, politica/PA, condominio, salute, HR e finanza personale/PMI.
+- Classificati i casi per macroarea Bibliotheca Promethea, livello di rischio, dati mancanti e livello FREE/PREMIUM/PRIVATO.
+- Aggiunta priorita dei 10 casi da trasformare prima con il metodo V4.
+- Aggiunto template operativo per trasformazione completa V4.
+
 ## 0.4.5 - Security policy e quality workflow
 
 - Aggiunta `SECURITY.md`.
