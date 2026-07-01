@@ -6,9 +6,8 @@ Questa pagina collega i nuovi prompt Marcelus dedicati all'organizzazione pratic
 
 | Prompt | File | Utilita |
 |---|---|---|
-| 1912-2000 | [24-organizzazione-vita-persone](../../../../prompts/24-organizzazione-vita-persone/prompts.md) | Organizzare documenti, scadenze, casa, famiglia, salute quotidiana, digitale, lavoro e decisioni pratiche. |
+| 1912-2000 | [24-organizzazione-vita-persone](../../../prompts/24-organizzazione-vita-persone/prompts.md) | Organizzare documenti, scadenze, casa, famiglia, salute quotidiana, digitale, lavoro e decisioni pratiche. |
 
 ## Regola Marcelus
 
 Ogni prompt deve trasformare un problema ricorrente in una procedura semplice, sostenibile e verificabile.
-

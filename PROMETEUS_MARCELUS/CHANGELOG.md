@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.8 - Lotto 04 completo e fondazione Promethea Economica
+
+- Trasformati i casi prioritari 6-10 del Lotto 04 con metodo Prometeus V4.
+- Completato il primo nucleo di 10 casi reali ad alta priorita.
+- Aggiunti compiti per Claude, Grok e ChatGPT per sviluppare Promethea Economica.
+- Corretti link locali dei prompt 1452-2000 per il workflow Markdown quality.
+
 ## 0.4.7 - Compiti LLM master e prime trasformazioni Lotto 04
 
 - Aggiunto file master con i compiti pronti da dare a ChatGPT, Claude, Grok o altri LLM.

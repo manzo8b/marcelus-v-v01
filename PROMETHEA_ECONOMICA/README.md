@@ -71,6 +71,10 @@ Prossima azione:
 - Rischio indebitamento.
 - Domande da fare a CAF, banca, commercialista o consulente.
 
+## Sviluppo con altri LLM
+
+Per costruire la base senza appesantire il lavoro operativo, usare i [compiti LLM per la fondazione di Promethea Economica](COMPITI_LLM_FONDAZIONE.md).
+
 ## Confini
 
 Promethea Economica non e:

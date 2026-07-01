@@ -88,5 +88,6 @@ Per ogni caso usiamo:
 - [Lotto 03 - pacchetto ChatGPT revisionato](LOTTO_03_CHATGPT_REVISIONATO.md)
 - [Lotto 04 - 30 casi grezzi multisettore](LOTTO_04_30_CASI_GREZZI_MULTISETTORE.md)
 - [Trasformazioni Lotto 04 - priorita 01-05](TRASFORMAZIONI_LOTTO_04_PRIORITA_01_05.md)
+- [Trasformazioni Lotto 04 - priorita 06-10](TRASFORMAZIONI_LOTTO_04_PRIORITA_06_10.md)
 - [Post LinkedIn - 10 problemi reali](LINKEDIN_POST_10_PROBLEMI_REALI.md)
 - [Template Discussion GitHub](DISCUSSION_TEMPLATE_10_PROBLEMI_REALI.md)
