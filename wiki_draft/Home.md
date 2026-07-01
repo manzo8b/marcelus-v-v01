@@ -10,13 +10,13 @@ Prometeus Marcelus aiuta a trasformare richieste confuse in prompt, checklist e 
 
 ## Cosa trovi qui
 
-- [Cos'e Prometeus Marcelus](Cos-e-Prometeus-Marcelus)
-- [Come usare il progetto](Come-usare-il-progetto)
-- [Bibliotheca Promethea](Bibliotheca-Promethea)
-- [Promethea Governance](Promethea-Governance)
-- [Promethea Economica](Promethea-Economica)
-- [Sicurezza, privacy e limiti](Sicurezza-Privacy-e-Limiti)
-- [Glossario essenziale](Glossario-essenziale)
+- [Cos'e Prometeus Marcelus](https://github.com/manzo8b/marcelus-v-v01/wiki/Cos%E2%80%90e%E2%80%90Prometeus%E2%80%90Marcelus)
+- [Come usare il progetto](https://github.com/manzo8b/marcelus-v-v01/wiki/Come%E2%80%90usare%E2%80%90il%E2%80%90progetto)
+- [Bibliotheca Promethea](https://github.com/manzo8b/marcelus-v-v01/wiki/Bibliotheca%E2%80%90Promethea)
+- [Promethea Governance](https://github.com/manzo8b/marcelus-v-v01/wiki/Promethea%E2%80%90Governance)
+- [Promethea Economica](https://github.com/manzo8b/marcelus-v-v01/wiki/Promethea%E2%80%90Economica)
+- [Sicurezza, privacy e limiti](https://github.com/manzo8b/marcelus-v-v01/wiki/Sicurezza%E2%80%90Privacy%E2%80%90e%E2%80%90Limiti)
+- [Glossario essenziale](https://github.com/manzo8b/marcelus-v-v01/wiki/Glossario%E2%80%90essenziale)
 
 ## Per chi e utile
 
@@ -47,4 +47,3 @@ E uno strumento educativo e operativo: aiuta a preparare meglio domande, prompt,
 ```text
 Richiesta confusa -> classificazione -> rischio -> prompt migliore -> checklist -> verifica
 ```
-
