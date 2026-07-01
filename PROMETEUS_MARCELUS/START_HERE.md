@@ -62,6 +62,7 @@ File principali:
 - [Prometeus livello superiore v0.4](docs/10_qualita/PROMETEUS_LIVELLO_SUPERIORE_V04.md)
 - [Marketing GitHub v0.4](github_governance/GITHUB_MARKETING_V04.md)
 - [Issues reali da creare](github_governance/ISSUES_REALI_DA_CREARE.md)
+- [Issues operative 2026-07-01](github_governance/ISSUES_OPERATIVE_2026_07_01.md)
 - [Projects, Discussions e Pull Request](github_governance/PROJECTS_DISCUSSIONS_PULL_REQUESTS.md)
 - [Top repository e organizzazioni](github_governance/TOP_REPOSITORIES_ORGANIZATIONS.md)
 - [Promemoria impostazioni GitHub](github_governance/PROMEMORIA_IMPOSTAZIONI_GITHUB.md)
@@ -72,6 +73,7 @@ File principali:
 File principale:
 
 - [Campagna tester LinkedIn](linkedin/LINKEDIN_TESTER_CAMPAIGN.md)
+- [Strategia X caballero_ita](x_marketing/STRATEGIA_X_CABALLERO_ITA.md)
 
 Obiettivo minimo della prima fase:
 

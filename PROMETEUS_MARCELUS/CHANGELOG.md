@@ -1,5 +1,13 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.12 - Issues operative e strategia X
+
+- Aggiunte 3 issue operative iniziali per Prometeus, Promethea Economica e profilo X.
+- Avviata analisi di posizionamento per `@caballero_ita`.
+- Definita ipotesi nicchia: AI pratica italiana per trasformare confusione in metodo.
+- Aperte le issue GitHub #15, #16 e #17.
+- Aggiunta strategia X con bio, rubriche, post iniziali e piano 14 giorni.
+
 ## 0.4.11 - Routine settimanale GitHub
 
 - Verificato che Markdown quality sul commit `955a849` e in stato Success.
