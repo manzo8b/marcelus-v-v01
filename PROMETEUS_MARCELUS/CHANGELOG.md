@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.10 - Promemoria impostazioni GitHub
+
+- Aggiunto promemoria operativo sulle impostazioni GitHub del repository.
+- Documentate le funzioni consigliate: Wiki, Issues, Discussions, Projects, Actions e Security.
+- Chiarito cosa non toccare nella Danger Zone.
+- Collegato il promemoria alla governance Projects/Discussions/Pull Requests.
+
 ## 0.4.9 - Promethea Economica v0.1 base
 
 - Integrati i compiti LLM allegati per Promethea Economica.

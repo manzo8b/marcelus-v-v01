@@ -99,3 +99,8 @@ Discussion = idea o feedback da esplorare.
 
 Project = quadro operativo.
 
+## Promemoria impostazioni
+
+Per la configurazione generale del repository, leggere anche:
+
+- [Promemoria impostazioni GitHub](PROMEMORIA_IMPOSTAZIONI_GITHUB.md)
