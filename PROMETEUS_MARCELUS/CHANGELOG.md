@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.5.1 - Stabilita GitHub e outreach
+
+- Pubblicata la release visuale `v0.5.0-starter-kit` su GitHub.
+- Aggiunto report di stabilita e potenzialita del repository.
+- Aggiunta strategia di outreach etico per trovare contatti e comunita affini dentro GitHub.
+- Registrato il limite operativo sul controllo collaboratori: GitHub richiede conferma di sicurezza `sudo mode`.
+
 ## 0.5.0-starter-kit - Release Starter Kit
 
 - Aggiunte release notes `v0.5.0-starter-kit`.
