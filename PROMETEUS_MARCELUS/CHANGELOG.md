@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.14 - Starter Kit package v0.1
+
+- Aggiunta strategia package per distinguere GitHub Packages tecnici e package editoriale del progetto.
+- Creato Prometeus Marcelus Starter Kit v0.1.
+- Aggiunto manifest dello Starter Kit.
+- Collegato lo Starter Kit a Start Here.
+
 ## 0.4.13 - Piano X free 14 giorni
 
 - Aggiunto piano X free per `@caballero_ita` con bio brevi e 14 post compatti.

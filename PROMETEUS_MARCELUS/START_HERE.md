@@ -58,6 +58,7 @@ Queste istruzioni vanno copiate nel Builder del Custom GPT quando si aggiorna l'
 
 File principali:
 
+- [Prometeus Starter Kit v0.1](packages/STARTER_KIT_V01.md)
 - [Roadmap fase 2](docs/09_roadmap_fase_2/ROADMAP_FASE_2.md)
 - [Prometeus livello superiore v0.4](docs/10_qualita/PROMETEUS_LIVELLO_SUPERIORE_V04.md)
 - [Marketing GitHub v0.4](github_governance/GITHUB_MARKETING_V04.md)
