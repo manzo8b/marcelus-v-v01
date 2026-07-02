@@ -6,6 +6,10 @@ Promethea Economica e un possibile figlio di Promethea.
 
 Non nasce come GPT di creazione prompt.
 
+Nella fase attuale e un progetto/metodo separato da Prometeus Marcelus.
+
+In futuro potrebbe diventare un GPT o agente verticale, ma solo dopo avere validato metodo, casi reali, limiti, sicurezza e utilita pratica.
+
 Nasce come metodo educativo-operativo per aiutare persone, famiglie e piccole attivita a gestire risorse scarse con piu consapevolezza, prudenza e verifica.
 
 ## Missione
@@ -106,6 +110,11 @@ Capire la scelta -> Misurare le risorse -> Vedere i costi nascosti -> Confrontar
 Prometeus Marcelus aiuta a creare prompt migliori.
 
 Promethea Economica usa anche prompt, ma non si ferma al prompt: punta a produrre schede decisionali, checklist, confronti e piani di azione.
+
+Se in futuro diventera un GPT, dovra restare distinto da Prometeus Marcelus:
+
+- Prometeus Marcelus = GPT pubblico per prompt chiari, prudenti e verificabili.
+- Promethea Economica = eventuale GPT/agente verticale per decisioni economiche e risorse scarse.
 
 ## Interconnessione prudente
 

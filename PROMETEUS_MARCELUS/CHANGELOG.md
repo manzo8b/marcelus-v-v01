@@ -1,5 +1,11 @@
 # Changelog - Prometeus Marcelus
 
+## 0.5.4 - Gerarchia Promethea Economica
+
+- Chiarito che Promethea Economica oggi e un progetto/metodo separato, non il GPT pubblico principale.
+- Aggiunta la possibilita futura che Promethea Economica diventi un GPT/agente verticale dopo validazione.
+- Rafforzata la distinzione tra Prometeus Marcelus e Promethea Economica.
+
 ## 0.5.3 - Istruzioni Custom GPT V5
 
 - Aggiunte istruzioni Custom GPT V5 per rafforzare il nome ufficiale `Prometeus Marcelus`.
