@@ -49,6 +49,7 @@ File principali:
 
 Le istruzioni operative aggiornate sono qui:
 
+- [Istruzioni Custom GPT V5](gpt_builder/ISTRUZIONI_CUSTOM_GPT_V5.md)
 - [Istruzioni Custom GPT V4](gpt_builder/ISTRUZIONI_CUSTOM_GPT_V4.md)
 - [Conversation Starters V4](gpt_builder/CONVERSATION_STARTERS_V4.md)
 

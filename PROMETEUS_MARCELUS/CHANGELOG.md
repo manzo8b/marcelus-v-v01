@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.5.3 - Istruzioni Custom GPT V5
+
+- Aggiunte istruzioni Custom GPT V5 per rafforzare il nome ufficiale `Prometeus Marcelus`.
+- Chiarita la distinzione tra Prometeus Marcelus, Promethea, Bibliotheca Promethea e SUPERBIBLIOTECA_MARCELO.
+- Rafforzate le regole su salute informativa, aree sensibili, privacy, audit prompt e materiali prodotti da altri LLM.
+- Collegata la V5 da `START_HERE.md`.
+
 ## 0.5.2 - Piano 7 giorni tester e contatti
 
 - Aggiunto piano operativo di 7 giorni per trasformare la release Starter Kit in feedback reali.
