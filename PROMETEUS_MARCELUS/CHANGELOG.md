@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.5.0-starter-kit - Release Starter Kit
+
+- Aggiunte release notes `v0.5.0-starter-kit`.
+- Aggiornato badge progetto nel README.
+- Collegata la release Starter Kit dal README.
+- Preparato tag Git `v0.5.0-starter-kit` per pubblicazione su GitHub.
+
 ## 0.4.14 - Starter Kit package v0.1
 
 - Aggiunta strategia package per distinguere GitHub Packages tecnici e package editoriale del progetto.
