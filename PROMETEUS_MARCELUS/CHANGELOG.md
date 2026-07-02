@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.5.2 - Piano 7 giorni tester e contatti
+
+- Aggiunto piano operativo di 7 giorni per trasformare la release Starter Kit in feedback reali.
+- Definite 3 Issues operative consigliate.
+- Preparata una Discussion pronta per raccogliere casi reali senza dati personali.
+- Chiarito il criterio di successo: feedback utile prima della crescita numerica.
+
 ## 0.5.1 - Stabilita GitHub e outreach
 
 - Pubblicata la release visuale `v0.5.0-starter-kit` su GitHub.
