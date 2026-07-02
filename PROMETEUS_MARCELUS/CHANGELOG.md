@@ -1,5 +1,11 @@
 # Changelog - Prometeus Marcelus
 
+## 0.4.13 - Piano X free 14 giorni
+
+- Aggiunto piano X free per `@caballero_ita` con bio brevi e 14 post compatti.
+- Inserito conteggio caratteri per ogni post, considerando anche gli spazi.
+- Collegato il piano a Start Here e alla strategia X principale.
+
 ## 0.4.12 - Issues operative e strategia X
 
 - Aggiunte 3 issue operative iniziali per Prometeus, Promethea Economica e profilo X.

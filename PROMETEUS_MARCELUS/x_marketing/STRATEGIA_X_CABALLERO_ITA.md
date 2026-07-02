@@ -151,6 +151,10 @@ Usare:
 
 ## 7 post iniziali
 
+Nota: per il profilo X free usare preferibilmente la versione breve:
+
+- [Piano X free - 14 giorni](PIANO_X_FREE_14_GIORNI.md)
+
 ### Post 1 - Presentazione laboratorio
 
 ```text
@@ -285,4 +289,3 @@ https://github.com/manzo8b/marcelus-v-v01/blob/main/PROMETEUS_MARCELUS/START_HER
 | 12 | Commentare 5 conversazioni utili. |
 | 13 | Pubblicare mini-caso reale anonimizzato. |
 | 14 | Fare bilancio: impressioni, risposte, follower, conversazioni. |
-

@@ -74,6 +74,7 @@ File principale:
 
 - [Campagna tester LinkedIn](linkedin/LINKEDIN_TESTER_CAMPAIGN.md)
 - [Strategia X caballero_ita](x_marketing/STRATEGIA_X_CABALLERO_ITA.md)
+- [Piano X free 14 giorni](x_marketing/PIANO_X_FREE_14_GIORNI.md)
 
 Obiettivo minimo della prima fase:
 
