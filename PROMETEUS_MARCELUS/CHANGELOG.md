@@ -1,5 +1,11 @@
 # Changelog - Prometeus Marcelus
 
+## 0.5.6 - Shortlist tester GitHub
+
+- Aggiunta shortlist dei topic GitHub dove cercare tester in modo prudente.
+- Organizzate priorita per prompt engineering, AI safety, compliance, educazione, data analysis e Italia.
+- Preparato un messaggio di contatto personalizzato da usare solo dopo valutazione del repository.
+
 ## 0.5.5 - Registro tester GitHub
 
 - Aggiunto registro contatti tester GitHub per raccogliere 10 contatti in modo ordinato e non invasivo.
