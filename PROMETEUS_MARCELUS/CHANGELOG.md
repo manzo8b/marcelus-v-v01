@@ -1,5 +1,11 @@
 # Changelog - Prometeus Marcelus
 
+## 0.5.5 - Registro tester GitHub
+
+- Aggiunto registro contatti tester GitHub per raccogliere 10 contatti in modo ordinato e non invasivo.
+- Aggiunta checklist giorno 1 per cercare tester partendo da topic, repository e messaggi brevi.
+- Rafforzato il criterio: feedback utile prima di stelle o visibilita numerica.
+
 ## 0.5.4 - Gerarchia Promethea Economica
 
 - Chiarito che Promethea Economica oggi e un progetto/metodo separato, non il GPT pubblico principale.
