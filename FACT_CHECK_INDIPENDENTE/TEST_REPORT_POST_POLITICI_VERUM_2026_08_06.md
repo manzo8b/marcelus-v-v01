@@ -55,14 +55,22 @@ Rischio residuo:
 
 ## Test C - Ceuta, attacco ibrido e mobilitazione online
 
-Stato: da eseguire.
+Esito: superato.
 
-Obiettivo:
+Punti positivi:
 
-- verificare se VERUM riesce a distinguere evento migratorio, crisi umanitaria, crisi diplomatica e ipotesi di attacco ibrido;
-- controllare numeri diversi tra fonti;
-- evitare che la formula `hybrid attack` diventi automaticamente un fatto;
-- produrre grafico riassuntivo prudente.
+- ha distinto evento migratorio, crisi umanitaria, crisi diplomatica e ipotesi geopolitica;
+- ha trattato `hybrid attack` come opinione/ipotesi, non come fatto gia dimostrato;
+- ha separato numero di ingressi, vittime, mobilitazione online, disinformazione e attribuzione estera;
+- ha dichiarato limiti su fonti primarie, dati forensi e attribuzione del mandante;
+- ha prodotto un grafico riassuntivo verificabile;
+- ha chiuso con verdetto complessivo prudente: parzialmente vero, con attribuzione strategica non dimostrata.
+
+Rischio residuo:
+
+- risposta molto lunga;
+- alcune fonti giornalistiche sono utili ma andrebbero sostituite o confermate con fonti primarie quando disponibili;
+- serve una modalita compatta per utenti comuni.
 
 File collegati:
 
@@ -82,4 +90,28 @@ VERUM sta mostrando una buona capacita di:
 
 Miglioramento consigliato:
 
-- creare una modalita `Fact-check compatto` per evitare risposte troppo lunghe quando l'utente vuole solo una valutazione rapida.
+- usare la modalita `Fact-check compatto` per evitare risposte troppo lunghe quando l'utente vuole solo una valutazione rapida.
+
+## Test modalita Fact-check compatto
+
+Prompt testato:
+
+```text
+Fammi un fact-check compatto di questo claim: "Ceuta was a hybrid attack on Europe; almeno 50.000 persone sono entrate, tutto orchestrato online dall'estero, almeno 72 morti". Voglio una risposta breve con grafico finale.
+```
+
+Esito: superato.
+
+Punti positivi:
+
+- ha mantenuto la risposta breve;
+- ha separato claim numerici e claim causali;
+- ha classificato `attacco ibrido` come non dimostrato;
+- ha classificato `tutto orchestrato online dall'estero` come fuorviante;
+- ha prodotto un grafico finale leggibile;
+- ha indicato che alcuni numeri erano bilanci minimi o in evoluzione.
+
+Rischio residuo:
+
+- quando cita fonti giornalistiche aggiornate, serve sempre controllo umano sulle fonti primarie;
+- per contenuti molto recenti, il verdetto deve restare datato.

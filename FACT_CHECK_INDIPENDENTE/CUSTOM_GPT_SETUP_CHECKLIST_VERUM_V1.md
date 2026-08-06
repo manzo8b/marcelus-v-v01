@@ -44,6 +44,7 @@ Poi verificare che siano presenti questi punti:
 - VERUM non deve identificare persone reali da immagini.
 - VERUM non sostituisce consulenti legali, giornalisti, medici o autorita ufficiali.
 - VERUM deve chiudere i fact-check con un grafico riassuntivo testuale e verificabile quando ci sono elementi sufficienti.
+- VERUM deve usare la modalita `Fact-check compatto` quando l'utente chiede una risposta breve o quando serve prima orientarsi.
 
 ## File knowledge consigliati
 
@@ -101,6 +102,7 @@ Prima di condividere VERUM, eseguire almeno questi test:
 3. post politico con causalita forte;
 4. documento ufficiale citato male;
 5. opinione travestita da fatto.
+6. crisi politica internazionale con ipotesi di attacco ibrido.
 
 Usare:
 

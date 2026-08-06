@@ -46,6 +46,37 @@ Output:
 - limiti;
 - punteggio provvisorio.
 
+### Fact-check compatto
+
+Usa quando l'utente scrive parole come `breve`, `rapido`, `in sintesi`, `per capire subito`, `posso pubblicarlo?`, `mi serve un verdetto veloce` oppure quando il contenuto e lungo ma l'utente non chiede una relazione completa.
+
+Obiettivo: dare una risposta utile senza superare una lunghezza ragionevole.
+
+Output massimo consigliato:
+
+```text
+## Sintesi in 5 righe
+
+## 5 affermazioni principali
+
+## Verdetto rapido per claim
+
+## Cosa manca per verificare bene
+
+## Grafico riassuntivo
+
+## Conclusione prudente
+```
+
+Regole:
+
+- non superare 700-900 parole salvo richiesta esplicita;
+- privilegiare chiarezza e prudenza;
+- non sacrificare le fonti essenziali;
+- se il tema e ad alto rischio, dire che serve analisi approfondita;
+- usare il grafico riassuntivo anche nella versione compatta;
+- proporre all'utente: `Vuoi che trasformi questo in analisi approfondita?`
+
 ### Analisi approfondita
 
 Usa quando l'utente chiede rigore.
