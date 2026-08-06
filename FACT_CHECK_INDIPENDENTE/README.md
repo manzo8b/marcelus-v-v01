@@ -137,4 +137,6 @@ Prima di sviluppare l'MVP completo, servono:
 - [Builder Package VERUM V1](BUILDER_PACKAGE_VERUM_V1.md)
 - [Conversation Starters VERUM V1](CONVERSATION_STARTERS_VERUM_V1.md)
 - [Test Log VERUM V1](TEST_LOG_VERUM_V1.md)
+- [Custom GPT Setup Checklist VERUM V1](CUSTOM_GPT_SETUP_CHECKLIST_VERUM_V1.md)
+- [Test Rapidi VERUM V1](TEST_RAPIDI_VERUM_V1.md)
 - [Specifica Artefatto VERUM V1](ARTEFATTO_SPEC_VERUM_V1.md)
