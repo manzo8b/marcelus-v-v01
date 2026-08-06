@@ -1,18 +1,18 @@
-# Fact Check Indipendente
+# VERUM
 
-Nome provvisorio del progetto: **Fact Check Indipendente**.
+Nome ufficiale scelto: **VERUM**.
 
-Nome breve consigliato in valutazione: **VERUM**.
+Categoria descrittiva: fact-checking indipendente, documentato e trasparente.
 
 ## Identita
 
-Fact Check Indipendente e un progetto separato ma collegato all'ecosistema Promethea.
+VERUM e un progetto separato ma collegato all'ecosistema Promethea.
 
 Non sostituisce Prometeus Marcelus.
 
 Prometeus Marcelus e il GPT pubblico per creare prompt chiari, prudenti e verificabili.
 
-Fact Check Indipendente nasce invece per aiutare l'utente ad analizzare post social, screenshot, immagini, dichiarazioni politiche, articoli, documenti e contenuti pubblici con metodo, fonti, prudenza e tracciabilita.
+VERUM nasce invece per aiutare l'utente ad analizzare post social, screenshot, immagini, dichiarazioni politiche, articoli, documenti e contenuti pubblici con metodo, fonti, prudenza e tracciabilita.
 
 ## Missione
 
@@ -131,4 +131,3 @@ Prima di sviluppare l'MVP completo, servono:
 - [Istruzioni GPT V1](GPT_BUILDER_ISTRUZIONI_V1.md)
 - [Architettura MVP](ARCHITETTURA_MVP.md)
 - [Roadmap](ROADMAP.md)
-

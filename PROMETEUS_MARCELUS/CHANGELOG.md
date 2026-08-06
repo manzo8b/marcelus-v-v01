@@ -1,5 +1,11 @@
 # Changelog - Prometeus Marcelus
 
+## 0.5.8 - Nome VERUM scelto
+
+- Consolidato `VERUM` come nome ufficiale del progetto di fact-checking indipendente.
+- Mantenuta `FACT_CHECK_INDIPENDENTE` come cartella tecnica.
+- Aggiornati README, naming, istruzioni GPT e governance Promethea.
+
 ## 0.5.7 - Fact Check Indipendente / VERUM
 
 - Aggiunta fondazione del progetto Fact Check Indipendente, nome breve candidato `VERUM`.

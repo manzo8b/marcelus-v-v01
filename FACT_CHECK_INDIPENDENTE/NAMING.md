@@ -1,4 +1,10 @@
-# Naming - Fact Check Indipendente
+# Naming - VERUM
+
+## Decisione
+
+Il nome scelto per il progetto e **VERUM**.
+
+`Fact Check Indipendente` resta una descrizione funzionale, non il nome principale.
 
 ## Criteri
 
@@ -11,8 +17,6 @@ Il nome deve essere:
 - adatto a GPT, artefatto e app web;
 - serio ma non freddo;
 - facile da usare in italiano.
-
-## Candidato consigliato
 
 ## VERUM
 
@@ -38,7 +42,7 @@ Formula:
 
 | Nome | Valutazione | Nota |
 |------|-------------|------|
-| VERUM | Molto forte | Consigliato. Classico, chiaro, memorabile. |
+| VERUM | Scelto | Classico, chiaro, memorabile. |
 | FONTE | Forte | Molto italiano, ma piu vicino alle fonti che al verdetto. |
 | PROVA | Forte | Diretto, pratico, accessibile. |
 | NESSO | Buono | Utile per causalita e collegamenti, meno immediato. |
@@ -58,16 +62,15 @@ Formula:
 - nomi simili a testate o organizzazioni esistenti;
 - nomi che confondono il progetto con Prometeus Marcelus.
 
-## Raccomandazione
+## Formula ufficiale
 
-Usare per ora:
+Usare:
 
 ```text
 VERUM
 Fact-checking indipendente, documentato e trasparente
 ```
 
-Finche il nome non e definitivo, mantenere la cartella tecnica:
+Mantenere per ora la cartella tecnica:
 
 `FACT_CHECK_INDIPENDENTE`
-
