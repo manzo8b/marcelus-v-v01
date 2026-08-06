@@ -145,4 +145,5 @@ Prima di sviluppare l'MVP completo, servono:
 - [Fact-check Compatto VERUM V1](FACT_CHECK_COMPATTO_VERUM_V1.md)
 - [Casi Test Post Politici VERUM 2026-08-06](CASI_TEST_POST_POLITICI_VERUM_2026_08_06.md)
 - [Fonti Ceuta Crisi Migratoria VERUM 2026-08-06](FONTI_CEUTA_CRISI_MIGRATORIA_VERUM_2026_08_06.md)
+- [Messaggio Tester VERUM V1](TESTER_INVITE_VERUM_V1.md)
 - [Specifica Artefatto VERUM V1](ARTEFATTO_SPEC_VERUM_V1.md)

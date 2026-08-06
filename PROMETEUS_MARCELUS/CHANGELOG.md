@@ -1,5 +1,14 @@
 # Changelog - Prometeus Marcelus
 
+## 0.6.1 - VERUM test reali e modalita compatta
+
+- Eseguiti test reali su post politici complessi: Borsellino/41-bis, Italia-Spagna/migranti e Ceuta.
+- Aggiunta modalita `Fact-check compatto` per risposte piu brevi e usabili.
+- Aggiunto grafico riassuntivo verificabile per chiudere i fact-check.
+- Aggiunto dossier fonti sulla crisi migratoria di Ceuta.
+- Aggiunto messaggio operativo per invitare 5 tester.
+- Aggiornate istruzioni Custom GPT VERUM e checklist Builder.
+
 ## 0.6.0 - VERUM V1 release package
 
 - Aggiunte release notes `v0.6.0-verum-v1`.
