@@ -47,6 +47,27 @@ Rischio principale:
 - promettere risparmio o guadagno;
 - usare dati economici personali senza protezione.
 
+### Fact Check Indipendente / VERUM
+
+Funzione: analisi indipendente di post, screenshot, dichiarazioni, articoli e documenti.
+
+Output principale:
+
+- affermazioni estratte;
+- classificazione fatti/opinioni;
+- fonti e livello di affidabilita;
+- verdetti per singola affermazione;
+- punteggio multidimensionale;
+- limiti e conclusione imparziale.
+
+Rischio principale:
+
+- sembrare arbitro assoluto della verita;
+- diventare strumento di propaganda;
+- inventare fonti o citazioni;
+- attribuire intenzioni politiche senza prove;
+- trattare immagini o persone in modo invasivo.
+
 ## Regola di separazione
 
 Ogni figlio deve avere:
@@ -64,6 +85,8 @@ Nessun figlio deve assorbire l'identita degli altri.
 Prometeus Marcelus non deve diventare Promethea Economica.
 
 Promethea Economica non deve diventare un semplice generatore di prompt.
+
+Fact Check Indipendente / VERUM non deve diventare un tribunale della verita o uno strumento di attacco politico.
 
 ## Regola di interconnessione
 
@@ -137,4 +160,3 @@ In questi casi deve indicare fonti ufficiali, professionisti qualificati o verif
 ## Traguardo primordiale
 
 Costruire una famiglia di strumenti Promethea che aiuti le persone a pensare, decidere e agire meglio, senza confondere metodo con autorita e senza trasformare la tecnologia in promessa assoluta.
-

@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.5.7 - Fact Check Indipendente / VERUM
+
+- Aggiunta fondazione del progetto Fact Check Indipendente, nome breve candidato `VERUM`.
+- Creati documenti iniziali per naming, metodo fact-checking, istruzioni GPT, architettura MVP e roadmap.
+- Collegato il progetto alla governance Promethea come figlio separato da Prometeus Marcelus.
+- Aggiunto `.gitignore` per evitare tracciamento di `.DS_Store`.
+
 ## 0.5.6 - Shortlist tester GitHub
 
 - Aggiunta shortlist dei topic GitHub dove cercare tester in modo prudente.
