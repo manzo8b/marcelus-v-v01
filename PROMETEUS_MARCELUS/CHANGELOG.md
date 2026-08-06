@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.6.0 - VERUM V1 release package
+
+- Aggiunte release notes `v0.6.0-verum-v1`.
+- Aggiunto template Issue dedicato ai feedback VERUM.
+- Aggiunta Issue consigliata per creazione Custom GPT VERUM V1.
+- Collegata la release VERUM dal README principale.
+
 ## 0.5.10 - VERUM Builder Package V1
 
 - Aggiunto pacchetto Builder per creare VERUM come Custom GPT o artefatto.

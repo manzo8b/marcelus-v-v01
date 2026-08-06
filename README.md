@@ -39,6 +39,7 @@ Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre ris
 
 - [Usa Prometeus Marcelus - Start Here](PROMETEUS_MARCELUS/START_HERE.md)
 - [Release v0.5.0 - Prometeus Starter Kit](RELEASE_NOTES_v0.5.0-starter-kit.md)
+- [Release v0.6.0 - VERUM V1](RELEASE_NOTES_v0.6.0-verum-v1.md)
 - [Release v0.4.0 - Qualita e metodo](RELEASE_NOTES_v0.4.0.md)
 - [Release v0.4.1 - Marketing GitHub](RELEASE_NOTES_v0.4.1.md)
 - [Porta un problema reale](CASI_REALI_PROMETEUS/README.md)

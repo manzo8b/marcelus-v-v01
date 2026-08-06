@@ -54,3 +54,22 @@ Checklist:
 - [ ] Verificare mobile.
 - [ ] Decidere se passare a Next.js MVP.
 
+## Issue 4
+
+Titolo:
+
+`[VERUM] Creare o aggiornare Custom GPT V1`
+
+Obiettivo:
+
+Creare VERUM dentro ChatGPT usando il Builder Package e registrare nel repository ogni modifica successiva.
+
+Checklist:
+
+- [ ] Copiare istruzioni V1 nel Builder.
+- [ ] Inserire descrizione breve.
+- [ ] Inserire 4 conversation starters.
+- [ ] Caricare knowledge consigliata.
+- [ ] Testare 5 casi iniziali.
+- [ ] Registrare risultati nel test log.
+- [ ] Aprire issue per correzioni.
