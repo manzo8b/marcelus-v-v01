@@ -2,8 +2,8 @@
 
 ## Fase 0 - Nome e fondazione
 
-- Decidere nome breve.
-- Confermare sottotitolo.
+- Nome breve scelto: VERUM.
+- Confermare sottotitolo pubblico.
 - Definire confini etici.
 - Preparare istruzioni GPT.
 - Preparare architettura MVP.
@@ -15,6 +15,7 @@
 - Testare 5 post politici.
 - Testare 5 documenti ufficiali.
 - Raccogliere errori e limiti.
+- Preparare istruzioni V2.
 
 ## Fase 2 - MVP navigabile
 
@@ -50,4 +51,3 @@
 - Pagina README chiara.
 - Esempi verificabili.
 - Raccolta tester.
-

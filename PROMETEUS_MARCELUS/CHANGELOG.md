@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.5.9 - VERUM Starter Kit V1
+
+- Aggiunto Starter Kit VERUM V1 per testare il progetto prima dell'MVP.
+- Aggiunti 20 casi test simulati per fact-checking.
+- Aggiunta scheda feedback e prime Issues consigliate.
+- Aggiornati README e roadmap VERUM.
+
 ## 0.5.8 - Nome VERUM scelto
 
 - Consolidato `VERUM` come nome ufficiale del progetto di fact-checking indipendente.

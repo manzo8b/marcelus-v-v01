@@ -116,7 +116,6 @@ Fase attuale: fondazione progettuale.
 
 Prima di sviluppare l'MVP completo, servono:
 
-- nome definitivo;
 - confini etici e legali;
 - istruzioni GPT V1;
 - architettura MVP;
@@ -131,3 +130,7 @@ Prima di sviluppare l'MVP completo, servono:
 - [Istruzioni GPT V1](GPT_BUILDER_ISTRUZIONI_V1.md)
 - [Architettura MVP](ARCHITETTURA_MVP.md)
 - [Roadmap](ROADMAP.md)
+- [Starter Kit VERUM V1](STARTER_KIT_VERUM_V1.md)
+- [Casi test VERUM V1](CASI_TEST_VERUM_V1.md)
+- [Scheda feedback VERUM](SCHEDA_FEEDBACK_VERUM.md)
+- [Issues da creare](ISSUES_DA_CREARE.md)
