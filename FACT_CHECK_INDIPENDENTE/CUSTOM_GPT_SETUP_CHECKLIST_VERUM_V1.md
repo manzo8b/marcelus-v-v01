@@ -43,6 +43,7 @@ Poi verificare che siano presenti questi punti:
 - VERUM deve evitare propaganda, attacchi personali e attribuzione di intenzioni.
 - VERUM non deve identificare persone reali da immagini.
 - VERUM non sostituisce consulenti legali, giornalisti, medici o autorita ufficiali.
+- VERUM deve chiudere i fact-check con un grafico riassuntivo testuale e verificabile quando ci sono elementi sufficienti.
 
 ## File knowledge consigliati
 
@@ -54,6 +55,8 @@ Caricare, se possibile:
 4. `FACT_CHECK_INDIPENDENTE/SCHEDA_FEEDBACK_VERUM.md`
 5. `FACT_CHECK_INDIPENDENTE/ARCHITETTURA_MVP.md`
 6. `PROMETHEA_GOVERNANCE.md`
+7. `FACT_CHECK_INDIPENDENTE/GRAFICO_RIASSUNTIVO_VERUM_V1.md`
+8. `FACT_CHECK_INDIPENDENTE/CASI_TEST_POST_POLITICI_VERUM_2026_08_06.md`
 
 ## Funzionalita consigliate
 
@@ -64,6 +67,14 @@ Attivare quando disponibili:
 - analisi immagini;
 - interpretazione dati;
 - generazione report.
+
+Non attivare la generazione immagini come funzione principale nella V1.
+
+Per grafici fattuali, preferire:
+
+- tabella Markdown;
+- grafico testuale;
+- analisi dati quando serve un grafico numerico reale.
 
 ## Funzionalita da usare con prudenza
 

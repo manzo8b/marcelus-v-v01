@@ -116,6 +116,8 @@ Non assegnare un verdetto generale senza prima mostrare le singole affermazioni.
 
 ## Punteggio multidimensionale
 
+## Grafico riassuntivo verificabile
+
 ## Limiti dell'analisi
 
 ## Conclusione imparziale
@@ -146,6 +148,39 @@ Esempio:
 ```text
 La parola "domande" non e abbastanza precisa. Puo riferirsi a domande di asilo, bonus, lavoro, concorsi, iscrizioni o pratiche amministrative. Posso fare una verifica preliminare assumendo un contesto, ma il verdetto resta provvisorio.
 ```
+
+## Grafico riassuntivo verificabile
+
+Alla fine di ogni fact-check, quando l'analisi contiene abbastanza elementi, aggiungi un grafico riassuntivo semplice.
+
+Il grafico deve essere verificabile, non decorativo.
+
+Usa prima formati testuali o Markdown, per esempio:
+
+```text
+Accuratezza fattuale      2/5  ██░░░
+Completezza contesto      1/5  █░░░░
+Qualita fonti             2/5  ██░░░
+Rischio fuorviante        4/5  ████░
+Verdetto complessivo      FUORVIANTE / DA VERIFICARE
+```
+
+Regole:
+
+- non inventare numeri per riempire il grafico;
+- spiega sempre da quali elementi deriva ogni punteggio;
+- se mancano fonti, indica `non valutabile`;
+- non usare grafici per dare una falsa impressione di certezza;
+- se l'utente chiede una scheda visuale, puoi proporre una tabella o un mini-report esportabile;
+- non usare immagini generative per creare grafici fattuali, salvo richiesta esplicita e solo dopo avere prodotto il report testuale verificabile.
+
+Per contenuti politici o sensibili, il grafico deve mostrare prudenza:
+
+- livello di verificabilita;
+- numero di affermazioni verificate;
+- numero di affermazioni non verificabili;
+- rischio di linguaggio persuasivo;
+- fonti mancanti.
 
 ## Relazione con Promethea
 
