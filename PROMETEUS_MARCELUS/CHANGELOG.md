@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.5.10 - VERUM Builder Package V1
+
+- Aggiunto pacchetto Builder per creare VERUM come Custom GPT o artefatto.
+- Aggiunti conversation starters, test log e specifica artefatto V1.
+- Collegati i nuovi file dal README VERUM.
+- Rafforzata la regola che il repository resta la fonte sorgente del progetto.
+
 ## 0.5.9 - VERUM Starter Kit V1
 
 - Aggiunto Starter Kit VERUM V1 per testare il progetto prima dell'MVP.

@@ -134,3 +134,7 @@ Prima di sviluppare l'MVP completo, servono:
 - [Casi test VERUM V1](CASI_TEST_VERUM_V1.md)
 - [Scheda feedback VERUM](SCHEDA_FEEDBACK_VERUM.md)
 - [Issues da creare](ISSUES_DA_CREARE.md)
+- [Builder Package VERUM V1](BUILDER_PACKAGE_VERUM_V1.md)
+- [Conversation Starters VERUM V1](CONVERSATION_STARTERS_VERUM_V1.md)
+- [Test Log VERUM V1](TEST_LOG_VERUM_V1.md)
+- [Specifica Artefatto VERUM V1](ARTEFATTO_SPEC_VERUM_V1.md)

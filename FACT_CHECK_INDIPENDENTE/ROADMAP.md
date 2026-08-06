@@ -16,6 +16,7 @@
 - Testare 5 documenti ufficiali.
 - Raccogliere errori e limiti.
 - Preparare istruzioni V2.
+- Pubblicare un report test V1 nel repository.
 
 ## Fase 2 - MVP navigabile
 
