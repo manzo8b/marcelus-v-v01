@@ -11,7 +11,9 @@ Usa Prometeus Marcelus con un problema concreto.
 Se non sai da dove partire, usa il percorso piu semplice:
 
 - [Porta un problema reale](../CASI_REALI_PROMETEUS/README.md)
+- [Prova VERUM - Fact Check Indipendente](../FACT_CHECK_INDIPENDENTE/README.md)
 - [Release v0.4.0](../RELEASE_NOTES_v0.4.0.md)
+- [Release v0.6.1 - VERUM test reali](../RELEASE_NOTES_v0.6.1-verum-tests.md)
 - [Contribuire](../CONTRIBUTING.md)
 
 Esempi:
@@ -72,15 +74,17 @@ File principali:
 
 ## 6. LinkedIn e tester
 
-File principale:
+File principali:
 
 - [Campagna tester LinkedIn](linkedin/LINKEDIN_TESTER_CAMPAIGN.md)
+- [Post LinkedIn VERUM v0.6.1 tester](linkedin/LINKEDIN_VERUM_V061_TESTER_POST.md)
 - [Strategia X caballero_ita](x_marketing/STRATEGIA_X_CABALLERO_ITA.md)
 - [Piano X free 14 giorni](x_marketing/PIANO_X_FREE_14_GIORNI.md)
 
 Obiettivo minimo della prima fase:
 
-- 10 tester reali;
+- 5 tester reali per VERUM;
+- 5 tester reali per Prometeus Marcelus;
 - 30 test documentati;
 - almeno 10 miglioramenti trasformati in Issue GitHub;
 - una nuova versione delle istruzioni del Custom GPT.

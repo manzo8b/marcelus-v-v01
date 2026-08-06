@@ -1,5 +1,18 @@
 # LinkedIn Tester Campaign - Prometeus Marcelus
 
+## Aggiornamento 2026-08-06
+
+La campagna iniziale resta valida per Prometeus Marcelus, ma la fase attuale deve concentrarsi su pochi test reali e misurabili.
+
+Priorita immediata:
+
+- 5 tester per VERUM `v0.6.1`;
+- 5 tester per Prometeus Marcelus dopo la prima raccolta feedback;
+- nessun dato personale, sanitario, bancario o privato nei test;
+- feedback trasformati in issue GitHub solo se utili e anonimizzati.
+
+Per il post aggiornato su VERUM vedi [LinkedIn VERUM v0.6.1 tester](LINKEDIN_VERUM_V061_TESTER_POST.md).
+
 ## Obiettivo
 
 Usare LinkedIn per trovare 10 tester reali di Prometeus Marcelus.
@@ -53,4 +66,3 @@ Non inserire dati personali, sanitari, bancari o riservati.
 - media sopra 4.0;
 - almeno 5 suggerimenti concreti;
 - aggiornamento istruzioni Custom GPT V3.
-

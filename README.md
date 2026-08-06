@@ -38,6 +38,7 @@ Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre ris
 ## Inizia Qui
 
 - [Usa Prometeus Marcelus - Start Here](PROMETEUS_MARCELUS/START_HERE.md)
+- [Usa VERUM - Custom GPT fact-checking](https://chatgpt.com/g/g-6a747bb04824819197f7af850af6ac25-verum)
 - [Release v0.5.0 - Prometeus Starter Kit](RELEASE_NOTES_v0.5.0-starter-kit.md)
 - [Release v0.6.0 - VERUM V1](RELEASE_NOTES_v0.6.0-verum-v1.md)
 - [Release v0.6.1 - VERUM test reali](RELEASE_NOTES_v0.6.1-verum-tests.md)
@@ -66,6 +67,8 @@ Prometeus Marcelus lo trasforma in:
 - eventuale issue GitHub se emerge un miglioramento reale.
 
 Apri una issue usando il template **Caso reale Prometeus** o parti da [Casi Reali Prometeus](CASI_REALI_PROMETEUS/README.md).
+
+Per testare VERUM, incolla un post, uno screenshot, una dichiarazione o un articolo e chiedi una verifica prudente con fonti, limiti e grafico riassuntivo finale. Parti da [VERUM - Fact Check Indipendente](FACT_CHECK_INDIPENDENTE/README.md).
 
 ## Cosa Contiene
 

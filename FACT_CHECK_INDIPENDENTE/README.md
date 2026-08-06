@@ -4,6 +4,10 @@ Nome ufficiale scelto: **VERUM**.
 
 Categoria descrittiva: fact-checking indipendente, documentato e trasparente.
 
+Custom GPT pubblico: [Usa VERUM](https://chatgpt.com/g/g-6a747bb04824819197f7af850af6ac25-verum)
+
+Release stabile per tester: [v0.6.1 - VERUM test reali](../RELEASE_NOTES_v0.6.1-verum-tests.md)
+
 ## Identita
 
 VERUM e un progetto separato ma collegato all'ecosistema Promethea.
@@ -112,9 +116,11 @@ Conclusione imparziale:
 
 ## Stato
 
-Fase attuale: fondazione progettuale.
+Fase attuale: test pubblico iniziale.
 
-Prima di sviluppare l'MVP completo, servono:
+VERUM e gia stato provato su casi politici, post social, contenuti su migrazione e crisi di Ceuta. La priorita ora e raccogliere feedback da tester reali, migliorare la sintesi compatta e preparare una futura versione con artefatto visuale o MVP web.
+
+Prima di sviluppare l'MVP completo, servono ancora:
 
 - confini etici e legali;
 - istruzioni GPT V1;
