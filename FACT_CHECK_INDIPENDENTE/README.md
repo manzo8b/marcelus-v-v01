@@ -139,4 +139,5 @@ Prima di sviluppare l'MVP completo, servono:
 - [Test Log VERUM V1](TEST_LOG_VERUM_V1.md)
 - [Custom GPT Setup Checklist VERUM V1](CUSTOM_GPT_SETUP_CHECKLIST_VERUM_V1.md)
 - [Test Rapidi VERUM V1](TEST_RAPIDI_VERUM_V1.md)
+- [Test Report VERUM 2026-08-06](TEST_REPORT_VERUM_2026_08_06.md)
 - [Specifica Artefatto VERUM V1](ARTEFATTO_SPEC_VERUM_V1.md)

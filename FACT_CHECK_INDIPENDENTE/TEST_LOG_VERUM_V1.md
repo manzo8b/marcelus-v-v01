@@ -21,7 +21,7 @@ Ambiente:
 
 | # | Caso | Modalita | Esito | Problema rilevato | Azione |
 |---|------|----------|-------|-------------------|--------|
-| 1 | Caso 01 | Fast Check | Da fare | | |
+| 1 | Caso 01 | Fast Check | Parziale | Ha fatto un'ipotesi plausibile su "domande di asilo" e ha separato fatti/opinioni, ma ha dato un verdetto netto prima di chiedere quale tipo di domanda intendesse l'utente. | Rafforzare protocollo ambiguita nelle istruzioni. |
 | 2 | Caso 02 | Fast Check | Da fare | | |
 | 3 | Caso 03 | Analisi approfondita | Da fare | | |
 | 4 | Caso 04 | Verifica documentale | Da fare | | |
@@ -77,4 +77,3 @@ Problemi ricorrenti:
 Correzioni proposte:
 Serve V2 istruzioni:
 ```
-
