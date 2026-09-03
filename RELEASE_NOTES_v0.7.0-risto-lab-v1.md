@@ -27,6 +27,7 @@ Nasce come GPT verticale per trasformare problemi reali del locale in:
 - casi test;
 - scheda feedback;
 - knowledge files consigliati;
+- Project Mode per uso dentro ChatGPT quando il Builder GPT non e disponibile;
 - roadmap;
 - issue template dedicato;
 - collegamento alla macroarea Food and Beverage della Superbiblioteca;
@@ -69,3 +70,5 @@ Report:
 5. Fare 5 test reali anonimi.
 6. Creare issue GitHub per miglioramenti concreti.
 7. Preparare V2 con modalita `Turno Rapido` e `Manager Report`.
+
+Se la creazione di nuovi GPT non e disponibile nell'account personale, usare `Project Mode RISTO-LAB V1` come ponte operativo.

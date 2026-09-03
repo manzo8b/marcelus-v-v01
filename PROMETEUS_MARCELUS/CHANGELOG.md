@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.7.1 - RISTO-LAB Project Mode
+
+- Aggiunta modalita `Project Mode RISTO-LAB V1`.
+- Documentato il limite attuale sugli account personali ChatGPT per creazione/pubblicazione di nuovi GPT.
+- Aggiornati Builder Package, setup checklist e release notes RISTO-LAB.
+- Definito il ponte operativo: GitHub -> Project Mode -> test reali -> Custom GPT quando disponibile.
+
 ## 0.7.0 - RISTO-LAB V1 fondazione e test
 
 - Aggiunto RISTO-LAB come nuovo progetto figlio dell'ecosistema Promethea.
@@ -8,6 +15,7 @@
 - Aggiunto template issue per feedback RISTO-LAB.
 - Aggiornata governance Promethea con funzione, output e rischi specifici.
 - Eseguito test report pre-Builder su 10 casi con esito 93/100.
+- Aggiunto Project Mode RISTO-LAB come alternativa quando il Builder GPT non e disponibile su account personali.
 - Preparata release `v0.7.0-risto-lab-v1`.
 
 ## 0.6.1 - VERUM test reali e modalita compatta

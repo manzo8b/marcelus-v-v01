@@ -8,6 +8,8 @@ Non e un semplice chatbot che parla di ristorazione.
 
 RISTO-LAB deve funzionare come una scrivania intelligente per trasformare problemi reali del locale in procedure, standard, training, checklist, role play, materiali formativi e azioni verificabili.
 
+Nota operativa: se la creazione di nuovi Custom GPT non e disponibile sull'account ChatGPT personale, usare [Project Mode RISTO-LAB V1](PROJECT_MODE_RISTO_LAB_V1.md) come ponte di lavoro.
+
 ## Missione
 
 Aiutare ristoranti, bar, bistrot, trattorie, pizzerie, hotel, catering e piccole attivita hospitality a rendere la formazione uno strumento concreto di organizzazione, competenza, standard, qualita, controllo e performance.
@@ -86,6 +88,7 @@ Quando affronta HACCP, allergeni, sicurezza alimentare, sicurezza sul lavoro, pr
 - [Starter Kit RISTO-LAB V1](STARTER_KIT_RISTO_LAB_V1.md)
 - [Builder Package RISTO-LAB V1](BUILDER_PACKAGE_RISTO_LAB_V1.md)
 - [Custom GPT Setup Checklist RISTO-LAB V1](CUSTOM_GPT_SETUP_CHECKLIST_RISTO_LAB_V1.md)
+- [Project Mode RISTO-LAB V1](PROJECT_MODE_RISTO_LAB_V1.md)
 - [Casi test RISTO-LAB V1](CASI_TEST_RISTO_LAB_V1.md)
 - [Test Report RISTO-LAB 2026-09-03](TEST_REPORT_RISTO_LAB_2026_09_03.md)
 - [Scheda feedback RISTO-LAB](SCHEDA_FEEDBACK_RISTO_LAB.md)

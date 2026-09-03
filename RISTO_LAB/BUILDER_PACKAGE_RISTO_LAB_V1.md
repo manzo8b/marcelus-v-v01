@@ -4,6 +4,14 @@
 
 RISTO-LAB
 
+## Nota disponibilita
+
+Al 3 settembre 2026, la documentazione ufficiale OpenAI indica che la creazione e pubblicazione di nuovi GPT non e disponibile sugli account personali Free, Go, Plus e Pro.
+
+Se l'account non permette la creazione di un nuovo GPT, usare temporaneamente:
+
+[Project Mode RISTO-LAB V1](PROJECT_MODE_RISTO_LAB_V1.md)
+
 ## Descrizione breve
 
 AI Restaurant Training, Operations & Hospitality Consultant per creare SOP, checklist, onboarding, corsi, role play e strumenti pratici per ristoranti, bar e Food and Beverage.

@@ -2,6 +2,7 @@
 
 ## Prima di creare il GPT
 
+- [ ] Verificare che l'account o workspace consenta la creazione di nuovi GPT.
 - [ ] Verificare nome: RISTO-LAB.
 - [ ] Verificare descrizione breve.
 - [ ] Copiare istruzioni Builder V1.
@@ -15,6 +16,13 @@
 - [ ] Analisi dati attiva.
 - [ ] Web attivo se serve verifica normativa aggiornata.
 - [ ] Immagini disattivate nella prima fase, salvo test visuali controllati.
+
+## Se il Builder non e disponibile
+
+- [ ] Usare [Project Mode RISTO-LAB V1](PROJECT_MODE_RISTO_LAB_V1.md).
+- [ ] Caricare solo file non sensibili.
+- [ ] Usare i casi test come conversazioni separate.
+- [ ] Salvare feedback in GitHub Issues.
 
 ## Avvertenza pubblica
 
