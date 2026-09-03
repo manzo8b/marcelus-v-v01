@@ -87,6 +87,7 @@ Quando affronta HACCP, allergeni, sicurezza alimentare, sicurezza sul lavoro, pr
 - [Builder Package RISTO-LAB V1](BUILDER_PACKAGE_RISTO_LAB_V1.md)
 - [Custom GPT Setup Checklist RISTO-LAB V1](CUSTOM_GPT_SETUP_CHECKLIST_RISTO_LAB_V1.md)
 - [Casi test RISTO-LAB V1](CASI_TEST_RISTO_LAB_V1.md)
+- [Test Report RISTO-LAB 2026-09-03](TEST_REPORT_RISTO_LAB_2026_09_03.md)
 - [Scheda feedback RISTO-LAB](SCHEDA_FEEDBACK_RISTO_LAB.md)
 - [Knowledge files consigliati](KNOWLEDGE_FILES_CONSIGLIATI.md)
 - [Issues da creare](ISSUES_DA_CREARE.md)

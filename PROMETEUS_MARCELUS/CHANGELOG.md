@@ -1,5 +1,15 @@
 # Changelog - Prometeus Marcelus
 
+## 0.7.0 - RISTO-LAB V1 fondazione e test
+
+- Aggiunto RISTO-LAB come nuovo progetto figlio dell'ecosistema Promethea.
+- Creati README, istruzioni Custom GPT V1, Builder package, conversation starters, starter kit, casi test, scheda feedback, knowledge consigliata e roadmap.
+- Collegato RISTO-LAB alla macroarea Food and Beverage della Superbiblioteca.
+- Aggiunto template issue per feedback RISTO-LAB.
+- Aggiornata governance Promethea con funzione, output e rischi specifici.
+- Eseguito test report pre-Builder su 10 casi con esito 93/100.
+- Preparata release `v0.7.0-risto-lab-v1`.
+
 ## 0.6.1 - VERUM test reali e modalita compatta
 
 - Eseguiti test reali su post politici complessi: Borsellino/41-bis, Italia-Spagna/migranti e Ceuta.
