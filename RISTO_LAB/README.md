@@ -112,6 +112,7 @@ Quando affronta HACCP, allergeni, sicurezza alimentare, sicurezza sul lavoro, pr
 - [RISTO-LAB Operational Score V1](RISTO_LAB_OPERATIONAL_SCORE_V1.md)
 - [Funnel e Struttura Cliente V1](FUNNEL_E_STRUTTURA_CLIENTE_V1.md)
 - [Casi test RISTO-LAB V1](CASI_TEST_RISTO_LAB_V1.md)
+- [Casi test RISTO-LAB 50 V2](CASI_TEST_RISTO_LAB_50_V2.md)
 - [Test Report RISTO-LAB 2026-09-03](TEST_REPORT_RISTO_LAB_2026_09_03.md)
 - [Scheda feedback RISTO-LAB](SCHEDA_FEEDBACK_RISTO_LAB.md)
 - [Knowledge files consigliati](KNOWLEDGE_FILES_CONSIGLIATI.md)

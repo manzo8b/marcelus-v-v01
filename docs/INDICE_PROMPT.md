@@ -49,6 +49,8 @@ Totale pubblico: 2000 prompt + 60 prompt AI Act. Premium privato: 100 prompt.
 | Catalogo moduli formativi | RISTO_LAB/CATALOGO_MODULI_FORMATIVI_V1.md |
 | Operational Score | RISTO_LAB/RISTO_LAB_OPERATIONAL_SCORE_V1.md |
 | Funnel e struttura cliente | RISTO_LAB/FUNNEL_E_STRUTTURA_CLIENTE_V1.md |
+| Casi test 50 V2 | RISTO_LAB/CASI_TEST_RISTO_LAB_50_V2.md |
+| LinkedIn RISTO-LAB | PROMETEUS_MARCELUS/linkedin/LINKEDIN_RISTO_LAB_AGGIORNAMENTO_PROFILO.md |
 
 ## Governance AI Act
 

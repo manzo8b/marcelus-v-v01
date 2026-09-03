@@ -1,5 +1,12 @@
 # Changelog - Prometeus Marcelus
 
+## 0.7.4 - RISTO-LAB 50 test e LinkedIn
+
+- Aggiunti 50 casi test RISTO-LAB V2.
+- Collegati i test a README, Builder Package e indice generale.
+- Aggiunta bozza LinkedIn per headline, sezione Informazioni, contenuti In primo piano e primo post RISTO-LAB.
+- Preparata release `v0.7.4-risto-lab-50-tests-linkedin`.
+
 ## 0.7.3 - RISTO-LAB GPT privato
 
 - Creato Custom GPT `RISTO-LAB` dentro ChatGPT.

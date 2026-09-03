@@ -42,6 +42,13 @@ Copiare nel Builder il contenuto di:
 
 [CONVERSATION_STARTERS_V1.md](CONVERSATION_STARTERS_V1.md)
 
+## Casi test consigliati
+
+Usare per validazione:
+
+- [Casi test RISTO-LAB V1](CASI_TEST_RISTO_LAB_V1.md)
+- [Casi test RISTO-LAB 50 V2](CASI_TEST_RISTO_LAB_50_V2.md)
+
 ## Knowledge consigliata
 
 Caricare inizialmente solo materiali generici e non sensibili:

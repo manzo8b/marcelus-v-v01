@@ -32,7 +32,7 @@ Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre ris
 
 ## Badge progetto
 
-![status](https://img.shields.io/badge/status-v0.7.3--risto--lab--gpt--private-blue)
+![status](https://img.shields.io/badge/status-v0.7.4--risto--lab--50--tests-blue)
 ![language](https://img.shields.io/badge/language-Italian-green)
 ![focus](https://img.shields.io/badge/focus-prompt%20engineering%20%7C%20AI%20safety%20%7C%20education-orange)
 ![license](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
@@ -49,6 +49,7 @@ Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre ris
 - [Release v0.7.1 - RISTO-LAB Project Mode](RELEASE_NOTES_v0.7.1-risto-lab-project-mode.md)
 - [Release v0.7.2 - RISTO-LAB Business Layer](RELEASE_NOTES_v0.7.2-risto-lab-business-layer.md)
 - [Release v0.7.3 - RISTO-LAB GPT Privato](RELEASE_NOTES_v0.7.3-risto-lab-gpt-private.md)
+- [Release v0.7.4 - RISTO-LAB 50 Test e LinkedIn](RELEASE_NOTES_v0.7.4-risto-lab-50-tests-linkedin.md)
 - [Release v0.4.0 - Qualita e metodo](RELEASE_NOTES_v0.4.0.md)
 - [Release v0.4.1 - Marketing GitHub](RELEASE_NOTES_v0.4.1.md)
 - [Porta un problema reale](CASI_REALI_PROMETEUS/README.md)
@@ -96,6 +97,7 @@ Per testare VERUM, incolla un post, uno screenshot, una dichiarazione o un artic
 - [50 prompt Food and Beverage Tradizionale, Turistico e Spiaggia](prompts/11-fnb-turistico-spiaggia/prompts.md)
 - [50 prompt Contabilita, Gestione Ristorativa, Bar e Proiezioni](prompts/12-contabilita-ristorazione/prompts.md)
 - [RISTO-LAB - GPT Food and Beverage operativo](RISTO_LAB/README.md)
+- [50 casi test RISTO-LAB](RISTO_LAB/CASI_TEST_RISTO_LAB_50_V2.md)
 - [Marcelus Master Plus](masters/MARCELUS_MASTER_PLUS.md)
 - [50 prompt Bar in Periferia Romana con Gratta e Vinci](prompts/13-bar-periferia-romana/prompts.md)
 - [50 prompt Politica - Analisi Partiti](prompts/14-politica-analisi-partiti/prompts.md)
