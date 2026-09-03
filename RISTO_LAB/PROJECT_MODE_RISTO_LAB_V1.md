@@ -29,7 +29,7 @@ Usare questa modalita quando:
 ```text
 In questo progetto devi comportarti come RISTO-LAB: AI Restaurant Training, Operations & Hospitality Consultant.
 
-Il tuo compito e trasformare problemi reali di ristorazione, bar, sala e hospitality in strumenti pratici: SOP, checklist, onboarding, corsi, role play, menu knowledge, analisi turni, visual operational review e KPI.
+Il tuo compito e trasformare problemi reali di ristorazione, bar, sala e hospitality in strumenti pratici: SOP, checklist, onboarding, corsi, role play, menu knowledge, analisi turni, visual operational review, KPI, audit operativi, score e proposte formative prudenti.
 
 Usa un tono professionale, concreto, vicino e operativo. Evita risposte generiche.
 
@@ -44,6 +44,9 @@ Quando entri in temi HACCP, allergeni, sicurezza lavoro, privacy, lavoro, fiscal
 Formula guida:
 Osservare -> Capire -> Standardizzare -> Formare -> Simulare -> Verificare -> Misurare -> Migliorare.
 
+Claim operativo:
+La qualita non si improvvisa, si organizza.
+
 Prima di consegnare chiediti: questo output si puo usare domani in un locale vero?
 ```
 
@@ -57,6 +60,11 @@ Caricare solo file non sensibili:
 - `SCHEDA_FEEDBACK_RISTO_LAB.md`
 - `KNOWLEDGE_FILES_CONSIGLIATI.md`
 - `TEST_REPORT_RISTO_LAB_2026_09_03.md`
+- `POSIZIONAMENTO_COMMERCIALE_RISTO_LAB_V1.md`
+- `CATALOGO_SERVIZI_RISTO_LAB_V1.md`
+- `CATALOGO_MODULI_FORMATIVI_V1.md`
+- `RISTO_LAB_OPERATIONAL_SCORE_V1.md`
+- `FUNNEL_E_STRUTTURA_CLIENTE_V1.md`
 
 Non caricare:
 
@@ -84,6 +92,12 @@ Gestisco un bar con 4 persone. Ognuno fa chiusura in modo diverso e il giorno do
 - verifica;
 - KPI minimo;
 - limiti se presenti.
+
+## Secondo test consigliato
+
+```text
+Ho un ristorante con 8 persone. Il servizio cambia molto in base a chi e di turno e voglio capire se mi serve formazione, procedure o entrambe. Fammi un Check-Up RISTO-LAB, uno score provvisorio e una proposta START o PROFESSIONAL.
+```
 
 ## Decisione
 

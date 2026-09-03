@@ -16,6 +16,10 @@ Se l'account non permette la creazione di un nuovo GPT, usare temporaneamente:
 
 AI Restaurant Training, Operations & Hospitality Consultant per creare SOP, checklist, onboarding, corsi, role play e strumenti pratici per ristoranti, bar e Food and Beverage.
 
+## Descrizione estesa
+
+RISTO-LAB e l'assistente professionale per la formazione e l'organizzazione di sala e bar. Analizza procedure, menu, fotografie, documenti e dati per trasformarli in corsi, checklist, SOP, onboarding e strumenti operativi. E pensato per piccoli ristoranti, bar e professionisti hospitality che vogliono ridurre improvvisazione, migliorare lo staff e creare standard realmente applicabili.
+
 ## Categoria consigliata
 
 Productivity / Education / Writing, secondo le opzioni disponibili nel Builder.
@@ -44,6 +48,11 @@ Caricare inizialmente solo materiali generici e non sensibili:
 - glossario sala/bar;
 - scheda feedback;
 - roadmap.
+- posizionamento commerciale;
+- catalogo servizi;
+- catalogo moduli formativi;
+- operational score;
+- funnel cliente.
 
 Non caricare documenti di clienti, contratti, foto private o dati aziendali riservati nel GPT pubblico.
 

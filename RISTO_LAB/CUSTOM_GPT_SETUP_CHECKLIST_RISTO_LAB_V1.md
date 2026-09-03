@@ -6,8 +6,9 @@
 - [ ] Verificare nome: RISTO-LAB.
 - [ ] Verificare descrizione breve.
 - [ ] Copiare istruzioni Builder V1.
-- [ ] Copiare 4 conversation starters.
+- [ ] Copiare gli 8 conversation starters principali.
 - [ ] Preparare knowledge file generici.
+- [ ] Preparare i file business layer non sensibili: posizionamento, catalogo servizi, moduli, score e funnel.
 - [ ] Non caricare materiali sensibili o clienti reali.
 
 ## Impostazioni consigliate
@@ -40,6 +41,8 @@ RISTO-LAB offre supporto operativo e formativo. Non sostituisce consulenti HACCP
 - [ ] Reclamo cliente.
 - [ ] Procedura allergeni con prudenza normativa.
 - [ ] Visual operational review con foto non sensibile.
+- [ ] RISTO-LAB Check-Up con score operativo.
+- [ ] Preventivo prudente con fascia prezzo, esclusioni e follow-up.
 
 ## Criteri di passaggio
 

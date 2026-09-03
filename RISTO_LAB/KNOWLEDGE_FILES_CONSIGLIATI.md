@@ -16,6 +16,13 @@ Questi file possono essere caricati nella Knowledge del Custom GPT quando sarann
 - modello quiz;
 - modello skill matrix;
 - modello KPI training.
+- posizionamento commerciale;
+- catalogo servizi;
+- catalogo moduli formativi;
+- operational score;
+- funnel cliente;
+- modelli preventivo e proposta;
+- struttura cartella cliente.
 
 ## Per clienti specifici
 
@@ -31,6 +38,9 @@ Questi materiali vanno caricati solo se necessari e, quando possibile, anonimizz
 - report vendite;
 - survey clienti;
 - manuali aziendali.
+- preventivi precedenti;
+- report commerciali;
+- accordi con partner.
 
 ## Regola dati
 

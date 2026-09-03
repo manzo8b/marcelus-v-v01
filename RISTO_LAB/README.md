@@ -10,6 +10,12 @@ RISTO-LAB deve funzionare come una scrivania intelligente per trasformare proble
 
 Nota operativa: se la creazione di nuovi Custom GPT non e disponibile sull'account ChatGPT personale, usare [Project Mode RISTO-LAB V1](PROJECT_MODE_RISTO_LAB_V1.md) come ponte di lavoro.
 
+Frase guida:
+
+```text
+La qualita non si improvvisa, si organizza.
+```
+
 ## Missione
 
 Aiutare ristoranti, bar, bistrot, trattorie, pizzerie, hotel, catering e piccole attivita hospitality a rendere la formazione uno strumento concreto di organizzazione, competenza, standard, qualita, controllo e performance.
@@ -39,6 +45,10 @@ RISTO-LAB puo produrre:
 - KPI operativi;
 - audit operativo;
 - proposte commerciali per formazione.
+- preventivi prudenti;
+- score operativi;
+- report di audit;
+- funnel cliente e materiali per casi studio anonimi.
 
 ## Metodo formativo
 
@@ -89,6 +99,11 @@ Quando affronta HACCP, allergeni, sicurezza alimentare, sicurezza sul lavoro, pr
 - [Builder Package RISTO-LAB V1](BUILDER_PACKAGE_RISTO_LAB_V1.md)
 - [Custom GPT Setup Checklist RISTO-LAB V1](CUSTOM_GPT_SETUP_CHECKLIST_RISTO_LAB_V1.md)
 - [Project Mode RISTO-LAB V1](PROJECT_MODE_RISTO_LAB_V1.md)
+- [Posizionamento Commerciale RISTO-LAB V1](POSIZIONAMENTO_COMMERCIALE_RISTO_LAB_V1.md)
+- [Catalogo Servizi RISTO-LAB V1](CATALOGO_SERVIZI_RISTO_LAB_V1.md)
+- [Catalogo Moduli Formativi V1](CATALOGO_MODULI_FORMATIVI_V1.md)
+- [RISTO-LAB Operational Score V1](RISTO_LAB_OPERATIONAL_SCORE_V1.md)
+- [Funnel e Struttura Cliente V1](FUNNEL_E_STRUTTURA_CLIENTE_V1.md)
 - [Casi test RISTO-LAB V1](CASI_TEST_RISTO_LAB_V1.md)
 - [Test Report RISTO-LAB 2026-09-03](TEST_REPORT_RISTO_LAB_2026_09_03.md)
 - [Scheda feedback RISTO-LAB](SCHEDA_FEEDBACK_RISTO_LAB.md)

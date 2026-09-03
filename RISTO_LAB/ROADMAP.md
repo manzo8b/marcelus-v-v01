@@ -25,6 +25,16 @@
 - pacchetto menu knowledge;
 - pacchetto formazione personale straniero.
 
+## v0.3.1 - Business layer
+
+- posizionamento commerciale;
+- catalogo servizi;
+- catalogo moduli formativi;
+- RISTO-LAB Operational Score;
+- funnel cliente;
+- struttura cartella cliente;
+- regole base per preventivi, launch partner e casi studio anonimi.
+
 ## v0.4 - Materiali formativi
 
 - workbook partecipante;

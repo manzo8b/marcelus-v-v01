@@ -40,6 +40,16 @@ Totale pubblico: 2000 prompt + 60 prompt AI Act. Premium privato: 100 prompt.
 | RISTO-LAB | RISTO_LAB/README.md | Formazione, SOP e operazioni Food and Beverage |
 | Promethea Economica | PROMETHEA_ECONOMICA/README.md | Decision intelligence per risorse scarse |
 
+## Business layer RISTO-LAB
+
+| Documento | Percorso |
+|---|---|
+| Posizionamento commerciale | RISTO_LAB/POSIZIONAMENTO_COMMERCIALE_RISTO_LAB_V1.md |
+| Catalogo servizi | RISTO_LAB/CATALOGO_SERVIZI_RISTO_LAB_V1.md |
+| Catalogo moduli formativi | RISTO_LAB/CATALOGO_MODULI_FORMATIVI_V1.md |
+| Operational Score | RISTO_LAB/RISTO_LAB_OPERATIONAL_SCORE_V1.md |
+| Funnel e struttura cliente | RISTO_LAB/FUNNEL_E_STRUTTURA_CLIENTE_V1.md |
+
 ## Governance AI Act
 
 | Documento | Percorso |

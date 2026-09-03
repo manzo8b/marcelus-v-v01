@@ -1,5 +1,14 @@
 # Changelog - Prometeus Marcelus
 
+## 0.7.2 - RISTO-LAB Business Layer
+
+- Aggiunto posizionamento commerciale RISTO-LAB.
+- Aggiunto catalogo servizi con Check-Up, audit e pacchetti.
+- Aggiunto catalogo moduli formativi per sala, bar, customer experience, vendita, menu knowledge, reclami, italiano hospitality e onboarding.
+- Aggiunto RISTO-LAB Operational Score V1.
+- Aggiunto funnel cliente e struttura cartella cliente.
+- Rafforzate istruzioni Builder, README e Knowledge con preventivi prudenti, launch partner e casi studio anonimi.
+
 ## 0.7.1 - RISTO-LAB Project Mode
 
 - Aggiunta modalita `Project Mode RISTO-LAB V1`.
