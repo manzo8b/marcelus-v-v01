@@ -1,5 +1,13 @@
 # Changelog - Prometeus Marcelus
 
+## 0.7.3 - RISTO-LAB GPT privato
+
+- Creato Custom GPT `RISTO-LAB` dentro ChatGPT.
+- Salvato con visibilita `Solo io`.
+- Aggiunto link GPT nel README principale e nel README RISTO-LAB.
+- Eseguito test rapido su SOP chiusura bar, checklist, mini-training e KPI.
+- Registrata nota: i file Knowledge vanno caricati manualmente quando necessario.
+
 ## 0.7.2 - RISTO-LAB Business Layer
 
 - Aggiunto posizionamento commerciale RISTO-LAB.

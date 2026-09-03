@@ -32,7 +32,7 @@ Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre ris
 
 ## Badge progetto
 
-![status](https://img.shields.io/badge/status-v0.7.2--risto--lab--business--layer-blue)
+![status](https://img.shields.io/badge/status-v0.7.3--risto--lab--gpt--private-blue)
 ![language](https://img.shields.io/badge/language-Italian-green)
 ![focus](https://img.shields.io/badge/focus-prompt%20engineering%20%7C%20AI%20safety%20%7C%20education-orange)
 ![license](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
@@ -41,12 +41,14 @@ Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre ris
 
 - [Usa Prometeus Marcelus - Start Here](PROMETEUS_MARCELUS/START_HERE.md)
 - [Usa VERUM - Custom GPT fact-checking](https://chatgpt.com/g/g-6a747bb04824819197f7af850af6ac25-verum)
+- [Usa RISTO-LAB - GPT privato ChatGPT](https://chatgpt.com/g/g-6a998505449081919723385c2fd5b607-risto-lab)
 - [Release v0.5.0 - Prometeus Starter Kit](RELEASE_NOTES_v0.5.0-starter-kit.md)
 - [Release v0.6.0 - VERUM V1](RELEASE_NOTES_v0.6.0-verum-v1.md)
 - [Release v0.6.1 - VERUM test reali](RELEASE_NOTES_v0.6.1-verum-tests.md)
 - [Release v0.7.0 - RISTO-LAB V1](RELEASE_NOTES_v0.7.0-risto-lab-v1.md)
 - [Release v0.7.1 - RISTO-LAB Project Mode](RELEASE_NOTES_v0.7.1-risto-lab-project-mode.md)
 - [Release v0.7.2 - RISTO-LAB Business Layer](RELEASE_NOTES_v0.7.2-risto-lab-business-layer.md)
+- [Release v0.7.3 - RISTO-LAB GPT Privato](RELEASE_NOTES_v0.7.3-risto-lab-gpt-private.md)
 - [Release v0.4.0 - Qualita e metodo](RELEASE_NOTES_v0.4.0.md)
 - [Release v0.4.1 - Marketing GitHub](RELEASE_NOTES_v0.4.1.md)
 - [Porta un problema reale](CASI_REALI_PROMETEUS/README.md)

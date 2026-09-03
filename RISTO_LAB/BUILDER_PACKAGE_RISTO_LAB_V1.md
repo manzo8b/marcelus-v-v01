@@ -4,6 +4,12 @@
 
 RISTO-LAB
 
+## Link GPT creato
+
+[RISTO-LAB su ChatGPT](https://chatgpt.com/g/g-6a998505449081919723385c2fd5b607-risto-lab)
+
+Visibilita attuale: `Solo io`.
+
 ## Nota disponibilita
 
 Al 3 settembre 2026, la documentazione ufficiale OpenAI indica che la creazione e pubblicazione di nuovi GPT non e disponibile sugli account personali Free, Go, Plus e Pro.
@@ -63,6 +69,13 @@ Non caricare documenti di clienti, contratti, foto private o dati aziendali rise
 - Generazione immagini: opzionale, non necessaria nella prima fase.
 
 Per la prima versione pubblica conviene abilitare analisi dati e file. La generazione immagini puo restare disattivata finche non servono materiali visuali specifici.
+
+Configurazione applicata nella prima bozza GPT:
+
+- Ricerca web attiva.
+- Analisi dati attiva.
+- Generazione immagini disattivata.
+- Knowledge da caricare manualmente se necessario.
 
 ## Privacy
 

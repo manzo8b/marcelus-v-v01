@@ -10,6 +10,12 @@ RISTO-LAB deve funzionare come una scrivania intelligente per trasformare proble
 
 Nota operativa: se la creazione di nuovi Custom GPT non e disponibile sull'account ChatGPT personale, usare [Project Mode RISTO-LAB V1](PROJECT_MODE_RISTO_LAB_V1.md) come ponte di lavoro.
 
+GPT operativo:
+
+[RISTO-LAB su ChatGPT](https://chatgpt.com/g/g-6a998505449081919723385c2fd5b607-risto-lab)
+
+Nota: al momento e salvato con visibilita `Solo io`.
+
 Frase guida:
 
 ```text
@@ -99,6 +105,7 @@ Quando affronta HACCP, allergeni, sicurezza alimentare, sicurezza sul lavoro, pr
 - [Builder Package RISTO-LAB V1](BUILDER_PACKAGE_RISTO_LAB_V1.md)
 - [Custom GPT Setup Checklist RISTO-LAB V1](CUSTOM_GPT_SETUP_CHECKLIST_RISTO_LAB_V1.md)
 - [Project Mode RISTO-LAB V1](PROJECT_MODE_RISTO_LAB_V1.md)
+- [Release v0.7.3 - RISTO-LAB GPT Privato](../RELEASE_NOTES_v0.7.3-risto-lab-gpt-private.md)
 - [Posizionamento Commerciale RISTO-LAB V1](POSIZIONAMENTO_COMMERCIALE_RISTO_LAB_V1.md)
 - [Catalogo Servizi RISTO-LAB V1](CATALOGO_SERVIZI_RISTO_LAB_V1.md)
 - [Catalogo Moduli Formativi V1](CATALOGO_MODULI_FORMATIVI_V1.md)
