@@ -5,6 +5,7 @@ Questa sotto-area contiene i collegamenti operativi ai prompt Marcelus gia pubbl
 | Raccolta prompt | File originale | Perche appartiene a questa area |
 |---|---|---|
 | 50 prompt F&B Turistico Spiaggia | [prompts/11-fnb-turistico-spiaggia/prompts.md](https://github.com/manzo8b/marcelus-v-v01/blob/main/prompts/11-fnb-turistico-spiaggia/prompts.md) | Food and beverage, spiaggia, turismo, gruppi, bar e servizio all ombrellone. |
+| RISTO-LAB | [RISTO_LAB/README.md](../../../RISTO_LAB/README.md) | GPT operativo per SOP, formazione, sala, bar, onboarding e standard di servizio. |
 
 ## Regola di uso
 

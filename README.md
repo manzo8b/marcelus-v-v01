@@ -10,6 +10,8 @@ Framework italiano per trasformare richieste confuse in prompt, checklist e deci
 
 **VERUM** e un possibile figlio dedicato al fact-checking indipendente e alla verifica documentata di post, dichiarazioni, screenshot, articoli e documenti.
 
+**RISTO-LAB** e un figlio verticale per ristorazione, bar, hospitality e formazione operativa: trasforma problemi reali del locale in SOP, checklist, onboarding, training, role play e KPI.
+
 I figli di Promethea sono realta separate ma interconnesse. L'interconnessione deve essere prudente, sicura e documentata. Vedi [Promethea Governance](PROMETHEA_GOVERNANCE.md).
 
 ## Esempio Immediato
@@ -48,6 +50,7 @@ Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre ris
 - [Bibliotheca Promethea](SUPERBIBLIOTECA_MARCELO/README.md)
 - [Promethea Economica](PROMETHEA_ECONOMICA/README.md)
 - [VERUM - Fact Check Indipendente](FACT_CHECK_INDIPENDENTE/README.md)
+- [RISTO-LAB - Restaurant Training and Operations](RISTO_LAB/README.md)
 - [Promethea Governance](PROMETHEA_GOVERNANCE.md)
 - [Istruzioni Custom GPT V4](PROMETEUS_MARCELUS/gpt_builder/ISTRUZIONI_CUSTOM_GPT_V4.md)
 - [Report test reali V2](PROMETEUS_MARCELUS/training/REPORT_TEST_REALI_30_V2.md)
@@ -87,6 +90,7 @@ Per testare VERUM, incolla un post, uno screenshot, una dichiarazione o un artic
 - [50 prompt Analisi Finanziarie, Banche e Decisioni Economiche](prompts/10-finanza-banche/prompts.md)
 - [50 prompt Food and Beverage Tradizionale, Turistico e Spiaggia](prompts/11-fnb-turistico-spiaggia/prompts.md)
 - [50 prompt Contabilita, Gestione Ristorativa, Bar e Proiezioni](prompts/12-contabilita-ristorazione/prompts.md)
+- [RISTO-LAB - GPT Food and Beverage operativo](RISTO_LAB/README.md)
 - [Marcelus Master Plus](masters/MARCELUS_MASTER_PLUS.md)
 - [50 prompt Bar in Periferia Romana con Gratta e Vinci](prompts/13-bar-periferia-romana/prompts.md)
 - [50 prompt Politica - Analisi Partiti](prompts/14-politica-analisi-partiti/prompts.md)

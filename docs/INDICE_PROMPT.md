@@ -31,6 +31,15 @@
 
 Totale pubblico: 2000 prompt + 60 prompt AI Act. Premium privato: 100 prompt.
 
+## Progetti GPT verticali collegati
+
+| Progetto | Percorso | Funzione |
+|---|---|---|
+| Prometeus Marcelus | PROMETEUS_MARCELUS/START_HERE.md | AI Prompt Architect |
+| VERUM | FACT_CHECK_INDIPENDENTE/README.md | Fact-checking indipendente |
+| RISTO-LAB | RISTO_LAB/README.md | Formazione, SOP e operazioni Food and Beverage |
+| Promethea Economica | PROMETHEA_ECONOMICA/README.md | Decision intelligence per risorse scarse |
+
 ## Governance AI Act
 
 | Documento | Percorso |

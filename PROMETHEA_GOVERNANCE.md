@@ -68,6 +68,28 @@ Rischio principale:
 - attribuire intenzioni politiche senza prove;
 - trattare immagini o persone in modo invasivo.
 
+### RISTO-LAB
+
+Funzione: formazione operativa, SOP, onboarding, hospitality e gestione pratica Food and Beverage.
+
+Output principale:
+
+- procedure operative;
+- checklist apertura, servizio e chiusura;
+- moduli formativi;
+- role play e simulazioni;
+- menu knowledge;
+- analisi turni e organici;
+- KPI operativi;
+- proposte formative.
+
+Rischio principale:
+
+- confondere buona prassi operativa con obbligo normativo;
+- sembrare consulenza HACCP, sicurezza lavoro, diritto del lavoro o fiscalita;
+- usare dati aziendali o immagini senza anonimizzazione;
+- produrre formazione troppo teorica e non applicabile durante il turno.
+
 ## Regola di separazione
 
 Ogni figlio deve avere:
@@ -87,6 +109,8 @@ Prometeus Marcelus non deve diventare Promethea Economica.
 Promethea Economica non deve diventare un semplice generatore di prompt.
 
 VERUM non deve diventare un tribunale della verita o uno strumento di attacco politico.
+
+RISTO-LAB non deve diventare un consulente normativo o un manuale HACCP certificativo.
 
 ## Regola di interconnessione
 
@@ -140,6 +164,22 @@ Promethea Economica puo trasformare il risultato in una scheda decisionale:
 - prossima azione.
 
 I due strumenti sono collegati, ma non confusi.
+
+Un ristoratore chiede:
+
+> Il mio staff fa chiusura in modo diverso ogni sera.
+
+Prometeus Marcelus puo trasformare la richiesta in un prompt migliore.
+
+RISTO-LAB puo trasformarla in:
+
+- SOP di chiusura;
+- checklist osservabile;
+- mini-training;
+- criterio di verifica;
+- KPI semplice.
+
+Anche qui i due strumenti sono collegati, ma non confusi.
 
 ## Regola di sicurezza
 
