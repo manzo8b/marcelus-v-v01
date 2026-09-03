@@ -4,6 +4,14 @@
 
 Aggiornare LinkedIn senza appesantire il profilo: Prometeus Marcelus resta il progetto principale di AI e prompt engineering, mentre RISTO-LAB diventa il verticale pratico per ristorazione, sala, bar e formazione operativa.
 
+## Stato aggiornamento
+
+Applicato su LinkedIn il 2026-09-03:
+
+- headline aggiornata;
+- sezione Informazioni aggiornata;
+- contenuti In primo piano ancora da aggiornare manualmente o in una fase successiva.
+
 ## Headline consigliata
 
 ```text
@@ -14,6 +22,12 @@ Alternativa piu focalizzata su lavoro e servizi:
 
 ```text
 AI Prompt Architect | Formazione sala e bar | RISTO-LAB, Prometeus Marcelus e strumenti AI pratici per PMI
+```
+
+Headline applicata:
+
+```text
+AI operativa e Prompt Architecture | Prometeus Marcelus, VERUM e RISTO-LAB | Formazione, ristorazione e fact-checking
 ```
 
 ## Sezione Informazioni
