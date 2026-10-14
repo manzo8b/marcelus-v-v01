@@ -1,5 +1,23 @@
 # Marcelus.v.v01
 
+## Marcelo Fernandez Caballero - AI evaluation, training e workflow design
+
+Porto esperienza in operations e formazione professionale alla progettazione di istruzioni, workflow e strumenti di valutazione AI. Questo repository documenta i miei progetti personali: **Prometeus Marcelus**, **VERUM** e **RISTO-LAB**.
+
+Il mio contributo consiste nel definire problemi e requisiti, strutturare prompt, progettare rubriche, analizzare errori e documentare correzioni. Le demo sono sintetiche e assistite da AI; non rappresentano incarichi aziendali o valutazioni indipendenti.
+
+| Progetto | Problema affrontato | Prova consultabile |
+| --- | --- | --- |
+| VERUM | Confrontare output, fatti di riferimento e incertezze | [Caso 01: errori fattuali e feedback](AI_EVALUATION_PORTFOLIO/CASE_01_VERUM_OUTPUT_EVALUATION.md) |
+| Prometeus Marcelus | Tradurre una richiesta vaga in criteri e istruzioni verificabili | [Caso 02: rubric design e calibrazione](AI_EVALUATION_PORTFOLIO/CASE_02_PROMETEUS_RUBRIC_DESIGN.md) |
+| RISTO-LAB | Adattare istruzioni operative al destinatario | [Caso 03: qualita linguistica e training](AI_EVALUATION_PORTFOLIO/CASE_03_LANGUAGE_QUALITY.md) |
+
+[Portfolio in tre casi](AI_EVALUATION_PORTFOLIO/README.md) · [Rubrica e regole decisionali](AI_EVALUATION_PORTFOLIO/RUBRIC.md) · [Registro delle verifiche](AI_EVALUATION_PORTFOLIO/TEST_LOG.md)
+
+Lingue: spagnolo madrelingua; italiano fluente nell'uso professionale, CELI B1 certificato; inglese A2. Le competenze di formazione derivano dall'esperienza lavorativa; i progetti AI sono proof of work personali.
+
+## Framework e biblioteca
+
 Framework italiano per trasformare richieste confuse in prompt, checklist e decisioni piu chiare.
 
 **Prometeus Marcelus** e un AI Prompt Architect italiano: prende una richiesta vaga e la trasforma in un prompt prudente, verificabile e pronto da usare.
@@ -41,7 +59,7 @@ Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre ris
 
 - [Usa Prometeus Marcelus - Start Here](PROMETEUS_MARCELUS/START_HERE.md)
 - [Usa VERUM - Custom GPT fact-checking](https://chatgpt.com/g/g-6a747bb04824819197f7af850af6ac25-verum)
-- [Usa RISTO-LAB - GPT privato ChatGPT](https://chatgpt.com/g/g-6a998505449081919723385c2fd5b607-risto-lab)
+- [RISTO-LAB - esempi e metodo pubblico; GPT personale privato](RISTO_LAB/README.md)
 - [Release v0.5.0 - Prometeus Starter Kit](RELEASE_NOTES_v0.5.0-starter-kit.md)
 - [Release v0.6.0 - VERUM V1](RELEASE_NOTES_v0.6.0-verum-v1.md)
 - [Release v0.6.1 - VERUM test reali](RELEASE_NOTES_v0.6.1-verum-tests.md)
@@ -58,7 +76,7 @@ Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre ris
 - [VERUM - Fact Check Indipendente](FACT_CHECK_INDIPENDENTE/README.md)
 - [RISTO-LAB - Restaurant Training and Operations](RISTO_LAB/README.md)
 - [Promethea Governance](PROMETHEA_GOVERNANCE.md)
-- [Istruzioni Custom GPT V4](PROMETEUS_MARCELUS/gpt_builder/ISTRUZIONI_CUSTOM_GPT_V4.md)
+- [Istruzioni Custom GPT V5 - riferimento documentale; test storico V2 separato](PROMETEUS_MARCELUS/gpt_builder/ISTRUZIONI_CUSTOM_GPT_V5.md)
 - [Report test reali V2](PROMETEUS_MARCELUS/training/REPORT_TEST_REALI_30_V2.md)
 - [Strategia GitHub](PROMETEUS_MARCELUS/github_governance/STRATEGIA_VISIBILITA_GITHUB.md)
 - [Prometeus Starter Kit v0.1](PROMETEUS_MARCELUS/packages/STARTER_KIT_V01.md)

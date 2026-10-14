@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evaluation Desk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div><h1>Evaluation Desk</h1><span class="mode">Valutazione manuale · Rubrica v1.1</span></div>
+    <nav aria-label="Documento">
+      <button type="button" id="restore">Riprendi bozza</button>
+      <button type="button" id="save">Salva bozza</button>
+      <button type="button" id="export">Esporta report</button>
+    </nav>
+  </header>
+  <main>
+    <section class="source" aria-labelledby="source-title">
+      <div class="section-heading"><h2 id="source-title">Contenuto</h2><button type="button" id="clear">Nuova valutazione</button></div>
+      <label for="sample">Esempio sintetico</label>
+      <div class="sample-row"><select id="sample"><option value="">Documento vuoto</option></select><button type="button" id="load">Carica</button></div>
+      <label for="title">Titolo</label><input id="title" type="text" autocomplete="off" value="Valutazione senza titolo">
+      <label for="instruction">Istruzione originale</label><textarea id="instruction" rows="3"></textarea>
+      <label for="reference">Fatti di riferimento</label><textarea id="reference" rows="5"></textarea>
+      <label for="candidate">Risposta candidata</label><textarea id="candidate" rows="7"></textarea>
+      <div class="source-bottom"><span id="word-count">0 parole</span><span>Reference e risposta forniti dall'utente</span></div>
+    </section>
+    <section class="review" aria-labelledby="review-title">
+      <div class="section-heading"><h2 id="review-title">Annotazione</h2><span id="status" role="status">Da compilare</span></div>
+      <div id="criteria"></div>
+      <fieldset>
+        <legend>Gravità ed evidenza</legend>
+        <label class="check"><input type="checkbox" id="major">Errore sostanziale o requisito obbligatorio violato</label>
+        <label class="check"><input type="checkbox" id="minor">Problema minore di lingua, stile o formato</label>
+        <label class="check"><input type="checkbox" id="insufficient">Evidenza indispensabile insufficiente</label>
+      </fieldset>
+      <label for="evidence">Passaggio, riferimento e motivazione</label><textarea id="evidence" rows="4"></textarea>
+      <label for="correction">Correzione proposta</label><textarea id="correction" rows="3"></textarea>
+      <div class="decision"><div><span>Verdetto</span><strong id="verdict">DA VALUTARE</strong></div><button type="button" id="finish">Concludi valutazione</button></div>
+      <p id="message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+  <footer><span>Marcelo Fernandez Caballero</span><a href="../RUBRIC.md">Rubrica</a><a href="../TEST_LOG.md">Registro verifiche</a><span>Nessun modello AI collegato</span></footer>
+  <script src="logic.js"></script>
+  <script src="samples.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
