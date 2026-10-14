@@ -14,7 +14,7 @@ Il mio contributo consiste nel definire problemi e requisiti, strutturare prompt
 
 [Portfolio in tre casi](AI_EVALUATION_PORTFOLIO/README.md) · [Rubrica e regole decisionali](AI_EVALUATION_PORTFOLIO/RUBRIC.md) · [Registro delle verifiche](AI_EVALUATION_PORTFOLIO/TEST_LOG.md)
 
-Lingue: spagnolo madrelingua; italiano fluente nell'uso professionale, CELI B1 certificato; inglese A2. Le competenze di formazione derivano dall'esperienza lavorativa; i progetti AI sono proof of work personali.
+Lingue: spagnolo madrelingua; italiano fluente nell'uso professionale, CELI B1 certificato; inglese B1. Le competenze di formazione derivano dall'esperienza lavorativa; i progetti AI sono proof of work personali.
 
 ## Framework e biblioteca
 
