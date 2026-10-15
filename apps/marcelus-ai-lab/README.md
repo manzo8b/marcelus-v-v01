@@ -1,6 +1,6 @@
 # MARCELUS AI LAB
 
-Phases 2-5: local frontend, source-backed project pages, four complete case studies and interactive demos for Prometeus Marcelus, VERUM and RISTO-LAB. Display name: **Marcelo Fernandez**. Italian subtitle: **Formazione e progetti di workflow AI**, with English and Spanish equivalents. Each project includes its audience, contribution, deliverables mapped to skills, canonical sample comparison, documented iteration and remaining verification. No AI API, account, backend or public deployment.
+Phases 2-5: static frontend, source-backed project pages, four complete case studies and interactive demos for Prometeus Marcelus, VERUM and RISTO-LAB. Display name: **Marcelo Fernandez**. Italian subtitle: **Formazione e progetti di workflow AI**, with English and Spanish equivalents. Each project includes its audience, contribution, deliverables mapped to skills, canonical sample comparison, documented iteration and remaining verification. No AI API, visitor account or backend. Published on GitHub Pages with owner approval; see [deployment record](DEPLOYMENT.md).
 
 ## Languages and routes
 
