@@ -3,6 +3,9 @@ import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import { CaseList, ProjectGrid, PublicCv } from '@/components/portfolio';
 import { assetUrl, profile } from '@/data/portfolio';
 import { type LocalizedProps, localizedPath, t } from '@/data/i18n';
+import { pageMetadata } from '@/data/site-metadata';
+
+export const metadata = pageMetadata('/');
 
 export default async function Home({ params }: LocalizedProps) {
   const { locale = 'en' } = await params;
@@ -16,7 +19,7 @@ export default async function Home({ params }: LocalizedProps) {
     </section>
     <section className="selected-section" aria-labelledby="selected-heading"><div className="section-heading"><h2 id="selected-heading">{tr('Selected projects')}</h2><span className="section-meta">{tr('03 documented projects')}</span></div><ProjectGrid locale={locale} /></section>
     <section className="work-preview" aria-labelledby="preview-heading">
-      <div className="section-heading"><div><p className="eyebrow">{tr('An existing proof of work')}</p><h2 id="preview-heading">Evaluation Desk</h2></div><Link href={localizedPath('/lab/', locale)} className="text-link">{tr('View the reference')}<ArrowRight size={16} /></Link></div>
+      <div className="section-heading"><div><p className="eyebrow">{tr('An existing proof of work')}</p><h2 id="preview-heading">Evaluation Desk</h2></div><Link href={`${localizedPath('/cases/prompt-design/', locale)}#case-output`} className="text-link">{tr('View the reference')}<ArrowRight size={16} /></Link></div>
       <figure className="product-media"><img src={assetUrl('/media/evaluation-desk.png')} alt={tr('The existing Evaluation Desk manual prototype, with a reference, candidate response and an evidence-based FAIL annotation.')} width={1440} height={1089} /><figcaption>{tr('Evaluation Desk / existing manual prototype / synthetic reference-based example')}</figcaption></figure>
     </section>
     <section className="cases-section" aria-labelledby="cases-heading"><div className="section-heading"><h2 id="cases-heading">{tr('From problem to proof')}</h2><Link href={localizedPath('/cases/', locale)} className="text-link">{tr('All case studies')}<ArrowRight size={16} /></Link></div><CaseList locale={locale} /></section>

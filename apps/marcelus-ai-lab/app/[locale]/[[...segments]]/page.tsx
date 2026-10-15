@@ -8,7 +8,8 @@ import About from '@/app/(english)/about/page';
 import Recruiter from '@/app/(english)/recruiter/page';
 import Lab from '@/app/(english)/lab/page';
 import { caseStudies, projects, profile } from '@/data/portfolio';
-import { type Locale, localizedPath, t } from '@/data/i18n';
+import { type Locale, t } from '@/data/i18n';
+import { pageMetadata } from '@/data/site-metadata';
 
 const routes = ['', 'projects', ...projects.map(item => `projects/${item.id}`), 'lab', 'cases', ...caseStudies.map(item => `cases/${item.id}`), 'about', 'recruiter'];
 export const dynamicParams = false;
@@ -21,10 +22,10 @@ export async function generateMetadata({ params }: Props) {
   const route = segments.join('/');
   const project = projects.find(item => route === `projects/${item.id}`);
   const item = caseStudies.find(item => route === `cases/${item.id}`);
-  const title = project?.name || (item ? t(locale, item.title) : route === 'projects' ? t(locale, 'Projects') : route === 'cases' ? t(locale, 'Case studies') : route === 'lab' ? 'AI Evaluation Lab' : profile.name);
+  const title = project?.name || (item ? t(locale, item.title) : route === 'projects' ? t(locale, 'Projects') : route === 'cases' ? t(locale, 'Case studies') : route === 'lab' ? t(locale, 'AI Evaluation Lab') : profile.name);
   const description = t(locale, project?.description || item?.summary || 'Prompt design, content evaluation and practical training, with documentary evidence and explicit limits.');
   const path = route ? `/${route}/` : '/';
-  return { title, description, openGraph: { title, description, locale: locale === 'it' ? 'it_IT' : 'es_ES' }, alternates: { languages: Object.fromEntries((['en', 'it', 'es'] as const).map(lang => [lang, `${process.env.NEXT_PUBLIC_BASE_PATH || ''}${localizedPath(path, lang)}`])) } };
+  return pageMetadata(path, locale, title, description);
 }
 
 export default async function LocalizedPage({ params }: Props) {

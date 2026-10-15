@@ -6,6 +6,7 @@ import ts from 'typescript';
 import { locales, localizedPath, unlocalizedPath, translations, t } from '../data/i18n.ts';
 import { contentTranslations } from '../data/content-translations.ts';
 import { demoTranslations } from '../data/demo-translations.ts';
+import { phase5Translations } from '../data/phase5-translations.ts';
 import { blueprintIds, buildPrompt, focusSamples, scenarioIds, scenarios, trainingViews, validateRequest } from '../data/demos.ts';
 import { getSample } from '../data/fixtures.ts';
 
@@ -18,7 +19,7 @@ test('localized URLs preserve routes and avoid repeated prefixes', () => {
   assert.equal(unlocalizedPath('/items/'), '/items/');
 });
 test('editorial dictionaries have unique keys, complete translations and no removed surname', () => {
-  const all = [...translations, ...contentTranslations, ...demoTranslations];
+  const all = [...translations, ...contentTranslations, ...demoTranslations, ...phase5Translations];
   assert.equal(new Set(all.map(row => row[0])).size, all.length);
   for (const row of all) {
     assert.equal(row.length, 3);

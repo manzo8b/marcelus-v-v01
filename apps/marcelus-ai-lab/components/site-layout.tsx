@@ -3,10 +3,12 @@ import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import { Navigation } from '@/components/navigation';
 import { profile, repository } from '@/data/portfolio';
+import { siteOrigin } from '@/data/site-metadata';
 import { type Locale, localizedPath, t } from '@/data/i18n';
 import '@/app/globals.css';
 
 export const siteMetadata: Metadata = {
+  metadataBase: new URL(siteOrigin),
   title: { default: 'Marcelo Fernandez - AI Workflow & Evaluation Portfolio', template: '%s | Marcelus AI Lab' },
   description: 'Professional work in prompt design, AI content evaluation, training workflows and process documentation.',
   openGraph: { title: 'Marcelus AI Lab - Marcelo Fernandez', description: 'Prompt design, content evaluation and practical training workflows. Projects, examples and documentary evidence.', type: 'website' },

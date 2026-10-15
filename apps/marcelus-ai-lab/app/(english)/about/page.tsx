@@ -2,7 +2,8 @@ import { ArrowUpRight } from 'lucide-react';
 import { type LocalizedProps, t } from '@/data/i18n';
 import { PageHeading, PublicCv } from '@/components/portfolio';
 import { profile, repository } from '@/data/portfolio';
-export const metadata = { title: 'About Marcelo' };
+import { pageMetadata } from '@/data/site-metadata';
+export const metadata = pageMetadata('/about/', 'en', 'About Marcelo');
 export default async function AboutPage({ params }: LocalizedProps) {
   const { locale = 'en' } = await params;
   const tr = (text: string) => t(locale, text);

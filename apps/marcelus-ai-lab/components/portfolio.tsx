@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { type Locale, localizedPath, t } from '@/data/i18n';
 import { ArrowRight, ArrowUpRight, BookOpen, FileDown, GraduationCap, ScanLine, Workflow } from 'lucide-react';
-import { type Project, type ProjectId, caseStudies, evidenceUrl, profile, projects } from '@/data/portfolio';
+import { type Project, type ProjectId, assetUrl, caseStudies, evidenceUrl, profile, projects } from '@/data/portfolio';
 
 export const projectIcons = { prometeus: Workflow, verum: ScanLine, 'risto-lab': GraduationCap };
 
@@ -33,5 +33,5 @@ export function CaseList({ projectId, locale = 'en' }: { projectId?: ProjectId; 
 }
 
 export function PublicCv({ locale = 'en' }: { locale?: Locale }) {
-  return profile.publicCv ? <a className="text-link" href={profile.publicCv} download><FileDown size={16} />{t(locale, 'Download CV')}</a> : <span className="cv-status" title={t(locale, 'A public CV version has not been approved')}><FileDown size={16} />{t(locale, 'Public CV pending')}</span>;
+  return profile.publicCv ? <a className="text-link" href={assetUrl(profile.publicCv)} download="CV_Marcelo_Fernandez_IT.pdf" hrefLang="it" type="application/pdf"><FileDown size={16} />{t(locale, 'Download CV (Italian PDF)')}</a> : <span className="cv-status" title={t(locale, 'A public CV version has not been approved')}><FileDown size={16} />{t(locale, 'Public CV pending')}</span>;
 }

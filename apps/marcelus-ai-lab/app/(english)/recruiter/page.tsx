@@ -3,7 +3,8 @@ import { type LocalizedProps, localizedPath, t } from '@/data/i18n';
 import { ArrowRight } from 'lucide-react';
 import { CaseList, PageHeading, PublicCv } from '@/components/portfolio';
 import { profile } from '@/data/portfolio';
-export const metadata = { title: '60 second overview' };
+import { pageMetadata } from '@/data/site-metadata';
+export const metadata = pageMetadata('/recruiter/', 'en', '60 second overview');
 export default async function RecruiterPage({ params }: LocalizedProps) {
   const { locale = 'en' } = await params;
   const tr = (text: string) => t(locale, text);

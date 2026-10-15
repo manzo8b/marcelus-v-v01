@@ -6,10 +6,14 @@ import { type Locale, t } from '@/data/i18n';
 import { type ProjectId, evidenceUrl } from '@/data/portfolio';
 import type { Sample } from '@/data/fixtures';
 import { type Blueprint, type ReviewFocus, type ScenarioId, blueprintIds, blueprintLabels, buildPrompt, focusSamples, promptLimit, scenarioIds, scenarioLabels, scenarios, trainingViews, validateRequest } from '@/data/demos';
+import { FactCheckDemo } from '@/components/fact-check-demo';
 
 type DemoProps = { locale: Locale };
 export function ProjectDemo({ projectId, locale, samples }: DemoProps & { projectId: ProjectId; samples: Sample[] }) {
-  return projectId === 'prometeus' ? <PrometeusDemo locale={locale} /> : projectId === 'verum' ? <VerumDemo locale={locale} samples={samples} /> : <RistoDemo locale={locale} />;
+  return projectId === 'prometeus' ? <PrometeusDemo locale={locale} /> : projectId === 'verum' ? <VerumLab locale={locale} samples={samples} /> : <RistoDemo locale={locale} />;
+}
+export function VerumLab({ locale, samples }: DemoProps & { samples: Sample[] }) {
+  return <><FactCheckDemo locale={locale} /><details className="calibration-examples"><summary>{t(locale, 'Calibration examples')}</summary><VerumDemo locale={locale} samples={samples} /></details></>;
 }
 
 export function PrometeusDemo({ locale }: DemoProps) {

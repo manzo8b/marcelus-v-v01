@@ -1,16 +1,17 @@
+import { factCheckSource } from './fact-check.ts';
 export const sourceCommit = 'f108170a748e161ba26dd148421ddd8ad9ee929f';
 export const repository = 'https://github.com/manzo8b/marcelus-v-v01';
 export const profile = {
   name: 'Marcelo Fernandez',
-  role: 'Trainer & AI Workflow Designer',
+  role: 'Training & AI Workflow Projects',
   linkedin: 'https://www.linkedin.com/in/marcelo-fernandez-cab/',
-  publicCv: null as string | null,
+  publicCv: '/cv/CV_Marcelo_Fernandez_IT.pdf' as string | null,
   languages: ['Spanish: native', 'Italian: professional use, CELI B1 certified', 'English: B1'],
   targets: ['AI Content Evaluation', 'Language Evaluation', 'Digital Training', 'Content Quality', 'Process Documentation'],
 };
 
 export type ProjectId = 'prometeus' | 'verum' | 'risto-lab';
-export type Evidence = { label: string; path: string; kind: string };
+export type Evidence = { label: string; path: string; kind: string; ref?: string };
 export type Project = {
   id: ProjectId; name: string; subtitle: string; description: string;
   skills: string[]; problem: string; method: string[]; limits: string; evidence: Evidence[];
@@ -58,14 +59,16 @@ export const projects: Project[] = [
   },
 ];
 
-export const caseStudies = [
+type CaseStudy = { id: string; projectId: ProjectId; number: string; title: string; summary: string; path: string; ref?: string; demonstrates: string[] };
+export const caseStudies: CaseStudy[] = [
   { id: 'prompt-design', projectId: 'prometeus' as ProjectId, number: '01', title: 'From a vague request to an evaluation rubric', summary: 'Make the criteria explicit, define severity and calibrate the decision.', path: 'AI_EVALUATION_PORTFOLIO/CASE_02_PROMETEUS_RUBRIC_DESIGN.md', demonstrates: ['Instruction design', 'Severity rules', 'Calibration'] },
   { id: 'output-evaluation', projectId: 'verum' as ProjectId, number: '02', title: 'When a clear answer changes the facts', summary: 'Compare a cultural-centre description with five supplied facts and a documented correction.', path: 'AI_EVALUATION_PORTFOLIO/CASE_01_VERUM_OUTPUT_EVALUATION.md', demonstrates: ['Claim review', 'Unsupported content', 'Feedback'] },
   { id: 'training-language-quality', projectId: 'risto-lab' as ProjectId, number: '03', title: 'From formal language to practical instructions', summary: 'Preserve the procedure while making four actions clear to a new employee.', path: 'AI_EVALUATION_PORTFOLIO/CASE_03_LANGUAGE_QUALITY.md', demonstrates: ['Audience awareness', 'Checklists', 'Training design'] },
+  { id: 'fact-check-renewables', projectId: 'verum', number: '04', title: 'How a real statistic becomes a misleading claim', summary: 'Check denominators, percentage points and a causal claim against dated Eurostat publications.', ...factCheckSource, demonstrates: ['Fact checking', 'Claim review', 'Structured feedback'] },
 ];
 
-export function evidenceUrl(path: string) {
-  return `${repository}/blob/${sourceCommit}/${path.split('/').map(encodeURIComponent).join('/')}`;
+export function evidenceUrl(path: string, ref = sourceCommit) {
+  return `${repository}/blob/${ref}/${path.split('/').map(encodeURIComponent).join('/')}`;
 }
 
 export function assetUrl(path: string) {

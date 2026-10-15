@@ -1,5 +1,6 @@
 import { contentTranslations } from './content-translations.ts';
 import { demoTranslations } from './demo-translations.ts';
+import { phase5Translations } from './phase5-translations.ts';
 export const locales = ['en', 'it', 'es'] as const;
 export type Locale = typeof locales[number];
 export type LocalizedProps = { params: Promise<{ locale?: Locale }> };
@@ -21,7 +22,7 @@ export const translations: [string, string, string][] = [
   ['Main navigation', 'Navigazione principale', 'Navegación principal'], ['Language', 'Lingua', 'Idioma'], ['Open navigation', 'Apri navigazione', 'Abrir navegación'], ['Close navigation', 'Chiudi navigazione', 'Cerrar navegación'],
   ['Switch to light theme', 'Passa al tema chiaro', 'Cambiar al tema claro'], ['Switch to dark theme', 'Passa al tema scuro', 'Cambiar al tema oscuro'], ['Skip to content', 'Vai al contenuto', 'Saltar al contenido'],
   ['Personal projects. Documented work.', 'Progetti personali. Lavoro documentato.', 'Proyectos personales. Trabajo documentado.'],
-  ['Trainer & AI Workflow Designer', 'Formatore e progettista di workflow AI', 'Formador y diseñador de flujos de IA'],
+  ['Training & AI Workflow Projects', 'Formazione e progetti di workflow AI', 'Formación y proyectos de flujos de IA'],
   ['Workflow / Evaluation / Training', 'Workflow / Valutazione / Formazione', 'Flujos / Evaluación / Formación'],
   ['60 second overview', 'Panoramica in 60 secondi', 'Resumen en 60 segundos'],
   ['I turn real-world problems into structured prompts, workflows, evaluation systems and practical AI tools.', 'Trasformo problemi reali in prompt strutturati, workflow, sistemi di valutazione e strumenti AI pratici.', 'Transformo problemas reales en prompts estructurados, flujos de trabajo, sistemas de evaluación y herramientas prácticas de IA.'],
@@ -56,7 +57,7 @@ export const translations: [string, string, string][] = [
   ['Original Italian evidence', 'Prova originale in italiano', 'Evidencia original en italiano'], ['Method', 'Metodo', 'Método'], ['Criteria', 'Criteri', 'Criterios'], ['Historical report', 'Report storico', 'Informe histórico'], ['Synthetic case', 'Caso sintetico', 'Caso sintético'], ['Documented iteration', 'Iterazione documentata', 'Iteración documentada'],
 ];
 
-const dictionary = new Map([...translations, ...contentTranslations, ...demoTranslations].map(row => [row[0], row]));
+const dictionary = new Map([...translations, ...contentTranslations, ...demoTranslations, ...phase5Translations].map(row => [row[0], row]));
 export function t(locale: Locale, text: string): string {
   if (locale === 'en') return text;
   const row = dictionary.get(text);

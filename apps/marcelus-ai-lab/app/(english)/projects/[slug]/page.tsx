@@ -7,6 +7,7 @@ import { evidenceUrl, projects } from '@/data/portfolio';
 import { projectDetails } from '@/data/project-details';
 import { getSample } from '@/data/fixtures';
 import { ProjectDemo } from '@/components/demos';
+import { pageMetadata } from '@/data/site-metadata';
 
 export function generateStaticParams() { return projects.map(project => ({ slug: project.id })); }
 export const dynamicParams = false;
@@ -14,7 +15,7 @@ type Props = { params: Promise<{ slug: string; locale?: Locale }> };
 export async function generateMetadata({ params }: Props) {
   const { slug, locale = 'en' } = await params;
   const project = projects.find(item => item.id === slug);
-  return { title: project?.name || 'Project', description: project ? t(locale, project.description) : undefined };
+  return pageMetadata(`/projects/${slug}/`, locale, project?.name || 'Project', project ? t(locale, project.description) : undefined);
 }
 export default async function ProjectPage({ params }: Props) {
   const { slug, locale = 'en' } = await params;
@@ -46,7 +47,7 @@ export default async function ProjectPage({ params }: Props) {
     </section>
     <section className="project-band" id="iteration" aria-labelledby="iteration-title"><p className="eyebrow">{tr('04 / Quality & iteration')}</p><h2 id="iteration-title">{tr('What changed, what remains to test')}</h2><dl className="iteration-list"><div><dt>{tr('Observed')}</dt><dd>{tr(detail.review.observed)}</dd></div><div><dt>{tr('Documented change')}</dt><dd>{tr(detail.review.changed)}</dd></div><div><dt>{tr('Next verification')}</dt><dd>{tr(detail.review.next)}</dd></div></dl><a href={evidenceUrl(detail.review.source.path)} target="_blank" rel="noreferrer" className="text-link">{tr(detail.review.source.label)}<ArrowUpRight size={16} /></a></section>
     <section className="project-band" id="demo"><ProjectDemo projectId={project.id} locale={locale} samples={['CULTURE_BAD', 'CULTURE_FIXED', 'A', 'B', 'C', 'D', 'B1_A', 'B1_B', 'UNKNOWN'].map(getSample)} /></section>
-    <section className="related-cases"><h2>{tr('Selected case')}</h2><CaseList projectId={project.id} locale={locale} /></section>
+    <section className="related-cases"><h2>{tr('Selected cases')}</h2><CaseList projectId={project.id} locale={locale} /></section>
     <nav className="project-next" aria-label={tr('More projects')}><Link href={localizedPath('/projects/', locale)} className="text-link"><ArrowLeft size={16} />{tr('All projects')}</Link><Link href={localizedPath(`/projects/${next.id}/`, locale)} className="text-link">{next.name}<ArrowRight size={16} /></Link></nav>
   </article>;
 }

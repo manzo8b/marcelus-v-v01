@@ -13,17 +13,17 @@ test('the approved scope has exactly three unique projects', () => {
 test('every evidence reference exists and uses the audited commit', () => {
   for (const source of [...projects.flatMap(project => project.evidence), ...caseStudies]) {
     assert.ok(existsSync(path.resolve(process.cwd(), '../..', source.path)), source.path);
-    assert.ok(evidenceUrl(source.path).includes(sourceCommit));
+    assert.ok(evidenceUrl(source.path, source.ref).includes(source.ref || sourceCommit));
   }
 });
 test('cases refer to approved projects and retain their canonical paths', () => {
-  assert.equal(caseStudies.length, 3);
+  assert.equal(caseStudies.length, 4);
   for (const item of caseStudies) assert.ok(projects.some(project => project.id === item.projectId));
   assert.equal(caseStudies[0].path, 'AI_EVALUATION_PORTFOLIO/CASE_02_PROMETEUS_RUBRIC_DESIGN.md');
 });
-test('the private CV is not exposed and English is B1', () => {
+test('only the approved public CV is configured and English is B1', () => {
   assert.equal(profile.name, 'Marcelo Fernandez');
-  assert.equal(profile.publicCv, null);
+  assert.equal(profile.publicCv, '/cv/CV_Marcelo_Fernandez_IT.pdf');
   assert.ok(profile.languages.includes('English: B1'));
 });
 test('the lab sample is read from the canonical fixture file', () => {
