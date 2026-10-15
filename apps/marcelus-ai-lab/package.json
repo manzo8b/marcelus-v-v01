@@ -7,7 +7,7 @@
     "dev": "NEXT_TELEMETRY_DISABLED=1 next dev --hostname 127.0.0.1",
     "build": "NEXT_TELEMETRY_DISABLED=1 next build",
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test tests/portfolio.test.ts"
+    "test": "node --experimental-strip-types --test tests/*.test.ts"
   },
   "dependencies": {
     "lucide-react": "1.57.0",

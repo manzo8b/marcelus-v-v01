@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 
-type Sample = {
+export type Sample = {
   id: string; instruction: string; reference: string; output: string;
   expected: 'PASS' | 'FAIL' | 'NEEDS REVISION' | 'NOT VERIFIABLE'; evidence: string;
 };

@@ -22,6 +22,7 @@ test('cases refer to approved projects and retain their canonical paths', () => 
   assert.equal(caseStudies[0].path, 'AI_EVALUATION_PORTFOLIO/CASE_02_PROMETEUS_RUBRIC_DESIGN.md');
 });
 test('the private CV is not exposed and English is B1', () => {
+  assert.equal(profile.name, 'Marcelo Fernandez');
   assert.equal(profile.publicCv, null);
   assert.ok(profile.languages.includes('English: B1'));
 });

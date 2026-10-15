@@ -1,7 +1,7 @@
 export const sourceCommit = 'f108170a748e161ba26dd148421ddd8ad9ee929f';
 export const repository = 'https://github.com/manzo8b/marcelus-v-v01';
 export const profile = {
-  name: 'Marcelo Fernandez Caballero',
+  name: 'Marcelo Fernandez',
   role: 'Trainer & AI Workflow Designer',
   linkedin: 'https://www.linkedin.com/in/marcelo-fernandez-cab/',
   publicCv: null as string | null,
