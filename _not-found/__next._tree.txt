@@ -1,0 +1,4 @@
+:HL["/marcelus-v-v01/_next/static/chunks/1opy4f3r5_kfr.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
+0:{"b":"s4NTOjCKigVKfpzCl2iY7","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

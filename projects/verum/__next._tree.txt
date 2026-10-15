@@ -1,0 +1,6 @@
+:HL["/marcelus-v-v01/_next/static/chunks/1opy4f3r5_kfr.css","style"]
+4:[["children",{"s":"__PAGE__","h":160}]]
+3:[["children",{"s":{"n":"slug","t":"d","k":"verum","s":[]},"h":65632,"c":"$Q4"}]]
+2:[["children",{"s":"projects","h":131168,"c":"$Q3"}]]
+1:[["children",{"s":"(english)","h":131184,"c":"$Q2"}]]
+0:{"b":"s4NTOjCKigVKfpzCl2iY7","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

@@ -1,0 +1,5 @@
+:HL["/marcelus-v-v01/_next/static/chunks/1opy4f3r5_kfr.css","style"]
+:HL["/marcelus-v-v01/media/evaluation-desk.png","image"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"(english)","h":112,"c":"$Q2"}]]
+0:{"b":"s4NTOjCKigVKfpzCl2iY7","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
