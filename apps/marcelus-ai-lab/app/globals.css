@@ -398,3 +398,28 @@ summary { cursor:pointer; min-height:44px; padding:10px 0; font-weight:500; }
 .library-picks button { border:0; border-bottom:1px solid var(--line); padding:8px 0; background:transparent; color:var(--ink); font-size:13px; min-height:44px; }
 .library-picks button[aria-pressed="true"] { border-color:var(--gold); color:var(--gold); }
 @media(max-width:650px) { .credibility-band { grid-template-columns:minmax(0,1fr); gap:18px; } .library-toolbar { grid-template-columns:minmax(0,1fr); gap:14px; } .library-review { display:flex; margin:6px 0 0; } }
+
+.verum-technique { border-top:2px solid var(--cyan); }
+.technique-intro { max-width:800px; color:var(--muted); }
+.technique-principle { font-size:19px; max-width:800px; margin-top:20px; }
+.technique-tabs { display:flex; gap:8px; border-bottom:1px solid var(--line); margin-top:24px; }
+.technique-tabs button { width:64px; height:44px; background:transparent; color:var(--muted); border:0; border-bottom:3px solid transparent; }
+.technique-tabs button[aria-selected="true"] { color:var(--cyan); border-bottom-color:var(--cyan); font-weight:600; }
+.technique-panels { display:grid; }
+.technique-panel { grid-area:1/1; min-width:0; padding-top:24px; }
+.technique-panel[aria-hidden="true"] { visibility:hidden; pointer-events:none; }
+.technique-source { margin:12px 0 24px; padding:0; font-size:23px; line-height:1.4; }
+.technique-layers,.technique-rewrite { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:32px; }
+.technique-layers section { padding-top:20px; border-top:1px solid var(--line); }
+.technique-layers h3 { display:flex; gap:9px; align-items:center; font-size:16px; color:var(--cyan); }
+.technique-layers p,.technique-rewrite p,.technique-correction p,.technique-scope p,.technique-limits p { font-size:14px; color:var(--muted); margin-top:12px; }
+.technique-layers h4 { font-size:13px; margin:18px 0 0; }
+.technique-rewrite { margin-top:26px; padding-top:22px; border-top:1px solid var(--line); }
+.technique-rewrite h3,.technique-correction h3,.technique-limits h3 { font-size:14px; }
+.technique-rewrite blockquote { margin:12px 0 0; padding:0; font-size:15px; }
+.technique-correction { margin-top:24px; border-left:2px solid var(--green); padding-left:18px; }
+.technique-scope { margin-top:28px; border-block:1px solid var(--line); padding:14px 0; font-size:13px; }
+.technique-scope summary { cursor:pointer; min-height:28px; }
+.technique-limits { padding-top:24px; }
+.technique-limits .text-link { margin-top:12px; }
+@media(max-width:650px) { .technique-layers,.technique-rewrite { grid-template-columns:minmax(0,1fr); gap:24px; } .technique-source { font-size:20px; } .technique-principle { font-size:17px; } }

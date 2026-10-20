@@ -1,5 +1,11 @@
 # Public releases
 
+## V0.2.1 - VERUM Dual-Layer technique
+
+Owner-authorized on 20 October 2026. Adds a dedicated EN/IT/ES technique section at `/projects/verum/#double-layer`, separating supplied evidence, linguistic framing and rewrite fidelity. Three sentence tabs and a disclosed editorial comparison task do not perform live model inference or external fact-checking. No numerical bias-reduction or annotator-agreement result is claimed.
+
+32 automated tests, typecheck and static build; additional browser checks cover sentence controls, keyboard navigation, stable panel layout, localization and 320/390/1024/1440 px views. Existing content routes remain unchanged. Public source explanation: [VERUM Doppio Strato](../../AI_EVALUATION_PORTFOLIO/VERUM_DOPPIO_STRATO.md). Original attachments, private materials and the separate unpublished skill package are excluded; current public CV hash is unchanged. The deployment manifest identifies the actual merged source revision.
+
 ## V0.2 - 20 October 2026
 
 The owner approved the reviewed V0.2 portfolio, GitHub and LinkedIn updates. Production provenance is recorded in [deployment.json](https://manzo8b.github.io/marcelus-v-v01/deployment.json); it identifies the exact source commit, version and build environment.

@@ -14,3 +14,8 @@ output/
 APPLICATION_TRACKER*
 DISTRIBUTION_MATRIX.md
 PORTFOLIO_GROWTH_PLAN.md
+
+# Generated, unpublished skill archives and local Python caches.
+/dist/verum-output-reviewer/
+/scripts/__pycache__/
+/tests/verum-output-reviewer/__pycache__/
