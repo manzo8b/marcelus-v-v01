@@ -1,4 +1,4 @@
-:HL["/marcelus-v-v01/_next/static/chunks/1c461g1mf3uq1.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/0y4vxa5we8zlo.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"nPt80Zu4WKC1NLFgV3LEp","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"Q4tA_d0Q35gnN6hImh0PW","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
