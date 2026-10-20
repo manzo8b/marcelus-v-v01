@@ -1,8 +1,8 @@
 # MARCELUS AI LAB
 
-## V0.2 release candidate
+## V0.2 release
 
-Source branch: `feat/marcelus-ai-lab-v02-growth`, based on audited v01 source `6d4d10874c336577698dbe594c72f9bb43e9a1e2`. The stacked PR18/PR19 merge remains separate; this branch does not start from generated output. The currently published release stays unchanged until owner review of this candidate.
+V0.2 was prepared on `feat/marcelus-ai-lab-v02-growth`, based on audited v01 source `6d4d10874c336577698dbe594c72f9bb43e9a1e2`. The owner approved publication on 20 October 2026. Source integration preserves the earlier PR18/PR19 ancestry; generated output remains separate. The public deployment manifest identifies the exact published source commit.
 
 V0.2 adds a recruiter-first home, direct VERUM case, languages/work setup/contact, a searchable Prometeus catalogue, source-linked selected starting points, six editorial workflow templates, favicon, sitemap, minimal Person JSON-LD and four real-evidence social cards. No analytics, new account, API, job application or STYX project.
 
@@ -24,7 +24,7 @@ Editorial dictionaries fail on missing translations, rather than silently mixing
 
 ## Local development
 
-The verified runtime is Node.js 24.16.0, pinned in `.nvmrc`. Keep dependency installation reproducible with `npm ci`; the release candidate does not add dependencies.
+The verified runtime is Node.js 24.16.0, pinned in `.nvmrc`. Keep dependency installation reproducible with `npm ci`; V0.2 does not add dependencies.
 
 ```sh
 npm ci
@@ -66,4 +66,4 @@ Theme preference is the only browser storage written. Request text, search terms
 
 ## Scope
 
-This branch includes the existing v01/career-pivot ancestry. Keep its review separate from the earlier stacked PRs. Do not merge, rewrite history or deploy this release candidate without the owner's final review. Never modify `gh-pages` by hand or copy private working directories into the export.
+Source includes the existing v01/career-pivot ancestry. Future changes require owner review before publication. Never rewrite history, modify `gh-pages` by hand or copy private working directories into the export. Only the reviewed generated tree is published.

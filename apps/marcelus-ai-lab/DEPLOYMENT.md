@@ -1,4 +1,18 @@
-# Public release: 15 October 2026
+# Public releases
+
+## V0.2 - 20 October 2026
+
+The owner approved the reviewed V0.2 portfolio, GitHub and LinkedIn updates. Production provenance is recorded in [deployment.json](https://manzo8b.github.io/marcelus-v-v01/deployment.json); it identifies the exact source commit, version and build environment.
+
+The release adds the searchable Prometeus library (2060 historical entries, 26 areas), six separately labelled editorial templates, recruiter-first navigation, updated social previews, sitemap, minimal Person JSON-LD and a pre-build privacy gate. There is no analytics, live inference, new account or automatic job application.
+
+The current public CV is privacy-minimized: no direct email, phone, mailto link or embedded attachment. Its reviewed SHA-256 is `c737892d5aeec7ffc479a72769c750e235899a1343994145ac7aa725b3bc2189`. Personal originals and private strategy/application files remain outside Git. This does not erase the older CV from existing Git history or external caches.
+
+Release verification includes 29 automated tests, typecheck, production build, nine mechanical fixture checks and 168 route/viewport combinations on the 42 content pages in three languages. The eight local static Lighthouse samples scored Performance 92-100 and the other categories 100; these are local lab measurements, not field data or accessibility certification. Post-deployment checks must verify the public version, source hash, routes, assets, library interactions and actual CV hash.
+
+Source branches are integrated using normal merges with their history preserved. The `gh-pages` tree is produced exclusively from the reviewed static export and machine-generated provenance; old generated trees remain recoverable through Git history. No force-push, history rewrite or private report upload is permitted.
+
+## Historical release: 15 October 2026
 
 Owner-authorized GitHub Pages publication, without paid services or additional OAuth scopes.
 
