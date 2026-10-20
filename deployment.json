@@ -1,9 +1,10 @@
 {
-  "application": "MARCELUS AI LAB",
-  "sourceCommit": "56f8b045fae8a17a16a4c15a6d2a52b6c2ad31d8",
-  "sourceBranch": "feat/marcelus-ai-lab-v01",
-  "basePath": "/marcelus-v-v01",
+  "version": "0.2.0",
+  "sourceCommit": "bca3c7dbb4621768ef5a499423586d0b88cc6e65",
+  "sourceBranch": "main",
   "siteOrigin": "https://manzo8b.github.io",
-  "date": "2026-10-15",
-  "publicCvSha256": "bc2f49170713a124ccd24701fe19e04c98ebedf076dbbfa08320fe9b2dcbb04d"
+  "basePath": "/marcelus-v-v01",
+  "builtAt": "2026-10-20T14:33:15.480Z",
+  "nodeVersion": "v24.16.0",
+  "publicCvSha256": "c737892d5aeec7ffc479a72769c750e235899a1343994145ac7aa725b3bc2189"
 }

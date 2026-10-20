@@ -1,5 +1,5 @@
-:HL["/marcelus-v-v01/_next/static/chunks/1opy4f3r5_kfr.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/1c461g1mf3uq1.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"segments","t":"oc","k":"recruiter","s":[]},"h":65632,"c":"$Q3"}]]
-1:[["children",{"s":{"n":"locale","t":"d","k":"es","s":["about","cases","lab","projects","recruiter"]},"h":196720,"c":"$Q2"}]]
-0:{"b":"s4NTOjCKigVKfpzCl2iY7","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+1:[["children",{"s":{"n":"locale","t":"d","k":"es","s":["about","cases","lab","library","projects","recruiter"]},"h":196720,"c":"$Q2"}]]
+0:{"b":"nPt80Zu4WKC1NLFgV3LEp","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

@@ -1,0 +1,8 @@
+{
+  "file": "CV_Marcelo_Fernandez_IT.pdf",
+  "sha256": "c737892d5aeec7ffc479a72769c750e235899a1343994145ac7aa725b3bc2189",
+  "reviewedOn": "2026-10-20",
+  "checks": ["email removed from text and links", "phone absent", "metadata minimized", "no embedded attachments", "two pages visually reviewed"],
+  "contact": "public LinkedIn profile only",
+  "scope": "Privacy-minimized copy; career-targeted versions remain pending owner clarifications."
+}
