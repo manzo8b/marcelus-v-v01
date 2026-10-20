@@ -31,6 +31,8 @@ export default async function ProjectPage({ params }: Props) {
     <Link href={localizedPath('/projects/', locale)} className="breadcrumb"><ArrowLeft size={14} />{tr('All projects')}</Link>
     <div className="project-title"><span className="project-icon"><Icon size={27} /></span><p className="eyebrow">{tr(project.subtitle)}</p></div>
     <h1>{project.name}</h1><p className="lead">{tr(project.description)}</p>
+    {project.id === 'prometeus' && <div className="document-links"><Link className="text-link" href={localizedPath('/library/', locale)}>{tr('Explore the prompt library')}<ArrowRight size={17} /></Link></div>}
+    {project.id === 'verum' && <div className="document-links"><Link className="button button-primary" href={localizedPath('/lab/', locale)}>{tr('Try the evaluation lab')}<ArrowRight size={17} /></Link><a href={evidenceUrl('FACT_CHECK_INDIPENDENTE/METODO_FACT_CHECKING.md')} target="_blank" rel="noreferrer" className="text-link">{tr('View evaluation methodology')}<ArrowUpRight size={17} /></a></div>}
     <dl className="project-summary"><div><dt>{tr('Audience')}</dt><dd>{tr(detail.audience)}</dd></div><div><dt>{tr('Contribution')}</dt><dd>{tr(detail.contribution)}</dd></div><div><dt>{tr('Evidence status')}</dt><dd>{tr(detail.status)}</dd></div></dl>
     <nav className="project-sections" aria-label={tr('Project sections')}><a href="#method">{tr('01 Method')}</a><a href="#deliverables">{tr('02 Deliverables')}</a><a href="#example">{tr('03 Example')}</a><a href="#iteration">{tr('04 Review')}</a><a href="#demo">{tr('Interactive demo')}</a></nav>
     <div className="project-detail-grid" id="method">

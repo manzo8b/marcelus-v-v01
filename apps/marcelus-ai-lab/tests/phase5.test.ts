@@ -15,7 +15,7 @@ test('publication metadata keeps canonical, language alternates and image on the
     assert.equal(metadata.openGraph.url, metadata.alternates.canonical);
     assert.equal(metadata.openGraph.title, 'Fact-check');
     assert.equal(Object.keys(metadata.alternates.languages).length, 3);
-    assert.match(metadata.openGraph.images[0].url, /\/media\/evaluation-desk\.png$/);
+    assert.match(metadata.openGraph.images[0].url, /\/media\/og-portfolio\.png$/);
     for (const alternate of Object.values(metadata.alternates.languages)) assert.equal(new URL(alternate).origin, new URL(siteOrigin).origin);
   }
 });
@@ -56,6 +56,7 @@ test('the owner-requested subtitle is consistent without claiming a trainer job 
 test('the only downloadable CV is the verified public derivative', () => {
   const content = readFileSync(`public${profile.publicCv}`);
   assert.equal(content.subarray(0, 5).toString(), '%PDF-');
-  assert.equal(createHash('sha256').update(content).digest('hex'), 'bc2f49170713a124ccd24701fe19e04c98ebedf076dbbfa08320fe9b2dcbb04d');
+  const manifest = JSON.parse(readFileSync('public/cv/public-manifest.json', 'utf8'));
+  assert.equal(createHash('sha256').update(content).digest('hex'), manifest.sha256);
   assert.ok(content.length < 2500000);
 });

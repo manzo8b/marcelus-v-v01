@@ -1,10 +1,16 @@
 # MARCELUS AI LAB
 
+## V0.2 release
+
+V0.2 was prepared on `feat/marcelus-ai-lab-v02-growth`, based on audited v01 source `6d4d10874c336577698dbe594c72f9bb43e9a1e2`. The owner approved publication on 20 October 2026. Source integration preserves the earlier PR18/PR19 ancestry; generated output remains separate. The public deployment manifest identifies the exact published source commit.
+
+V0.2 adds a recruiter-first home, direct VERUM case, languages/work setup/contact, a searchable Prometeus catalogue, source-linked selected starting points, six editorial workflow templates, favicon, sitemap, minimal Person JSON-LD and four real-evidence social cards. No analytics, new account, API, job application or STYX project.
+
 Phases 2-5: static frontend, source-backed project pages, four complete case studies and interactive demos for Prometeus Marcelus, VERUM and RISTO-LAB. Display name: **Marcelo Fernandez**. Italian subtitle: **Formazione e progetti di workflow AI**, with English and Spanish equivalents. Each project includes its audience, contribution, deliverables mapped to skills, canonical sample comparison, documented iteration and remaining verification. No AI API, visitor account or backend. Published on GitHub Pages with owner approval; see [deployment record](DEPLOYMENT.md).
 
 ## Languages and routes
 
-The 12 original English URLs are preserved, with a new fact-check case for 13 English pages. The same pages are available under `/it/` and `/es/`: 39 static routes in total. The language selector preserves the current route and fragment, with a full document load between language layouts. Each successful page has its own server-rendered HTML language and localized content/metadata. The shared static 404 adapts its language after hydration when the host serves it for a localized unknown URL.
+The 13 previous English URLs are preserved, with a new `/library/` route for 14 English pages. The same pages are available under `/it/` and `/es/`: 42 content routes in total, plus sitemap and error pages. The language selector preserves the current route and fragment, with a full document load between language layouts. Each successful page has its own server-rendered HTML language and localized content/metadata. The shared static 404 adapts its language after hydration when the host serves it for a localized unknown URL.
 
 English pages live in the URL-neutral `(english)` route group. The localized catch-all reuses the same page implementations with explicit locale parameters. `components/site-layout.tsx` is shared by both root layouts. The pinned Next.js `globalNotFound` experimental option supports a shared 404 across these layouts; its export and unknown-route behavior require testing on the chosen production host before deployment.
 
@@ -18,16 +24,25 @@ Editorial dictionaries fail on missing translations, rather than silently mixing
 
 ## Local development
 
+The verified runtime is Node.js 24.16.0, pinned in `.nvmrc`. Keep dependency installation reproducible with `npm ci`; V0.2 does not add dependencies.
+
 ```sh
 npm ci
 npm run dev -- --port 3210
 ```
+
+## Prometeus library
+
+`npm run library:index` derives titles, categories and line references from the 26 source files listed in `docs/INDICE_PROMPT.md`. Counts must match the source or generation fails; `build` rejects a stale catalogue. The source commit is pinned independently from app version. Original Italian titles remain documentary content. Search, area selection, empty/reset and incremental display work in browser memory only.
+
+The 2060 entries include variants and are not 2060 unique or validated prompts. Six new workflow templates are editorial material, separately labelled and excluded from that historical count. Risk-area labels are a conservative file-level hint, not automated safety classification or legal clearance.
 
 ## Verification and export
 
 ```sh
 npm run test
 npm run typecheck
+npm run privacy:check
 npm run build
 ```
 
@@ -39,7 +54,11 @@ The static export is `out/`. The owner authorized public deployment on 15 Octobe
 
 `data/project-details.ts` holds project narratives and source-backed deliverables. The server-side reader `data/fixtures.ts` supplies existing examples to both the Lab and project pages and fails the build on a missing sample. `data/demos.ts` contains deterministic prompt composition and illustrative training scenarios. Synthetic examples, historical test reports and pending live/human checks remain explicitly distinct.
 
-`profile.publicCv` points to an approved public Italian PDF in `public/cv/`. The owner approved retaining email and removing phone; the derivative uses Marcelo Fernandez and English B1. Phone content was redacted, footer names and metadata sanitized, both pages visually checked. The original private PDF was not modified or added to Git. The download is explicitly labeled as an Italian PDF in each interface language. No private original PDF, application tracker or OAuth screenshot is included. The theme preference is the only browser storage written. Request text and checkbox state are neither saved nor sent; changing language/reloading clears demo state. Clipboard receives the generated prompt only after an explicit copy action. Next.js telemetry is disabled in the development/build scripts.
+`profile.publicCv` points to a privacy-minimized Italian PDF in `public/cv/`. The current derivative has no email, phone or mailto link; contact is the approved LinkedIn profile. Metadata was minimized and both pages visually checked. The reviewed hash is in `public/cv/public-manifest.json`. The original private PDF was not modified or added to Git. This is a privacy update, not the pending career-targeted EN/IT rewrite. The download is explicitly labelled as an Italian PDF in every interface language.
+
+No private original PDF, tracker, recruiter message, strategy report or OAuth screenshot belongs in Git. `privacy:check` inspects candidate source files for common secret/contact/identifier patterns and verifies the reviewed PDF hash; it runs before production build and never prints matched values. This is a heuristic gate, not a guarantee about all binary data, Git history, forks or caches. Review the explicit staged file list as well. Existing Git history is not rewritten.
+
+Theme preference is the only browser storage written. Request text, search terms, filters and checkbox state are neither saved nor sent; changing language/reloading clears demo state. Clipboard receives the generated prompt only after an explicit copy action. Next.js telemetry is disabled in development/build scripts.
 
 ## Existing product media
 
@@ -47,4 +66,4 @@ The static export is `out/`. The owner authorized public deployment on 15 Octobe
 
 ## Scope
 
-This branch depends on `career-pivot-ai-portfolio`. Keep its PR separate from the earlier portfolio PR. Do not merge or deploy without the owner's separate approval.
+Source includes the existing v01/career-pivot ancestry. Future changes require owner review before publication. Never rewrite history, modify `gh-pages` by hand or copy private working directories into the export. Only the reviewed generated tree is published.

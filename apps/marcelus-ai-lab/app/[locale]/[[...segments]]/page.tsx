@@ -7,11 +7,12 @@ import Case from '@/app/(english)/cases/[slug]/page';
 import About from '@/app/(english)/about/page';
 import Recruiter from '@/app/(english)/recruiter/page';
 import Lab from '@/app/(english)/lab/page';
+import LibraryPage from '@/app/(english)/library/page';
 import { caseStudies, projects, profile } from '@/data/portfolio';
 import { type Locale, t } from '@/data/i18n';
 import { pageMetadata } from '@/data/site-metadata';
 
-const routes = ['', 'projects', ...projects.map(item => `projects/${item.id}`), 'lab', 'cases', ...caseStudies.map(item => `cases/${item.id}`), 'about', 'recruiter'];
+const routes = ['', 'projects', ...projects.map(item => `projects/${item.id}`), 'lab', 'library', 'cases', ...caseStudies.map(item => `cases/${item.id}`), 'about', 'recruiter'];
 export const dynamicParams = false;
 export function generateStaticParams() { return ['it', 'es'].flatMap(locale => routes.map(route => ({ locale, segments: route ? route.split('/') : [] }))); }
 type Props = { params: Promise<{ locale: string; segments?: string[] }> };
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: Props) {
   const route = segments.join('/');
   const project = projects.find(item => route === `projects/${item.id}`);
   const item = caseStudies.find(item => route === `cases/${item.id}`);
-  const title = project?.name || (item ? t(locale, item.title) : route === 'projects' ? t(locale, 'Projects') : route === 'cases' ? t(locale, 'Case studies') : route === 'lab' ? t(locale, 'AI Evaluation Lab') : profile.name);
+  const title = project?.name || (item ? t(locale, item.title) : route === 'projects' ? t(locale, 'Projects') : route === 'cases' ? t(locale, 'Case studies') : route === 'lab' ? t(locale, 'AI Evaluation Lab') : route === 'library' ? t(locale, 'Prometeus Library') : route === 'recruiter' ? t(locale, '60 second overview') : profile.name);
   const description = t(locale, project?.description || item?.summary || 'Prompt design, content evaluation and practical training, with documentary evidence and explicit limits.');
   const path = route ? `/${route}/` : '/';
   return pageMetadata(path, locale, title, description);
@@ -40,6 +41,7 @@ export default async function LocalizedPage({ params }: Props) {
   if (route === 'about') return <About params={pageParams} />;
   if (route === 'recruiter') return <Recruiter params={pageParams} />;
   if (route === 'lab') return <Lab params={pageParams} />;
+  if (route === 'library') return <LibraryPage params={pageParams} />;
   const detailParams = Promise.resolve<{ locale: Locale; slug: string }>({ locale, slug: segments[1] });
   if (segments[0] === 'projects') return <Project params={detailParams} />;
   return <Case params={detailParams} />;

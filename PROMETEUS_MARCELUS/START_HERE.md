@@ -4,6 +4,14 @@ Prometeus Marcelus e un AI Prompt Architect pensato per aiutare le persone a cre
 
 Questa pagina serve come punto di ingresso operativo per utenti, tester e collaboratori.
 
+## Percorso breve
+
+- [Biblioteca per obiettivo](GUIDA_BIBLIOTECA.md): requisiti, valutazione, formazione e procedure.
+- [Sei template professionali](templates/workflow-professionali.md): input, vincoli, output e accettazione.
+- [Caso di rubric design](../AI_EVALUATION_PORTFOLIO/CASE_02_PROMETEUS_RUBRIC_DESIGN.md): prova sintetica documentata.
+
+Il catalogo non e' una validazione: varianti, materiali editoriali nuovi, fixture e test storici hanno stati distinti. Non pubblicare dati personali o di clienti per provare un prompt.
+
 ## 1. Prova Prometeus
 
 Usa Prometeus Marcelus con un problema concreto.
