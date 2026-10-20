@@ -108,7 +108,7 @@ Sotto-aree principali: lunga attesa in Pronto Soccorso, sovraffollamento, triage
 
 ## Totale aggiornato
 
-- Prompt pubblici Marcelus: 1450
-- Prompt specialistico tesi universitaria: 1
-- Totale pubblico indicizzato: 1451
-- Prompt premium privati: 100
+- Il conteggio storico di questa mappa era 1451 voci.
+- L'[indice corrente](INDICE_PROMPT.md) comprende 2000 voci Marcelus e 60 voci AI Act, in 26 file.
+- Il catalogo verificabile e' generato dai titoli numerati dei file sorgente; 2060 voci non significa 2060 prompt unici o validati.
+- Materiali premium o privati restano esclusi dal catalogo pubblico.

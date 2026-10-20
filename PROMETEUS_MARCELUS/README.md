@@ -1,8 +1,10 @@
 # Prometeus Marcelus
 
-**AI Prompt Architect for verified, safe and useful prompts**
+**Prompt & instruction system design**
 
-Versione italiana iniziale: **Architetto AI per prompt verificati, sicuri e utili**.
+Richieste, requisiti, vincoli, criteri e verifica. Progetto personale documentato, non garanzia di affidabilita' di un modello.
+
+[Percorso biblioteca e selezione per obiettivo](GUIDA_BIBLIOTECA.md) · [Sei template professionali](templates/workflow-professionali.md) · [Caso di rubric design](../AI_EVALUATION_PORTFOLIO/CASE_02_PROMETEUS_RUBRIC_DESIGN.md)
 
 Prometeus Marcelus e un agente AI progettato per aiutare cittadini, professionisti, formatori, creativi e piccole imprese a trasformare richieste confuse in prompt chiari, prudenti, verificabili e realmente utilizzabili.
 
@@ -16,7 +18,7 @@ Prometeus Marcelus e un figlio di Promethea. E separato da altri figli, come Pro
 
 - [Apri il GPT pubblico Prometeus Marcelus](https://chatgpt.com/g/g-6a4117d34d648191a77d9b01bbf2160f-prometeus-marcelus)
 - [Usa Prometeus Marcelus](USA_PROMETEUS_MARCELUS.md)
-- [Istruzioni Custom GPT V4](gpt_builder/ISTRUZIONI_CUSTOM_GPT_V4.md)
+- [Istruzioni Custom GPT V5, riferimento corrente; test storico V2 separato](gpt_builder/ISTRUZIONI_CUSTOM_GPT_V5.md)
 - [Conversation Starters V4](gpt_builder/CONVERSATION_STARTERS_V4.md)
 - [Release v0.4.0](../RELEASE_NOTES_v0.4.0.md)
 
