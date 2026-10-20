@@ -1,6 +1,8 @@
-# Marcelus.v.v01
+# Marcelo Fernandez
 
-## Marcelo Fernandez Caballero - AI evaluation, training e workflow design
+## AI Evaluation | Training | Workflow Design
+
+[LIVE PORTFOLIO](https://manzo8b.github.io/marcelus-v-v01/it/) · [PANORAMICA RECRUITER IN 60 SECONDI](https://manzo8b.github.io/marcelus-v-v01/it/recruiter/)
 
 Porto esperienza in operations e formazione professionale alla progettazione di istruzioni, workflow e strumenti di valutazione AI. Questo repository documenta i miei progetti personali: **Prometeus Marcelus**, **VERUM** e **RISTO-LAB**.
 
@@ -8,13 +10,30 @@ Il mio contributo consiste nel definire problemi e requisiti, strutturare prompt
 
 | Progetto | Problema affrontato | Prova consultabile |
 | --- | --- | --- |
-| VERUM | Confrontare output, fatti di riferimento e incertezze | [Caso 01: errori fattuali e feedback](AI_EVALUATION_PORTFOLIO/CASE_01_VERUM_OUTPUT_EVALUATION.md) |
+| VERUM | Confrontare affermazioni, fonti, denominatori e causalita' | [Caso pratico di fact-checking](https://manzo8b.github.io/marcelus-v-v01/it/cases/fact-check-renewables/) |
 | Prometeus Marcelus | Tradurre una richiesta vaga in criteri e istruzioni verificabili | [Caso 02: rubric design e calibrazione](AI_EVALUATION_PORTFOLIO/CASE_02_PROMETEUS_RUBRIC_DESIGN.md) |
 | RISTO-LAB | Adattare istruzioni operative al destinatario | [Caso 03: qualita linguistica e training](AI_EVALUATION_PORTFOLIO/CASE_03_LANGUAGE_QUALITY.md) |
 
-[Portfolio in tre casi](AI_EVALUATION_PORTFOLIO/README.md) · [Rubrica e regole decisionali](AI_EVALUATION_PORTFOLIO/RUBRIC.md) · [Registro delle verifiche](AI_EVALUATION_PORTFOLIO/TEST_LOG.md)
+[Quattro casi documentati](AI_EVALUATION_PORTFOLIO/README.md) · [Rubrica e regole decisionali](AI_EVALUATION_PORTFOLIO/RUBRIC.md) · [Registro delle verifiche](AI_EVALUATION_PORTFOLIO/TEST_LOG.md)
 
-Lingue: spagnolo madrelingua; italiano fluente nell'uso professionale, CELI B1 certificato; inglese B1. Le competenze di formazione derivano dall'esperienza lavorativa; i progetti AI sono proof of work personali.
+Lingue: spagnolo madrelingua; italiano nell'uso professionale, CELI B1 certificato; inglese B1 dichiarato, non certificato. Le competenze di formazione derivano dall'esperienza lavorativa; i progetti AI sono proof of work personali.
+
+Contatto professionale: [LinkedIn](https://www.linkedin.com/in/marcelo-fernandez-cab/). Nessun modulo, documento identificativo o dato di candidatura richiesto sul sito.
+
+### Prove e limiti
+
+- Tre progetti, quattro casi: problemi, istruzioni, criteri, errori e correzioni.
+- Nove fixture sintetiche con controlli meccanici, non una metrica di accuratezza AI.
+- Prometeus: report storico V2, un caso completo e batch diagnostico; non validazione V5.
+- VERUM: correzione storica documentata, regressione ancora da completare.
+- RISTO-LAB: 50 scenari preparati, non 50 test live completati.
+
+### Documentazione
+
+[Sorgente app](apps/marcelus-ai-lab/README.md) · [Percorso biblioteca Prometeus](PROMETEUS_MARCELUS/GUIDA_BIBLIOTECA.md) · [Indice completo](docs/INDICE_PROMPT.md) · [Privacy e sicurezza](SECURITY.md)
+
+<details>
+<summary>Biblioteca completa, metodo e archivio storico</summary>
 
 ## Framework e biblioteca
 
@@ -50,7 +69,7 @@ Il punto non e avere tanti prompt. Il punto e fare domande migliori, ridurre ris
 
 ## Badge progetto
 
-![status](https://img.shields.io/badge/status-v0.7.4--risto--lab--50--tests-blue)
+![status](https://img.shields.io/badge/RISTO--LAB-50%20prepared%20scenarios-blue)
 ![language](https://img.shields.io/badge/language-Italian-green)
 ![focus](https://img.shields.io/badge/focus-prompt%20engineering%20%7C%20AI%20safety%20%7C%20education-orange)
 ![license](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
@@ -173,6 +192,8 @@ Il modo piu semplice e portare un problema concreto:
 - un dubbio su privacy, AI Act, lavoro, formazione, Food and Beverage o vita quotidiana.
 
 Parti da [Casi Reali Prometeus](CASI_REALI_PROMETEUS/README.md).
+
+</details>
 
 ## Contribuire
 

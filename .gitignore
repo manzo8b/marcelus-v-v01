@@ -1,3 +1,16 @@
 .DS_Store
 **/.DS_Store
 
+# Private working material never belongs to the public repository.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+private/
+local-private/
+output/
+*_PRIVATE.*
+APPLICATION_TRACKER*
+DISTRIBUTION_MATRIX.md
+PORTFOLIO_GROWTH_PLAN.md

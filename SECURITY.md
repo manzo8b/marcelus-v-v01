@@ -1,5 +1,13 @@
 # Security Policy
 
+## Public release gate
+
+Before committing or publishing, run `npm run privacy:check` from `apps/marcelus-ai-lab`. It checks tracked and non-ignored candidate files for common secret/contact/identifier patterns without printing their values, and verifies the reviewed public PDF hash. This heuristic does not certify the entire history, all personal data or all binary formats.
+
+Only reviewed application assets belong in `public/`. Keep application trackers, recruiter messages, original CVs, local audit/growth plans, customer material, environment files and credentials outside the checkout. Do not use `git add .`; stage an explicit file list and review the staged diff. Do not upload private reports as PR attachments.
+
+Public professional identity and approved profile links are intentional; direct personal contacts and identifiers are excluded from new releases. Removal from the current tree does not erase old commits, forks or caches. History rewriting or credential rotation requires a separate incident response, never an unreviewed force-push.
+
 ## Ambito
 
 Questo repository contiene principalmente documentazione, prompt, checklist, dataset didattici simulati e materiali di governance per Prometeus Marcelus, Bibliotheca Promethea e Promethea Economica.
@@ -71,4 +79,3 @@ I figli di Promethea sono separati ma interconnessi.
 Ogni passaggio di contenuto tra Prometeus Marcelus, Promethea Economica e Bibliotheca Promethea deve essere prudente, sicuro e documentato.
 
 Vedi anche [Promethea Governance](PROMETHEA_GOVERNANCE.md).
-
