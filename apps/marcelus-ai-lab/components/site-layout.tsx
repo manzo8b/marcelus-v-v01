@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import { Navigation } from '@/components/navigation';
 import { profile, repository } from '@/data/portfolio';
-import { siteOrigin } from '@/data/site-metadata';
+import { siteOrigin, absoluteUrl } from '@/data/site-metadata';
 import { type Locale, localizedPath, t } from '@/data/i18n';
 import '@/app/globals.css';
 
@@ -15,7 +15,9 @@ export const siteMetadata: Metadata = {
 };
 
 export default function SiteLayout({ children, locale }: Readonly<{ children: React.ReactNode; locale: Locale }>) {
+  const person = { '@context': 'https://schema.org', '@type': 'Person', '@id': absoluteUrl('/#marcelo-fernandez'), name: profile.name, url: absoluteUrl(localizedPath('/about/', locale)), sameAs: [profile.linkedin, 'https://github.com/manzo8b'] };
   return <html lang={locale} suppressHydrationWarning><body>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(person).replace(/</g, '\\u003c') }} />
     <a className="skip-link" href="#main-content">{t(locale, 'Skip to content')}</a>
     <Navigation locale={locale} />
     <main id="main-content" className="page-container">{children}</main>

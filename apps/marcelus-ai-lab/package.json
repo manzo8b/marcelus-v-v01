@@ -1,13 +1,15 @@
 {
   "name": "marcelus-ai-lab",
-  "version": "0.1.0",
+  "version": "0.2.0-rc.1",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "NEXT_TELEMETRY_DISABLED=1 next dev --hostname 127.0.0.1",
-    "build": "NEXT_TELEMETRY_DISABLED=1 next build",
+    "build": "node scripts/index-library.mjs --check && node scripts/privacy-check.mjs && NEXT_TELEMETRY_DISABLED=1 next build",
+    "library:index": "node scripts/index-library.mjs",
+    "privacy:check": "node scripts/privacy-check.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test tests/*.test.ts"
+    "test": "node --experimental-strip-types --test tests/*.test.ts scripts/*.test.mjs"
   },
   "dependencies": {
     "lucide-react": "1.57.0",

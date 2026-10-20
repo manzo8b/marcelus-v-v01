@@ -1,6 +1,7 @@
 import { contentTranslations } from './content-translations.ts';
 import { demoTranslations } from './demo-translations.ts';
 import { phase5Translations } from './phase5-translations.ts';
+import { growthTranslations } from './growth-translations.ts';
 export const locales = ['en', 'it', 'es'] as const;
 export type Locale = typeof locales[number];
 export type LocalizedProps = { params: Promise<{ locale?: Locale }> };
@@ -57,7 +58,7 @@ export const translations: [string, string, string][] = [
   ['Original Italian evidence', 'Prova originale in italiano', 'Evidencia original en italiano'], ['Method', 'Metodo', 'Método'], ['Criteria', 'Criteri', 'Criterios'], ['Historical report', 'Report storico', 'Informe histórico'], ['Synthetic case', 'Caso sintetico', 'Caso sintético'], ['Documented iteration', 'Iterazione documentata', 'Iteración documentada'],
 ];
 
-const dictionary = new Map([...translations, ...contentTranslations, ...demoTranslations, ...phase5Translations].map(row => [row[0], row]));
+const dictionary = new Map([...translations, ...contentTranslations, ...demoTranslations, ...phase5Translations, ...growthTranslations].map(row => [row[0], row]));
 export function t(locale: Locale, text: string): string {
   if (locale === 'en') return text;
   const row = dictionary.get(text);

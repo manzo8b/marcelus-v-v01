@@ -7,7 +7,7 @@ import { ArrowUpRight, Aperture, Menu, Moon, Sun, X } from 'lucide-react';
 import { repository } from '@/data/portfolio';
 import { type Locale, localizedPath, unlocalizedPath, t } from '@/data/i18n';
 
-const links = [['/', 'Overview'], ['/projects/', 'Projects'], ['/lab/', 'Evaluation lab'], ['/cases/', 'Case studies'], ['/about/', 'About']];
+const links = [['/', 'Overview'], ['/projects/', 'Projects'], ['/lab/', 'Evaluation lab'], ['/library/', 'Library'], ['/recruiter/', '60 second overview']];
 
 export function Navigation({ locale }: { locale: Locale }) {
   const path = usePathname();

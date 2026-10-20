@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import { type Locale, localizedPath, t } from '@/data/i18n';
 import { ArrowRight, ArrowUpRight, BookOpen, FileDown, GraduationCap, ScanLine, Workflow } from 'lucide-react';
-import { type Project, type ProjectId, assetUrl, caseStudies, evidenceUrl, profile, projects } from '@/data/portfolio';
+import { type Project, type ProjectId, assetUrl, caseStudies, evidenceUrl, profile, projects, repository } from '@/data/portfolio';
 
 export const projectIcons = { prometeus: Workflow, verum: ScanLine, 'risto-lab': GraduationCap };
 
-export function ProjectGrid({ locale = 'en' }: { locale?: Locale }) {
-  return <div className="project-grid">{projects.map(project => <ProjectCard key={project.id} project={project} locale={locale} />)}</div>;
+export function ProjectGrid({ locale = 'en', evaluationFirst = false }: { locale?: Locale; evaluationFirst?: boolean }) {
+  const ordered = evaluationFirst ? [...projects].sort((a, b) => Number(b.id === 'verum') - Number(a.id === 'verum')) : projects;
+  return <div className="project-grid">{ordered.map(project => <ProjectCard key={project.id} project={project} locale={locale} />)}</div>;
 }
 
 export function ProjectCard({ project, locale = 'en' }: { project: Project; locale?: Locale }) {
@@ -28,8 +29,13 @@ export function EvidenceList({ project, locale = 'en' }: { project: Project; loc
   return <div className="evidence-list">{project.evidence.map(item => <a key={item.path} href={evidenceUrl(item.path)} target="_blank" rel="noreferrer" className="evidence-row"><BookOpen size={19} /><span>{t(locale, item.label)}<small>{t(locale, item.kind)}</small></span><ArrowUpRight size={17} /></a>)}</div>;
 }
 
-export function CaseList({ projectId, locale = 'en' }: { projectId?: ProjectId; locale?: Locale }) {
-  return <div className="case-list">{caseStudies.filter(item => !projectId || item.projectId === projectId).map(item => <Link key={item.id} href={localizedPath(`/cases/${item.id}/`, locale)} className={`case-row project-${item.projectId}`}><span className="case-number">{item.number}</span><div><p className="case-project">{projects.find(project => project.id === item.projectId)?.name}</p><h3>{t(locale, item.title)}</h3><p>{t(locale, item.summary)}</p></div><ArrowRight size={20} /></Link>)}</div>;
+export function CaseList({ projectId, locale = 'en', ids }: { projectId?: ProjectId; locale?: Locale; ids?: string[] }) {
+  const selected = ids ? ids.map(id => { const item = caseStudies.find(item => item.id === id); if (!item) throw new Error(`Missing case: ${id}`); return item; }) : caseStudies.filter(item => !projectId || item.projectId === projectId);
+  return <div className="case-list">{selected.map(item => <Link key={item.id} href={localizedPath(`/cases/${item.id}/`, locale)} className={`case-row project-${item.projectId}`}><span className="case-number">{item.number}</span><div><p className="case-project">{projects.find(project => project.id === item.projectId)?.name}</p><h3>{t(locale, item.title)}</h3><p>{t(locale, item.summary)}</p></div><ArrowRight size={20} /></Link>)}</div>;
+}
+
+export function ContactBand({ locale = 'en' }: { locale?: Locale }) {
+  return <section className="contact-band" aria-labelledby="contact-title"><div><h2 id="contact-title">{t(locale, 'Interested in working together?')}</h2><p>{t(locale, 'Evaluation, instructions and training grounded in real operational problems.')}</p></div><div className="document-links"><a href={profile.linkedin} className="button button-primary" target="_blank" rel="noreferrer">{t(locale, 'Contact on LinkedIn')}<ArrowUpRight size={17} /></a><PublicCv locale={locale} /><a href={repository} className="text-link" target="_blank" rel="noreferrer">GitHub<ArrowUpRight size={16} /></a></div></section>;
 }
 
 export function PublicCv({ locale = 'en' }: { locale?: Locale }) {

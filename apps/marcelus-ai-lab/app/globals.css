@@ -374,3 +374,27 @@ summary { cursor:pointer; min-height:44px; padding:10px 0; font-weight:500; }
   .footer-links { gap:10px 18px; }
 }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition:none !important; animation:none !important; } }
+
+.credibility-band { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px; border-block:1px solid var(--line); padding:24px 0; margin:32px 0; }
+.credibility-band h2 { font-size:14px; }
+.credibility-band p,.contact-band p,.small-note { color:var(--muted); font-size:13px; margin-top:8px; }
+.contact-band { border-top:1px solid var(--line); margin-top:42px; padding-top:28px; }
+.contact-band h2 { font-size:22px; }
+.plain-list { list-style:none; margin:0; padding:0; }
+.plain-list li { padding-bottom:4px; }
+.library-toolbar { display:grid; grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:20px; padding:22px 0; border-block:1px solid var(--line); }
+.library-toolbar label { display:flex; flex-direction:column; gap:8px; font-size:13px; }
+.library-toolbar input,.library-toolbar select { width:100%; min-width:0; height:46px; border:1px solid var(--line); border-radius:4px; background:var(--canvas); color:var(--ink); padding:10px 12px; font:inherit; }
+.library-status { min-height:48px; display:flex; align-items:center; flex-wrap:wrap; gap:12px; font-size:13px; color:var(--muted); }
+.library-results { list-style:none; margin:0; padding:0; }
+.library-results li { border-top:1px solid var(--line); }
+.library-entry { display:grid; grid-template-columns:minmax(0,1fr) 24px; gap:12px; align-items:center; padding:18px 0; min-height:88px; }
+.library-entry h3 { font-size:16px; }
+.library-entry p { color:var(--muted); font-size:12px; margin-top:6px; }
+.library-entry:hover h3 { text-decoration:underline; text-underline-offset:4px; }
+.library-review { color:var(--gold); display:inline-flex; align-items:center; gap:5px; margin-left:12px; }
+.library-empty { padding:36px 0; }
+.library-picks { display:flex; gap:8px 24px; flex-wrap:wrap; margin:12px 0 24px; }
+.library-picks button { border:0; border-bottom:1px solid var(--line); padding:8px 0; background:transparent; color:var(--ink); font-size:13px; min-height:44px; }
+.library-picks button[aria-pressed="true"] { border-color:var(--gold); color:var(--gold); }
+@media(max-width:650px) { .credibility-band { grid-template-columns:minmax(0,1fr); gap:18px; } .library-toolbar { grid-template-columns:minmax(0,1fr); gap:14px; } .library-review { display:flex; margin:6px 0 0; } }
