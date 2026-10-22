@@ -44,6 +44,6 @@ Experience in food & beverage operations, team coordination and professional tra
 
 ## Historical documentation
 
-The previous full README, including the prompt library, historical release links and earlier project descriptions, is preserved **without deletion** in the [README archive (22 October 2026)](docs/README_ARCHIVE_2026-10-22.md). The [complete prompt index](docs/INDICE_PROMPT.md) remains available.
+The previous full README, including the prompt library, historical release links and earlier project descriptions, is preserved **without deletion** in the [README archive (22 October 2026)](README_ARCHIVE_2026-10-22.md). The [complete prompt index](docs/INDICE_PROMPT.md) remains available.
 
 **Reuse:** Historical materials mention CC BY 4.0; verify the applicable licensing terms and third-party rights for each resource before reuse.
