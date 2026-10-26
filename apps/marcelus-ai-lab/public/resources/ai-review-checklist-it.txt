@@ -1,0 +1,42 @@
+MARCELUS AI LAB — CHECKLIST PER CONTROLLARE UNA RISPOSTA AI
+Risorsa gratuita, v1.0 — Italiano
+
+SCOPO
+Confrontare una risposta AI con la richiesta e i riferimenti effettivamente disponibili. Non è un fact-checking indipendente.
+
+DATI
+Data: _______
+Richiesta originale: _______
+Risposta AI: _______
+Fonti e riferimenti (con data): _______
+
+CONTROLLO — SÌ / NO / NON VERIFICABILE
+[ ] Risponde alla richiesta e rispetta le istruzioni.
+[ ] Il testo è adatto al pubblico e al formato richiesto.
+[ ] Prezzi, numeri, date e citazioni sono sostenuti dai riferimenti.
+[ ] Non introduce affermazioni, norme o promozioni inventate.
+[ ] Distingue fatti, interpretazioni e incertezze.
+[ ] Le fonti citate esistono, sono pertinenti e aggiornate.
+[ ] Dichiara dati mancanti e limiti di verifica.
+[ ] Non omette informazioni decisive.
+[ ] Non diffonde dati personali o riservati.
+
+REGISTRO DELLA VERIFICA
+Affermazione: _______
+Riferimento a supporto o in contrasto: _______
+Problema: CONTRADDIZIONE / AGGIUNTA NON SUPPORTATA / OMISSIONE / NON VERIFICABILE
+Correzione: _______
+
+ESITO
+[ ] PASS — coerente con i riferimenti disponibili
+[ ] NEEDS REVISION — serve una correzione
+[ ] FAIL — contraddizione o problema critico
+[ ] NOT VERIFIABLE — evidenza insufficiente
+Motivazione: _______
+Prossima azione: _______
+
+ATTENZIONE
+PASS indica coerenza con i riferimenti verificati, non verità universale. Per norme, salute e sicurezza consultare fonti ufficiali aggiornate ed esperti qualificati. Non caricare documenti privati su servizi esterni senza autorizzazione.
+
+Modello gratuito e modificabile. MARCELUS AI LAB
+https://manzo8b.github.io/marcelus-v-v01/it/resources/
