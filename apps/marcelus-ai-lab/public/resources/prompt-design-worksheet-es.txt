@@ -1,0 +1,48 @@
+MARCELUS AI LAB — FICHA PARA DISEÑAR INSTRUCCIONES DE IA
+Recurso gratuito, v1.0 — Español
+
+1. OBJETIVO
+¿Qué resultado necesito? _______
+¿Quién lo utilizará? _______
+¿En qué situación? _______
+
+2. DATOS Y REFERENCIAS
+¿Qué información conozco? _______
+¿Qué documentos puedo usar? _______
+¿Qué datos faltan o son inciertos? _______
+
+3. REQUISITOS
+Idioma, tono y público: _______
+Formato esperado: _______
+Restricciones obligatorias: _______
+Contenido que debe excluirse: _______
+
+4. FIABILIDAD
+¿Qué datos necesitan fuentes o verificación? _______
+¿Qué no debe inventarse? _______
+¿Riesgos de privacidad, derechos de autor o seguridad? _______
+
+5. CRITERIOS DE ACEPTACIÓN
+[ ] Responde al objetivo.
+[ ] Cumple las restricciones.
+[ ] Distingue hechos e hipótesis.
+[ ] No añade afirmaciones sin respaldo.
+[ ] Se entiende sin conocimientos técnicos especiales.
+
+6. PROMPT PARA PERSONALIZAR
+"Necesito [RESULTADO] para [PÚBLICO] en [CONTEXTO].
+Utiliza [DATOS Y REFERENCIAS]. Respeta [RESTRICCIONES].
+Escribe en [IDIOMA] con el formato [FORMATO].
+No inventes datos que falten; indica qué no puedes verificar.
+Revisa la respuesta según [CRITERIOS DE ACEPTACIÓN]."
+
+7. REVISIÓN
+¿Qué funcionó? _______
+¿Qué se entendió mal? _______
+¿Qué mejoraré? _______
+
+NOTA
+Las instrucciones claras facilitan comprobar las respuestas, pero no garantizan exactitud. No compartas datos confidenciales sin permiso.
+
+Plantilla gratuita y editable. MARCELUS AI LAB
+https://manzo8b.github.io/marcelus-v-v01/es/resources/
