@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: Props) {
       it: { notice: 'Informazioni legali', privacy: 'Informativa sulla privacy', cookies: 'Cookie e tecnologie locali' },
       es: { notice: 'Aviso legal', privacy: 'Política de privacidad', cookies: 'Cookies y tecnologías locales' },
     } as const;
-    return pageMetadata(`/${route}/`, locale, titles[locale][legalKind], locale === 'it' ? 'Informazioni legali e privacy del portfolio personale MARCELUS AI LAB.' : 'Información legal y de privacidad del portafolio personal MARCELUS AI LAB.');
+    return { ...pageMetadata(`/${route}/`, locale, titles[locale][legalKind], locale === 'it' ? 'Informazioni legali e privacy del portfolio personale MARCELUS AI LAB.' : 'Información legal y de privacidad del portafolio personal MARCELUS AI LAB.'), robots: { index: false, follow: false } };
   }
   const project = projects.find(item => route === `projects/${item.id}`);
   const item = caseStudies.find(item => route === `cases/${item.id}`);
