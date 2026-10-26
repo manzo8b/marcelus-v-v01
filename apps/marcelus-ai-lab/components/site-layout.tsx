@@ -21,6 +21,10 @@ export default function SiteLayout({ children, locale }: Readonly<{ children: Re
     <a className="skip-link" href="#main-content">{t(locale, 'Skip to content')}</a>
     <Navigation locale={locale} />
     <main id="main-content" className="page-container">{children}</main>
-    <footer className="site-footer"><div className="footer-inner"><div><strong>MARCELUS AI LAB</strong><span>{t(locale, 'Personal projects. Documented work.')}</span></div><div className="footer-links"><Link href={localizedPath('/about/', locale)}>{profile.name}</Link><a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn<ArrowUpRight size={14} /></a><a href={`mailto:${profile.email}`}><Mail size={14} aria-hidden="true"/>{profile.email}</a><a href={repository} target="_blank" rel="noreferrer">GitHub<ArrowUpRight size={14} /></a></div></div></footer>
+    <footer className="site-footer"><div className="footer-inner"><div><strong>MARCELUS AI LAB</strong><span>{t(locale, 'Personal projects. Documented work.')}</span></div><div className="footer-links"><Link href={localizedPath('/about/', locale)}>{profile.name}</Link><a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn<ArrowUpRight size={14} /></a><a href={`mailto:${profile.email}`}><Mail size={14} aria-hidden="true"/>{profile.email}</a><a href={repository} target="_blank" rel="noreferrer">GitHub<ArrowUpRight size={14} /></a></div></div><nav aria-label="Legal" className="mx-auto flex max-w-[1184px] flex-wrap gap-x-5 gap-y-2 px-8 pb-7 text-xs text-[var(--muted)]">
+      <Link href={localizedPath('/legal/', locale)}>{locale === 'it' ? 'Informazioni legali' : locale === 'es' ? 'Aviso legal' : 'Legal notice'}</Link>
+      <Link href={localizedPath('/legal/privacy/', locale)}>{locale === 'it' ? 'Privacy' : locale === 'es' ? 'Privacidad' : 'Privacy'}</Link>
+      <Link href={localizedPath('/legal/cookies/', locale)}>{locale === 'it' ? 'Cookie e tecnologie locali' : locale === 'es' ? 'Cookies y tecnologías locales' : 'Cookies and local technologies'}</Link>
+    </nav></footer>
   </body></html>;
 }
