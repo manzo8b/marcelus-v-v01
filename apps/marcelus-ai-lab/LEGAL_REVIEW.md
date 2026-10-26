@@ -53,7 +53,7 @@ MARCELUS AI LAB is a **personal, independent portfolio**. No checkout, professio
 ## Authoritative references
 - GDPR: https://eur-lex.europa.eu/eli/reg/2016/679/oj
 - Garante, cookie/tracking guidance: https://www.garanteprivacy.it/faq/Cookie
-- Garante, transparency and duties: https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/8981258
+- Garante, transparency and duties: https://www.garanteprivacy.it/
 - GitHub Pages IP logging: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
 - GitHub Privacy Statement: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
 - GitHub Pages terms: https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features
