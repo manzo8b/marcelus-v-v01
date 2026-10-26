@@ -7,7 +7,7 @@ import { ArrowUpRight, Aperture, Menu, Moon, Sun, X } from 'lucide-react';
 import { repository } from '@/data/portfolio';
 import { type Locale, localizedPath, unlocalizedPath, t } from '@/data/i18n';
 
-const links = [['/', 'Overview'], ['/projects/', 'Projects'], ['/lab/', 'Evaluation lab'], ['/library/', 'Library'], ['/recruiter/', '60 second overview']];
+const links = [['/', 'Overview'], ['/projects/', 'Projects'], ['/#skills', 'Skill'], ['/lab/', 'Evaluation lab'], ['/library/', 'Library']];
 
 export function Navigation({ locale }: { locale: Locale }) {
   const path = usePathname();
@@ -40,7 +40,11 @@ export function Navigation({ locale }: { locale: Locale }) {
     <div className="header-inner">
       <Link href={localizedPath('/', locale)} className="brand" aria-label="Marcelus AI Lab"><Aperture size={26} strokeWidth={1.6} /><span>MARCELUS <span className="brand-detail">AI LAB</span></span></Link>
       <nav id="main-navigation" aria-label={t(locale, 'Main navigation')} className={`main-nav ${open ? 'is-open' : ''}`}>
-        {links.map(([href, label]) => <Link key={href} href={localizedPath(href, locale)} aria-current={active(href) ? 'page' : undefined} onClick={() => setOpen(false)}>{t(locale, label)}</Link>)}
+        {links.map(([href, label]) => {
+          const anchor = href === '/#skills';
+          const url = anchor ? `${localizedPath('/', locale)}#skills` : localizedPath(href, locale);
+          return <Link key={href} href={url} aria-current={!anchor && active(href) ? 'page' : undefined} onClick={() => setOpen(false)}>{anchor ? 'Skill' : t(locale, label)}</Link>;
+        })}
         <a href={repository} target="_blank" rel="noreferrer">GitHub<ArrowUpRight size={14} /></a>
       </nav>
       <div className="header-tools">
