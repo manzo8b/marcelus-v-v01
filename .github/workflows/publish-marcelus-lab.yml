@@ -71,6 +71,21 @@ jobs:
           test -s out/it/projects/villa-pitosfori/index.html
           test -s out/es/projects/villa-pitosfori/index.html
           test -f out/.nojekyll
+          # Protect the approved multilingual legal pages on every publication.
+          for locale in "" "it/" "es/"; do
+            for route in legal legal/privacy legal/cookies; do
+              page="out/${locale}${route}/index.html"
+              test -s "$page"
+              grep -Fq 'Marcelo Javier Fernandez Caballero' "$page"
+              if grep -Eiq 'noindex|BOZZA IN REVISIONE|REVIEW DRAFT|BORRADOR EN REVISIÓN' "$page"; then
+                echo "Legal publication blocked: $page"
+                exit 1
+              fi
+            done
+          done
+          for url in '/legal/' '/legal/privacy/' '/legal/cookies/' '/it/legal/' '/it/legal/privacy/' '/it/legal/cookies/' '/es/legal/' '/es/legal/privacy/' '/es/legal/cookies/'; do
+            grep -Fq "https://manzo8b.github.io/marcelus-v-v01${url}" out/sitemap.xml
+          done
           cv_sha="$(sha256sum out/cv/CV_Marcelo_Fernandez_IT.pdf | cut -d' ' -f1)"
           test "$cv_sha" = "c737892d5aeec7ffc479a72769c750e235899a1343994145ac7aa725b3bc2189"
           node -e 'const fs=require("node:fs");const r={version:"0.3.0",sourceCommit:process.env.GITHUB_SHA,sourceBranch:"main",siteOrigin:"https://manzo8b.github.io",basePath:"/marcelus-v-v01",builtAt:new Date().toISOString(),nodeVersion:process.version,publicCvSha256:process.argv[1]};fs.writeFileSync("out/deployment.json",JSON.stringify(r,null,2)+"\n");' "$cv_sha"
