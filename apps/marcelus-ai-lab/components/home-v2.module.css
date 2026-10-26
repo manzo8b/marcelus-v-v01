@@ -216,3 +216,14 @@
 .freeFeature > a {width:100%;max-width:280px;justify-self:end;}
 @media(max-width:800px){.villaFeature,.freeFeature{grid-template-columns:1fr;gap:21px;}.freeFeature > a{justify-self:start;}}
 @media(max-width:630px){.villaFeature,.freeFeature{padding:25px 22px;border-radius:18px;margin-bottom:46px;}.freeFeature{margin-bottom:25px;}}
+
+/* Explicit public contact email, visually paired with the verified LinkedIn CTA. */
+.contactEmail {
+  display:inline-flex;align-items:center;justify-content:center;gap:11px;
+  border:1px solid rgba(225,230,245,.62);border-radius:999px;
+  color:#f6f8ff;min-height:48px;padding:12px 21px;
+  font-size:14px;font-weight:650;line-height:1.3;text-align:center;
+  overflow-wrap:anywhere;
+}
+.contactEmail:hover { background:rgba(255,255,255,.10); }
+.contactEmail:focus-visible { outline:3px solid #aabaff;outline-offset:4px; }

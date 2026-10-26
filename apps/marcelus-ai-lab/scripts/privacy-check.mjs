@@ -3,7 +3,7 @@ import { readFileSync, lstatSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { detectPrivateText } from './privacy-rules.mjs';
+import { detectPrivateText, isApprovedPublicContact } from './privacy-rules.mjs';
 
 const root = fileURLToPath(new URL('../../../', import.meta.url));
 const paths = [...new Set(execFileSync('git', ['ls-files', '--cached', '--others', '--exclude-standard', '-z'], { cwd: root, encoding: 'utf8' }).split('\0').filter(Boolean))];
@@ -15,7 +15,12 @@ for (const file of paths) {
   const bytes = readFileSync(path.join(root, file));
   if (/\.(?:pdf|png|jpe?g|ico)$/i.test(file)) continue;
   const text = bytes.toString('utf8');
-  for (const kind of detectPrivateText(text)) findings.push({ file, kind });
+  for (const kind of detectPrivateText(text)) {
+    // Only the owner-approved address in the dedicated public profile field
+    // is exempt. All other detected email addresses remain blocked.
+    if (kind === 'email' && isApprovedPublicContact(file, text)) continue;
+    findings.push({ file, kind });
+  }
 }
 const cvDirectory = path.join(root, 'apps/marcelus-ai-lab/public/cv');
 const manifest = JSON.parse(readFileSync(path.join(cvDirectory, 'public-manifest.json'), 'utf8'));

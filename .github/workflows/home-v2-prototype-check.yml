@@ -5,6 +5,7 @@ on:
     branches:
       - feat/marcelus-home-v2-design-prototype
       - fix/home-headings-no-periods
+      - fix/public-contact-links-and-email
 
 permissions:
   contents: read

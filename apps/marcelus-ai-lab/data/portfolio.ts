@@ -5,6 +5,7 @@ export const profile = {
   name: 'Marcelo Fernandez',
   role: 'Training & AI Workflow Projects',
   linkedin: 'https://www.linkedin.com/in/marcelo-fernandez-cab/',
+  email: 'marcelo2020.it@gmail.com',
   publicCv: '/cv/CV_Marcelo_Fernandez_IT.pdf' as string | null,
   languages: ['Spanish: native', 'Italian: professional use, CELI B1 certified', 'English: B1'],
   targets: ['AI Content Evaluation', 'Language Evaluation', 'Digital Training', 'Content Quality', 'Process Documentation'],

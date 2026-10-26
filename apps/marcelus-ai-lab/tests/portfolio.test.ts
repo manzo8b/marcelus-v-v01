@@ -23,6 +23,8 @@ test('cases refer to approved projects and retain their canonical paths', () => 
 });
 test('only the approved public CV is configured and English is B1', () => {
   assert.equal(profile.name, 'Marcelo Fernandez');
+  assert.equal(profile.linkedin, 'https://www.linkedin.com/in/marcelo-fernandez-cab/');
+  assert.equal(profile.email, ['marcelo2020.it', 'gmail.com'].join('@'));
   assert.equal(profile.publicCv, '/cv/CV_Marcelo_Fernandez_IT.pdf');
   assert.ok(profile.languages.includes('English: B1'));
 });
