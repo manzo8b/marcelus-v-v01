@@ -1,6 +1,6 @@
-:HL["/marcelus-v-v01/_next/static/chunks/1p5olu5zzv3_k.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/0hqt4jzwir95w.css","style"]
 :HL["/marcelus-v-v01/_next/static/chunks/1n0ng2u6cnl3k.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"segments","t":"oc","k":"lab","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"it","s":["about","cases","lab","library","projects","recruiter","resources"]},"h":196720,"c":"$Q2"}]]
-0:{"b":"ZhrYYrMMm_18V4qEjCKNM","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"qOE9o5lTGRULDrEk_gZFX","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

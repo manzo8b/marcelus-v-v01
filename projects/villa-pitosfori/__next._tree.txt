@@ -1,7 +1,7 @@
-:HL["/marcelus-v-v01/_next/static/chunks/1p5olu5zzv3_k.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/0hqt4jzwir95w.css","style"]
 :HL["/marcelus-v-v01/_next/static/chunks/1n0ng2u6cnl3k.css","style"]
 4:[["children",{"s":"__PAGE__","h":160}]]
 3:[["children",{"s":"villa-pitosfori","h":96,"c":"$Q4"}]]
 2:[["children",{"s":"projects","h":96,"c":"$Q3"}]]
 1:[["children",{"s":"(english)","h":112,"c":"$Q2"}]]
-0:{"b":"ZhrYYrMMm_18V4qEjCKNM","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"qOE9o5lTGRULDrEk_gZFX","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
