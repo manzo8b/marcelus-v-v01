@@ -76,7 +76,7 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
         ] },
         { heading: 'Destinatari e fornitori', paragraphs: [
           'Le pagine sono ospitate su GitHub Pages; i messaggi inviati al contatto pubblico sono ricevuti tramite Gmail (Google). GitHub e Google operano secondo le condizioni e le informative privacy dei rispettivi servizi. Il sito non trasmette al titolare i testi immessi nelle demo locali.',
-          'GitHub: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement — Informazioni su GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages',
+          'Informative: GitHub https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement — Google https://policies.google.com/privacy?hl=it — Hosting https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages',
         ] },
         { heading: 'Trasferimenti internazionali', paragraphs: [
           'GitHub e Google utilizzano infrastrutture e organizzazioni internazionali: alcuni trattamenti possono avvenire anche fuori dallo Spazio economico europeo. I meccanismi e le garanzie relativi ai trasferimenti internazionali sono descritti nelle informative privacy aggiornate dei rispettivi fornitori, consultabili dai collegamenti riportati in questa pagina.',
@@ -160,7 +160,7 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
         ] },
         { heading: 'Providers and recipients', paragraphs: [
           'Pages are hosted on GitHub Pages; email sent to the public contact is received through Gmail (Google). GitHub and Google each operate under the terms and privacy notices of their own services. Local demonstration inputs are not sent to the portfolio owner.',
-          'GitHub privacy statement: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement — GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages',
+          'Provider notices: GitHub https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement — Google https://policies.google.com/privacy?hl=en — Hosting https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages',
         ] },
         { heading: 'International transfers', paragraphs: [
           'GitHub and Google operate global infrastructures and organizations: some processing may take place outside the European Economic Area. The providers describe applicable international transfer mechanisms and safeguards in their current privacy notices, linked in this page.',
@@ -244,7 +244,7 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
         ] },
         { heading: 'Destinatarios y proveedores', paragraphs: [
           'Las páginas se alojan en GitHub Pages; el correo enviado al contacto público se recibe mediante Gmail (Google). GitHub y Google se rigen por las condiciones y políticas de privacidad de sus servicios. Las entradas de las demostraciones locales no se envían al titular.',
-          'Privacidad de GitHub: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement — GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages',
+          'Políticas: GitHub https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement — Google https://policies.google.com/privacy?hl=es — Alojamiento https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages',
         ] },
         { heading: 'Transferencias internacionales', paragraphs: [
           'GitHub y Google utilizan infraestructuras y organizaciones internacionales: parte del tratamiento puede producirse fuera del Espacio Económico Europeo. Los mecanismos y garantías aplicables a las transferencias internacionales se explican en las políticas de privacidad actuales de ambos proveedores, enlazadas en esta página.',
