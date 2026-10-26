@@ -26,7 +26,7 @@ test('legal pages have three languages and all legal sections', () => {
   assert.match(code, /import \{ legalOwnerName \} from '@\/data\/legal-identity';/);
 });
 
-test('legal pages are in sitemap and localized static routes', () => {
+test('draft pages are routable but excluded from sitemap and search indexing', () => {
   const site = read('app/sitemap.ts');
   const routes = read('app/[locale]/[[...segments]]/page.tsx');
   const footer = read('components/site-layout.tsx');
