@@ -1,6 +1,6 @@
 :HL["/marcelus-v-v01/_next/static/chunks/1p5olu5zzv3_k.css","style"]
-:HL["/marcelus-v-v01/_next/static/chunks/34opun0tk19c3.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/0zr--ywoxg64u.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"segments","t":"oc","k":"projects/verum","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"es","s":["about","cases","lab","library","projects","recruiter","resources"]},"h":196720,"c":"$Q2"}]]
-0:{"b":"SKuQbMU-XXlHr7vlplQap","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"bfNUz-695nYLOFyJWA_wN","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

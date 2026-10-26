@@ -1,10 +1,10 @@
 {
   "version": "0.3.0",
-  "sourceCommit": "7ee8c574b34c0d0bda5eb9eab68a3e86be837e31",
+  "sourceCommit": "38b3494d17230c5091b7eb6bbe8913db561c4b8b",
   "sourceBranch": "main",
   "siteOrigin": "https://manzo8b.github.io",
   "basePath": "/marcelus-v-v01",
-  "builtAt": "2026-10-26T08:19:36.099Z",
+  "builtAt": "2026-10-26T09:04:57.912Z",
   "nodeVersion": "v24.16.0",
   "publicCvSha256": "c737892d5aeec7ffc479a72769c750e235899a1343994145ac7aa725b3bc2189"
 }
