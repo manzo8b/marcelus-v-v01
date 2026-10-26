@@ -1,5 +1,6 @@
-:HL["/marcelus-v-v01/_next/static/chunks/0y4vxa5we8zlo.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/1p5olu5zzv3_k.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/34opun0tk19c3.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"segments","t":"oc","k":"cases/training-language-quality","s":[]},"h":65632,"c":"$Q3"}]]
-1:[["children",{"s":{"n":"locale","t":"d","k":"it","s":["about","cases","lab","library","projects","recruiter"]},"h":196720,"c":"$Q2"}]]
-0:{"b":"Q4tA_d0Q35gnN6hImh0PW","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+1:[["children",{"s":{"n":"locale","t":"d","k":"it","s":["about","cases","lab","library","projects","recruiter","resources"]},"h":196720,"c":"$Q2"}]]
+0:{"b":"1wleQMwiW3hlxIF-Hc5BA","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

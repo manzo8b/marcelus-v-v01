@@ -1,4 +1,5 @@
-:HL["/marcelus-v-v01/_next/static/chunks/0y4vxa5we8zlo.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/1p5olu5zzv3_k.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/34opun0tk19c3.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"(english)","h":112,"c":"$Q2"}]]
-0:{"b":"Q4tA_d0Q35gnN6hImh0PW","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"1wleQMwiW3hlxIF-Hc5BA","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

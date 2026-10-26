@@ -1,6 +1,6 @@
-:HL["/marcelus-v-v01/_next/static/chunks/0y4vxa5we8zlo.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/1p5olu5zzv3_k.css","style"]
 4:[["children",{"s":"__PAGE__","h":160}]]
-3:[["children",{"s":{"n":"slug","t":"d","k":"prometeus","s":[]},"h":65632,"c":"$Q4"}]]
+3:[["children",{"s":{"n":"slug","t":"d","k":"prometeus","s":["s-comodo","villa-pitosfori"]},"h":65632,"c":"$Q4"}]]
 2:[["children",{"s":"projects","h":131168,"c":"$Q3"}]]
 1:[["children",{"s":"(english)","h":131184,"c":"$Q2"}]]
-0:{"b":"Q4tA_d0Q35gnN6hImh0PW","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"1wleQMwiW3hlxIF-Hc5BA","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
