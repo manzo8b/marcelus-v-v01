@@ -202,7 +202,7 @@ export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
         <p className={s.honest}>{c.honest}</p>
         <div className={s.heroActions}>
           <a className={s.primaryAction} href="#projects-v2">{c.explore}<ArrowRight size={18} aria-hidden="true" /></a>
-          <a className={s.secondaryAction} href="https://agensi.io/creators/marcelo-javier-fernandez-caballero" target="_blank" rel="noreferrer">{c.skillLink}<ArrowUpRight size={16} aria-hidden="true" /></a>
+          <a className={s.secondaryAction} href="https://www.agensi.io/creators/marcelo-javier-fernandez-caballero" target="_blank" rel="noreferrer">{c.skillLink}<ArrowUpRight size={16} aria-hidden="true" /></a>
         </div>
         <p className={s.heroNote}><CircleCheck size={15} aria-hidden="true" /> {c.heroNote}</p>
       </div>
@@ -220,7 +220,7 @@ export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
       <div className={s.sectionHeading}><div><p className={s.eyebrow}>{c.featuredEyebrow}</p><h2 id="home-v2-projects">{c.featuredTitle}</h2><p className={s.sectionLead}>{c.featuredLead}</p></div></div>
       <div className={s.featuredGrid}>{c.projects.map(card=>{
         const Mark=projectMarks[card.id];
-        return <Link key={card.id} className={`${s.featuredCard} ${s['accent-'+card.id]}`} href={localizedPath('/projects/'+card.id+'/',locale)}>
+        return <Link key={card.id} className={`${s.featuredCard} ${card.id === 'verum' ? s.accentVerum : card.id === 'prometeus' ? s.accentPrometeus : card.id === 'risto-lab' ? s.accentRisto : s.accentEditorial}`} href={localizedPath('/projects/'+card.id+'/',locale)}>
           <div className={s.featuredBody}>
             <p className={s.cardTag}><Mark size={17} aria-hidden="true"/>{card.tag}</p>
             <h3>{card.title}</h3><p className={s.projectHeadline}>{card.headline}</p>
@@ -257,7 +257,7 @@ export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
         <p className={s.skillNote}>{c.skillAvailability}</p>
       </div>
       <div className={s.skillActions}>
-        <a className={s.primaryAction} href="https://agensi.io/creators/marcelo-javier-fernandez-caballero" target="_blank" rel="noreferrer">{c.skillCreator}<ArrowUpRight size={16} aria-hidden="true"/></a>
+        <a className={s.primaryAction} href="https://www.agensi.io/creators/marcelo-javier-fernandez-caballero" target="_blank" rel="noreferrer">{c.skillCreator}<ArrowUpRight size={16} aria-hidden="true"/></a>
         <a className={s.secondaryAction} href="https://agensi.io/skills/verum-output-reviewer" target="_blank" rel="noreferrer">{c.skillTry}<ArrowUpRight size={16} aria-hidden="true"/></a>
         <a className={s.secondaryAction} href={profile.linkedin} target="_blank" rel="noreferrer">{c.skillCustom}<ArrowUpRight size={16} aria-hidden="true"/></a>
         <p className={s.skillFooter}>{c.skillFooter}</p>
