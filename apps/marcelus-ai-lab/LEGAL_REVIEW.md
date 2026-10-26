@@ -36,6 +36,11 @@ MARCELUS AI LAB is a **personal, independent portfolio**. No checkout, professio
 - Do not attempt to disclaim mandatory liability or promise verified accuracy of prepared/synthetic AI demonstrations.
 - Future paid offerings are **out of current scope**; reassess Pages hosting terms, VAT/tax position and terms of sale if those are later planned.
 
+## Draft indexing safety
+- While the PR is in review, all legal routes have `noindex, nofollow` metadata and are deliberately **excluded** from the XML sitemap.
+- At final approval remove the draft notices, switch pages to normal indexing, and add the nine language-specific URLs to the sitemap with canonical and `hreflang` verification.
+- Do not merge or publish until these changes are made and the reviewed build passes.
+
 ## Before approving production
 1. Verify and implement the mailbox deletion process.
 2. Review hosting/mail-provider roles and any international transfers.
@@ -43,7 +48,7 @@ MARCELUS AI LAB is a **personal, independent portfolio**. No checkout, professio
 4. Validate copy with an appropriate qualified legal professional if necessary.
 5. Run `npm ci`, `npm test`, `npm run typecheck`, `npm run privacy:check`, and the GitHub Pages static export.
 6. Test all nine localized legal routes, footer navigation, canonical metadata, mobile and keyboard experience.
-7. Remove visible DRAFT notices only after review; then approve the changes and publish using the existing authorized workflow.
+7. Remove visible DRAFT notices; restore legal page indexing and sitemap entries; then approve the changes and publish using the existing authorized workflow.
 
 ## Authoritative references
 - GDPR: https://eur-lex.europa.eu/eli/reg/2016/679/oj
