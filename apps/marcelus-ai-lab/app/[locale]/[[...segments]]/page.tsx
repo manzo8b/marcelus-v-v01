@@ -11,11 +11,12 @@ import LibraryPage from '@/app/(english)/library/page';
 import { FreeResources } from '@/components/free-resources';
 import { VillaPitosforiOverview } from '@/components/villa-pitosfori';
 import { SComodoOverview } from '@/components/s-comodo-overview';
+import { LegalPage, type LegalKind } from '@/components/legal-pages';
 import { caseStudies, projects, profile } from '@/data/portfolio';
 import { type Locale, t } from '@/data/i18n';
 import { pageMetadata } from '@/data/site-metadata';
 
-const routes = ['', 'projects', 'projects/s-comodo', 'projects/villa-pitosfori', 'resources', ...projects.map(item => `projects/${item.id}`), 'lab', 'library', 'cases', ...caseStudies.map(item => `cases/${item.id}`), 'about', 'recruiter'];
+const routes = ['', 'projects', 'projects/s-comodo', 'projects/villa-pitosfori', 'resources', ...projects.map(item => `projects/${item.id}`), 'lab', 'library', 'cases', ...caseStudies.map(item => `cases/${item.id}`), 'about', 'recruiter', 'legal', 'legal/privacy', 'legal/cookies'];
 export const dynamicParams = false;
 export function generateStaticParams() { return ['it', 'es'].flatMap(locale => routes.map(route => ({ locale, segments: route ? route.split('/') : [] }))); }
 type Props = { params: Promise<{ locale: string; segments?: string[] }> };
@@ -35,6 +36,14 @@ export async function generateMetadata({ params }: Props) {
       ? 'Progetto editoriale indipendente in preparazione: contesto storico, fonti e uso trasparente dell’AI con verifica umana.'
       : 'Proyecto editorial independiente en preparación: contexto histórico, fuentes y revisión humana del uso de IA.';
     return pageMetadata('/projects/s-comodo/', locale, 'S-COMODO — Editorial', description);
+  }
+  const legalKind: LegalKind | null = route === 'legal' ? 'notice' : route === 'legal/privacy' ? 'privacy' : route === 'legal/cookies' ? 'cookies' : null;
+  if (legalKind) {
+    const titles = {
+      it: { notice: 'Informazioni legali', privacy: 'Informativa sulla privacy', cookies: 'Cookie e tecnologie locali' },
+      es: { notice: 'Aviso legal', privacy: 'Política de privacidad', cookies: 'Cookies y tecnologías locales' },
+    } as const;
+    return pageMetadata(`/${route}/`, locale, titles[locale][legalKind], locale === 'it' ? 'Informazioni legali e privacy del portfolio personale MARCELUS AI LAB.' : 'Información legal y de privacidad del portafolio personal MARCELUS AI LAB.');
   }
   const project = projects.find(item => route === `projects/${item.id}`);
   const item = caseStudies.find(item => route === `cases/${item.id}`);
@@ -60,6 +69,10 @@ export default async function LocalizedPage({ params }: Props) {
   if (route === 'recruiter') return <Recruiter params={pageParams} />;
   if (route === 'lab') return <Lab params={pageParams} />;
   if (route === 'library') return <LibraryPage params={pageParams} />;
+  if (route === 'legal' || route === 'legal/privacy' || route === 'legal/cookies') {
+    const kind: LegalKind = route === 'legal' ? 'notice' : route === 'legal/privacy' ? 'privacy' : 'cookies';
+    return <LegalPage locale={locale} kind={kind} />;
+  }
   const detailParams = Promise.resolve<{ locale: Locale; slug: string }>({ locale, slug: segments[1] });
   if (segments[0] === 'projects') return <Project params={detailParams} />;
   return <Case params={detailParams} />;
