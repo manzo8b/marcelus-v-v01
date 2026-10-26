@@ -1,13 +1,20 @@
 import Link from 'next/link';
 import { type Locale, localizedPath, t } from '@/data/i18n';
-import { ArrowRight, ArrowUpRight, BookOpen, FileDown, GraduationCap, ScanLine, Workflow } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, BookOpen, FileDown, GraduationCap, Newspaper, ScanLine, Workflow } from 'lucide-react';
 import { type Project, type ProjectId, assetUrl, caseStudies, evidenceUrl, profile, projects, repository } from '@/data/portfolio';
 
 export const projectIcons = { prometeus: Workflow, verum: ScanLine, 'risto-lab': GraduationCap };
 
 export function ProjectGrid({ locale = 'en', evaluationFirst = false }: { locale?: Locale; evaluationFirst?: boolean }) {
   const ordered = evaluationFirst ? [...projects].sort((a, b) => Number(b.id === 'verum') - Number(a.id === 'verum')) : projects;
-  return <div className="project-grid">{ordered.map(project => <ProjectCard key={project.id} project={project} locale={locale} />)}</div>;
+  return <div className="project-grid">{ordered.map(project => <ProjectCard key={project.id} project={project} locale={locale} />)}
+    <Link href={localizedPath('/projects/s-comodo/', locale)} className="project-card project-s-comodo">
+      <div className="project-card-top"><span className="project-icon"><Newspaper size={23} strokeWidth={1.6} aria-hidden="true" /></span><ArrowUpRight className="project-arrow" size={20} aria-hidden="true" /></div>
+      <h3>S-COMODO</h3>
+      <p className="project-domain">{locale === 'it' ? 'Editoria indipendente · In preparazione' : locale === 'es' ? 'Editorial independiente · En preparación' : 'Independent editorial · In preparation'}</p>
+      <p className="project-description">{locale === 'it' ? 'Attualità, contesto storico e fonti, con uso dichiarato dell’AI e revisione editoriale umana.' : locale === 'es' ? 'Actualidad, contexto histórico y fuentes, con uso transparente de IA y revisión editorial humana.' : 'Current events, historical context and sources, with transparent AI assistance and human editorial review.'}</p>
+      <div className="project-skills"><span>{locale === 'it' ? 'Progetto in preparazione' : locale === 'es' ? 'Proyecto en preparación' : 'Project in preparation'}</span></div>
+    </Link></div>;
 }
 
 export function ProjectCard({ project, locale = 'en' }: { project: Project; locale?: Locale }) {
