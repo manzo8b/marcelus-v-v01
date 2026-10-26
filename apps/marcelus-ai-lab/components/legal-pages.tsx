@@ -6,10 +6,10 @@ import { type Locale, localizedPath } from '@/data/i18n';
 export type LegalKind = 'notice' | 'privacy' | 'cookies';
 type Section = { heading: string; paragraphs: string[] };
 type PageCopy = { title: string; subtitle: string; sections: Section[] };
-type Labels = { draft: string; controller: string; contact: string; more: string; notice: string; privacy: string; cookies: string };
+type Labels = { updated: string; controller: string; contact: string; more: string; notice: string; privacy: string; cookies: string };
 const labels: Record<Locale, Labels> = {
   it: {
-    draft: 'BOZZA IN REVISIONE — NON APPROVATA PER LA PUBBLICAZIONE. Prassi di conservazione, ruoli dei fornitori, trasferimenti internazionali ed eventuali ulteriori dati identificativi obbligatori da verificare.',
+    updated: 'Ultimo aggiornamento: 26 ottobre 2026',
     controller: 'Titolare del trattamento / responsabile del portfolio',
     contact: 'Contatto pubblico',
     more: 'Altre informazioni',
@@ -18,7 +18,7 @@ const labels: Record<Locale, Labels> = {
     cookies: 'Cookie e tecnologie locali',
   },
   en: {
-    draft: 'REVIEW DRAFT — NOT APPROVED FOR PUBLICATION. Retention practices, provider roles, international transfers and any additional legally required identity details must be verified.',
+    updated: 'Last updated: 26 October 2026',
     controller: 'Data controller / portfolio owner',
     contact: 'Public contact',
     more: 'Related information',
@@ -27,7 +27,7 @@ const labels: Record<Locale, Labels> = {
     cookies: 'Cookies and local technologies',
   },
   es: {
-    draft: 'BORRADOR EN REVISIÓN — NO APROBADO PARA PUBLICACIÓN. Deben verificarse la conservación, los roles de los proveedores, las transferencias internacionales y los posibles datos identificativos adicionales exigidos por ley.',
+    updated: 'Última actualización: 26 de octubre de 2026',
     controller: 'Responsable del tratamiento / titular del portafolio',
     contact: 'Contacto público',
     more: 'Información relacionada',
@@ -71,19 +71,19 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
           'Se un visitatore invia volontariamente un messaggio all’indirizzo email pubblico, saranno trattati l’indirizzo del mittente e i dati inclusi nel messaggio per leggere e gestire la comunicazione.',
         ] },
         { heading: 'Basi giuridiche', paragraphs: [
-          'Per gestire comunicazioni volontarie e mantenere accessibile il portfolio può trovare applicazione il legittimo interesse (art. 6, par. 1, lett. f, GDPR), da verificare rispetto ai trattamenti effettivi e ai diritti degli interessati.',
+          'Il trattamento delle comunicazioni inviate volontariamente si fonda sul legittimo interesse del titolare a leggere i messaggi, rispondere e proteggere il proprio portfolio (art. 6, par. 1, lett. f, GDPR), nel rispetto dei diritti degli interessati. Il fornitore di hosting gestisce autonomamente i dati tecnici raccolti per la sicurezza dei suoi servizi, secondo la propria informativa.',
           'Non si richiede un consenso generale alla privacy per consultare il sito. L’eventuale introduzione futura di tecnologie non necessarie soggette a consenso richiederà una verifica e un meccanismo appropriato prima dell’attivazione.',
         ] },
         { heading: 'Destinatari e fornitori', paragraphs: [
-          'Le pagine sono pubblicate tramite GitHub Pages. I messaggi inviati all’indirizzo di contatto sono gestiti tramite il servizio di posta elettronica del relativo account. Questi fornitori possono trattare dati secondo i rispettivi ruoli e condizioni.',
+          'Le pagine sono ospitate su GitHub Pages; i messaggi inviati al contatto pubblico sono ricevuti tramite Gmail (Google). GitHub e Google operano secondo le condizioni e le informative privacy dei rispettivi servizi. Il sito non trasmette al titolare i testi immessi nelle demo locali.',
           'GitHub: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement — Informazioni su GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages',
         ] },
         { heading: 'Trasferimenti internazionali', paragraphs: [
-          'L’uso di fornitori tecnologici globali può comportare trattamenti o trasferimenti al di fuori dello Spazio economico europeo. Le effettive localizzazioni, i ruoli dei fornitori e le eventuali garanzie applicabili devono essere verificati prima dell’approvazione dell’informativa definitiva.',
+          'GitHub e Google utilizzano infrastrutture e organizzazioni internazionali: alcuni trattamenti possono avvenire anche fuori dallo Spazio economico europeo. I meccanismi e le garanzie relativi ai trasferimenti internazionali sono descritti nelle informative privacy aggiornate dei rispettivi fornitori, consultabili dai collegamenti riportati in questa pagina.',
         ] },
         { heading: 'Conservazione', paragraphs: [
           'La preferenza grafica resta nella memoria locale del browser fino a quando viene modificata o rimossa dal visitatore. I dati tecnici registrati da GitHub seguono le condizioni e i periodi definiti dal fornitore.',
-          'Per le email inviate volontariamente al contatto del portfolio si adotta, come criterio interno proposto, la cancellazione entro 12 mesi dall’ultima comunicazione pertinente, oppure prima se il messaggio non è più necessario. I messaggi indesiderati privi di interesse vengono eliminati normalmente entro 30 giorni. Eventuali comunicazioni da conservare per un obbligo di legge o per una specifica controversia sono gestite separatamente per il solo tempo giustificato dalla relativa finalità. La procedura di controllo trimestrale della casella email deve essere concretamente attuata prima della pubblicazione di questa informativa.',
+          'Per le email inviate volontariamente al contatto del portfolio si adotta, come regola di conservazione, la cancellazione entro 12 mesi dall’ultima comunicazione pertinente, oppure prima se il messaggio non è più necessario. I messaggi indesiderati privi di interesse vengono eliminati normalmente entro 30 giorni. Eventuali comunicazioni da conservare per un obbligo di legge o per una specifica controversia sono gestite separatamente per il solo tempo giustificato dalla relativa finalità. Il titolare verifica la casella di posta almeno ogni tre mesi per applicare questi criteri.',
         ] },
         { heading: 'Diritti degli interessati', paragraphs: [
           'Nei casi e nei limiti previsti dal GDPR, si possono richiedere accesso, rettifica, cancellazione, limitazione del trattamento e opposizione; quando ne ricorrono i presupposti, anche portabilità e altri diritti applicabili.',
@@ -94,7 +94,7 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
           'Il sito non effettua decisioni automatizzate sui visitatori né profilazione tramite sistemi sviluppati dal portfolio, secondo le funzionalità attualmente documentate.',
         ] },
         { heading: 'Aggiornamenti', paragraphs: [
-          'L’informativa dovrà essere aggiornata in caso di introduzione di nuovi servizi, moduli, misurazioni, account o sistemi di trattamento. Questa versione rimane una bozza soggetta a verifica tecnica e giuridica.',
+          'Questa informativa verrà aggiornata in caso di introduzione di nuovi servizi, moduli, misurazioni, account o sistemi di trattamento.',
         ] },
       ],
     },
@@ -108,7 +108,7 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
         ] },
         { heading: 'Cookie, analytics e pubblicità', paragraphs: [
           'Nel codice attualmente esaminato non risultano strumenti pubblicitari, pixel di profilazione o integrazioni di analytics. Non è previsto un banner di consenso per tecnologie non installate.',
-          'Prima della pubblicazione definitiva di questa informativa è richiesta una verifica dal browser delle richieste di rete, dei cookie e degli altri archivi locali, compresi eventuali comportamenti del provider di hosting.',
+          'Le risorse caricate dal browser e le impostazioni dei servizi esterni possono variare nel tempo: la presente informativa sarà aggiornata qualora vengano introdotti ulteriori strumenti.',
         ] },
         { heading: 'Servizi esterni', paragraphs: [
           'L’apertura volontaria di collegamenti a GitHub, LinkedIn o altri siti conduce a servizi esterni che applicano politiche e tecnologie proprie.',
@@ -155,19 +155,19 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
           'If you voluntarily send an email to the public contact address, your sender address and message content are processed to read and respond to that communication.',
         ] },
         { heading: 'Legal bases', paragraphs: [
-          'Legitimate interests (Article 6(1)(f) GDPR) may apply to handling voluntary correspondence and maintaining the portfolio, subject to verification against the actual processing and data-subject rights.',
+          'Voluntary correspondence is handled on the basis of the owner's legitimate interests in reading and replying to messages and protecting the portfolio (Article 6(1)(f) GDPR), subject to data-subject rights. The hosting provider separately handles technical data collected for its own service security in accordance with its privacy notice.',
           'No blanket privacy consent is required merely to browse the website. Optional technologies requiring consent would need appropriate assessment and controls before being introduced.',
         ] },
         { heading: 'Providers and recipients', paragraphs: [
-          'Pages are hosted on GitHub Pages. Email communications are handled by the provider of the public mailbox. The providers may process information according to their respective roles and terms.',
+          'Pages are hosted on GitHub Pages; email sent to the public contact is received through Gmail (Google). GitHub and Google each operate under the terms and privacy notices of their own services. Local demonstration inputs are not sent to the portfolio owner.',
           'GitHub privacy statement: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement — GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages',
         ] },
         { heading: 'International transfers', paragraphs: [
-          'Global technology providers may process or transfer personal data outside the European Economic Area. Applicable provider roles, locations and safeguards must be verified before this notice is approved for publication.',
+          'GitHub and Google operate global infrastructures and organizations: some processing may take place outside the European Economic Area. The providers describe applicable international transfer mechanisms and safeguards in their current privacy notices, linked in this page.',
         ] },
         { heading: 'Retention', paragraphs: [
           'The display preference remains in browser local storage until changed or removed. GitHub retains its security logs in accordance with the provider’s own policies.',
-          'As a proposed internal retention rule, ordinary emails sent voluntarily to the portfolio contact will be deleted within 12 months after the last relevant exchange, or earlier if no longer needed. Unwanted messages without a legitimate purpose will normally be deleted within 30 days. Messages that must be retained to meet a specific legal duty or for a concrete dispute will be handled separately and only for the necessary justified period. A quarterly manual mailbox review must be put into practice before this notice is published.',
+          'As a retention rule, ordinary emails sent voluntarily to the portfolio contact will be deleted within 12 months after the last relevant exchange, or earlier if no longer needed. Unwanted messages without a legitimate purpose will normally be deleted within 30 days. Messages that must be retained to meet a specific legal duty or for a concrete dispute will be handled separately and only for the necessary justified period. The owner reviews the mailbox at least every three months to apply this rule.',
         ] },
         { heading: 'Your rights', paragraphs: [
           'Where applicable under GDPR, you may request access, rectification, erasure, restriction or objection, and portability where its legal conditions apply.',
@@ -178,7 +178,7 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
           'The documented website does not perform automated decisions about visitors or profiling through portfolio-controlled systems.',
         ] },
         { heading: 'Changes', paragraphs: [
-          'This notice must be updated if accounts, contact forms, tracking, payment options or other data-processing features are introduced. This text remains a draft pending technical and legal review.',
+          'This notice will be updated if accounts, contact forms, tracking, payment options or other personal-data processing features are introduced.',
         ] },
       ],
     },
@@ -192,7 +192,7 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
         ] },
         { heading: 'Cookies and analytics', paragraphs: [
           'No advertising pixels, profiling tools or analytics integrations were identified in the reviewed application code. A consent banner for tools that are not installed is not planned.',
-          'Browser-based checks of network requests, cookies and local storage, including the hosting provider’s behaviour, remain necessary before this notice is final.',
+          'Browser-loaded resources and third-party service settings may change over time; this notice will be updated if additional technologies are introduced.',
         ] },
         { heading: 'External services', paragraphs: [
           'Following links to GitHub, LinkedIn or other external websites takes visitors to services with their own policies and technologies.',
@@ -239,19 +239,19 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
           'Si se envía voluntariamente un correo a la dirección pública, se tratan los datos del remitente y el contenido para leer y responder a la comunicación.',
         ] },
         { heading: 'Bases jurídicas', paragraphs: [
-          'El interés legítimo (artículo 6.1.f del RGPD) puede resultar aplicable a la correspondencia voluntaria y al mantenimiento del portafolio, sujeto a verificación de los tratamientos reales y los derechos de las personas.',
+          'La correspondencia voluntaria se trata sobre la base del interés legítimo del titular en leer y contestar mensajes y proteger el portafolio (artículo 6.1.f del RGPD), respetando los derechos de las personas. El proveedor de alojamiento gestiona por separado los datos técnicos que recoge para la seguridad del servicio, según su política de privacidad.',
           'La visita no requiere un consentimiento general de privacidad. Si se incorporan tecnologías opcionales que requieran consentimiento, deberán evaluarse y controlarse antes de activarlas.',
         ] },
         { heading: 'Destinatarios y proveedores', paragraphs: [
-          'Las páginas se alojan en GitHub Pages. Los mensajes se gestionan a través del proveedor de correo de la dirección de contacto. Estos proveedores pueden tratar información según sus funciones y condiciones.',
+          'Las páginas se alojan en GitHub Pages; el correo enviado al contacto público se recibe mediante Gmail (Google). GitHub y Google se rigen por las condiciones y políticas de privacidad de sus servicios. Las entradas de las demostraciones locales no se envían al titular.',
           'Privacidad de GitHub: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement — GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages',
         ] },
         { heading: 'Transferencias internacionales', paragraphs: [
-          'El uso de proveedores tecnológicos globales puede implicar tratamiento o transferencias fuera del Espacio Económico Europeo. Deben verificarse las funciones, ubicaciones y garantías aplicables antes de aprobar esta información.',
+          'GitHub y Google utilizan infraestructuras y organizaciones internacionales: parte del tratamiento puede producirse fuera del Espacio Económico Europeo. Los mecanismos y garantías aplicables a las transferencias internacionales se explican en las políticas de privacidad actuales de ambos proveedores, enlazadas en esta página.',
         ] },
         { heading: 'Conservación', paragraphs: [
           'La preferencia visual permanece en el almacenamiento local del navegador hasta modificarse o borrarse. Los registros de seguridad de GitHub siguen las políticas de ese proveedor.',
-          'Como criterio interno propuesto, los correos enviados voluntariamente al contacto del portafolio se eliminarán dentro de los 12 meses siguientes a la última comunicación pertinente, o antes si dejan de ser necesarios. Los mensajes no deseados sin finalidad legítima se eliminarán normalmente dentro de 30 días. Los mensajes que deban conservarse por una obligación legal específica o una controversia concreta se gestionarán por separado únicamente durante el plazo justificado. Antes de publicar esta política debe ponerse en práctica la revisión manual trimestral del buzón.',
+          'Como criterio de conservación, los correos enviados voluntariamente al contacto del portafolio se eliminarán dentro de los 12 meses siguientes a la última comunicación pertinente, o antes si dejan de ser necesarios. Los mensajes no deseados sin finalidad legítima se eliminarán normalmente dentro de 30 días. Los mensajes que deban conservarse por una obligación legal específica o una controversia concreta se gestionarán por separado únicamente durante el plazo justificado. El titular revisa el buzón al menos cada tres meses para aplicar estos criterios.',
         ] },
         { heading: 'Derechos de las personas', paragraphs: [
           'Cuando proceda según el RGPD, pueden ejercerse derechos de acceso, rectificación, supresión, limitación u oposición, así como portabilidad cuando corresponda.',
@@ -262,7 +262,7 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
           'El sitio documentado no toma decisiones automatizadas sobre visitantes ni crea perfiles mediante sistemas controlados por el portafolio.',
         ] },
         { heading: 'Cambios', paragraphs: [
-          'La política deberá actualizarse si se añaden cuentas, formularios, mediciones, pagos u otras funciones que traten datos. Este texto sigue siendo un borrador sujeto a revisión técnica y jurídica.',
+          'Esta política se actualizará si se añaden cuentas, formularios, mediciones, pagos u otras funciones que traten datos.',
         ] },
       ],
     },
@@ -276,7 +276,7 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
         ] },
         { heading: 'Cookies y analítica', paragraphs: [
           'No se han identificado píxeles publicitarios, sistemas de perfilado ni integraciones de analítica en el código de la aplicación revisada. No se prevé un banner para herramientas que no estén instaladas.',
-          'Antes de aprobar esta política debe revisarse el comportamiento real del navegador: solicitudes de red, cookies y almacenamiento local, incluido el proveedor de alojamiento.',
+          'Los recursos cargados por el navegador y los ajustes de servicios externos pueden cambiar con el tiempo; esta política se actualizará cuando se incorporen otras tecnologías.',
         ] },
         { heading: 'Servicios externos', paragraphs: [
           'Los enlaces a GitHub, LinkedIn y otros sitios conducen a servicios que aplican sus propias políticas y tecnologías.',
@@ -300,9 +300,7 @@ export function LegalPage({ locale, kind }: { locale: Locale; kind: LegalKind })
       <p className="eyebrow">MARCELUS AI LAB / LEGAL</p>
       <h1 className="mt-3">{copy.title}</h1>
       <p className="lead">{copy.subtitle}</p>
-      <aside role="note" className="my-7 border-l-4 border-[var(--gold)] bg-[var(--surface)] p-4 text-sm leading-relaxed">
-        <strong>{l.draft}</strong>
-      </aside>
+      <p className="mt-5 text-sm text-[var(--muted)]">{l.updated}</p>
       <section className="my-8 border-y border-[var(--line)] py-5 text-sm">
         <h2 className="mb-3 text-base">{l.controller}</h2>
         <p>{legalOwnerName}</p>
