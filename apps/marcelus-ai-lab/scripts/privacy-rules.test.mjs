@@ -27,5 +27,5 @@ test('only the exact owner-approved public profile address can bypass email bloc
   assert.equal(isApprovedPublicContact(target, sample), true);
   assert.equal(isApprovedPublicContact('README.md', sample), false);
   assert.equal(isApprovedPublicContact(target, sample + '\\n' + 'a' + '@' + 'example.invalid'), false);
-  assert.equal(isApprovedPublicContact(target, `export const profile = { email: 'a@example.invalid' };`), false);
+  assert.equal(isApprovedPublicContact(target, `export const profile = { email: '${'a' + '@' + 'example.invalid'}' };`), false);
 });
