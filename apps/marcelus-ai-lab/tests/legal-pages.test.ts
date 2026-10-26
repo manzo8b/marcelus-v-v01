@@ -11,7 +11,8 @@ test('legal pages have three languages and all legal sections', () => {
     const matches = code.match(new RegExp('^    ' + page + ': \\{', 'gm')) || [];
     assert.equal(matches.length, 3, 'missing translation: ' + page);
   }
-  assert.match(code, /REVIEW DRAFT/);
+  assert.doesNotMatch(code, /REVIEW DRAFT|BOZZA IN REVISIONE|BORRADOR EN REVISIÓN/);
+  assert.match(code, /Last updated:/);
   assert.match(code, /marcelus-theme/);
   assert.match(code, /12 mesi/);
   assert.match(code, /12 months/);
@@ -26,15 +27,15 @@ test('legal pages have three languages and all legal sections', () => {
   assert.match(code, /import \{ legalOwnerName \} from '@\/data\/legal-identity';/);
 });
 
-test('draft pages are routable but excluded from sitemap and search indexing', () => {
+test('published legal pages have canonical multilingual routes and are indexed', () => {
   const site = read('app/sitemap.ts');
   const routes = read('app/[locale]/[[...segments]]/page.tsx');
   const footer = read('components/site-layout.tsx');
   const pageEn = read('app/(english)/legal/privacy/page.tsx');
-  assert.match(pageEn, /robots: \{ index: false, follow: false \}/);
-  assert.match(routes, /robots: \{ index: false, follow: false \}/);
+  assert.doesNotMatch(pageEn, /robots: \{ index: false/);
+  assert.doesNotMatch(routes, /robots: \{ index: false/);
   for (const path of ['legal/', 'legal/privacy/', 'legal/cookies/']) {
-    assert.ok(!site.includes("'/" + path + "'"), 'unapproved draft must stay out of sitemap ' + path);
+    assert.ok(site.includes("'/" + path + "'"), 'approved legal path must appear in sitemap ' + path);
     assert.ok(routes.includes(path.replace(/\/$/, '')), 'missing localized route ' + path);
     assert.ok(footer.includes(path), 'missing footer link ' + path);
   }
