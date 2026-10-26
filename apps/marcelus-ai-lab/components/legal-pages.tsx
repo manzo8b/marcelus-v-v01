@@ -83,11 +83,11 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
         ] },
         { heading: 'Conservazione', paragraphs: [
           'La preferenza grafica resta nella memoria locale del browser fino a quando viene modificata o rimossa dal visitatore. I dati tecnici registrati da GitHub seguono le condizioni e i periodi definiti dal fornitore.',
-          'Per le email ricevute occorre ancora formalizzare e applicare un periodo di conservazione o un criterio operativo documentabile: questo elemento è da completare prima della pubblicazione.',
+          'Per le email inviate volontariamente al contatto del portfolio si adotta, come criterio interno proposto, la cancellazione entro 12 mesi dall’ultima comunicazione pertinente, oppure prima se il messaggio non è più necessario. I messaggi indesiderati privi di interesse vengono eliminati normalmente entro 30 giorni. Eventuali comunicazioni da conservare per un obbligo di legge o per una specifica controversia sono gestite separatamente per il solo tempo giustificato dalla relativa finalità. La procedura di controllo trimestrale della casella email deve essere concretamente attuata prima della pubblicazione di questa informativa.',
         ] },
         { heading: 'Diritti degli interessati', paragraphs: [
           'Nei casi e nei limiti previsti dal GDPR, si possono richiedere accesso, rettifica, cancellazione, limitazione del trattamento e opposizione; quando ne ricorrono i presupposti, anche portabilità e altri diritti applicabili.',
-          'È possibile rivolgersi al recapito pubblico per le richieste di competenza del titolare e presentare reclamo al Garante per la protezione dei dati personali (https://www.garanteprivacy.it/).',
+          'Le richieste possono essere inviate al contatto email pubblico. Verrà fornito riscontro senza ingiustificato ritardo, di regola entro un mese dal ricevimento, salvo proroghe consentite dal GDPR. È possibile presentare reclamo al Garante per la protezione dei dati personali (https://www.garanteprivacy.it/).',
         ] },
         { heading: 'Conferimento dei dati e decisioni automatizzate', paragraphs: [
           'Non è necessario inviare dati personali per consultare il portfolio. Il contenuto delle email è fornito volontariamente, ma un recapito di risposta è normalmente necessario per rispondere al messaggio.',
@@ -167,11 +167,11 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
         ] },
         { heading: 'Retention', paragraphs: [
           'The display preference remains in browser local storage until changed or removed. GitHub retains its security logs in accordance with the provider’s own policies.',
-          'A documented retention period or operational criterion for incoming email still needs to be confirmed and implemented before publication.',
+          'As a proposed internal retention rule, ordinary emails sent voluntarily to the portfolio contact will be deleted within 12 months after the last relevant exchange, or earlier if no longer needed. Unwanted messages without a legitimate purpose will normally be deleted within 30 days. Messages that must be retained to meet a specific legal duty or for a concrete dispute will be handled separately and only for the necessary justified period. A quarterly manual mailbox review must be put into practice before this notice is published.',
         ] },
         { heading: 'Your rights', paragraphs: [
           'Where applicable under GDPR, you may request access, rectification, erasure, restriction or objection, and portability where its legal conditions apply.',
-          'Contact the portfolio owner using the published contact address for relevant requests. You may lodge a complaint with the Italian data protection authority: https://www.garanteprivacy.it/.',
+          'Send relevant requests to the published email contact. A response will be provided without undue delay, generally within one month of receipt, subject to extensions permitted by GDPR. You may lodge a complaint with the Italian data protection authority: https://www.garanteprivacy.it/.',
         ] },
         { heading: 'Voluntary information and automated decisions', paragraphs: [
           'No personal information needs to be submitted to read this portfolio. Emails are voluntary; a return address is normally necessary for a response.',
@@ -251,11 +251,11 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
         ] },
         { heading: 'Conservación', paragraphs: [
           'La preferencia visual permanece en el almacenamiento local del navegador hasta modificarse o borrarse. Los registros de seguridad de GitHub siguen las políticas de ese proveedor.',
-          'Queda pendiente establecer y aplicar un período o criterio documentado para conservar los correos recibidos antes de la publicación.',
+          'Como criterio interno propuesto, los correos enviados voluntariamente al contacto del portafolio se eliminarán dentro de los 12 meses siguientes a la última comunicación pertinente, o antes si dejan de ser necesarios. Los mensajes no deseados sin finalidad legítima se eliminarán normalmente dentro de 30 días. Los mensajes que deban conservarse por una obligación legal específica o una controversia concreta se gestionarán por separado únicamente durante el plazo justificado. Antes de publicar esta política debe ponerse en práctica la revisión manual trimestral del buzón.',
         ] },
         { heading: 'Derechos de las personas', paragraphs: [
           'Cuando proceda según el RGPD, pueden ejercerse derechos de acceso, rectificación, supresión, limitación u oposición, así como portabilidad cuando corresponda.',
-          'Las solicitudes relativas al responsable pueden dirigirse al contacto público. También se puede presentar una reclamación ante el Garante italiano: https://www.garanteprivacy.it/.',
+          'Las solicitudes pueden enviarse al correo de contacto público. Se responderá sin dilación indebida, por regla general dentro de un mes de su recepción, salvo las prórrogas permitidas por el RGPD. También se puede reclamar ante el Garante italiano: https://www.garanteprivacy.it/.',
         ] },
         { heading: 'Carácter voluntario y decisiones automatizadas', paragraphs: [
           'No es obligatorio comunicar datos personales para consultar el portafolio. Los correos se envían voluntariamente; normalmente se necesita una dirección de respuesta para contestar.',
