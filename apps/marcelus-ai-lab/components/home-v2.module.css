@@ -204,3 +204,15 @@
 .accentPrometeus { border-top-color: #a6742d; }
 .accentRisto { border-top-color: #46895c; }
 .accentEditorial { border-top-color: #29304b; }
+
+/* V2.2 — compact additions preserve the human-approved Home layout. */
+.villaFeature {display:grid;grid-template-columns:1.6fr .6fr;gap:28px;align-items:center;margin:0 0 76px;padding:30px 34px;border:1px solid var(--v2-hairline);border-radius:23px;background:var(--v2-panel);}
+.villaFeature h2,.freeFeature h2 {font-size:clamp(24px,2.7vw,34px);line-height:1.2;letter-spacing:-.035em;margin-top:12px;}
+.villaFeature p:not(.eyebrow),.freeFeature p:not(.eyebrow) {font-size:14px;line-height:1.7;color:var(--v2-sub);margin-top:13px;max-width:680px;}
+.villaActions {display:flex;flex-direction:column;gap:9px;align-items:stretch;}
+.villaActions .secondaryAction {min-width:0;text-align:center;}
+.villaSite {display:inline-flex;justify-content:center;align-items:center;gap:8px;min-height:44px;font-size:13px;font-weight:700;color:var(--v2-teal);}
+.freeFeature {display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,.5fr);gap:30px;align-items:center;margin:0 0 35px;padding:clamp(25px,4vw,42px);border:1px solid var(--v2-hairline);border-radius:24px;background:var(--v2-paper);}
+.freeFeature > a {width:100%;max-width:280px;justify-self:end;}
+@media(max-width:800px){.villaFeature,.freeFeature{grid-template-columns:1fr;gap:21px;}.freeFeature > a{justify-self:start;}}
+@media(max-width:630px){.villaFeature,.freeFeature{padding:25px 22px;border-radius:18px;margin-bottom:46px;}.freeFeature{margin-bottom:25px;}}
