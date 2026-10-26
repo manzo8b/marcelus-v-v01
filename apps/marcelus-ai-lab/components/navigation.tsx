@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
-import { ArrowUpRight, Aperture, Menu, Moon, Sun, X } from 'lucide-react';
-import { repository } from '@/data/portfolio';
+import { ArrowUpRight, Menu, Moon, Sun, X } from 'lucide-react';
+import { assetUrl, repository } from '@/data/portfolio';
 import { type Locale, localizedPath, unlocalizedPath, t } from '@/data/i18n';
 
 const links = [['/', 'Overview'], ['/projects/', 'Projects'], ['/#skills', 'Skill'], ['/resources/', 'Free resources'], ['/lab/', 'Evaluation lab'], ['/library/', 'Library']];
@@ -38,7 +38,7 @@ export function Navigation({ locale }: { locale: Locale }) {
   function active(href: string) { const clean = unlocalizedPath(path); return href === '/' ? clean === '/' : clean.startsWith(href.replace(/\/$/, '')); }
   return <header className="site-header">
     <div className="header-inner">
-      <Link href={localizedPath('/', locale)} className="brand" aria-label="Marcelus AI Lab"><Aperture size={26} strokeWidth={1.6} /><span>MARCELUS <span className="brand-detail">AI LAB</span></span></Link>
+      <Link href={localizedPath('/', locale)} className="brand" aria-label="Marcelus AI Lab"><img className="brand-symbol" src={assetUrl('/media/manzo-mark.svg')} alt="" aria-hidden="true" width={35} height={34} /><span>MARCELUS <span className="brand-detail">AI LAB</span></span></Link>
       <nav id="main-navigation" aria-label={t(locale, 'Main navigation')} className={`main-nav ${open ? 'is-open' : ''}`}>
         {links.map(([href, label]) => {
           const anchor = href === '/#skills';

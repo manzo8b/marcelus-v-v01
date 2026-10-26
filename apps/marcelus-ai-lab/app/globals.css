@@ -305,7 +305,7 @@ summary { cursor:pointer; min-height:44px; padding:10px 0; font-weight:500; }
 @media (max-width:650px) {
   .header-inner { padding:0 16px; }
   .brand { font-size:15px; gap:7px; }
-  .brand>svg { width:22px; height:22px; }
+  .brand-symbol { width:28px; height:27px; }
   .header-tools { gap:0; }
   .language-control select { width:48px; font-size:11px; }
   .page-container { padding:0 20px 42px; }
@@ -424,3 +424,8 @@ summary { cursor:pointer; min-height:44px; padding:10px 0; font-weight:500; }
 .technique-limits { padding-top:24px; }
 .technique-limits .text-link { margin-top:12px; }
 @media(max-width:650px) { .technique-layers,.technique-rewrite { grid-template-columns:minmax(0,1fr); gap:24px; } .technique-source { font-size:20px; } .technique-principle { font-size:17px; } }
+
+/* MANZO emblem replaces the original circular header icon; no wordmark inside image. */
+.brand-symbol {display:block;width:35px;height:34px;flex-shrink:0;object-fit:contain;}
+:root[data-theme="dark"] .brand-symbol {filter:invert(1) brightness(1.15);}
+@media (max-width:640px) {.brand-symbol {width:28px;height:27px;}}
