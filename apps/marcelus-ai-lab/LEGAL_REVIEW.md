@@ -1,6 +1,6 @@
 # MARCELUS AI LAB — Minimal legal/privacy release checklist
 
-**DRAFT PR — DO NOT MERGE OR PUBLISH BEFORE REVIEW.**
+**Release checklist — owner authorization received 26 October 2026.**
 
 ## Current scope
 MARCELUS AI LAB is a **personal, independent portfolio**. No checkout, professional services sold through this site, forms, accounts or visitor analytics are represented as active. Paid services or SaaS would require a fresh compliance/hosting review before launch.
@@ -36,10 +36,10 @@ MARCELUS AI LAB is a **personal, independent portfolio**. No checkout, professio
 - Do not attempt to disclaim mandatory liability or promise verified accuracy of prepared/synthetic AI demonstrations.
 - Future paid offerings are **out of current scope**; reassess Pages hosting terms, VAT/tax position and terms of sale if those are later planned.
 
-## Draft indexing safety
-- While the PR is in review, all legal routes have `noindex, nofollow` metadata and are deliberately **excluded** from the XML sitemap.
-- At final approval remove the draft notices, switch pages to normal indexing, and add the nine language-specific URLs to the sitemap with canonical and `hreflang` verification.
-- Do not merge or publish until these changes are made and the reviewed build passes.
+## Publication metadata
+- All nine legal routes are eligible for indexing and are included in the XML sitemap with canonical and localized references.
+- The visible revision date is 26 October 2026; no draft banners remain.
+- Publishing workflow requires successful tests, privacy scan, build and existence of all nine localized legal HTML files.
 
 ## Before approving production
 1. Verify and implement the mailbox deletion process.
@@ -48,7 +48,7 @@ MARCELUS AI LAB is a **personal, independent portfolio**. No checkout, professio
 4. Validate copy with an appropriate qualified legal professional if necessary.
 5. Run `npm ci`, `npm test`, `npm run typecheck`, `npm run privacy:check`, and the GitHub Pages static export.
 6. Test all nine localized legal routes, footer navigation, canonical metadata, mobile and keyboard experience.
-7. Remove visible DRAFT notices; restore legal page indexing and sitemap entries; then approve the changes and publish using the existing authorized workflow.
+7. Verify the production deployment manifest points to the approved source commit and that all nine legal URLs resolve on GitHub Pages.
 
 ## Authoritative references
 - GDPR: https://eur-lex.europa.eu/eli/reg/2016/679/oj
@@ -58,4 +58,6 @@ MARCELUS AI LAB is a **personal, independent portfolio**. No checkout, professio
 - GitHub Privacy Statement: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
 - GitHub Pages terms: https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features
 
-**Limits:** Code inspection and this checklist do not certify legal compliance; no browser/network audit or complete build has been performed in this edit.
+**Verified:** branch CI run 40349577820 passed install, 42 unit tests, typecheck, privacy scan, static export and checks for nine legal URLs. The public site’s pre-release HTML was also checked for externally sourced scripts: none were identified among the initial scripts on the English and Italian home pages.
+
+**Remaining operational work:** full browser network/storage inspection after deployment, confirm actual quarterly inbox review and the practical 12-month retention procedure, and periodically recheck GitHub and Google’s processing and transfer notices. This release is not a legal certification.
