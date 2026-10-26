@@ -1,0 +1,36 @@
+name: Home v2 prototype checks
+
+on:
+  push:
+    branches:
+      - feat/marcelus-home-v2-design-prototype
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/marcelus-ai-lab
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: apps/marcelus-ai-lab/.nvmrc
+          cache: npm
+          cache-dependency-path: apps/marcelus-ai-lab/package-lock.json
+      - name: Install pinned dependencies
+        run: npm ci
+      - name: TypeScript
+        run: npm run typecheck
+      - name: Unit tests
+        run: npm test
+      - name: Privacy scan
+        run: npm run privacy:check
+      - name: Static export build (no deployment)
+        env:
+          NEXT_PUBLIC_SITE_ORIGIN: https://manzo8b.github.io
+          NEXT_PUBLIC_BASE_PATH: /marcelus-v-v01
+        run: npm run build

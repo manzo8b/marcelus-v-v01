@@ -1,0 +1,42 @@
+MARCELUS AI LAB — LISTA PARA REVISAR UNA RESPUESTA DE IA
+Recurso gratuito, v1.0 — Español
+
+OBJETIVO
+Comparar una respuesta de IA con la solicitud original y las referencias disponibles. No sustituye una verificación independiente.
+
+CONTEXTO
+Fecha: _______
+Solicitud original: _______
+Respuesta de IA: _______
+Fuentes y referencias (con fechas): _______
+
+REVISIÓN — SÍ / NO / NO VERIFICABLE
+[ ] Responde a la solicitud y cumple las instrucciones.
+[ ] Respeta el formato y el público destinatario.
+[ ] Precios, números, fechas y citas coinciden con las referencias.
+[ ] No inventa afirmaciones, normas ni promociones.
+[ ] Distingue hechos, interpretaciones e incertidumbre.
+[ ] Las fuentes existen, son pertinentes y actuales.
+[ ] Señala los datos que faltan y los límites de comprobación.
+[ ] No omite condiciones decisivas.
+[ ] No divulga información personal o confidencial.
+
+REGISTRO DE EVIDENCIAS
+Afirmación: _______
+Referencia que apoya o contradice: _______
+Problema: CONTRADICCIÓN / ADICIÓN SIN RESPALDO / OMISIÓN / NO VERIFICABLE
+Corrección: _______
+
+RESULTADO
+[ ] PASS — coherente con las referencias disponibles
+[ ] NEEDS REVISION — necesita correcciones
+[ ] FAIL — contradicción o problema crítico
+[ ] NOT VERIFIABLE — evidencia insuficiente
+Motivo: _______
+Siguiente acción: _______
+
+IMPORTANTE
+PASS significa coherencia con las referencias comprobadas, no verdad universal. Para cuestiones legales, sanitarias y de seguridad, consulta fuentes oficiales actuales y profesionales cualificados. No compartas información privada sin autorización.
+
+Plantilla gratuita y editable. MARCELUS AI LAB
+https://manzo8b.github.io/marcelus-v-v01/es/resources/

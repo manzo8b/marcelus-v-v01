@@ -15,6 +15,13 @@ I design and document practical AI-assisted workflows, drawing on professional e
 | **Prometeus Marcelus** | Turning vague requests into structured, testable instructions | [Rubric design case](AI_EVALUATION_PORTFOLIO/CASE_02_PROMETEUS_RUBRIC_DESIGN.md) |
 | **RISTO-LAB · Hospitality training** | Translating hospitality operations into instructional resources and workflows | [Training and language-quality case](AI_EVALUATION_PORTFOLIO/CASE_03_LANGUAGE_QUALITY.md) |
 
+### More portfolio work
+
+- **[S-COMODO](apps/marcelus-ai-lab/components/s-comodo-overview.tsx)** — independent editorial project **in preparation**, with sources and human editorial review.
+- **[Villa All'Ombra dei Pitosfori](https://www.villapitosfori.com/)** — a website-creation project for a holiday villa in Salento. The live website is linked; no traffic or booking claims are made.
+- **OIKO** and **HACCP SMART** — **work in progress**, not finished or publicly certified products.
+- **[Free resources](apps/marcelus-ai-lab/public/resources/)** — nine downloadable, editable files: AI review checklist, clear-instruction worksheet and 60-minute lesson plan, each in EN / IT / ES. The website download page is published separately with the static site release.
+
 ### Two distinct VERUM workflows
 
 - **VERUM fact-checking** examines the evidentiary basis of claims and content. [Project documentation](FACT_CHECK_INDIPENDENTE/README.md).

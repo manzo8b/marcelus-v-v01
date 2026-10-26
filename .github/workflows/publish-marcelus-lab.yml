@@ -1,0 +1,93 @@
+name: Publish approved MARCELUS AI LAB release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'apps/marcelus-ai-lab/**'
+      - '.github/workflows/publish-marcelus-lab.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: marcelus-ai-lab-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    # A main commit is not permission to publish unless its subject contains [publish-site].
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[publish-site]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Select pinned Node version
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: apps/marcelus-ai-lab/.nvmrc
+          cache: npm
+          cache-dependency-path: apps/marcelus-ai-lab/package-lock.json
+      - name: Install dependencies
+        working-directory: apps/marcelus-ai-lab
+        run: npm ci
+      - name: Unit tests
+        working-directory: apps/marcelus-ai-lab
+        run: npm test
+      - name: Typecheck
+        working-directory: apps/marcelus-ai-lab
+        run: npm run typecheck
+      - name: Privacy gate
+        working-directory: apps/marcelus-ai-lab
+        run: npm run privacy:check
+      - name: Export verified public site
+        working-directory: apps/marcelus-ai-lab
+        env:
+          NEXT_PUBLIC_SITE_ORIGIN: https://manzo8b.github.io
+          NEXT_PUBLIC_BASE_PATH: /marcelus-v-v01
+        run: npm run build
+      - name: Validate downloads, translations and approved CV
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd apps/marcelus-ai-lab
+          for lang in en it es; do
+            for name in ai-review-checklist prompt-design-worksheet; do
+              test -s "out/resources/${name}-${lang}.txt"
+            done
+            test -s "out/resources/lesson-plan-60-min-${lang}.csv"
+          done
+          test -s out/index.html
+          test -s out/it/index.html
+          test -s out/es/index.html
+          test -s out/resources/index.html
+          test -s out/it/resources/index.html
+          test -s out/es/resources/index.html
+          test -s out/projects/villa-pitosfori/index.html
+          test -s out/it/projects/villa-pitosfori/index.html
+          test -s out/es/projects/villa-pitosfori/index.html
+          test -f out/.nojekyll
+          cv_sha="$(sha256sum out/cv/CV_Marcelo_Fernandez_IT.pdf | cut -d' ' -f1)"
+          test "$cv_sha" = "c737892d5aeec7ffc479a72769c750e235899a1343994145ac7aa725b3bc2189"
+          node -e 'const fs=require("node:fs");const r={version:"0.3.0",sourceCommit:process.env.GITHUB_SHA,sourceBranch:"main",siteOrigin:"https://manzo8b.github.io",basePath:"/marcelus-v-v01",builtAt:new Date().toISOString(),nodeVersion:process.version,publicCvSha256:process.argv[1]};fs.writeFileSync("out/deployment.json",JSON.stringify(r,null,2)+"\n");' "$cv_sha"
+      - name: Publish to existing gh-pages branch without rewriting history
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin gh-pages
+          publish_dir="$RUNNER_TEMP/marcelus-published"
+          git worktree add --detach "$publish_dir" origin/gh-pages
+          rsync -a --delete --exclude='.git' apps/marcelus-ai-lab/out/ "$publish_dir/"
+          git -C "$publish_dir" config user.name "github-actions[bot]"
+          git -C "$publish_dir" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$publish_dir" add -A
+          if git -C "$publish_dir" diff --cached --quiet; then
+            echo "No website changes to publish"
+            exit 0
+          fi
+          git -C "$publish_dir" commit -m "release: approved MARCELUS AI LAB ${GITHUB_SHA:0:8}"
+          git -C "$publish_dir" push origin HEAD:gh-pages

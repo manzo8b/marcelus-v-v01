@@ -54,6 +54,7 @@ svg { flex-shrink:0; }
 .project-prometeus { --project-color:var(--gold); }
 .project-verum { --project-color:var(--cyan); }
 .project-risto-lab { --project-color:var(--green); }
+.project-s-comodo { --project-color:var(--muted); }
 .project-card { border:1px solid var(--line); border-top:2px solid var(--project-color); border-radius:6px; padding:22px; display:flex; flex-direction:column; transition:border-color .15s,transform .15s; }
 .project-card:hover { border-color:var(--project-color); transform:translateY(-2px); }
 .project-card-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:20px; }

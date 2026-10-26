@@ -1,0 +1,42 @@
+MARCELUS AI LAB — AI RESPONSE REVIEW CHECKLIST
+Free resource, v1.0 — English
+
+PURPOSE
+Compare an AI-generated answer with the actual request and references you have. This is not independent fact-checking.
+
+CONTEXT
+Date: _______
+Original request: _______
+AI-generated answer: _______
+Available sources and references (with dates): _______
+
+REVIEW — YES / NO / NOT VERIFIABLE
+[ ] Addresses the request and follows the instructions.
+[ ] Uses the requested format and suits the intended audience.
+[ ] Prices, numbers, dates and quotations match the references.
+[ ] Does not invent claims, regulations or promotions.
+[ ] Separates facts, interpretations and uncertainty.
+[ ] Sources exist and are relevant and current.
+[ ] Notes missing information and evidence limitations.
+[ ] Does not omit decisive requirements.
+[ ] Does not disclose private or confidential information.
+
+EVIDENCE RECORD
+Claim: _______
+Supporting or conflicting reference: _______
+Issue: CONTRADICTION / UNSUPPORTED ADDITION / OMISSION / NOT VERIFIABLE
+Correction: _______
+
+VERDICT
+[ ] PASS — consistent with the available references
+[ ] NEEDS REVISION — corrections required
+[ ] FAIL — critical problem or contradiction
+[ ] NOT VERIFIABLE — evidence is insufficient
+Reason: _______
+Next action: _______
+
+IMPORTANT
+PASS means consistency with the checked references, not universal truth. For legal, health and safety questions, consult current official sources and qualified professionals. Do not share private data without permission.
+
+Free, editable template. MARCELUS AI LAB
+https://manzo8b.github.io/marcelus-v-v01/resources/

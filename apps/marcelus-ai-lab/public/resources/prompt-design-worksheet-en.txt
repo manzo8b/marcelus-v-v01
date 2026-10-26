@@ -1,0 +1,48 @@
+MARCELUS AI LAB — AI INSTRUCTION DESIGN WORKSHEET
+Free resource, v1.0 — English
+
+1. GOAL
+What result do I want? _______
+Who will use it? _______
+In which situation? _______
+
+2. INPUTS AND REFERENCES
+What facts are already known? _______
+Which documents can be used? _______
+Which facts are missing or uncertain? _______
+
+3. REQUIREMENTS
+Language, tone and audience: _______
+Expected format: _______
+Mandatory constraints: _______
+Content to exclude: _______
+
+4. RELIABILITY
+Which claims need a source or check? _______
+What must not be invented? _______
+Privacy, copyright or safety concerns? _______
+
+5. ACCEPTANCE CHECK
+[ ] Addresses the goal.
+[ ] Follows the constraints.
+[ ] Distinguishes facts and guesses.
+[ ] Adds no unsupported facts.
+[ ] Is understandable without specialist jargon.
+
+6. TEMPLATE PROMPT
+"I need [RESULT] for [AUDIENCE] in [CONTEXT].
+Use [INPUTS AND REFERENCES]. Follow [CONSTRAINTS].
+Write in [LANGUAGE] and organize as [FORMAT].
+Do not invent missing information; explain what cannot be verified.
+Check the result against [ACCEPTANCE CRITERIA]."
+
+7. REVIEW
+What worked? _______
+What was misunderstood? _______
+What should I improve next? _______
+
+NOTE
+Clear instructions make review easier but do not guarantee accuracy. Do not submit confidential information without authorization.
+
+Free, editable template. MARCELUS AI LAB
+https://manzo8b.github.io/marcelus-v-v01/resources/

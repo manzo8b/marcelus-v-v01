@@ -1,0 +1,48 @@
+MARCELUS AI LAB — SCHEDA PER SCRIVERE ISTRUZIONI AI
+Risorsa gratuita, v1.0 — Italiano
+
+1. OBIETTIVO
+Che cosa devo ottenere? _______
+Chi userà il risultato? _______
+In quale situazione? _______
+
+2. INFORMAZIONI E FONTI
+Cosa so già? _______
+Quali documenti sono disponibili? _______
+Quali dati sono mancanti o incerti? _______
+
+3. REQUISITI
+Lingua, tono e pubblico: _______
+Formato desiderato: _______
+Vincoli obbligatori: _______
+Contenuti da evitare: _______
+
+4. AFFIDABILITÀ
+Quali dati richiedono fonte o verifica? _______
+Cosa non deve essere inventato? _______
+Rischi di privacy, copyright o sicurezza? _______
+
+5. CRITERI DI ACCETTAZIONE
+[ ] Risponde all'obiettivo.
+[ ] Rispetta tutti i vincoli.
+[ ] Separa fatti da ipotesi.
+[ ] Non aggiunge dati senza riferimenti.
+[ ] Si capisce senza conoscere il gergo tecnico.
+
+6. PROMPT DA PERSONALIZZARE
+"Devo ottenere [RISULTATO] per [PUBBLICO] nel contesto [SITUAZIONE].
+Utilizza [INFORMAZIONI E FONTI]. Rispetta [VINCOLI].
+Scrivi in [LINGUA] e organizza come [FORMATO].
+Non inventare dati mancanti; indica cosa non puoi verificare.
+Controlla il risultato rispetto a [CRITERI DI ACCETTAZIONE]."
+
+7. REVISIONE
+Che cosa ha funzionato? _______
+Che cosa è stato frainteso? _______
+Come migliorare la richiesta? _______
+
+NOTA
+Le istruzioni precise aiutano la verifica ma non garantiscono l'accuratezza delle risposte. Non inserire informazioni private senza autorizzazione.
+
+Modello gratuito e modificabile. MARCELUS AI LAB
+https://manzo8b.github.io/marcelus-v-v01/it/resources/
