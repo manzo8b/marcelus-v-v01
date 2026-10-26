@@ -19,7 +19,7 @@ export function localizedPath(path: string, locale: Locale) {
 // Editorial translations only. Documentary excerpts retain their original language.
 export const translations: [string, string, string][] = [
   ['This page is not in the lab.', 'Questa pagina non è nel laboratorio.', 'Esta página no está en el laboratorio.'], ['Back to overview', 'Torna alla panoramica', 'Volver al resumen'],
-  ['Overview', 'Panoramica', 'Resumen'], ['Projects', 'Progetti', 'Proyectos'], ['Evaluation lab', 'Laboratorio', 'Laboratorio'], ['Case studies', 'Casi pratici', 'Casos prácticos'], ['About', 'Profilo', 'Perfil'],
+  ['Overview', 'Panoramica', 'Resumen'], ['Projects', 'Progetti', 'Proyectos'], ['Free resources', 'Risorse gratuite', 'Recursos gratuitos'], ['Evaluation lab', 'Laboratorio', 'Laboratorio'], ['Case studies', 'Casi pratici', 'Casos prácticos'], ['About', 'Profilo', 'Perfil'],
   ['Main navigation', 'Navigazione principale', 'Navegación principal'], ['Language', 'Lingua', 'Idioma'], ['Open navigation', 'Apri navigazione', 'Abrir navegación'], ['Close navigation', 'Chiudi navigazione', 'Cerrar navegación'],
   ['Switch to light theme', 'Passa al tema chiaro', 'Cambiar al tema claro'], ['Switch to dark theme', 'Passa al tema scuro', 'Cambiar al tema oscuro'], ['Skip to content', 'Vai al contenuto', 'Saltar al contenido'],
   ['Personal projects. Documented work.', 'Progetti personali. Lavoro documentato.', 'Proyectos personales. Trabajo documentado.'],
