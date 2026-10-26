@@ -7,7 +7,10 @@ const read = (path: string) => readFileSync(new URL('../' + path, import.meta.ur
 test('legal pages have three languages and all legal sections', () => {
   const code = read('components/legal-pages.tsx');
   for (const lang of ['it:', 'en:', 'es:']) assert.ok(code.includes(lang));
-  for (const page of ['notice:', 'privacy:', 'cookies:']) assert.equal(code.split(page).length, 4);
+  for (const page of ['notice', 'privacy', 'cookies']) {
+    const matches = code.match(new RegExp('^    ' + page + ': \\{', 'gm')) || [];
+    assert.equal(matches.length, 3, 'missing translation: ' + page);
+  }
   assert.match(code, /REVIEW DRAFT/);
   assert.match(code, /marcelus-theme/);
 });
