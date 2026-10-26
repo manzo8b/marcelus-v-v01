@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - feat/marcelus-home-v2-design-prototype
+      - fix/home-headings-no-periods
 
 permissions:
   contents: read
