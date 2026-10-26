@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, ArrowUpRight, BookOpenCheck, CircleCheck, FileSearch, GraduationCap, Layers3, Newspaper, ScanSearch, Sparkles, Workflow } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, BookOpenCheck, CircleCheck, Download, FileSearch, Globe2, GraduationCap, Layers3, Newspaper, ScanSearch, Sparkles, Workflow } from 'lucide-react';
 import { PublicCv } from '@/components/portfolio';
 import { type Locale, localizedPath } from '@/data/i18n';
 import { profile } from '@/data/portfolio';
@@ -189,10 +189,39 @@ const words = {
   },
 } as const;
 
+
+const extras = {
+  en: {
+    villaEyebrow:'WEBSITE PROJECT', villaTitle:"Villa All'Ombra dei Pitosfori",
+    villaText:'A live website created for a holiday villa in Salento. See how information and navigation are presented to guests.',
+    villaLink:'View the project', villaVisit:'Open the website',
+    freeEyebrow:'FREE DOWNLOADS', freeTitle:'Useful templates, ready to adapt.',
+    freeText:'Check an AI response, write clearer instructions or plan a lesson. Three practical tools, in English, Italian and Spanish. No sign-up needed.',
+    freeAction:'Explore free resources'
+  },
+  it: {
+    villaEyebrow:'PROGETTO DI REALIZZAZIONE WEB',villaTitle:"Villa All'Ombra dei Pitosfori",
+    villaText:'Un sito web realizzato per una villa nel Salento. Un esempio concreto di comunicazione e navigazione nel settore dell’ospitalità.',
+    villaLink:'Scopri il progetto',villaVisit:'Visita il sito',
+    freeEyebrow:'DOWNLOAD GRATUITI', freeTitle:'Modelli pratici, pronti da adattare.',
+    freeText:'Controlla una risposta AI, scrivi istruzioni più precise o prepara una lezione. Tre strumenti gratuiti in italiano, inglese e spagnolo, senza registrazione.',
+    freeAction:'Vai alle risorse gratuite'
+  },
+  es: {
+    villaEyebrow:'PROYECTO DE CREACIÓN WEB',villaTitle:"Villa All'Ombra dei Pitosfori",
+    villaText:'Un sitio web creado para una villa en Salento. Un ejemplo de comunicación y navegación para el sector turístico.',
+    villaLink:'Conocer el proyecto',villaVisit:'Visitar el sitio',
+    freeEyebrow:'DESCARGAS GRATUITAS',freeTitle:'Plantillas prácticas para adaptar.',
+    freeText:'Revisa respuestas de IA, redacta instrucciones más claras o prepara una clase. Tres herramientas en español, italiano e inglés, sin registro.',
+    freeAction:'Ver recursos gratuitos'
+  }
+} as const;
+
 const projectMarks = { verum: ScanSearch, prometeus: Workflow, 'risto-lab': GraduationCap, 's-comodo': Newspaper };
 
 export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
   const c = words[locale];
+  const x = extras[locale];
   return <div className={s.home}>
     <section className={s.hero} aria-labelledby="home-v2-heading">
       <div className={s.heroText}>
@@ -239,6 +268,19 @@ export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
 
     </section>
 
+
+    <section className={s.villaFeature} aria-labelledby="home-v2-villa">
+      <div>
+        <p className={s.eyebrow}><Globe2 size={16} aria-hidden="true" />{x.villaEyebrow}</p>
+        <h2 id="home-v2-villa">{x.villaTitle}</h2>
+        <p>{x.villaText}</p>
+      </div>
+      <div className={s.villaActions}>
+        <Link href={localizedPath('/projects/villa-pitosfori/',locale)} className={s.secondaryAction}>{x.villaLink}<ArrowUpRight size={16} aria-hidden="true"/></Link>
+        <a href="https://www.villapitosfori.com/" target="_blank" rel="noreferrer" className={s.villaSite}>{x.villaVisit}<ArrowUpRight size={16} aria-hidden="true"/></a>
+      </div>
+    </section>
+
     <section className={s.section} aria-labelledby="home-v2-evidence">
       <div className={s.sectionHeading}><div><p className={s.eyebrow}>{c.workEyebrow}</p><h2 id="home-v2-evidence">{c.workTitle}</h2><p className={s.sectionLead}>{c.workLead}</p></div></div>
       <div className={s.caseGrid}>{c.cases.map((item,index)=><Link key={item.path} className={s.caseCard} href={localizedPath(item.path,locale)}><span className={s.caseNumber}>0{index+1}</span><h3>{item.title}</h3><p>{item.desc}</p><span className={s.caseLink}>{c.caseLink}<ArrowUpRight size={17} aria-hidden="true"/></span></Link>)}</div>
@@ -247,6 +289,16 @@ export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
     <section className={s.methodSection} aria-labelledby="home-v2-method">
       <div className={s.sectionHeading}><div><p className={s.eyebrow}>{c.methodEyebrow}</p><h2 id="home-v2-method">{c.methodTitle}</h2></div></div>
       <div className={s.methodGrid}>{c.method.map((step,index)=><div key={step.title} className={s.methodStep}><span>0{index+1}</span><h3>{step.title}</h3><p>{step.desc}</p></div>)}</div>
+    </section>
+
+
+    <section className={s.freeFeature} aria-labelledby="home-v2-resources">
+      <div>
+        <p className={s.eyebrow}><Download size={16} aria-hidden="true"/>{x.freeEyebrow}</p>
+        <h2 id="home-v2-resources">{x.freeTitle}</h2>
+        <p>{x.freeText}</p>
+      </div>
+      <Link href={localizedPath('/resources/',locale)} className={s.primaryAction}>{x.freeAction}<ArrowUpRight size={17} aria-hidden="true"/></Link>
     </section>
 
     <section id="skills" className={s.skillsSection} aria-labelledby="home-v21-skills">
