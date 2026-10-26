@@ -7,7 +7,7 @@ import s from './free-resources.module.css';
 const copy = {
   en: {
     eyebrow: 'MARCELUS AI LAB · OPEN RESOURCES',
-    title: 'Free resources you can use.',
+    title: 'Free resources you can use',
     intro: 'Three practical templates for checking an AI response, writing a clearer request and organizing a 60-minute lesson. Download them without registration and adapt them to your work.',
     notice: 'Original, editable educational templates. They are not legal, medical, safety or independent factual certification. Verify important claims with current sources.',
     action: 'Download free',
@@ -22,7 +22,7 @@ const copy = {
   },
   it: {
     eyebrow: 'MARCELUS AI LAB · RISORSE APERTE',
-    title: 'Risorse gratuite, subito utilizzabili.',
+    title: 'Risorse gratuite, subito utilizzabili',
     intro: 'Tre strumenti pratici per controllare una risposta AI, scrivere richieste più chiare e organizzare una lezione di 60 minuti. Li scarichi senza registrarti e puoi adattarli al tuo lavoro.',
     notice: 'Modelli originali e modificabili per uso pratico e formativo. Non sono certificazioni legali, sanitarie, di sicurezza o di verità fattuale: verifica sempre le informazioni importanti con fonti aggiornate.',
     action: 'Scarica gratis',
@@ -37,7 +37,7 @@ const copy = {
   },
   es: {
     eyebrow: 'MARCELUS AI LAB · RECURSOS ABIERTOS',
-    title: 'Recursos gratuitos para empezar.',
+    title: 'Recursos gratuitos para empezar',
     intro: 'Tres plantillas prácticas para revisar una respuesta de IA, escribir instrucciones más claras y organizar una clase de 60 minutos. Descárgalas sin registro y adáptalas a tu trabajo.',
     notice: 'Plantillas originales y editables para uso práctico y formativo. No son certificaciones legales, sanitarias, de seguridad ni de veracidad factual: comprueba lo importante con fuentes actuales.',
     action: 'Descargar gratis',
