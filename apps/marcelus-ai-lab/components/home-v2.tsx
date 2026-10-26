@@ -1,35 +1,38 @@
 import Link from 'next/link';
-import { ArrowRight, ArrowUpRight, BookOpenCheck, CircleCheck, FileSearch, GraduationCap, Layers3, ScanSearch, Sparkles, Workflow } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, BookOpenCheck, CircleCheck, FileSearch, GraduationCap, Layers3, Newspaper, ScanSearch, Sparkles, Workflow } from 'lucide-react';
 import { PublicCv } from '@/components/portfolio';
 import { type Locale, localizedPath } from '@/data/i18n';
-import { assetUrl, profile } from '@/data/portfolio';
+import { profile } from '@/data/portfolio';
 import s from './home-v2.module.css';
 
 // Home-only editorial copy: does not change documentary excerpts or the shared translation dictionary.
 const words = {
   en: {
     label: 'INDEPENDENT DIGITAL LAB',
-    first: 'Clear thinking.',
-    second: 'Practical digital tools.',
-    intro: 'I design ways to check AI-generated content, write more precise instructions and make professional training easier to organize.',
+    first: 'Clear ideas.',
+    second: 'Useful tools.'
+    intro: 'I design tools to check information, give AI clearer instructions and organize practical training and work.'
     honest: 'Each project explains what it does, what has been tested and what still needs work.',
     explore: 'Explore the projects',
     about: 'About my work',
-    heroNote: 'Projects, evidence and a clear next step.',
-    pictureLabel: 'FROM PROBLEM TO PROOF',
-    visualSteps: ['A real problem', 'A practical method', 'A documented check'],
-    visualBottom: 'Design with a purpose. Test with evidence.',
+    heroNote: 'Personal projects, documented examples and limits made clear.'
+    pictureLabel: 'FROM CLAIM TO CHECK',
+    visualSteps: [{ title: 'Problem', detail: 'The AI says: “Children enter free this month.”' }, { title: 'Reference', detail: 'The supplied reference says: “Children’s admission: $25.”' }, { title: 'Check', detail: 'FAIL: contradiction and invented promotion.' }],
+    visualBottom: 'Synthetic example · VERUM Output Reviewer · checks supplied references, not the live web.',
     featuredEyebrow: 'SELECTED WORK',
-    featuredTitle: 'Three projects, three concrete needs.',
-    featuredLead: 'Start with the problem each project addresses. Then explore the examples and documentation.',
+    featuredTitle: 'Four projects. Four concrete needs.',
+    featuredLead: 'Understand what each project helps with, why it matters and what remains to be tested.',
     projectLink: 'Explore project',
+    reasonLabel: 'Why it matters', limitLabel: 'Status / limit', skillLink: 'Discover skills on Agensi',
     projects: [
-      {id: 'verum', title: 'VERUM', tag: 'AI EVALUATION', desc: 'Two distinct activities: reviewing claims against sources, and checking AI outputs against supplied references. Results and limits are documented.', image: '/media/og-verum.png', alt: 'VERUM project visual'},
-      {id: 'prometeus', title: 'Prometeus Marcelus', tag: 'INSTRUCTION DESIGN', desc: 'Turns a vague request into clear instructions, useful constraints and criteria for checking the answer.', image: '/media/og-prometeus.png', alt: 'Prometeus Marcelus project visual'},
-      {id: 'risto-lab', title: 'RISTO-LAB', tag: 'HOSPITALITY TRAINING', desc: 'Organizes hospitality procedures and teaching materials. Its Instructor Hub is being tested locally and is not a public service.', image: '/media/og-risto-lab.png', alt: 'RISTO-LAB project visual'},
+      {id: 'verum', title: 'VERUM', tag: 'AI EVALUATION', headline: 'Separate what is claimed from what can be proved.', desc: 'Checks statements against sources and, separately, AI responses against references you supply.', reason: 'Fluent writing can sound true without reliable evidence.', limit: 'The Output Reviewer does not search the web; it needs supplied references.'},
+      {id: 'prometeus', title: 'Prometeus Marcelus', tag: 'INSTRUCTION DESIGN', headline: 'Turn a vague request into instructions that work.', desc: 'Makes requirements, constraints and review criteria explicit.', reason: 'Clearer instructions reduce ambiguity and make outputs easier to check.', limit: 'Documented examples do not establish universal AI performance.'},
+      {id: 'risto-lab', title: 'RISTO-LAB', tag: 'HOSPITALITY TRAINING', headline: 'Training made practical and repeatable.', desc: 'Organizes service procedures and teaching materials with clear checks.', reason: 'New staff need instructions they can understand and reuse.', limit: 'The Instructor Hub is a local prototype, not a public service.'},
+      {id: 's-comodo', title: 'S-COMODO', tag: 'INDEPENDENT EDITORIAL', headline: 'Current facts, historical context and clear editorial judgment.', desc: 'An independent editorial project with AI-assisted drafts, sources and human editorial review.', reason: 'Show how AI can assist writing without hiding the editorial method.', limit: 'In preparation; editorial material is not presented as already published.'},
     ],
-    inProgressEyebrow: 'IN DEVELOPMENT',
-    inProgressTitle: 'Tools still being built.',
+    skillEyebrow: 'AI SKILLS', skillTitle: 'Specialized instructions for specific tasks.', skillIntro: 'A Skill is a set of instructions that helps an AI assistant perform a defined task consistently. VERUM Output Reviewer checks a response against the instructions and references you supply.', skillAvailability: 'VERUM Output Reviewer is currently available free on Agensi. It does not browse the web or independently establish external facts.', skillCreator: 'See my skills on Agensi', skillTry: 'Try VERUM Output Reviewer (free)', skillCustom: 'Discuss a custom Skill', skillFooter: 'Other paid or custom skills are possibilities, not products already listed for sale.',
+        inProgressEyebrow: 'IN DEVELOPMENT',
+    inProgressTitle: 'Tools still in development.',
     inProgressLead: 'These are ongoing projects, not finished products or public services.',
     wipLabel: 'Work in progress',
     wip: [
@@ -68,24 +71,27 @@ const words = {
     label: 'LABORATORIO DIGITALE INDIPENDENTE',
     first: 'Idee chiare.',
     second: 'Strumenti concreti.',
-    intro: 'Progetto metodi per valutare contenuti prodotti dall’AI, scrivere istruzioni più precise e organizzare meglio la formazione professionale.',
-    honest: 'Ogni progetto spiega cosa fa, cosa è stato verificato e cosa resta da migliorare.',
+    intro: 'Progetto strumenti per verificare informazioni, migliorare le istruzioni date all’intelligenza artificiale e organizzare meglio il lavoro e la formazione.'
+    honest: 'Ogni progetto nasce da un problema concreto: mostro come lo affronto, cosa ho verificato e cosa resta da migliorare.'
     explore: 'Esplora i progetti',
     about: 'Il mio percorso',
     heroNote: 'Progetti, prove documentate e passi concreti.',
     pictureLabel: 'DAL PROBLEMA ALLA VERIFICA',
-    visualSteps: ['Un problema reale', 'Un metodo pratico', 'Una verifica documentata'],
-    visualBottom: 'Progettare con uno scopo. Verificare con le prove.',
+    visualSteps: [{ title: 'Problema', detail: 'L’AI dice: «I bambini entrano gratis questo mese».' }, { title: 'Riferimento', detail: 'Il testo fornito indica: «Ingresso bambini: 25 $».' }, { title: 'Verifica', detail: 'FAIL: contraddizione e promozione inventata.' }],
+    visualBottom: 'Esempio sintetico · VERUM Output Reviewer · confronta i riferimenti forniti, non cerca sul web.',
     featuredEyebrow: 'PROGETTI PRINCIPALI',
-    featuredTitle: 'Tre progetti, tre esigenze concrete.',
-    featuredLead: 'Parti dal problema che ogni progetto affronta. Poi esplora esempi e documentazione.',
+    featuredTitle: 'Quattro progetti, quattro esigenze concrete.',
+    featuredLead: 'Scopri cosa fa ogni progetto, perché serve e quali verifiche sono ancora necessarie.',
     projectLink: 'Scopri il progetto',
+    reasonLabel: 'Perché serve', limitLabel: 'Stato / limite', skillLink: 'Scopri le Skill su Agensi',
     projects: [
-      {id: 'verum', title: 'VERUM', tag: 'VALUTAZIONE AI', desc: 'Due attività distinte: verificare affermazioni rispetto alle fonti e valutare risposte AI rispetto a riferimenti forniti. Risultati e limiti sono documentati.', image: '/media/og-verum.png', alt: 'Grafica del progetto VERUM'},
-      {id: 'prometeus', title: 'Prometeus Marcelus', tag: 'PROGETTAZIONE DI ISTRUZIONI', desc: 'Trasforma richieste vaghe in istruzioni chiare, vincoli utili e criteri per controllare le risposte.', image: '/media/og-prometeus.png', alt: 'Grafica del progetto Prometeus Marcelus'},
-      {id: 'risto-lab', title: 'RISTO-LAB', tag: 'FORMAZIONE NELLA RISTORAZIONE', desc: 'Organizza procedure e materiali per insegnare il lavoro nella ristorazione. L’area docente è in prova locale, non è un servizio pubblico.', image: '/media/og-risto-lab.png', alt: 'Grafica del progetto RISTO-LAB'},
+      {id: 'verum', title: 'VERUM', tag: 'VALUTAZIONE AI', headline: 'Separa ciò che si afferma da ciò che si può provare.', desc: 'Distingue affermazioni, opinioni e prove. Valuta anche risposte AI rispetto ai riferimenti forniti.', reason: 'Una frase ben scritta può sembrare vera senza esserlo.', limit: 'Output Reviewer non cerca sul web: richiede riferimenti da confrontare.'},
+      {id: 'prometeus', title: 'Prometeus Marcelus', tag: 'PROGETTAZIONE DI ISTRUZIONI', headline: 'Da una richiesta vaga a istruzioni che funzionano.', desc: 'Rende più chiari requisiti, vincoli e criteri per controllare una risposta.', reason: 'Una richiesta precisa riduce l’ambiguità e rende i risultati verificabili.', limit: 'Gli esempi documentati non dimostrano prestazioni universali dell’AI.'},
+      {id: 'risto-lab', title: 'RISTO-LAB', tag: 'FORMAZIONE NELLA RISTORAZIONE', headline: 'Il lavoro di sala e cucina si impara con procedure chiare.', desc: 'Organizza materiali didattici e procedure da applicare e verificare.', reason: 'Chi inizia a lavorare ha bisogno di istruzioni comprensibili e ripetibili.', limit: 'L’area docente è in prova locale, non è un servizio pubblico.'},
+      {id: 's-comodo', title: 'S-COMODO', tag: 'EDITORIA INDIPENDENTE', headline: 'Fatti di oggi, contesto storico, scelte editoriali esplicite.', desc: 'Progetto editoriale indipendente con bozze assistite dall’AI, fonti e revisione umana.', reason: 'Mostra come usare l’AI per scrivere senza nascondere il metodo.', limit: 'In preparazione: non si presenta come già pubblicato.'},
     ],
-    inProgressEyebrow: 'IN SVILUPPO',
+    skillEyebrow: 'SKILL PER L’AI', skillTitle: 'Istruzioni specializzate, pronte da usare.', skillIntro: 'Una Skill è un insieme di istruzioni che aiuta un assistente AI a svolgere bene un compito preciso. VERUM Output Reviewer confronta una risposta con le istruzioni e i riferimenti forniti.', skillAvailability: 'VERUM Output Reviewer è disponibile gratuitamente su Agensi. Non cerca sul web e non verifica fatti esterni senza fonti fornite.', skillCreator: 'Vedi le mie Skill su Agensi', skillTry: 'Prova VERUM Output Reviewer (gratis)', skillCustom: 'Chiedi una Skill su misura', skillFooter: 'Altre Skill a pagamento o personalizzate sono possibilità future, non prodotti già pubblicati.',
+        inProgressEyebrow: 'IN SVILUPPO',
     inProgressTitle: 'Strumenti ancora in lavorazione.',
     inProgressLead: 'Sono progetti in corso, non prodotti conclusi né servizi già disponibili al pubblico.',
     wipLabel: 'Work in progress',
@@ -125,24 +131,27 @@ const words = {
     label: 'LABORATORIO DIGITAL INDEPENDIENTE',
     first: 'Ideas claras.',
     second: 'Herramientas útiles.',
-    intro: 'Diseño métodos para evaluar contenidos de IA, escribir instrucciones más precisas y organizar mejor la formación profesional.',
-    honest: 'Cada proyecto explica qué hace, qué se ha comprobado y qué falta por mejorar.',
+    intro: 'Diseño herramientas para verificar información, mejorar las instrucciones dadas a la inteligencia artificial y organizar mejor el trabajo y la formación.'
+    honest: 'Cada proyecto nace de un problema concreto: explico cómo lo abordo, qué he verificado y qué falta por mejorar.'
     explore: 'Explorar proyectos',
     about: 'Mi trayectoria',
     heroNote: 'Proyectos, evidencia documentada y pasos concretos.',
     pictureLabel: 'DEL PROBLEMA A LA VERIFICACIÓN',
-    visualSteps: ['Un problema real', 'Un método práctico', 'Una verificación documentada'],
-    visualBottom: 'Diseñar con propósito. Comprobar con evidencias.',
+    visualSteps: [{ title: 'Problema', detail: 'La IA afirma: «Los niños entran gratis este mes».' }, { title: 'Referencia', detail: 'El texto aportado dice: «Entrada infantil: 25 $».' }, { title: 'Verificación', detail: 'FAIL: contradicción y promoción inventada.' }],
+    visualBottom: 'Ejemplo sintético · VERUM Output Reviewer · compara referencias aportadas; no busca en la web.',
     featuredEyebrow: 'PROYECTOS PRINCIPALES',
-    featuredTitle: 'Tres proyectos, tres necesidades concretas.',
-    featuredLead: 'Empieza por el problema que aborda cada proyecto. Después consulta ejemplos y documentación.',
+    featuredTitle: 'Cuatro proyectos, cuatro necesidades concretas.',
+    featuredLead: 'Descubre qué hace cada proyecto, para qué sirve y qué verificaciones quedan pendientes.',
     projectLink: 'Ver proyecto',
+    reasonLabel: 'Por qué importa', limitLabel: 'Estado / límite', skillLink: 'Descubre las Skills en Agensi',
     projects: [
-      {id: 'verum', title: 'VERUM', tag: 'EVALUACIÓN DE IA', desc: 'Dos tareas distintas: contrastar afirmaciones con fuentes y revisar respuestas de IA frente a referencias proporcionadas. Se documentan los resultados y sus límites.', image: '/media/og-verum.png', alt: 'Visual del proyecto VERUM'},
-      {id: 'prometeus', title: 'Prometeus Marcelus', tag: 'DISEÑO DE INSTRUCCIONES', desc: 'Convierte peticiones vagas en instrucciones claras, restricciones útiles y criterios para comprobar las respuestas.', image: '/media/og-prometeus.png', alt: 'Visual del proyecto Prometeus Marcelus'},
-      {id: 'risto-lab', title: 'RISTO-LAB', tag: 'FORMACIÓN EN HOSTELERÍA', desc: 'Organiza procedimientos y materiales para enseñar en hostelería. El espacio docente está en pruebas locales y no es un servicio público.', image: '/media/og-risto-lab.png', alt: 'Visual del proyecto RISTO-LAB'},
+      {id: 'verum', title: 'VERUM', tag: 'EVALUACIÓN DE IA', headline: 'Distingue lo que se afirma de lo que se puede demostrar.', desc: 'Separa afirmaciones, opiniones y evidencias. También revisa respuestas de IA frente a referencias aportadas.', reason: 'Una frase convincente puede no ser cierta.', limit: 'Output Reviewer no busca en la web; compara referencias proporcionadas.'},
+      {id: 'prometeus', title: 'Prometeus Marcelus', tag: 'DISEÑO DE INSTRUCCIONES', headline: 'De una petición vaga a instrucciones que funcionan.', desc: 'Define requisitos, restricciones y criterios claros para comprobar respuestas.', reason: 'Una petición precisa reduce ambigüedades y facilita verificar resultados.', limit: 'Los ejemplos documentados no demuestran rendimiento universal de la IA.'},
+      {id: 'risto-lab', title: 'RISTO-LAB', tag: 'FORMACIÓN EN HOSTELERÍA', headline: 'Aprender sala y cocina con procedimientos claros.', desc: 'Organiza materiales de formación y procedimientos aplicables y verificables.', reason: 'Quien empieza necesita instrucciones claras y repetibles.', limit: 'El espacio docente está en pruebas locales; no es un servicio público.'},
+      {id: 's-comodo', title: 'S-COMODO', tag: 'EDITORIAL INDEPENDIENTE', headline: 'Hechos actuales, contexto histórico y criterio editorial.', desc: 'Proyecto editorial independiente con borradores asistidos por IA, fuentes y revisión humana.', reason: 'Permite usar IA para escribir sin ocultar el método.', limit: 'En preparación: todavía no se presenta como publicado.'},
     ],
-    inProgressEyebrow: 'EN DESARROLLO',
+    skillEyebrow: 'SKILLS PARA IA', skillTitle: 'Instrucciones especializadas, listas para usar.', skillIntro: 'Una Skill es un conjunto de instrucciones que ayuda a un asistente de IA a realizar una tarea concreta. VERUM Output Reviewer compara una respuesta con las instrucciones y referencias que proporcionas.', skillAvailability: 'VERUM Output Reviewer está disponible gratis en Agensi. No navega por la web ni comprueba hechos externos sin referencias aportadas.', skillCreator: 'Ver mis Skills en Agensi', skillTry: 'Probar VERUM Output Reviewer (gratis)', skillCustom: 'Consultar una Skill a medida', skillFooter: 'Otras Skills de pago o personalizadas son posibles proyectos futuros, no productos ya publicados.',
+        inProgressEyebrow: 'EN DESARROLLO',
     inProgressTitle: 'Herramientas todavía en construcción.',
     inProgressLead: 'Son proyectos en curso, no productos terminados ni servicios disponibles públicamente.',
     wipLabel: 'Work in progress',
@@ -180,7 +189,7 @@ const words = {
   },
 } as const;
 
-const projectMarks = { verum: ScanSearch, prometeus: Workflow, 'risto-lab': GraduationCap };
+const projectMarks = { verum: ScanSearch, prometeus: Workflow, 'risto-lab': GraduationCap, 's-comodo': Newspaper };
 
 export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
   const c = words[locale];
@@ -193,15 +202,15 @@ export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
         <p className={s.honest}>{c.honest}</p>
         <div className={s.heroActions}>
           <a className={s.primaryAction} href="#projects-v2">{c.explore}<ArrowRight size={18} aria-hidden="true" /></a>
-          <Link className={s.secondaryAction} href={localizedPath('/about/', locale)}>{c.about}<ArrowUpRight size={16} aria-hidden="true" /></Link>
+          <a className={s.secondaryAction} href="https://agensi.io/creators/marcelo-javier-fernandez-caballero" target="_blank" rel="noreferrer">{c.skillLink}<ArrowUpRight size={16} aria-hidden="true" /></a>
         </div>
         <p className={s.heroNote}><CircleCheck size={15} aria-hidden="true" /> {c.heroNote}</p>
       </div>
-      <div className={s.heroVisual} aria-hidden="true">
-        <div className={s.orbitOne}></div><div className={s.orbitTwo}></div>
+      <div className={s.heroVisual}>
+        <div className={s.orbitOne} aria-hidden="true"></div><div className={s.orbitTwo} aria-hidden="true"></div>
         <div className={s.visualPanel}>
-          <div className={s.visualHead}><span className={s.visualSignal}></span><span>{c.pictureLabel}</span><span className={s.visualDots}>•••</span></div>
-          {c.visualSteps.map((step,index)=><div className={s.visualRow} key={index}><span className={s.visualIndex}>0{index+1}</span><span>{step}</span>{index===2?<CircleCheck size={19}/>:<span className={s.visualBar}></span>}</div>)}
+          <div className={s.visualHead}><span className={s.visualSignal} aria-hidden="true"></span><span>{c.pictureLabel}</span><span className={s.visualDots} aria-hidden="true">•••</span></div>
+          {c.visualSteps.map((step,index)=><div className={s.visualRow} key={step.title}><span className={s.visualIndex}>0{index+1}</span><div className={s.exampleText}><strong>{step.title}</strong><p>{step.detail}</p></div>{index===2?<CircleCheck size={19} aria-hidden="true"/>:null}</div>)}
           <div className={s.visualBottom}>{c.visualBottom}</div>
         </div>
       </div>
@@ -211,9 +220,15 @@ export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
       <div className={s.sectionHeading}><div><p className={s.eyebrow}>{c.featuredEyebrow}</p><h2 id="home-v2-projects">{c.featuredTitle}</h2><p className={s.sectionLead}>{c.featuredLead}</p></div></div>
       <div className={s.featuredGrid}>{c.projects.map(card=>{
         const Mark=projectMarks[card.id];
-        return <Link key={card.id} className={s.featuredCard} href={localizedPath('/projects/'+card.id+'/',locale)}>
-          <div className={s.featuredImage}><img src={assetUrl(card.image)} alt={card.alt} width={1200} height={630} loading="lazy" decoding="async" /></div>
-          <div className={s.featuredBody}><p className={s.cardTag}><Mark size={16} aria-hidden="true" /> {card.tag}</p><h3>{card.title}</h3><p className={s.cardDescription}>{card.desc}</p><span className={s.cardAction}>{c.projectLink}<ArrowUpRight size={17} aria-hidden="true" /></span></div>
+        return <Link key={card.id} className={`${s.featuredCard} ${s['accent-'+card.id]}`} href={localizedPath('/projects/'+card.id+'/',locale)}>
+          <div className={s.featuredBody}>
+            <p className={s.cardTag}><Mark size={17} aria-hidden="true"/>{card.tag}</p>
+            <h3>{card.title}</h3><p className={s.projectHeadline}>{card.headline}</p>
+            <p className={s.cardDescription}>{card.desc}</p>
+            <p className={s.cardReason}><strong>{c.reasonLabel}:</strong> {card.reason}</p>
+            <p className={s.cardLimit}><strong>{c.limitLabel}:</strong> {card.limit}</p>
+            <span className={s.cardAction}>{c.projectLink}<ArrowUpRight size={17} aria-hidden="true" /></span>
+          </div>
         </Link>;
       })}</div>
     </section>
@@ -221,7 +236,7 @@ export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
     <section className={s.section} aria-labelledby="home-v2-wip">
       <div className={s.sectionHeading}><div><p className={s.eyebrow}>{c.inProgressEyebrow}</p><h2 id="home-v2-wip">{c.inProgressTitle}</h2><p className={s.sectionLead}>{c.inProgressLead}</p></div></div>
       <div className={s.wipGrid}>{c.wip.map(item=><article key={item.name} className={s.wipCard}><div className={s.wipTop}><span className={s.wipBadge}><Layers3 size={14} aria-hidden="true" /> {c.wipLabel}</span><span className={s.wipIcon}><FileSearch size={24} aria-hidden="true" /></span></div><p className={s.cardTag}>{item.category}</p><h3>{item.name}</h3><p className={s.cardDescription}>{item.desc}</p></article>)}</div>
-      <p className={s.editorialNote}><BookOpenCheck size={17} aria-hidden="true" /> <strong>{c.editorialName}</strong> — {c.editorialText}</p>
+
     </section>
 
     <section className={s.section} aria-labelledby="home-v2-evidence">
@@ -232,6 +247,21 @@ export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
     <section className={s.methodSection} aria-labelledby="home-v2-method">
       <div className={s.sectionHeading}><div><p className={s.eyebrow}>{c.methodEyebrow}</p><h2 id="home-v2-method">{c.methodTitle}</h2></div></div>
       <div className={s.methodGrid}>{c.method.map((step,index)=><div key={step.title} className={s.methodStep}><span>0{index+1}</span><h3>{step.title}</h3><p>{step.desc}</p></div>)}</div>
+    </section>
+
+    <section id="skills" className={s.skillsSection} aria-labelledby="home-v21-skills">
+      <div className={s.skillText}>
+        <p className={s.eyebrow}><BookOpenCheck size={15} aria-hidden="true"/>{c.skillEyebrow}</p>
+        <h2 id="home-v21-skills">{c.skillTitle}</h2>
+        <p>{c.skillIntro}</p>
+        <p className={s.skillNote}>{c.skillAvailability}</p>
+      </div>
+      <div className={s.skillActions}>
+        <a className={s.primaryAction} href="https://agensi.io/creators/marcelo-javier-fernandez-caballero" target="_blank" rel="noreferrer">{c.skillCreator}<ArrowUpRight size={16} aria-hidden="true"/></a>
+        <a className={s.secondaryAction} href="https://agensi.io/skills/verum-output-reviewer" target="_blank" rel="noreferrer">{c.skillTry}<ArrowUpRight size={16} aria-hidden="true"/></a>
+        <a className={s.secondaryAction} href={profile.linkedin} target="_blank" rel="noreferrer">{c.skillCustom}<ArrowUpRight size={16} aria-hidden="true"/></a>
+        <p className={s.skillFooter}>{c.skillFooter}</p>
+      </div>
     </section>
 
     <section className={s.aboutBand} aria-labelledby="home-v2-about"><div><p className={s.eyebrow}>{c.aboutEyebrow}</p><h2 id="home-v2-about">{c.aboutTitle}</h2><p>{c.aboutDesc}</p></div><div className={s.aboutLinks}><Link href={localizedPath('/about/',locale)} className={s.secondaryAction}>{c.aboutLink}<ArrowUpRight size={16} aria-hidden="true"/></Link><PublicCv locale={locale}/></div></section>
