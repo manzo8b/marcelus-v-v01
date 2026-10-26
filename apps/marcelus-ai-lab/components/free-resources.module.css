@@ -1,0 +1,22 @@
+.root { color:var(--ink); }
+.hero { padding:clamp(35px,5vw,68px); margin-top:26px; border:1px solid var(--line); background:var(--panel); border-radius:27px; }
+.eyebrow { display:flex;align-items:center;gap:10px;font-weight:750;font-size:11px;letter-spacing:.12em;color:var(--accent); }
+.hero h1 {font-size:clamp(36px,5vw,62px);letter-spacing:-.04em;line-height:1.09;max-width:750px;margin-top:20px;}
+.lead {font-size:clamp(16px,2vw,19px);line-height:1.7;color:var(--muted);max-width:790px;margin-top:20px;}
+.available { margin-top:20px; display:inline-flex; align-items:center; background:var(--paper);border:1px solid var(--line);padding:8px 14px;border-radius:999px;font-size:12px; }
+.grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;margin:38px 0 25px;}
+.card {border:1px solid var(--line);border-radius:20px;background:var(--paper);padding:26px;display:flex;flex-direction:column;min-width:0;}
+.icon {height:49px;width:49px;display:grid;place-items:center;border:1px solid var(--line);border-radius:13px;background:var(--panel);color:var(--accent);}
+.count {font-size:11px;margin-top:24px;color:var(--muted);}
+.card h2 {font-size:clamp(20px,2vw,25px);line-height:1.25;margin-top:10px;letter-spacing:-.025em;}
+.card p {font-size:14px;line-height:1.7;color:var(--muted);margin-top:13px;flex:1;}
+.format {display:inline-flex;align-items:center;gap:8px;color:var(--muted);font-size:12px;margin-top:25px;}
+.download {display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:47px;border-radius:999px;background:var(--ink);color:var(--paper);font-size:14px;font-weight:700;padding:12px 18px;margin-top:18px;transition:transform .16s ease;}
+.download:hover {transform:translateY(-2px);}
+.download:focus-visible,.back:focus-visible {outline:3px solid var(--accent);outline-offset:4px;}
+.notice {display:flex;gap:14px;align-items:flex-start;border:1px solid var(--line);background:var(--panel);padding:18px 20px;border-radius:17px;font-size:13px;color:var(--muted);line-height:1.6;}
+.notice svg {flex-shrink:0;color:var(--accent);}
+.back {display:inline-flex;gap:8px;align-items:center;min-height:44px;margin:25px 0 75px;font-size:13px;font-weight:700;}
+@media (max-width:900px) {.grid{grid-template-columns:1fr 1fr;}}
+@media (max-width:650px) {.hero{padding:27px 22px;border-radius:19px;} .grid{grid-template-columns:1fr;margin-top:24px;}.card{padding:23px;} }
+@media(prefers-reduced-motion:reduce) {.download{transition:none;}.download:hover{transform:none;}}
