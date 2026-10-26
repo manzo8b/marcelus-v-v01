@@ -13,3 +13,12 @@
 .siteText{display:inline-flex;align-items:center;gap:8px;color:var(--cyan);font-weight:700;margin-top:26px;font-size:14px;}
 .root a:focus-visible{outline:3px solid var(--cyan);outline-offset:4px;}
 @media(max-width:650px){.twoColumns{grid-template-columns:1fr;gap:14px;}.hero{border-radius:18px;padding:27px 22px;}}
+
+/* Local website-project enquiry, kept separate from the villa's booking links. */
+.contactCard{margin-top:34px;padding:23px 27px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:24px;border:1px solid var(--line);border-radius:18px;background:var(--surface);}
+.contactCard h2{font-size:clamp(20px,2.3vw,26px);line-height:1.25;letter-spacing:-.025em;}
+.contactCard p{margin-top:10px;color:var(--muted);font-size:14px;line-height:1.65;max-width:590px;}
+.contactButton{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:12px 20px;white-space:nowrap;border-radius:999px;background:var(--ink);color:var(--inverse);font-size:14px;font-weight:700;}
+.contactButton:hover{opacity:.88;}
+@media(max-width:720px){.contactCard{grid-template-columns:1fr;gap:18px;padding:22px;}.contactButton{justify-self:start;white-space:normal;}}
+@media(max-width:420px){.contactButton{width:100%;}}

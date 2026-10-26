@@ -198,6 +198,7 @@ const extras = {
     villaEyebrow:'WEBSITE PROJECT', villaTitle:"Villa All'Ombra dei Pitosfori",
     villaText:'A live website created for a holiday villa in Salento. See how information and navigation are presented to guests.',
     villaLink:'View the project', villaVisit:'Open the website',
+    villaCtaTitle:'Need a website?', villaCtaDesc:'Tell me what you have in mind. We can discuss a clear, practical solution.', villaCtaButton:'Send me an email', villaCtaSubject:'Website project enquiry',
     freeEyebrow:'FREE DOWNLOADS', freeTitle: 'Useful templates, ready to adapt',
     freeText:'Check an AI response, write clearer instructions or plan a lesson. Three practical tools, in English, Italian and Spanish. No sign-up needed.',
     freeAction:'Explore free resources'
@@ -206,6 +207,7 @@ const extras = {
     villaEyebrow:'PROGETTO DI REALIZZAZIONE WEB',villaTitle:"Villa All'Ombra dei Pitosfori",
     villaText:'Un sito web realizzato per una villa nel Salento. Un esempio concreto di comunicazione e navigazione nel settore dell’ospitalità.',
     villaLink:'Scopri il progetto',villaVisit:'Visita il sito',
+    villaCtaTitle:'Hai bisogno di un sito web?', villaCtaDesc:'Raccontami la tua idea e valutiamo insieme una soluzione chiara e su misura.', villaCtaButton:'Scrivimi via email', villaCtaSubject:'Richiesta realizzazione sito web',
     freeEyebrow:'DOWNLOAD GRATUITI', freeTitle: 'Modelli pratici, pronti da adattare',
     freeText:'Controlla una risposta AI, scrivi istruzioni più precise o prepara una lezione. Tre strumenti gratuiti in italiano, inglese e spagnolo, senza registrazione.',
     freeAction:'Vai alle risorse gratuite'
@@ -214,6 +216,7 @@ const extras = {
     villaEyebrow:'PROYECTO DE CREACIÓN WEB',villaTitle:"Villa All'Ombra dei Pitosfori",
     villaText:'Un sitio web creado para una villa en Salento. Un ejemplo de comunicación y navegación para el sector turístico.',
     villaLink:'Conocer el proyecto',villaVisit:'Visitar el sitio',
+    villaCtaTitle:'¿Necesitas una página web?', villaCtaDesc:'Cuéntame tu idea y vemos cómo crear una solución clara y a tu medida.', villaCtaButton:'Escríbeme por email', villaCtaSubject:'Consulta sobre creación web',
     freeEyebrow:'DESCARGAS GRATUITAS',freeTitle: 'Plantillas prácticas para adaptar',
     freeText:'Revisa respuestas de IA, redacta instrucciones más claras o prepara una clase. Tres herramientas en español, italiano e inglés, sin registro.',
     freeAction:'Ver recursos gratuitos'
@@ -281,6 +284,13 @@ export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
       <div className={s.villaActions}>
         <Link href={localizedPath('/projects/villa-pitosfori/',locale)} className={s.secondaryAction}>{x.villaLink}<ArrowUpRight size={16} aria-hidden="true"/></Link>
         <a href="https://www.villapitosfori.com/" target="_blank" rel="noreferrer" className={s.villaSite}>{x.villaVisit}<ArrowUpRight size={16} aria-hidden="true"/></a>
+        <aside className={s.villaContactCard} aria-label={x.villaCtaTitle}>
+          <h3>{x.villaCtaTitle}</h3>
+          <p>{x.villaCtaDesc}</p>
+          <a className={s.villaContactButton} href={`mailto:${profile.email}?subject=${encodeURIComponent(x.villaCtaSubject)}`}>
+            <Mail size={16} aria-hidden="true"/>{x.villaCtaButton}
+          </a>
+        </aside>
       </div>
     </section>
 

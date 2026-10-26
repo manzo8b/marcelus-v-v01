@@ -6,6 +6,7 @@ on:
       - feat/marcelus-home-v2-design-prototype
       - fix/home-headings-no-periods
       - fix/public-contact-links-and-email
+      - feat/villa-website-contact-cta
 
 permissions:
   contents: read
