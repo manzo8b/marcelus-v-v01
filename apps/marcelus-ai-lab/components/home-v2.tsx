@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, ArrowUpRight, BookOpenCheck, CircleCheck, Download, FileSearch, Globe2, GraduationCap, Layers3, Newspaper, ScanSearch, Sparkles, Workflow } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, BookOpenCheck, CircleCheck, Download, FileSearch, Globe2, GraduationCap, Layers3, Mail, Newspaper, ScanSearch, Sparkles, Workflow } from 'lucide-react';
 import { PublicCv } from '@/components/portfolio';
 import { type Locale, localizedPath } from '@/data/i18n';
 import { profile } from '@/data/portfolio';
@@ -65,6 +65,7 @@ const words = {
     contactTitle: 'Have a real problem to solve?',
     contactDesc: 'I am interested in work involving content quality, clear instructions, digital training and process improvement.',
     contactLink: 'Contact on LinkedIn',
+    emailLink: 'Send an email', 
     github: 'View the documented work on GitHub',
   },
   it: {
@@ -125,6 +126,7 @@ const words = {
     contactTitle: 'Hai un problema concreto da risolvere?',
     contactDesc: 'Mi interessano collaborazioni su qualità dei contenuti, istruzioni chiare, formazione digitale e miglioramento dei processi.',
     contactLink: 'Contattami su LinkedIn',
+    emailLink: 'Scrivimi via email', 
     github: 'Esplora il lavoro documentato su GitHub',
   },
   es: {
@@ -185,6 +187,7 @@ const words = {
     contactTitle: '¿Tienes un problema concreto que resolver?',
     contactDesc: 'Me interesan colaboraciones en calidad de contenidos, instrucciones claras, formación digital y mejora de procesos.',
     contactLink: 'Contactar por LinkedIn',
+    emailLink: 'Escríbeme por email', 
     github: 'Ver el trabajo documentado en GitHub',
   },
 } as const;
@@ -318,6 +321,6 @@ export function HomeV2({ locale = 'en' }: { locale?: Locale }) {
 
     <section className={s.aboutBand} aria-labelledby="home-v2-about"><div><p className={s.eyebrow}>{c.aboutEyebrow}</p><h2 id="home-v2-about">{c.aboutTitle}</h2><p>{c.aboutDesc}</p></div><div className={s.aboutLinks}><Link href={localizedPath('/about/',locale)} className={s.secondaryAction}>{c.aboutLink}<ArrowUpRight size={16} aria-hidden="true"/></Link><PublicCv locale={locale}/></div></section>
 
-    <section className={s.contactBand} aria-labelledby="home-v2-contact"><div><h2 id="home-v2-contact">{c.contactTitle}</h2><p>{c.contactDesc}</p></div><div className={s.contactActions}><a className={s.contactButton} href={profile.linkedin} target="_blank" rel="noreferrer">{c.contactLink}<ArrowUpRight size={18} aria-hidden="true"/></a><a href="https://github.com/manzo8b/marcelus-v-v01" target="_blank" rel="noreferrer" className={s.githubLink}>{c.github}<ArrowUpRight size={15} aria-hidden="true"/></a></div></section>
+    <section className={s.contactBand} aria-labelledby="home-v2-contact"><div><h2 id="home-v2-contact">{c.contactTitle}</h2><p>{c.contactDesc}</p></div><div className={s.contactActions}><a className={s.contactButton} href={profile.linkedin} target="_blank" rel="noreferrer">{c.contactLink}<ArrowUpRight size={18} aria-hidden="true"/></a><a className={s.contactEmail} href={`mailto:${profile.email}`}><Mail size={18} aria-hidden="true"/>{c.emailLink}</a><a href="https://github.com/manzo8b/marcelus-v-v01" target="_blank" rel="noreferrer" className={s.githubLink}>{c.github}<ArrowUpRight size={15} aria-hidden="true"/></a></div></section>
   </div>;
 }
