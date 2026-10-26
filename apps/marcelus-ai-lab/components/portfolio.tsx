@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { type Locale, localizedPath, t } from '@/data/i18n';
-import { ArrowRight, ArrowUpRight, BookOpen, FileDown, Globe2, GraduationCap, Newspaper, ScanLine, Workflow } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, BookOpen, FileDown, Globe2, GraduationCap, Mail, Newspaper, ScanLine, Workflow } from 'lucide-react';
 import { type Project, type ProjectId, assetUrl, caseStudies, evidenceUrl, profile, projects, repository } from '@/data/portfolio';
 
 export const projectIcons = { prometeus: Workflow, verum: ScanLine, 'risto-lab': GraduationCap };
@@ -49,7 +49,7 @@ export function CaseList({ projectId, locale = 'en', ids }: { projectId?: Projec
 }
 
 export function ContactBand({ locale = 'en' }: { locale?: Locale }) {
-  return <section className="contact-band" aria-labelledby="contact-title"><div><h2 id="contact-title">{t(locale, 'Interested in working together?')}</h2><p>{t(locale, 'Evaluation, instructions and training grounded in real operational problems.')}</p></div><div className="document-links"><a href={profile.linkedin} className="button button-primary" target="_blank" rel="noreferrer">{t(locale, 'Contact on LinkedIn')}<ArrowUpRight size={17} /></a><PublicCv locale={locale} /><a href={repository} className="text-link" target="_blank" rel="noreferrer">GitHub<ArrowUpRight size={16} /></a></div></section>;
+  return <section className="contact-band" aria-labelledby="contact-title"><div><h2 id="contact-title">{t(locale, 'Interested in working together?')}</h2><p>{t(locale, 'Evaluation, instructions and training grounded in real operational problems.')}</p></div><div className="document-links"><a href={profile.linkedin} className="button button-primary" target="_blank" rel="noreferrer">{t(locale, 'Contact on LinkedIn')}<ArrowUpRight size={17} /></a><a href={`mailto:${profile.email}`} className="button button-secondary"><Mail size={17} aria-hidden="true" />{profile.email}</a><PublicCv locale={locale} /><a href={repository} className="text-link" target="_blank" rel="noreferrer">GitHub<ArrowUpRight size={16} /></a></div></section>;
 }
 
 export function PublicCv({ locale = 'en' }: { locale?: Locale }) {
