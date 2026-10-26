@@ -81,7 +81,8 @@ jobs:
           git fetch origin gh-pages
           publish_dir="$RUNNER_TEMP/marcelus-published"
           git worktree add --detach "$publish_dir" origin/gh-pages
-          rsync -a --delete --exclude='.git' apps/marcelus-ai-lab/out/ "$publish_dir/"
+          rsync -a --checksum --delete --exclude='.git' apps/marcelus-ai-lab/out/ "$publish_dir/"
+          grep -Fq "$GITHUB_SHA" "$publish_dir/deployment.json"
           git -C "$publish_dir" config user.name "github-actions[bot]"
           git -C "$publish_dir" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git -C "$publish_dir" add -A
