@@ -198,3 +198,9 @@
   .skillText h2 { font-size: 29px; }
   .heroText h1 { font-size: clamp(39px,10vw,51px); }
 }
+
+/* Explicit CSS-module variants used by the four featured project cards. */
+.accentVerum { border-top-color: #288778; }
+.accentPrometeus { border-top-color: #a6742d; }
+.accentRisto { border-top-color: #46895c; }
+.accentEditorial { border-top-color: #29304b; }
