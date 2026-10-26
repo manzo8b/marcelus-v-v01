@@ -8,6 +8,7 @@ on:
       - fix/public-contact-links-and-email
       - feat/villa-website-contact-cta
       - feat/manzo-header-mark
+      - feat/legal-foundation-draft-2026-10
 
 permissions:
   contents: read
