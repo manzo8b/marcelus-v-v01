@@ -13,6 +13,11 @@ test('legal pages have three languages and all legal sections', () => {
   }
   assert.match(code, /REVIEW DRAFT/);
   assert.match(code, /marcelus-theme/);
+  assert.match(code, /\{legalOwnerName\}/);
+  assert.doesNotMatch(code, /\{profile\.name\}/);
+  const identity = read('data/legal-identity.ts');
+  assert.match(identity, /export const legalOwnerName = 'Marcelo Javier Fernandez Caballero'/);
+  assert.match(code, /import \{ legalOwnerName \} from '@\/data\/legal-identity';/);
 });
 
 test('legal pages are in sitemap and localized static routes', () => {
