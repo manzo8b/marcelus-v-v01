@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { profile } from '@/data/portfolio';
+import { legalOwnerName } from '@/data/legal-identity';
 import { type Locale, localizedPath } from '@/data/i18n';
 
 export type LegalKind = 'notice' | 'privacy' | 'cookies';
@@ -8,8 +9,8 @@ type PageCopy = { title: string; subtitle: string; sections: Section[] };
 type Labels = { draft: string; controller: string; contact: string; more: string; notice: string; privacy: string; cookies: string };
 const labels: Record<Locale, Labels> = {
   it: {
-    draft: 'BOZZA IN REVISIONE — NON APPROVATA PER LA PUBBLICAZIONE. Identità legale completa, prassi di conservazione, ruoli dei fornitori e trasferimenti internazionali da confermare.',
-    controller: 'Responsabile del portfolio / titolare da confermare per l’informativa definitiva',
+    draft: 'BOZZA IN REVISIONE — NON APPROVATA PER LA PUBBLICAZIONE. Prassi di conservazione, ruoli dei fornitori, trasferimenti internazionali ed eventuali ulteriori dati identificativi obbligatori da verificare.',
+    controller: 'Titolare del trattamento / responsabile del portfolio',
     contact: 'Contatto pubblico',
     more: 'Altre informazioni',
     notice: 'Informazioni legali',
@@ -17,8 +18,8 @@ const labels: Record<Locale, Labels> = {
     cookies: 'Cookie e tecnologie locali',
   },
   en: {
-    draft: 'REVIEW DRAFT — NOT APPROVED FOR PUBLICATION. Full legal identity, retention practices, provider roles and international transfers must be confirmed.',
-    controller: 'Portfolio owner / controller details to be confirmed before final publication',
+    draft: 'REVIEW DRAFT — NOT APPROVED FOR PUBLICATION. Retention practices, provider roles, international transfers and any additional legally required identity details must be verified.',
+    controller: 'Data controller / portfolio owner',
     contact: 'Public contact',
     more: 'Related information',
     notice: 'Legal notice',
@@ -26,8 +27,8 @@ const labels: Record<Locale, Labels> = {
     cookies: 'Cookies and local technologies',
   },
   es: {
-    draft: 'BORRADOR EN REVISIÓN — NO APROBADO PARA PUBLICACIÓN. Deben confirmarse la identidad legal completa, la conservación, los roles de los proveedores y las transferencias internacionales.',
-    controller: 'Responsable del portafolio / identidad del responsable por confirmar antes de publicar',
+    draft: 'BORRADOR EN REVISIÓN — NO APROBADO PARA PUBLICACIÓN. Deben verificarse la conservación, los roles de los proveedores, las transferencias internacionales y los posibles datos identificativos adicionales exigidos por ley.',
+    controller: 'Responsable del tratamiento / titular del portafolio',
     contact: 'Contacto público',
     more: 'Información relacionada',
     notice: 'Aviso legal',
@@ -304,7 +305,7 @@ export function LegalPage({ locale, kind }: { locale: Locale; kind: LegalKind })
       </aside>
       <section className="my-8 border-y border-[var(--line)] py-5 text-sm">
         <h2 className="mb-3 text-base">{l.controller}</h2>
-        <p>{profile.name}</p>
+        <p>{legalOwnerName}</p>
         <p className="mt-2">
           {l.contact}: <a className="underline underline-offset-4" href={'mailto:' + profile.email}>{profile.email}</a>
         </p>
