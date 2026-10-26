@@ -155,7 +155,7 @@ const documents: Record<Locale, Record<LegalKind, PageCopy>> = {
           'If you voluntarily send an email to the public contact address, your sender address and message content are processed to read and respond to that communication.',
         ] },
         { heading: 'Legal bases', paragraphs: [
-          'Voluntary correspondence is handled on the basis of the owner's legitimate interests in reading and replying to messages and protecting the portfolio (Article 6(1)(f) GDPR), subject to data-subject rights. The hosting provider separately handles technical data collected for its own service security in accordance with its privacy notice.',
+          'Voluntary correspondence is handled on the basis of the owner’s legitimate interests in reading and replying to messages and protecting the portfolio (Article 6(1)(f) GDPR), subject to data-subject rights. The hosting provider separately handles technical data collected for its own service security in accordance with its privacy notice.',
           'No blanket privacy consent is required merely to browse the website. Optional technologies requiring consent would need appropriate assessment and controls before being introduced.',
         ] },
         { heading: 'Providers and recipients', paragraphs: [
