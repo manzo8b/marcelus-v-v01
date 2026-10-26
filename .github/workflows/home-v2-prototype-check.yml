@@ -1,6 +1,10 @@
 name: Home v2 prototype checks
 
 on:
+  pull_request:
+    paths:
+      - 'apps/marcelus-ai-lab/**'
+      - '.github/workflows/home-v2-prototype-check.yml'
   push:
     branches:
       - feat/marcelus-home-v2-design-prototype
@@ -8,7 +12,6 @@ on:
       - fix/public-contact-links-and-email
       - feat/villa-website-contact-cta
       - feat/manzo-header-mark
-      - feat/legal-foundation-draft-2026-10
 
 permissions:
   contents: read
