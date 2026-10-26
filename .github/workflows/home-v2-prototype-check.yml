@@ -39,3 +39,27 @@ jobs:
           NEXT_PUBLIC_SITE_ORIGIN: https://manzo8b.github.io
           NEXT_PUBLIC_BASE_PATH: /marcelus-v-v01
         run: npm run build
+      - name: Verify released trilingual legal pages and metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          for locale in "" "it/" "es/"; do
+            for route in legal legal/privacy legal/cookies; do
+              page="out/${locale}${route}/index.html"
+              test -s "$page"
+              grep -Fq 'Marcelo Javier Fernandez Caballero' "$page"
+              if grep -Eiq 'noindex|BOZZA IN REVISIONE|REVIEW DRAFT|BORRADOR EN REVISIÓN' "$page"; then
+                echo "Unapproved metadata or draft marker found: $page"
+                exit 1
+              fi
+            done
+          done
+          test -s out/sitemap.xml
+          for url in '/legal/' '/legal/privacy/' '/legal/cookies/' '/it/legal/' '/it/legal/privacy/' '/it/legal/cookies/' '/es/legal/' '/es/legal/privacy/' '/es/legal/cookies/'; do
+            grep -Fq "https://manzo8b.github.io/marcelus-v-v01${url}" out/sitemap.xml
+          done
+          test -s out/index.html
+          test -s out/it/index.html
+          test -s out/es/index.html
+          test -s out/.nojekyll
+          echo "Legal release export verified in all three languages."
