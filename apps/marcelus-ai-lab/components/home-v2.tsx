@@ -10,12 +10,12 @@ const words = {
   en: {
     label: 'INDEPENDENT DIGITAL LAB',
     first: 'Clear ideas.',
-    second: 'Useful tools.'
-    intro: 'I design tools to check information, give AI clearer instructions and organize practical training and work.'
+    second: 'Useful tools.',
+    intro: 'I design tools to check information, give AI clearer instructions and organize practical training and work.',
     honest: 'Each project explains what it does, what has been tested and what still needs work.',
     explore: 'Explore the projects',
     about: 'About my work',
-    heroNote: 'Personal projects, documented examples and limits made clear.'
+    heroNote: 'Personal projects, documented examples and limits made clear.',
     pictureLabel: 'FROM CLAIM TO CHECK',
     visualSteps: [{ title: 'Problem', detail: 'The AI says: “Children enter free this month.”' }, { title: 'Reference', detail: 'The supplied reference says: “Children’s admission: $25.”' }, { title: 'Check', detail: 'FAIL: contradiction and invented promotion.' }],
     visualBottom: 'Synthetic example · VERUM Output Reviewer · checks supplied references, not the live web.',
@@ -71,8 +71,8 @@ const words = {
     label: 'LABORATORIO DIGITALE INDIPENDENTE',
     first: 'Idee chiare.',
     second: 'Strumenti concreti.',
-    intro: 'Progetto strumenti per verificare informazioni, migliorare le istruzioni date all’intelligenza artificiale e organizzare meglio il lavoro e la formazione.'
-    honest: 'Ogni progetto nasce da un problema concreto: mostro come lo affronto, cosa ho verificato e cosa resta da migliorare.'
+    intro: 'Progetto strumenti per verificare informazioni, migliorare le istruzioni date all’intelligenza artificiale e organizzare meglio il lavoro e la formazione.',
+    honest: 'Ogni progetto nasce da un problema concreto: mostro come lo affronto, cosa ho verificato e cosa resta da migliorare.',
     explore: 'Esplora i progetti',
     about: 'Il mio percorso',
     heroNote: 'Progetti, prove documentate e passi concreti.',
@@ -131,8 +131,8 @@ const words = {
     label: 'LABORATORIO DIGITAL INDEPENDIENTE',
     first: 'Ideas claras.',
     second: 'Herramientas útiles.',
-    intro: 'Diseño herramientas para verificar información, mejorar las instrucciones dadas a la inteligencia artificial y organizar mejor el trabajo y la formación.'
-    honest: 'Cada proyecto nace de un problema concreto: explico cómo lo abordo, qué he verificado y qué falta por mejorar.'
+    intro: 'Diseño herramientas para verificar información, mejorar las instrucciones dadas a la inteligencia artificial y organizar mejor el trabajo y la formación.',
+    honest: 'Cada proyecto nace de un problema concreto: explico cómo lo abordo, qué he verificado y qué falta por mejorar.',
     explore: 'Explorar proyectos',
     about: 'Mi trayectoria',
     heroNote: 'Proyectos, evidencia documentada y pasos concretos.',
