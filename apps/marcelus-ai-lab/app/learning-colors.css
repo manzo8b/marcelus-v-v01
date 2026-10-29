@@ -207,3 +207,12 @@ html[data-theme="dark"] .case-row:hover{background:var(--lab-blue-tint)}
 html[data-theme="dark"] .manzo-ecosystem-signature img{filter:invert(1)}
 @media(max-width:750px){.footer-inner{flex-wrap:wrap}.manzo-ecosystem-signature{margin-top:3px}}
 @media print{.manzo-ecosystem-signature{display:none}}
+
+/* Public contact for services, consistently visible on every locale. */
+.marcelus-contact-strip{display:flex;justify-content:flex-end;padding:7px max(20px,calc((100vw - 1184px)/2));background:var(--lab-blue-tint);border-top:1px solid var(--lab-outline)}
+.marcelus-contact-strip a{display:inline-flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:4px 12px;text-decoration:none;font:600 12px/1.5 Arial,Helvetica,sans-serif;min-height:28px;color:var(--ink)}
+.marcelus-contact-strip a strong{color:var(--lab-blue);font-size:13px;overflow-wrap:anywhere}
+.marcelus-contact-strip a:hover strong{text-decoration:underline}
+.marcelus-contact-strip a:focus-visible{outline:3px solid var(--lab-clay);outline-offset:2px}
+@media(max-width:650px){.marcelus-contact-strip{padding:8px 18px;justify-content:center}.marcelus-contact-strip a{justify-content:center;font-size:11px}}
+@media print{.marcelus-contact-strip{display:none}}
