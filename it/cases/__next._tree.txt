@@ -1,7 +1,7 @@
-:HL["/marcelus-v-v01/_next/static/chunks/32cevschwea-p.css","style"]
-:HL["/marcelus-v-v01/_next/static/chunks/3ebpsbl_caj9b.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/2jdosattztdbi.css","style"]
+:HL["/marcelus-v-v01/_next/static/chunks/22mzbp-fa1jis.css","style"]
 :HL["/marcelus-v-v01/_next/static/chunks/0hxrj7oezxe-b.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"segments","t":"oc","k":"cases","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"it","s":["about","cases","lab","legal","library","projects","recruiter","resources"]},"h":196720,"c":"$Q2"}]]
-0:{"b":"xH1w5x5mCWTJt9jepfLhE","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"PfK-KP0l_kevHel0aXtLQ","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
