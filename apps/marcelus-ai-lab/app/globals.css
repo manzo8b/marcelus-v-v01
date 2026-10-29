@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./learning-colors.css";
 
 :root { --canvas:#ffffff; --surface:#f5f6f7; --ink:#17191c; --muted:#555c66; --line:#dce0e3; --strong:#17191c; --inverse:#fff; --gold:#8a5700; --cyan:#006d83; --green:#246c45; --danger:#a42c37; }
 html[data-theme="dark"] { --canvas:#151618; --surface:#202225; --ink:#f2f3f4; --muted:#b6bbc3; --line:#3a3e44; --strong:#f2f3f4; --inverse:#17191c; --gold:#ebc766; --cyan:#7fd7ed; --green:#8ad1a5; --danger:#ffadb5; }
