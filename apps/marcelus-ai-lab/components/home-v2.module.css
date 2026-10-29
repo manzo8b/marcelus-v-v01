@@ -259,3 +259,199 @@
   .villaContactButton {transition:none;}
   .villaContactButton:hover {transform:none;}
 }
+
+
+/* V2.3 · Color experience: visible learning hierarchy, not colored paragraphs.
+   The existing editorial layout, translations, and image assets are unchanged. */
+.home {
+  --v2-iris:#67439A;
+  --v2-teal:#0C615D;
+  --v2-paper:#F5F7FC;
+  --v2-soft-iris:#F2ECFF;
+  --v2-hairline:#D2DFEB;
+}
+.hero {
+  border:1px solid #CED9E9;
+  border-top:7px solid #244F9B;
+  background:
+    radial-gradient(ellipse at 96% 8%,rgba(156,124,232,.22),transparent 46%),
+    radial-gradient(ellipse at 6% 98%,rgba(43,159,145,.18),transparent 48%),
+    linear-gradient(112deg,#E9F1FF 0%,#F8F6FF 54%,#FFF0E9 100%);
+  box-shadow:0 17px 48px rgba(31,62,120,.08);
+}
+.heroText h1 span {color:#67439A}
+.primaryAction{
+  background:#0C615D;color:#FFFFFF;
+  border-color:#0C615D;
+  box-shadow:0 5px 19px rgba(12,97,93,.15);
+}
+.primaryAction:hover{background:#084E4B;color:#FFFFFF}
+.secondaryAction{
+  background:#FFFFFF;color:#244F9B;border-color:#ADC1E4;
+}
+.secondaryAction:hover{background:#E6EFFF;color:#244F9B}
+.heroVisual .visualPanel{
+  border:2px solid #BDCCE7;
+  background:rgba(255,255,255,.94);
+  box-shadow:0 20px 55px rgba(42,63,118,.14);
+}
+.visualHead{color:#244F9B}
+.visualSignal{background:#0C615D;box-shadow:0 0 0 4px #D2F2E5}
+.visualIndex{background:#E9F1FF;color:#244F9B}
+.visualRow:nth-of-type(3) .visualIndex{background:#FFF0E9;color:#B13F28}
+.visualRow:nth-of-type(4) .visualIndex{background:#F2ECFF;color:#67439A}
+.visualBottom{color:#476174}
+.sectionHeading{padding-bottom:14px;border-bottom:2px solid #D4DFED}
+.sectionHeading:before{
+  content:"";width:5px;min-width:5px;align-self:stretch;
+  background:#67439A;border-radius:4px;order:-1;margin-right:3px;
+}
+.eyebrow{color:#67439A}
+.featuredCard{
+  border-top-width:6px;
+  box-shadow:0 9px 30px rgba(30,61,119,.075);
+}
+.featuredCard.accentVerum{
+  background:#E9F1FF;border-top-color:#244F9B;border-color:#C2D2EC;
+}
+.featuredCard.accentPrometeus{
+  background:#FFF2D9;border-top-color:#7B4B10;border-color:#E5D1A5;
+}
+.featuredCard.accentRisto{
+  background:#E6F4EE;border-top-color:#0C615D;border-color:#B8D9CE;
+}
+.featuredCard.accentEditorial{
+  background:#FFF0E9;border-top-color:#B13F28;border-color:#ECC6B7;
+}
+.featuredCard.accentVerum .cardTag,.featuredCard.accentVerum .cardAction{color:#244F9B}
+.featuredCard.accentPrometeus .cardTag,.featuredCard.accentPrometeus .cardAction{color:#7B4B10}
+.featuredCard.accentRisto .cardTag,.featuredCard.accentRisto .cardAction{color:#0C615D}
+.featuredCard.accentEditorial .cardTag,.featuredCard.accentEditorial .cardAction{color:#B13F28}
+.featuredBody h3{color:#162D44}
+.featuredBody .cardDescription,.featuredBody .cardReason,.featuredBody .cardLimit{color:#4E5C69}
+.featuredBody .cardReason strong,.featuredBody .cardLimit strong{color:#213849}
+.featuredCard:hover{box-shadow:0 15px 33px rgba(26,56,104,.14)}
+.wipCard{
+  background:#F2ECFF;border-color:#D3C5EB;
+  border-top:5px solid #67439A;
+}
+.wipCard:nth-child(2){background:#FFF2D9;border-color:#E4D0A6;border-top-color:#7B4B10}
+.wipBadge{background:#FFFFFF;color:#67439A;border-color:#CDB8EB}
+.wipCard:nth-child(2) .wipBadge{color:#7B4B10;border-color:#DECA9C}
+.wipIcon{color:#67439A;background:#FFFFFF}
+.wipCard:nth-child(2) .wipIcon{color:#7B4B10}
+.caseCard{
+  border:1px solid #C9D9EE;border-top:5px solid #244F9B;
+  border-radius:12px;background:#E9F1FF;padding:20px;
+}
+.caseCard:nth-child(3n+2){background:#E6F4EE;border-color:#B7D8CC;border-top-color:#0C615D}
+.caseCard:nth-child(3n+3){background:#F2ECFF;border-color:#CFC1E9;border-top-color:#67439A}
+.caseCard:nth-child(3n+2) .caseNumber,.caseCard:nth-child(3n+2) .caseLink{color:#0C615D}
+.caseCard:nth-child(3n+3) .caseNumber,.caseCard:nth-child(3n+3) .caseLink{color:#67439A}
+.caseCard h3{color:#152C42}
+.caseCard p{color:#4C5C6B}
+.caseCard:hover{background:#FFFFFF;border-top-color:#B13F28;box-shadow:0 8px 24px rgba(25,59,109,.1)}
+.methodSection{
+  background:linear-gradient(100deg,#E9F1FF 0%,#F2ECFF 55%,#FFF1E8);
+  border:1px solid #D1D5E8;
+  border-left:6px solid #67439A;
+}
+.methodStep{border-top:5px solid #244F9B;background:#FFFFFF}
+.methodStep:nth-child(4n+2){border-top-color:#0C615D;background:#F2FAF7}
+.methodStep:nth-child(4n+3){border-top-color:#B13F28;background:#FFF7F2}
+.methodStep:nth-child(4n+4){border-top-color:#67439A;background:#F7F2FF}
+.methodStep span{color:#244F9B}
+.methodStep:nth-child(4n+2) span{color:#0C615D}
+.methodStep:nth-child(4n+3) span{color:#B13F28}
+.methodStep:nth-child(4n+4) span{color:#67439A}
+.methodStep h3{color:#193449}
+.villaFeature{
+  background:linear-gradient(112deg,#FFF0E9,#FFFFFF 67%,#E9F1FF);
+  border:1px solid #E7CFBF;border-top:5px solid #B13F28;
+}
+.villaContactCard{border-left:4px solid #B13F28;background:#FFFFFF}
+.villaContactButton{background:#244F9B;border-color:#244F9B;color:#FFFFFF}
+.villaSite{color:#0C615D}
+.freeFeature{
+  background:linear-gradient(100deg,#E6F4EE,#FFFFFF 66%,#E9F1FF);
+  border:1px solid #BDDAD1;border-left:6px solid #0C615D;
+}
+.skillsSection{
+  background:linear-gradient(112deg,#E6F4EE,#E9F1FF);
+  border:1px solid #B9D8D1;border-left:6px solid #0C615D;
+}
+.skillActions .primaryAction{background:#244F9B;color:#FFFFFF;border-color:#244F9B}
+.skillActions .secondaryAction{background:#FFFFFF;color:#244F9B;border-color:#A5BDE2}
+.contactBand{
+  background:linear-gradient(115deg,#153A69,#243A69 57%,#0C615D);
+  border:1px solid #27486A;
+}
+.contactButton{background:#FFFFFF;color:#173D70;border-color:#FFFFFF}
+.contactEmail{border-color:rgba(255,255,255,.75);color:#FFFFFF}
+.aboutBand .secondaryAction{background:#E9F1FF;color:#244F9B}
+/* True dark theme: colored depth instead of washed-out light pastels. */
+:global(html[data-theme="dark"]) .home{
+  --v2-paper:#202B3A;
+  --v2-panel:#202A38;
+  --v2-ink:#F1F5FB;
+  --v2-sub:#C7D4E2;
+  --v2-hairline:#46546A;
+  --v2-iris:#D4C0FF;
+  --v2-teal:#8EE1CF;
+  --v2-soft-iris:#342C4A;
+}
+:global(html[data-theme="dark"]) .hero{
+  background:radial-gradient(ellipse at 96% 8%,rgba(111,78,180,.22),transparent 51%),
+  linear-gradient(115deg,#1A2B48,#252542 65%,#38292F);
+  border-color:#586B8B;border-top-color:#AEC6FF;box-shadow:none;
+}
+:global(html[data-theme="dark"]) .heroText h1 span{color:#D4C0FF}
+:global(html[data-theme="dark"]) .primaryAction{background:#8EE1CF;color:#103331;border-color:#8EE1CF}
+:global(html[data-theme="dark"]) .primaryAction:hover{background:#B4F1E5;color:#103331}
+:global(html[data-theme="dark"]) .secondaryAction{background:#1C304F;color:#AEC6FF;border-color:#6885B0}
+:global(html[data-theme="dark"]) .heroVisual .visualPanel{background:rgba(30,43,62,.95);border-color:#66789B}
+:global(html[data-theme="dark"]) .visualHead{color:#AEC6FF}
+:global(html[data-theme="dark"]) .visualIndex{background:#2F4466;color:#D4E5FF}
+:global(html[data-theme="dark"]) .visualRow:nth-of-type(3) .visualIndex{background:#50312C;color:#FFBEA8}
+:global(html[data-theme="dark"]) .visualRow:nth-of-type(4) .visualIndex{background:#3D315B;color:#D4C0FF}
+:global(html[data-theme="dark"]) .visualBottom{color:#CED9E7}
+:global(html[data-theme="dark"]) .eyebrow{color:#D4C0FF}
+:global(html[data-theme="dark"]) .sectionHeading{border-color:#455770}
+:global(html[data-theme="dark"]) .featuredCard.accentVerum{background:#1C304F;border-color:#5D779E;border-top-color:#AEC6FF}
+:global(html[data-theme="dark"]) .featuredCard.accentPrometeus{background:#423420;border-color:#79623D;border-top-color:#F6D18A}
+:global(html[data-theme="dark"]) .featuredCard.accentRisto{background:#173E3B;border-color:#47786F;border-top-color:#8EE1CF}
+:global(html[data-theme="dark"]) .featuredCard.accentEditorial{background:#452A29;border-color:#81534D;border-top-color:#FFAD92}
+:global(html[data-theme="dark"]) .featuredCard.accentVerum :is(.cardTag,.cardAction){color:#AEC6FF}
+:global(html[data-theme="dark"]) .featuredCard.accentPrometeus :is(.cardTag,.cardAction){color:#F6D18A}
+:global(html[data-theme="dark"]) .featuredCard.accentRisto :is(.cardTag,.cardAction){color:#8EE1CF}
+:global(html[data-theme="dark"]) .featuredCard.accentEditorial :is(.cardTag,.cardAction){color:#FFAD92}
+:global(html[data-theme="dark"]) .featuredBody h3,:global(html[data-theme="dark"]) .featuredBody .cardReason strong,:global(html[data-theme="dark"]) .featuredBody .cardLimit strong{color:#F1F5FB}
+:global(html[data-theme="dark"]) .featuredBody :is(.cardDescription,.cardReason,.cardLimit){color:#CCD8E5}
+:global(html[data-theme="dark"]) .wipCard{background:#322B4A;border-color:#66558E}
+:global(html[data-theme="dark"]) .wipCard:nth-child(2){background:#423420;border-color:#746044}
+:global(html[data-theme="dark"]) .wipBadge,:global(html[data-theme="dark"]) .wipIcon{background:#202A38;color:#D4C0FF}
+:global(html[data-theme="dark"]) .wipCard:nth-child(2) :is(.wipBadge,.wipIcon){color:#F6D18A;border-color:#786540}
+:global(html[data-theme="dark"]) .caseCard{background:#1C304F;border-color:#526B90;border-top-color:#AEC6FF}
+:global(html[data-theme="dark"]) .caseCard:nth-child(3n+2){background:#173E3B;border-color:#47786F;border-top-color:#8EE1CF}
+:global(html[data-theme="dark"]) .caseCard:nth-child(3n+3){background:#322B4A;border-color:#66558E;border-top-color:#D4C0FF}
+:global(html[data-theme="dark"]) .caseCard h3{color:#F1F5FB}
+:global(html[data-theme="dark"]) .caseCard p{color:#CBD8E6}
+:global(html[data-theme="dark"]) .caseCard:hover{background:#243548}
+:global(html[data-theme="dark"]) .methodSection{background:linear-gradient(105deg,#1A304A,#2F2A47);border-color:#526182}
+:global(html[data-theme="dark"]) .methodStep{background:#202A38;border-color:#526182}
+:global(html[data-theme="dark"]) .methodStep:nth-child(4n+2){background:#173E3B;border-top-color:#8EE1CF}
+:global(html[data-theme="dark"]) .methodStep:nth-child(4n+3){background:#452A29;border-top-color:#FFAD92}
+:global(html[data-theme="dark"]) .methodStep:nth-child(4n+4){background:#322B4A;border-top-color:#D4C0FF}
+:global(html[data-theme="dark"]) .methodStep h3{color:#F1F5FB}
+:global(html[data-theme="dark"]) .methodStep span{color:#AEC6FF}
+:global(html[data-theme="dark"]) .villaFeature{background:linear-gradient(115deg,#352932,#202A38);border-color:#81534D}
+:global(html[data-theme="dark"]) .villaContactCard{background:#202A38;border-color:#7A514C}
+:global(html[data-theme="dark"]) .villaContactButton{background:#AEC6FF;color:#142B48;border-color:#AEC6FF}
+:global(html[data-theme="dark"]) .freeFeature{background:linear-gradient(115deg,#193D3B,#202A38);border-color:#47786F}
+:global(html[data-theme="dark"]) .skillsSection{background:linear-gradient(115deg,#193D3B,#1C304F);color:#F1F5FB;border-color:#47786F}
+:global(html[data-theme="dark"]) .skillText .skillNote{color:#C5E5E0}
+:global(html[data-theme="dark"]) .skillActions .primaryAction{background:#AEC6FF;color:#142B48;border-color:#AEC6FF}
+:global(html[data-theme="dark"]) .skillActions .secondaryAction{background:#202A38;color:#AEC6FF;border-color:#617DA4}
+:global(html[data-theme="dark"]) .contactBand{background:linear-gradient(115deg,#172C4A,#173D3B);border-color:#486C7E}
+:global(html[data-theme="dark"]) .aboutBand .secondaryAction{background:#1C304F;color:#AEC6FF}
+@media(prefers-reduced-motion:reduce){.featuredCard:hover{transform:none}}
