@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { ArrowUpRight, Menu, Moon, Sun, X } from 'lucide-react';
-import { assetUrl, repository } from '@/data/portfolio';
+import { assetUrl, repository, profile } from '@/data/portfolio';
 import { type Locale, localizedPath, unlocalizedPath, t } from '@/data/i18n';
 
 const links = [['/', 'Overview'], ['/projects/', 'Projects'], ['/#skills', 'Skill'], ['/resources/', 'Free resources'], ['/lab/', 'Evaluation lab'], ['/library/', 'Library']];
@@ -58,5 +58,6 @@ export function Navigation({ locale }: { locale: Locale }) {
         <button ref={menuButton} className="icon-button menu-button" aria-expanded={open} aria-controls="main-navigation" aria-label={t(locale, open ? 'Close navigation' : 'Open navigation')} onClick={() => setOpen(!open)}>{open ? <X size={20} /> : <Menu size={20} />}</button>
       </div>
     </div>
+    <div className="marcelus-contact-strip"><a href={`mailto:${profile.email}`} aria-label={`${locale === 'es' ? 'Contacto y servicios' : locale === 'it' ? 'Contatti e servizi' : 'Contact and services'}: ${profile.email}`}><span>{locale === 'es' ? 'Contacto y servicios' : locale === 'it' ? 'Contatti e servizi' : 'Contact & services'}</span><strong>{profile.email}</strong></a></div>
   </header>;
 }

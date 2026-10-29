@@ -196,3 +196,23 @@ html[data-theme="dark"] .case-row:hover{background:var(--lab-blue-tint)}
   }
   body{background:#FFFFFF;color:#111}
 }
+
+/* Shared, discreet MANZO AI creator signature on every site route. */
+.manzo-ecosystem-signature{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:6px 11px;border-radius:9px;border:1px solid var(--lab-outline);background:var(--canvas);color:var(--ink)!important;text-decoration:none;font-size:12px;line-height:1.35;max-width:250px}
+.manzo-ecosystem-signature img{width:35px;height:34px;object-fit:contain;flex:none}
+.manzo-ecosystem-signature span{max-width:160px}
+.manzo-ecosystem-signature strong{color:var(--lab-blue);display:block;font-size:14px}
+.manzo-ecosystem-signature:hover{border-color:var(--lab-blue);background:var(--lab-blue-tint)}
+.manzo-ecosystem-signature:focus-visible{outline:3px solid var(--lab-clay);outline-offset:3px}
+html[data-theme="dark"] .manzo-ecosystem-signature img{filter:invert(1)}
+@media(max-width:750px){.footer-inner{flex-wrap:wrap}.manzo-ecosystem-signature{margin-top:3px}}
+@media print{.manzo-ecosystem-signature{display:none}}
+
+/* Public contact for services, consistently visible on every locale. */
+.marcelus-contact-strip{display:flex;justify-content:flex-end;padding:7px max(20px,calc((100vw - 1184px)/2));background:var(--lab-blue-tint);border-top:1px solid var(--lab-outline)}
+.marcelus-contact-strip a{display:inline-flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:4px 12px;text-decoration:none;font:600 12px/1.5 Arial,Helvetica,sans-serif;min-height:28px;color:var(--ink)}
+.marcelus-contact-strip a strong{color:var(--lab-blue);font-size:13px;overflow-wrap:anywhere}
+.marcelus-contact-strip a:hover strong{text-decoration:underline}
+.marcelus-contact-strip a:focus-visible{outline:3px solid var(--lab-clay);outline-offset:2px}
+@media(max-width:650px){.marcelus-contact-strip{padding:8px 18px;justify-content:center}.marcelus-contact-strip a{justify-content:center;font-size:11px}}
+@media print{.marcelus-contact-strip{display:none}}
