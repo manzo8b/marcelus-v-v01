@@ -13,7 +13,7 @@ ROUTES = [
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
     try:
-        page = browser.new_page(viewport={"width": 1440, "height": 900})
+        page = browser.new_page(viewport={"width": 1440, "height": 900}, color_scheme="light")
         errors = []
         page.on("pageerror", lambda e: errors.append(str(e)))
         for path in ROUTES:
@@ -23,7 +23,7 @@ with sync_playwright() as p:
             top = page.locator(".site-header")
             assert top.count() == 1
             assert top.evaluate("(e)=>getComputedStyle(e).borderBottomColor") == "rgb(12, 97, 93)"
-            assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--lab-blue').trim()") == "#244F9B"
+            assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--lab-blue').trim().toLowerCase()") == "#244f9b"
         page.goto(BASE + "/it/", wait_until="domcontentloaded")
         colored_cards = page.locator('a[class*="featuredCard"]').evaluate_all(
             "(items)=>items.map(e=>({bg:getComputedStyle(e).backgroundColor,"
@@ -37,7 +37,7 @@ with sync_playwright() as p:
         page.evaluate("localStorage.setItem('marcelus-theme','dark')")
         page.reload(wait_until="domcontentloaded")
         page.wait_for_function("document.documentElement.dataset.theme==='dark'")
-        assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--lab-blue').trim()") == "#AEC6FF"
+        assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--lab-blue').trim().toLowerCase()") == "#aec6ff"
         dark_colors = page.locator('a[class*="featuredCard"]').evaluate_all(
             "(items)=>items.map(e=>getComputedStyle(e).backgroundColor)"
         )
