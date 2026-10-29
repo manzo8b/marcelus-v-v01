@@ -455,3 +455,20 @@
 :global(html[data-theme="dark"]) .contactBand{background:linear-gradient(115deg,#172C4A,#173D3B);border-color:#486C7E}
 :global(html[data-theme="dark"]) .aboutBand .secondaryAction{background:#1C304F;color:#AEC6FF}
 @media(prefers-reduced-motion:reduce){.featuredCard:hover{transform:none}}
+
+
+/* Preserve strong semantic top borders after the shorthand border-color rules. */
+.featuredCard.accentVerum{border-top-color:#244F9B}
+.featuredCard.accentPrometeus{border-top-color:#7B4B10}
+.featuredCard.accentRisto{border-top-color:#0C615D}
+.featuredCard.accentEditorial{border-top-color:#B13F28}
+.wipCard:nth-child(2){border-top-color:#7B4B10}
+.caseCard:nth-child(3n+2){border-top-color:#0C615D}
+.caseCard:nth-child(3n+3){border-top-color:#67439A}
+:global(html[data-theme="dark"]) .featuredCard.accentVerum{border-top-color:#AEC6FF}
+:global(html[data-theme="dark"]) .featuredCard.accentPrometeus{border-top-color:#F6D18A}
+:global(html[data-theme="dark"]) .featuredCard.accentRisto{border-top-color:#8EE1CF}
+:global(html[data-theme="dark"]) .featuredCard.accentEditorial{border-top-color:#FFAD92}
+:global(html[data-theme="dark"]) .wipCard:nth-child(2){border-top-color:#F6D18A}
+:global(html[data-theme="dark"]) .caseCard:nth-child(3n+2){border-top-color:#8EE1CF}
+:global(html[data-theme="dark"]) .caseCard:nth-child(3n+3){border-top-color:#D4C0FF}
