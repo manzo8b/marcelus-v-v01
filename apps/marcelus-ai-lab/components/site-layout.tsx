@@ -6,6 +6,7 @@ import { profile, repository } from '@/data/portfolio';
 import { siteOrigin, absoluteUrl } from '@/data/site-metadata';
 import { type Locale, localizedPath, t } from '@/data/i18n';
 import '@/app/globals.css';
+import '@/app/learning-colors.css';
 
 export const siteMetadata: Metadata = {
   metadataBase: new URL(siteOrigin),
