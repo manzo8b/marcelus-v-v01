@@ -1,0 +1,58 @@
+name: MARCELUS Pedagogical Colors QA
+
+on:
+  pull_request:
+    paths:
+      - 'apps/marcelus-ai-lab/app/learning-colors.css'
+      - 'apps/marcelus-ai-lab/components/home-v2.module.css'
+      - 'apps/marcelus-ai-lab/components/site-layout.tsx'
+      - 'apps/marcelus-ai-lab/tests/pedagogical-colors.test.ts'
+      - 'apps/marcelus-ai-lab/scripts/color-browser-smoke.py'
+      - '.github/workflows/ai-lab-colors-qa.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: apps/marcelus-ai-lab/.nvmrc
+          cache: npm
+          cache-dependency-path: apps/marcelus-ai-lab/package-lock.json
+      - name: Install pinned site packages
+        working-directory: apps/marcelus-ai-lab
+        run: npm ci
+      - name: Existing tests and color contrast
+        working-directory: apps/marcelus-ai-lab
+        run: npm test
+      - name: Check types
+        working-directory: apps/marcelus-ai-lab
+        run: npm run typecheck
+      - name: Privacy gate and full static export
+        working-directory: apps/marcelus-ai-lab
+        env:
+          NEXT_PUBLIC_SITE_ORIGIN: https://manzo8b.github.io
+          NEXT_PUBLIC_BASE_PATH: /marcelus-v-v01
+        run: npm run build
+      - name: Browser dependencies
+        run: |
+          python3 -m pip install playwright==1.55.0
+          python3 -m playwright install --with-deps chromium
+      - name: Real browser desktop/mobile and dark-theme smoke test
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .preview
+          ln -s "$GITHUB_WORKSPACE/apps/marcelus-ai-lab/out" .preview/marcelus-v-v01
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory .preview >/tmp/marcelus-preview.log 2>&1 &
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            curl -fsS http://127.0.0.1:8765/marcelus-v-v01/it/ >/dev/null && break
+            sleep 1
+          done
+          python3 apps/marcelus-ai-lab/scripts/color-browser-smoke.py
