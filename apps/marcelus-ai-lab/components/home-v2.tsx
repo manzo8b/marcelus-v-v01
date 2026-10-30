@@ -8,7 +8,7 @@ import s from './home-v2.module.css';
 // Home-only editorial copy: does not change documentary excerpts or the shared translation dictionary.
 const words = {
   en: {
-    label: 'INDEPENDENT DIGITAL LAB',
+    label: 'PORTFOLIO · INDEPENDENT DIGITAL LAB',
     first: 'Clear ideas',
     second: 'Useful tools',
     intro: 'I design tools to check information, give AI clearer instructions and organize practical training and work.',
@@ -69,7 +69,7 @@ const words = {
     github: 'View the documented work on GitHub',
   },
   it: {
-    label: 'LABORATORIO DIGITALE INDIPENDENTE',
+    label: 'PORTFOLIO · LABORATORIO DIGITALE INDIPENDENTE',
     first: 'Idee chiare',
     second: 'Strumenti concreti',
     intro: 'Progetto strumenti per verificare informazioni, migliorare le istruzioni date all’intelligenza artificiale e organizzare meglio il lavoro e la formazione.',
@@ -130,7 +130,7 @@ const words = {
     github: 'Esplora il lavoro documentato su GitHub',
   },
   es: {
-    label: 'LABORATORIO DIGITAL INDEPENDIENTE',
+    label: 'PORTAFOLIO · LABORATORIO DIGITAL INDEPENDIENTE',
     first: 'Ideas claras',
     second: 'Herramientas útiles',
     intro: 'Diseño herramientas para verificar información, mejorar las instrucciones dadas a la inteligencia artificial y organizar mejor el trabajo y la formación.',
