@@ -33,8 +33,8 @@ export async function generateMetadata({ params }: Props) {
   }
   if (route === 'projects/s-comodo') {
     const description = locale === 'it'
-      ? 'Progetto editoriale indipendente in preparazione: contesto storico, fonti e uso trasparente dell’AI con verifica umana.'
-      : 'Proyecto editorial independiente en preparación: contexto histórico, fuentes y revisión humana del uso de IA.';
+      ? 'Sito editoriale indipendente con articoli pubblicati e revisionati, fonti consultabili e uso trasparente dell’AI.'
+      : 'Publicación editorial independiente con artículos revisados, fuentes consultables y uso transparente de IA.';
     return pageMetadata('/projects/s-comodo/', locale, 'S-COMODO — Editorial', description);
   }
   const legalKind: LegalKind | null = route === 'legal' ? 'notice' : route === 'legal/privacy' ? 'privacy' : route === 'legal/cookies' ? 'cookies' : null;
