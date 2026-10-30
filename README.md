@@ -17,7 +17,7 @@ I design and document practical AI-assisted workflows, drawing on professional e
 
 ### More portfolio work
 
-- **[S-COMODO](apps/marcelus-ai-lab/components/s-comodo-overview.tsx)** — independent editorial project **in preparation**, with sources and human editorial review.
+- **[S-COMODO](https://manzo8b.github.io/s-comodo/)** — independent editorial website with published, reviewed articles, source references and a transparent corrections policy.
 - **[Villa All'Ombra dei Pitosfori](https://www.villapitosfori.com/)** — a website-creation project for a holiday villa in Salento. The live website is linked; no traffic or booking claims are made.
 - **OIKO** and **HACCP SMART** — **work in progress**, not finished or publicly certified products.
 - **[Free resources](apps/marcelus-ai-lab/public/resources/)** — nine downloadable, editable files: AI review checklist, clear-instruction worksheet and 60-minute lesson plan, each in EN / IT / ES. The website download page is published separately with the static site release.
